@@ -1,0 +1,38 @@
+.m-dark-panel {
+	background-color: #999;
+}
+
+.b-circle {
+	background-color: #ddd;
+	overflow: hidden;
+	width: 80%;
+	height: 0;
+	padding-bottom: 80%;
+	margin: 20px auto;
+	border-radius: 50%;
+}
+
+.img-placeholder {
+	background-color: #aaa;
+	width: 100%;
+	height: 0;
+	padding-bottom: 60%;
+	margin: 20px 0;
+	border: 1px solid #999;
+}
+
+
+.b-content-section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.b-footer {
+	background-color: #333;
+	color: #fff;
+}
+
+.b-footer h4 {
+	color: #666;
+}
+
