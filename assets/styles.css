@@ -44,6 +44,14 @@
 .b-notifications h5 a {color: rgba(255,255,255,.8);}
 
 
+/* Landing */
+
+.b-landing {
+	padding-top: 140px;
+	padding-bottom: 140px;
+	text-align: center;
+}
+
 /* Service */
 
 .b-services h2 {
@@ -58,6 +66,12 @@
 .e-team-pic {
 	background-size: cover;
 	background-position: center center;
+}
+
+/* Subscribe */
+.b-subscribe {}
+.b-subscribe .e-subscribe-title {
+	text-align: center;
 }
 
 /* Footer */
@@ -85,12 +99,18 @@
 
 .b-social-media {
 	border-radius: 50%;
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.2);
 	width: 48px;
 	height: 48px;
 	padding-top: 10px;
+	margin: 5px;
 	display: inline-block;
 	text-align: center;
+	color: #fff;
+}
+
+.b-social-media:hover {
+	background-color: red;
 	color: #fff;
 }
 
