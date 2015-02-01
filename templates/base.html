@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <!-- <meta charset="utf-8" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open North</title>
+    <link rel="stylesheet" href="./static/vendor/foundation/css/foundation.css" />
+    <link rel="stylesheet" href="./static/sass/styles.css" />
+    <script src="./static/vendor/foundation/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="fixed contain-to-grid b-navigation">
+      <nav class="top-bar" data-topbar role="navigation">
+        <!-- Make this the magellan top bar http://foundation.zurb.com/docs/components/magellan.html#js -->
+        <ul class="title-area">
+          <li class="name">
+            <h1><a class="b-main-logo" href="#"><img src="./static/img/open-north-logo-header.png" alt=""></a></h1>
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#"><i class="fa fa-github fa-lg"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
+            <li><a href="mailto:info@opennorth.ca"><i class="fa fa-lg fa-envelope"></i></a></li>
+          </ul>
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li><a href="#">FR</a></li>
+            <li class="active"><a href="#" >EN</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    {% block content %} Main content {% endblock %}
+
+    <section class="b-content-section m-dark-panel">
+      <div class="row">
+        <div class="large-6 large-centered column">
+          <div class="button large expand">Donate</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="b-footer b-content-section">
+      <div class="row">
+        <div class="large-12 column b-logo">
+          <img src="./static/img/open-north-logo-footer.png" alt="">
+          <a class="b-social-media" href="#"><i class="fa fa-lg fa-github"></i></a>
+          <a class="b-social-media" href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+          <a class="b-social-media" href="#"><i class="fa fa-lg fa-twitter"></i></a>
+          <a class="b-social-media" href="#"><i class="fa fa-lg fa-facebook"></i></a>
+          <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-lg fa-envelope"></i></a>
+        </div>
+        <div class="large-4 medium-6 column">
+          <h4>Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolorum pariatur nam laudantium illum excepturi quaerat minus amet ducimus. Quod ratione tempore labore. Quod laudantium, repellat debitis? Quasi, reprehenderit ad!</p>
+        </div>
+        <div class="large-4 medium-6 column">
+          <h4>Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolorum pariatur nam laudantium illum excepturi quaerat minus amet ducimus. Quod ratione tempore labore. Quod laudantium, repellat debitis? Quasi, reprehenderit ad!</p>
+        </div>
+        <div class="large-4 medium-6 column">
+          <h4>Contact</h4>
+          <p>We'd love to hear from you. Whether you have a question about our projects or mission or would like to volunteer, drop us a line and we'll get back to you shortly.</p>
+          <h3 style="color: #fff;">1-888-750-4980</h3>
+          <p><a href="mailto:info@opennorth.ca">info@opennorth.ca</a></p>
+        </div>
+        <div class="large-12 column">
+
+        </div>
+      </div>
+    </footer>
+    
+    <script src="assets/foundation/js/vendor/jquery.js"></script>
+    <script src="assets/foundation/js/foundation.min.js"></script>
+    <script>$(document).foundation();</script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>
