@@ -1,0 +1,41 @@
+/* Notifications */
+
+.b-news {
+	display: none;
+
+	.e-news-item {
+		padding: 10px 0 1px;
+		font-weight: 600;
+		font-family: $sans-serif-font;
+	}
+
+	h5 a { 
+		color: $gray_45;
+		display: block;
+	}
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+
+.b-news { 
+	display: block; 
+	background-color: $gray_15;
+	height: 50px;
+
+	.js-news-wrapper { position: relative; }
+
+	.e-news-item { 
+	    position: absolute; 
+	    top: 0; 
+	    left: 0; 
+	    right: 0; 
+	    bottom: 0; 
+	}
+
+	.e-news-item:hover {
+		text-decoration: underline;
+	}
+}
+
+}

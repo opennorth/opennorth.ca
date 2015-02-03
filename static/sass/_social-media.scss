@@ -1,0 +1,39 @@
+.b-social-media {
+	border-radius: 50%;
+	background-color: $white;
+	border: 1px solid $gray_15;
+	width: 48px;
+	height: 48px;
+	padding-top: 8px;
+	margin: 5px;
+	display: inline-block;
+	text-align: center;
+	color: $gray_15;
+}
+
+.b-social-media:hover {
+	background-color: $primary-color;
+	color: $white;
+}
+
+
+// Footer instance
+.b-footer .b-social-media {
+	background-color: transparent;
+	border: 1px solid $white_30;
+	color: $white_30;
+}
+
+.b-footer .b-social-media:hover {
+	background-color: transparent;
+	color: $white;
+	border-color: $white;
+}
+
+.b-social-media {
+	.fa-github   { vertical-align: -4px; }
+	.fa-linkedin { vertical-align: -4px; }
+	.fa-twitter  { vertical-align: -5px; }
+	.fa-facebook { vertical-align: -5px; }
+	.fa-envelope { vertical-align: -4px; }
+}

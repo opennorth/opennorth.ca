@@ -1,0 +1,36 @@
+/* Landing */
+.b-landing {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	h1 { color: $primary-color; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+.b-landing {
+	padding-top: 110px;
+	padding-bottom: 110px;
+
+	h1 { font-size: 4rem; }
+}
+
+}

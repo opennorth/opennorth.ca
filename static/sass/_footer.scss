@@ -1,0 +1,22 @@
+/* Footer */
+
+.b-footer {
+	background-color: $black;
+	color: #fff;
+	
+	h4 { color: #666; }
+
+	.e-footer-top-section {
+		text-align: center;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		@include chizel-line;
+
+	  img {
+			width: 130px;
+			opacity: .3;
+			margin: 0 auto 30px;
+			display: block;
+		}
+	}
+}

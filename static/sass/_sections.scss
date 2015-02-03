@@ -1,0 +1,32 @@
+
+.b-content-section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid $gray_15;
+}
+
+.e-section-title {
+	text-align: center;
+	padding: 60px;
+
+}
+
+.m-dark-panel {
+	background-color: $gray_15;
+}
+
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+.b-content-section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.b-content-section.m-dark-panel {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+}

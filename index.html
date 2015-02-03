@@ -1,53 +1,42 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <!-- <meta charset="utf-8" /> -->
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open North</title>
-    <link rel="stylesheet" href="assets/foundation/css/foundation.css" />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <script src="assets/foundation/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="static/vendor/foundation/css/foundation.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="static/sass/styles.css" />
+    <script src="static/vendor/foundation/js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div class="fixed contain-to-grid b-navigation">
-      <nav class="top-bar" data-topbar role="navigation">
-        <!-- Make this the magellan top bar http://foundation.zurb.com/docs/components/magellan.html#js -->
-        <ul class="title-area">
-          <li class="name">
-            <h1><a class="b-main-logo" href="#"><img src="./assets/img/open-north-logo-header.png" alt=""></a></h1>
-          </li>
-           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
+      <section class="b-main-menu" role="navigation">
+        <div class="e-main-menu-wrapper">
+          <span class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></span>
+          <h1 class="b-main-logo"><a href="#"><img src="./static/img/open-north-logo-header.png" alt=""></a></h1>
+          <div class="b-main-menu-container">
+            <div class="e-language-switcher">
+              <a href="#">FR</a>
+              <a href="#">EN</a>
+            </div>
+            <nav class="b-main-menu-list">
+              <a class="e-menu-item" href="#">Products</a>
+              <a class="e-menu-item" href="#">Services</a>
+              <a class="e-menu-item" href="#">About</a>
+            </nav>
+          </div>
+          </div>
+      </section>
 
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#"><i class="fa fa-github fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-            <li><a href="mailto:info@opennorth.ca"><i class="fa fa-lg fa-envelope"></i></a></li>
-          </ul>
-          <!-- Left Nav Section -->
-          <ul class="left">
-            <li><a href="#">FR</a></li>
-            <li class="active"><a href="#" >EN</a></li>
-          </ul>
-        </section>
-      </nav>
-    </div>
-
-    
-    
-    <section class="m-dark-panel b-notifications">
+    <section class="m-dark-panel b-news">
       <div class="row">
         <div class="large-12 columns">
-          <h5><a href="#"><strong>News:</strong> Quick news highlight, with a max number of characters. This points to blog post maybe?</a></h5>
+          <div class="js-news-wrapper">
+          <h5 class="e-news-item js-news"><a href="#">New National Program Funds Open North Project to Enhance Canada's Internet</a></h5>
+          <h5 class="e-news-item js-news"><a href="#">JOB POSTING: Director, Strategic Initiatives and Outreach (Full-Time, Telecommute)</a></h5>
+          <h5 class="e-news-item js-news"><a href="#">Represent: Making it easy to contact your representatives</a></h5>
+          </div>
         </div>
       </div>
     </section>
@@ -64,7 +53,7 @@
       <div class="row">
         <!-- Make this an Orbit Slider - http://foundation.zurb.com/docs/components/orbit.html -->
         <div class="large-6 column">
-          <img src="assets/img/citizenbudget.png" alt="">
+          <img src="static/img/citizenbudget.png" alt="">
         </div>
         <div class="large-6 column">
           <h2>Citizen Budget</h2>
@@ -116,7 +105,7 @@
     <section class="b-content-section">
       <div class="row">
         <div class="large-12 column">
-          <h2>Mission and Team</h2>
+          <h2 class="e-section-title">Mission and Team</h2>
           <p>Open North is a Canadian <a href="https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=7863063">nonprofit</a> that creates online tools to educate and empower citizens to participate actively in Canadian democracy. We develop tools for civil society and governments to reduce the barriers to effective participation. We do this with two main strategies:</p>
         </div>
         <div class="large-6 column">
@@ -136,83 +125,128 @@
           </ul>
         </div>
       </div>
-      <div class="row b-team">
+    </section>
+    <section class="b-content-section b-team">
+      <div class="row">
         <div class="large-12 column">
-          <h2>Staff</h2>
+          <h2 class="e-section-title">Staff</h2>
         </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/james-mckinney.jpg')"></div>
-          <h3>James McKinney</h3>
-          <p>James McKinney is Open North's Executive Director. He is an active voice in the Canadian open government and open data communities.</p>
-          <p><a class="b-social-media" href="https://www.linkedin.com/in/mckinneyjames"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/james-mckinney.jpg')"></div>  
+            <div class="e-card-content">
+              <h3>James McKinney</h3>
+              <p>James McKinney is Open North's Executive Director. He is an active voice in the Canadian open government and open data communities.</p>
+              <p><a class="b-social-media" href="https://www.linkedin.com/in/mckinneyjames"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
         </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/stephane-guidoin.jpg')"></div>
-          <h3>Stéphane Guidoin</h3>
-          <p>Jean-Noé Landry is Open North's Director of Strategic Initiatives and Outreach with a passion for finding innovative ways to overcome barriers to citizen participation.</p>
-          <p><a class="b-social-media" href="https://www.linkedin.com/in/stephaneguidoin"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/stephane-guidoin.jpg')"></div>
+            <div class="e-card-content">
+              <h3>Stéphane Guidoin</h3>
+              <p>Jean-Noé Landry is Open North's Director of Strategic Initiatives and Outreach with a passion for finding innovative ways to overcome barriers to citizen participation.</p>
+              <p><a class="b-social-media" href="https://www.linkedin.com/in/stephaneguidoin"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
 
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/jean-noe-landry.jpg')"></div>
+            <div class="e-card-content">
+              <h3>Jean-Noé Landry</h3>
+              <p>Jean-Noé Landry is Open North's Director of Strategic Initiatives and Outreach. He is a democracy development expert with 12 years of  experience in finding innovative ways for citizen participation.</p>
+              <p><a class="b-social-media" href="https://www.linkedin.com/in/jeannoelandry"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
         </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/jean-noe-landry.jpg')"></div>
-          <h3>Jean-Noé Landry</h3>
-          <p>Temporibus blanditiis officiis quis quasi voluptatum assumenda recusandae, excepturi! Eius optio omnis tempore, aliquid sint dignissimos.</p>
-          <p><a class="b-social-media" href="https://www.linkedin.com/in/jeannoelandry"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
-        </div>
-        <!-- <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic"></div>
-          <h3>Joel Ornoy</h3>
-          <p>Joel Ornoy is Open North's Business Development Manager. Joel is Open North’s main contact for Citizen Budget.</p>
-          <p><a href=""><i class="fa fa-lg fa-linkedin"></i></a></p>
-        </div> -->
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/marichelle-leclair.jpg')"></div>
-          <h3>Marichelle Leclair</h3>
-          <p>Marichelle Leclair is Open North's Communications Coordinator. She completed an honours degree in French Literature with a minor in Society, Law and Politics.</p>
-          <p><a class="b-social-media" href="https://www.linkedin.com/in/marichelleleclair"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
-        </div>
-        <div class="large-12 column">
-          <h2>Board</h2>
-        </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/jonathan-brun.jpg')"></div>
-          <h3>Jonathan Brun</h3>
-          <p>Jonathan Brun is co-founder of Nimonik, and Montréal Ouvert, a citizen's action group that successfully lobbied the city of Montreal for an open data policy and portal.</p>
-          <p><a class="b-social-media" href="http://www.linkedin.com/in/jonathanbrun"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
-        </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/david-eaves.jpg')"></div>
-          <h3>David Eaves</h3>
-          <p>A public policy entrepreneur and negotiation expert, David has become internationally recognized for his work and advocacy on open government.</p>
-          <p><a class="b-social-media" href="http://www.linkedin.com/in/davideaves"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
-        </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/emily-harris.jpg')"></div>
-          <h3>Emily Harris</h3>
-          <p>Emily currently works in the public sector, as a Corporate Management and Policy Consultant for the City of Toronto.</p>
-          <p><a class="b-social-media" href="http://www.linkedin.com/pub/emily-harris/35/398/636"><i class="fa fa-lg fa-linkedin"></i></a><a class="b-social-media"><i class="fa fa-lg fa-envelope"></i></a></p>
-        </div>
-        <div class="large-3 column medium-6">
-          <div class="b-circle e-team-pic" style="background-image: url('http://opennorth.ca/img/photos/kent-mewhort.jpg')"></div>
-          <h3>Kent Mewhort</h3>
-          <p>Kent Mewhort is the CTO of Ethelo Decisions, passionate about applying technologies to improve democracy, government transparency, the legal system, education.</p>
-          <!-- <p><a href=""><i class="fa fa-lg fa-linkedin"></i></a></p> -->
-        </div>
-        <!-- <div class="large-3 column medium-6 large-centered medium-centered">
-          <div class="b-circle e-team-pic"></div>
-          <h3>Bernard Rudny</h3>
-          <p>Bernard Rudny believes that non-profits do good, and he helps them do it better. He is part of the Pembina Institute's communications team.</p>
-          <p><a class="b-social-media" href="http://www.linkedin.com/in/bernardrudny"><i class="fa fa-lg fa-linkedin"></i></a></p>
-        </div> -->
-      </div>
         
-
+        <div class="large-4 column medium-4 ">
+          <div class="b-card m-team">
+            <div class="e-card-picture"></div>
+            <div class="e-card-content">
+              <h3>Joel Ornoy</h3>
+              <p>Joel Ornoy is Open North's Business Development Manager. Joel is Open North’s main contact for Citizen Budget.</p>
+              <p><a class="b-social-media" href=""><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/marichelle-leclair.jpg')"></div>
+            <div class="e-card-content">
+              <h3>Marichelle Leclair</h3>
+              <p>Marichelle Leclair is Open North's Communications Coordinator. She completed an honours degree in French Literature with a minor in Society, Law and Politics.</p>
+              <p><a class="b-social-media" href="https://www.linkedin.com/in/marichelleleclair"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 column">
+          <h2 class="e-section-title">Board</h2>
+        </div>
+        
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/jonathan-brun.jpg')"></div>
+            <div class="e-card-content">
+              <h3>Jonathan Brun</h3>
+              <p>Jonathan Brun is co-founder of Nimonik, and Montréal Ouvert, a citizen's action group that successfully lobbied the city of Montreal for an open data policy and portal.</p>
+              <p><a class="b-social-media" href="http://www.linkedin.com/in/jonathanbrun"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/david-eaves.jpg')"></div>
+            <div class="e-card-content">
+              <h3>David Eaves</h3>
+              <p>A public policy entrepreneur and negotiation expert, David has become internationally recognized for his work and advocacy on open government.</p>
+              <p><a class="b-social-media" href="http://www.linkedin.com/in/davideaves"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/emily-harris.jpg')"></div>
+            <div class="e-card-content">
+              <h3>Emily Harris</h3>
+              <p>Emily currently works in the public sector, as a Corporate Management and Policy Consultant for the City of Toronto.</p>
+              <p><a class="b-social-media" href="http://www.linkedin.com/pub/emily-harris/35/398/636"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('http://opennorth.ca/img/photos/kent-mewhort.jpg')"></div>
+            <div class="e-card-content">
+              <h3>Kent Mewhort</h3>
+              <p>Kent Mewhort is the CTO of Ethelo Decisions, passionate about applying technologies to improve democracy, government transparency, the legal system, education.</p>
+              <p><a class="b-social-media" href=""><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="large-4 column medium-4">
+          <div class="b-card m-team">
+            <div class="e-card-picture" style="background-image: url('')"></div>
+            <div class="e-card-content">
+              <h3>Bernard Rudny</h3>
+              <p>Bernard Rudny believes that non-profits do good, and he helps them do it better. He is part of the Pembina Institute's communications team.</p>
+              <p><a class="b-social-media" href="http://www.linkedin.com/in/bernardrudny"><i class="fa fa-lg fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="b-content-section">
       <div class="row">
         <div class="large-12 column">
-          <h2>Our Funders</h2>
+          <h2 class="e-section-title">Our Funders</h2>
         </div>
         <div class="large-3 column small-6">
           <div class="img-placeholder"></div>
@@ -240,8 +274,6 @@
         </div>
       </div>
     </section>
-
-
 
     <section class="b-content-section m-dark-panel">
       <div class="row">
@@ -253,8 +285,8 @@
 
     <footer class="b-footer b-content-section">
       <div class="row">
-        <div class="large-12 column b-logo">
-          <img src="./assets/img/open-north-logo-footer.png" alt="">
+        <div class="large-12 column e-footer-top-section">
+          <img src="./static/img/open-north-logo-footer.png" alt="">
           <a class="b-social-media" href="#"><i class="fa fa-lg fa-github"></i></a>
           <a class="b-social-media" href="#"><i class="fa fa-lg fa-linkedin"></i></a>
           <a class="b-social-media" href="#"><i class="fa fa-lg fa-twitter"></i></a>
@@ -281,8 +313,9 @@
       </div>
     </footer>
     
-    <script src="assets/foundation/js/vendor/jquery.js"></script>
-    <script src="assets/foundation/js/foundation.min.js"></script>
+    <script src="./static/vendor/foundation/js/vendor/jquery.js"></script>
+    <script src="./static/vendor/foundation/js/foundation.min.js"></script>
+    <script src="./static/scripts.js"></script>
     <script>$(document).foundation();</script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
