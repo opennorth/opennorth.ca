@@ -17,8 +17,22 @@ h1, h2, h3 {
 
 
 a {color: $primary-color; }
-.button { background-color: $primary-color; }
-.button:hover { background-color: $black; }
+
+
+
+.button { 
+	background-color: $white;
+	color: $gray_45;
+	border: 1px solid $gray_15;
+	padding: 9px 12px 10px;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.button:hover { 
+	background-color: $primary-color; 
+}
 
 
 

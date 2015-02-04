@@ -1,3 +1,4 @@
+$(document).foundation();
 $(document).ready(function() {
 		
 // trigger for the main menu mobile
@@ -7,7 +8,6 @@ $('.js-menu-trigger').click(function() {
 
 
 // rotating news
-
 $(".js-news-wrapper > h5:gt(0)").hide();
 
 setInterval(function() { 
@@ -18,5 +18,36 @@ setInterval(function() {
     .end()
     .appendTo('.js-news-wrapper');
 },  6000);
+
+
+
+
+// Products Slider - http://unslider.com/ 
+var slider = $('.b-slider').unslider({
+	speed: 500,               //  The speed to animate each slide (in milliseconds)
+	delay: 3000,              //  The delay between slide animations (in milliseconds)
+	// complete: function() {},  //  A function that gets called after every slide animation
+	// keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+	// dots: true,               //  Display dot navigation
+	fluid: false              //  Support responsive design. May break non-responsive designs
+});
+
+var data = slider.data('unslider');
+
+slider.hover(
+	function() {
+		//  Pause Unslider
+		data.stop();
+		console.log("Stopped");	
+	}, function() {
+		//  Start Unslider
+		data.start();
+		console.log("Moving Again");	
+	}
+);
+
+
+
+
 
 }); // doc.ready

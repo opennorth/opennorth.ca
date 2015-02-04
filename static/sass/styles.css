@@ -13,21 +13,35 @@ a {
   color: #c60000; }
 
 .button {
-  background-color: #c60000; }
+  background-color: white;
+  color: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 9px 12px 10px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
 
 .button:hover {
-  background-color: #333; }
+  background-color: #c60000; }
 
 /* Dev Aux Classes */
 .dev-note {
   color: red; }
 
-/* Team */
 .b-card {
   border: 1px solid rgba(0, 0, 0, 0.15);
   margin: 10px 0;
-  height: 500px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); }
+  .b-card .e-card-header {
+    padding: 10px 20px;
+    background-color: #c60000; }
+    .b-card .e-card-header h4 {
+      color: white;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin: 0;
+      text-align: center;
+      font-size: 2rem; }
   .b-card .e-card-picture {
     width: 100%;
     height: 200px;
@@ -84,19 +98,41 @@ a {
 
 .e-section-title {
   text-align: center;
-  padding: 60px; }
+  padding: 60px;
+  color: #333; }
 
 .m-dark-panel {
-  background-color: rgba(0, 0, 0, 0.15); }
+  background-color: #960000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25) inset; }
 
 @media only screen and (min-width: 64.063em) {
   .b-content-section {
     padding-top: 120px;
     padding-bottom: 120px; }
+    .b-content-section .e-section-title {
+      font-size: 5rem;
+      padding-top: 0; }
+    .b-content-section a:hover {
+      background-color: #c60000;
+      color: rgba(255, 255, 255, 0.7); }
+    .b-content-section p a:hover {
+      padding: 0 5px;
+      margin: 0 -5px; }
 
   .b-content-section.m-dark-panel {
     padding-top: 40px;
     padding-bottom: 40px; } }
+.b-slider {
+  position: relative;
+  overflow: auto; }
+
+.b-slider > ul {
+  width: 4200px; }
+
+.b-slider-item {
+  list-style: none;
+  float: left; }
+
 .b-circle {
   background-color: #ddd;
   overflow: hidden;
@@ -267,8 +303,59 @@ a {
 .b-services h2 {
   text-align: center; }
 
+.b-call-to-action .e-call-to-action-title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100; }
+.b-call-to-action .button {
+  border-radius: 2px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-left: 16px;
+  padding-right: 16px; }
+.b-call-to-action .button:hover {
+  background-color: rgba(255, 255, 255, 0.3); }
+
 /* Subscribe */
-.b-subscribe .e-subscribe-title {
-  text-align: center; }
+.b-subscribe input[type="email"] {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 0;
+  background-color: transparent;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: .5px;
+  font-weight: 100;
+  color: white;
+  border-radius: 2px 0 0 2px; }
+.b-subscribe input[type="email"]:focus {
+  background-color: rgba(255, 255, 255, 0.1); }
+.b-subscribe .button {
+  border-radius: 0 2px 2px 0; }
+.b-subscribe .button:hover {
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.b-mission p,
+.b-mission li {
+  color: #333; }
+.b-mission .b-card p {
+  font-size: 1.2rem; }
+
+@media only screen and (min-width: 64.063em) {
+  .b-mission h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 40px 0; }
+  .b-mission p {
+    font-size: 1.6rem; }
+  .b-mission li {
+    font-size: 1.3rem; }
+  .b-mission .b-card {
+    height: 250px; } }
+/* Team */
+.b-card.m-team {
+  height: 500px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,18 @@
 $black: #333;
 
 $primary-color: #c60000;
+$primary-color-dark-1: rgba(150, 0, 0, 1);
+$primary-color-light-1: rgba(210, 50, 50, 1);
+$primary-color-light-2: rgba(220, 100, 100, 1);
 
 $gray_15: rgba(0,0,0,0.15);
+$gray_25: rgba(0,0,0,0.25);
 $gray_45: rgba(0,0,0,0.45);
 $gray_60: rgba(0,0,0,0.6);
 $white_10: rgba(255,255,255,0.1);
 $white_30: rgba(255,255,255,0.3);
 $white_50: rgba(255,255,255,0.5);
+$white_70: rgba(255,255,255,0.7);
 $white: rgba(255,255,255,1);
 
 @mixin chizel-line {
@@ -21,6 +26,10 @@ $white: rgba(255,255,255,1);
 
 @mixin dropshadow-big {
 	box-shadow: 0 4px 15px $gray_45;
+}
+
+@mixin inner-shadow-big {
+	box-shadow: 0 4px 10px $gray_25 inset;
 }
 
 $title-font: 'Fira Sans', sans-serif;

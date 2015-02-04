@@ -1,0 +1,27 @@
+.b-mission {
+	p,
+	li { color: $black; }
+
+	.b-card {
+		p {
+			font-size: 1.2rem;
+		}
+	}
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+.b-mission {
+	h3 { 
+		font-size: 3rem;
+		text-align: center;
+		padding: 40px 0;
+	}
+	p { font-size: 1.6rem; }
+	li { font-size: 1.3rem; }
+
+	.b-card { height: 250px;}
+}
+
+}

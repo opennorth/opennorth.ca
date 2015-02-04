@@ -1,0 +1,14 @@
+.b-slider {
+	position: relative; 
+	overflow: auto;
+}
+
+.b-slider > ul {
+	width: 4200px;
+}
+
+.b-slider-item {
+	list-style: none;
+	float: left;
+}
+

@@ -8,13 +8,15 @@
 .e-section-title {
 	text-align: center;
 	padding: 60px;
+	color: $black;
 
 }
 
 .m-dark-panel {
-	background-color: $gray_15;
+	background-color: $primary-color-dark-1;
+	@include inner-shadow-big;
 }
-
+	
 
 // Large screens
 @media only screen and (min-width: 64.063em) {
@@ -22,11 +24,28 @@
 .b-content-section {
 	padding-top: 120px;
 	padding-bottom: 120px;
+
+	.e-section-title {
+		font-size: 5rem;
+		padding-top: 0;
+	}
+
+	a:hover {
+		background-color: $primary-color; 
+		color: $white_70;
+	}
+
+	p a:hover {
+		padding: 0 5px;
+		margin: 0 -5px;
+	}
 }
 
 .b-content-section.m-dark-panel {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+
+
 
 }
