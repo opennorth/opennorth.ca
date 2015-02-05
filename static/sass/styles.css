@@ -306,7 +306,8 @@ a {
 .b-call-to-action .e-call-to-action-title {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 100; }
+  font-weight: 100;
+  margin-bottom: 30px; }
 .b-call-to-action .button {
   border-radius: 2px;
   background-color: transparent;
@@ -357,5 +358,12 @@ a {
 /* Team */
 .b-card.m-team {
   height: 500px; }
+
+.b-funders {
+  text-align: center; }
+  .b-funders img {
+    max-height: 100px;
+    max-width: 200px;
+    margin: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
