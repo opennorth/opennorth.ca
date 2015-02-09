@@ -15,6 +15,7 @@
 
 		img {
 			width: 50%;
+			max-width: 165px;
 		}
 	}
 	
@@ -28,13 +29,11 @@
 		}
 	}
 
-	.e-menu-item {
+	.e-menu-item,
+	.e-language-switcher {
 		color: $white_50;
 		font-family: $title-font;
-		font-weight: 300;
-	}
-
-	.e-menu-item { 
+		font-weight: 400;
 		display: block;
 		text-align: center;
 		font-size: 1.4rem;
@@ -44,15 +43,6 @@
 	}
 
 	.e-language-switcher {
-		font-family: $title-font;
-		font-weight: 300;
-		display: block;
-		text-align: center;
-		font-size: 1.4rem;
-		padding: 15px;
-		margin: 0 40px;
-		@include chizel-line;
-
 		> a {
 			color: $white_50;
 			padding: 5px 15px;
@@ -99,18 +89,12 @@
 	.e-language-switcher {
 		padding: 20px;
 
-		a { 
-			font-size: .9rem;
-		}
+		a { font-size: .9rem; }
 
-		a:hover {
-			background-color: $white_30;
-		}
+		a:hover { background-color: $white_10; }
 	}
 
-	.b-main-menu-list {
-		flex: 1;
-	}
+	.b-main-menu-list { flex: 1; }
 
 	.e-menu-item { 
 		font-size: 1.1rem;
@@ -121,7 +105,7 @@
 	}
 
 	.e-menu-item:last-of-type { border-right: 1px solid $white_10; }
-	.e-menu-item:hover { background-color: $white_30; }
+	.e-menu-item:hover { background-color: $white_10; }
 }
 
 

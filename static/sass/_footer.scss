@@ -3,13 +3,15 @@
 .b-footer {
 	background-color: $black;
 	color: $white;
+	padding-top: 60px;
+
 	
 	h4 { color: #666; }
 
 	.e-footer-top-section {
 		text-align: center;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
 		@include chizel-line;
 
 	  img {

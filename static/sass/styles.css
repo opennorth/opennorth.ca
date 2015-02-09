@@ -1,7 +1,11 @@
 body {
   font-family: Georgia, "Times New Roman", serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Fira Sans", sans-serif; }
@@ -23,10 +27,6 @@ a {
 
 .button:hover {
   background-color: #c60000; }
-
-/* Dev Aux Classes */
-.dev-note {
-  color: red; }
 
 .b-card {
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -109,6 +109,11 @@ a {
   padding: 60px;
   color: #333; }
 
+.e-separator {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15); }
+
 .m-dark-panel {
   background-color: #960000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25) inset; }
@@ -120,6 +125,8 @@ a {
     .b-content-section .e-section-title {
       font-size: 5rem;
       padding-top: 0; }
+    .b-content-section .e-separator {
+      padding-top: 40px; }
 
   .b-text-block a:hover {
     background-color: #c60000;
@@ -162,13 +169,14 @@ a {
 /* Footer */
 .b-footer {
   background-color: #333;
-  color: rgba(255, 255, 255, 0.9); }
+  color: rgba(255, 255, 255, 0.9);
+  padding-top: 60px; }
   .b-footer h4 {
     color: #666; }
   .b-footer .e-footer-top-section {
     text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset; }
     .b-footer .e-footer-top-section img {
@@ -193,18 +201,19 @@ a {
       display: block;
       padding: 10px; }
     .b-main-menu .b-main-logo img {
-      width: 50%; }
+      width: 50%;
+      max-width: 165px; }
   .b-main-menu .e-main-menu-trigger {
     position: absolute;
     right: 25px;
     top: 25px; }
     .b-main-menu .e-main-menu-trigger i {
       color: rgba(255, 255, 255, 0.3); }
-  .b-main-menu .e-menu-item {
+  .b-main-menu .e-menu-item,
+  .b-main-menu .e-language-switcher {
     color: rgba(255, 255, 255, 0.5);
     font-family: "Fira Sans", sans-serif;
-    font-weight: 300; }
-  .b-main-menu .e-menu-item {
+    font-weight: 400;
     display: block;
     text-align: center;
     font-size: 1.4rem;
@@ -212,23 +221,13 @@ a {
     margin: 0 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset; }
-  .b-main-menu .e-language-switcher {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 300;
-    display: block;
-    text-align: center;
-    font-size: 1.4rem;
-    padding: 15px;
-    margin: 0 40px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset; }
-    .b-main-menu .e-language-switcher > a {
-      color: rgba(255, 255, 255, 0.5);
-      padding: 5px 15px;
-      border-left: 1px solid rgba(255, 255, 255, 0.1);
-      font-size: 1.1rem; }
-      .b-main-menu .e-language-switcher > a:first-child {
-        border-left: 0; }
+  .b-main-menu .e-language-switcher > a {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1.1rem; }
+    .b-main-menu .e-language-switcher > a:first-child {
+      border-left: 0; }
 
 .b-main-menu .b-main-menu-container {
   display: none; }
@@ -259,7 +258,7 @@ a {
       .b-main-menu .e-language-switcher a {
         font-size: .9rem; }
       .b-main-menu .e-language-switcher a:hover {
-        background-color: rgba(255, 255, 255, 0.3); }
+        background-color: rgba(255, 255, 255, 0.1); }
     .b-main-menu .b-main-menu-list {
       flex: 1; }
     .b-main-menu .e-menu-item {
@@ -271,7 +270,7 @@ a {
     .b-main-menu .e-menu-item:last-of-type {
       border-right: 1px solid rgba(255, 255, 255, 0.1); }
     .b-main-menu .e-menu-item:hover {
-      background-color: rgba(255, 255, 255, 0.3); } }
+      background-color: rgba(255, 255, 255, 0.1); } }
 /* min-width 1025px, large screens */
 /* Notifications */
 .b-news {
@@ -319,14 +318,14 @@ a {
 .b-call-to-action .e-call-to-action-title {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 30px; }
 .b-call-to-action .button {
   border-radius: 2px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.9);
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 2px;
   padding-left: 16px;
   padding-right: 16px; }
@@ -341,7 +340,7 @@ a {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1.2rem;
   letter-spacing: .5px;
-  font-weight: 100;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
   border-radius: 2px 0 0 2px; }
 .b-subscribe input[type="email"]:focus {

@@ -9,7 +9,12 @@
 	text-align: center;
 	padding: 60px;
 	color: $black;
+}
 
+.e-separator {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid $gray_15;
 }
 
 .m-dark-panel {
@@ -29,6 +34,8 @@
 		font-size: 5rem;
 		padding-top: 0;
 	}
+
+	.e-separator { padding-top: 40px; }
 }
 
 .b-text-block {
