@@ -29,13 +29,15 @@
 		font-size: 5rem;
 		padding-top: 0;
 	}
+}
 
+.b-text-block {
 	a:hover {
 		background-color: $primary-color; 
 		color: $white_70;
 	}
 
-	p a:hover {
+	a:hover {
 		padding: 0 5px;
 		margin: 0 -5px;
 	}

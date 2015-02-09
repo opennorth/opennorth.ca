@@ -13,7 +13,7 @@ $white_10: rgba(255,255,255,0.1);
 $white_30: rgba(255,255,255,0.3);
 $white_50: rgba(255,255,255,0.5);
 $white_70: rgba(255,255,255,0.7);
-$white: rgba(255,255,255,1);
+$white: rgba(255,255,255,.9);
 
 @mixin chizel-line {
 	border-bottom: 1px solid rgba(255,255,255,0.05);

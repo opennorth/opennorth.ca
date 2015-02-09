@@ -2,7 +2,7 @@
 
 .b-footer {
 	background-color: $black;
-	color: #fff;
+	color: $white;
 	
 	h4 { color: #666; }
 
@@ -19,4 +19,7 @@
 			display: block;
 		}
 	}
+
+	.e-phone-number { color: $white; }
+	.e-email-link:hover { color: $white; }
 }
