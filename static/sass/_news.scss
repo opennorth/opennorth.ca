@@ -4,14 +4,17 @@
 	display: none;
 
 	.e-news-item {
-		padding: 10px 0 1px;
+		padding: 7px 0 0;
 		font-weight: 600;
+		text-transform: uppercase;
 		font-family: $sans-serif-font;
 	}
 
 	h5 a { 
-		color: $gray_45;
+		color: $white_70;
 		display: block;
+		font-size: .95rem;
+		letter-spacing: .3px;
 	}
 }
 
@@ -20,8 +23,8 @@
 
 .b-news { 
 	display: block; 
-	background-color: $gray_15;
-	height: 50px;
+	background-color: $primary-color-dark-1;
+	height: 42px;
 
 	.js-news-wrapper { position: relative; }
 

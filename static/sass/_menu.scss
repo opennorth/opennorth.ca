@@ -6,6 +6,7 @@
 	
 	.b-main-logo {
 		margin: 0;
+		opacity: .8;
 
 		a {
 			text-align: center;
@@ -18,6 +19,10 @@
 			max-width: 165px;
 		}
 	}
+
+	.b-main-logo:hover {
+		opacity: 1;
+	}
 	
 	.e-main-menu-trigger {
 		position: absolute;
@@ -25,7 +30,7 @@
 		top: 25px;
 
 		i {
-			color: $white_30;
+			color: $white_50;
 		}
 	}
 
@@ -40,6 +45,7 @@
 		padding: 15px;
 		margin: 0 40px;
 		@include chizel-line;
+		
 	}
 
 	.e-language-switcher {
@@ -89,9 +95,16 @@
 	.e-language-switcher {
 		padding: 20px;
 
-		a { font-size: .9rem; }
+		a {
+			font-size: .9rem;
+			@include transition;
+		}
 
-		a:hover { background-color: $white_10; }
+		a:hover { 
+			background-color: $white_10;
+			color: $white;
+			@include transition;
+		}
 	}
 
 	.b-main-menu-list { flex: 1; }
@@ -102,10 +115,21 @@
 		margin: 0;
 		display: inline-block;
 		border-left: 1px solid $white_10;
+		@include transition;
 	}
 
 	.e-menu-item:last-of-type { border-right: 1px solid $white_10; }
-	.e-menu-item:hover { background-color: $white_10; }
+	.e-menu-item:hover { 
+		background-color: $white_10;
+		color: $white;
+		@include transition;
+	}
+
+	.e-menu-item,
+	.e-language-switcher {
+		border-bottom: 0;
+		box-shadow: none;
+	}
 }
 
 

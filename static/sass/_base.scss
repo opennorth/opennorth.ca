@@ -24,8 +24,9 @@ a {color: $primary-color; }
 	border: 1px solid $gray_15;
 	padding: 9px 12px 10px;
 	border-radius: 2px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .button:hover { 
