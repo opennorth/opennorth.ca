@@ -1,0 +1,17 @@
+/* Team */
+.b-team {
+}
+
+.b-card.m-team { 
+	height: 500px;
+	background-color: $white;
+	position: relative;
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+	.e-controls {
+		position: absolute;
+		bottom: 0;
+	}
+}

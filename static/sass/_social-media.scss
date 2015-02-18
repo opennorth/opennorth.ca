@@ -1,0 +1,47 @@
+.b-social-media {
+	border-radius: 50%;
+	background-color: $white;
+	border: 1px solid $gray_25;
+	width: 48px;
+	height: 48px;
+	padding-top: 8px;
+	margin: 5px;
+	display: inline-block;
+	text-align: center;
+	color: $gray_25;
+}
+
+.b-social-media:hover {
+	// background-color: $primary-color;
+	color: $primary-color;
+	border-radius: 50%;
+	border-color: $primary-color;
+	width: 48px;
+	height: 48px;
+	padding-top: 8px;
+	margin: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+// Footer instance
+.b-footer .b-social-media {
+	background-color: transparent;
+	border: 1px solid $white_30;
+	color: $white_30;
+}
+
+.b-footer .b-social-media:hover {
+	background-color: transparent;
+	color: $white;
+	border-color: $white;
+}
+
+.b-social-media {
+	.fa-github   { vertical-align: -4px; }
+	.fa-linkedin { vertical-align: -3px; }
+	.fa-twitter  { vertical-align: -5px; }
+	.fa-facebook { vertical-align: -5px; }
+	.fa-envelope { vertical-align: -4px; }
+}

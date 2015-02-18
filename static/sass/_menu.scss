@@ -1,0 +1,136 @@
+.b-main-menu {
+	background-color: $black;
+	position: relative;
+	z-index: 100;
+	@include dropshadow-big;
+	
+	.b-main-logo {
+		margin: 0;
+		opacity: .8;
+
+		a {
+			text-align: center;
+			display: block;
+			padding: 10px;
+		}
+
+		img {
+			width: 50%;
+			max-width: 165px;
+		}
+	}
+
+	.b-main-logo:hover {
+		opacity: 1;
+	}
+	
+	.e-main-menu-trigger {
+		position: absolute;
+		right: 25px;
+		top: 25px;
+
+		i {
+			color: $white_50;
+		}
+	}
+
+	.e-menu-item,
+	.e-language-switcher {
+		color: $white_50;
+		font-family: $title-font;
+		font-weight: 400;
+		display: block;
+		text-align: center;
+		font-size: 1.4rem;
+		padding: 15px;
+		margin: 0 40px;
+		@include chizel-line;
+		
+	}
+
+	.e-language-switcher {
+		> a {
+			color: $white_50;
+			padding: 5px 15px;
+			border-left: 1px solid $white_10;
+			font-size: 1.1rem;
+
+			&:first-child {
+				border-left: 0;
+			}	
+		}
+	}
+}
+
+.b-main-menu .b-main-menu-container { display: none; }
+.b-main-menu.m-active .b-main-menu-container { display: block; }
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+.b-main-menu {
+	overflow: hidden;
+
+	.e-main-menu-wrapper {
+		max-width: 64.063em;
+		margin: 0 auto;
+		display: flex;
+	}
+	
+	.b-main-logo { 
+		margin: -5px 30px 0 0;
+		float: left;
+		
+		img { width: 150px; }
+	}
+
+	.e-main-menu-trigger { display: none;	}
+	
+	.b-main-menu-container { 
+		display: flex;
+		text-align: right;
+		flex: 1;
+	}
+
+	.e-language-switcher {
+		padding: 20px;
+
+		a {
+			font-size: .9rem;
+			@include transition;
+		}
+
+		a:hover { 
+			background-color: $white_10;
+			color: $white;
+			@include transition;
+		}
+	}
+
+	.b-main-menu-list { flex: 1; }
+
+	.e-menu-item { 
+		font-size: 1.1rem;
+		padding: 25px 20px;
+		margin: 0;
+		display: inline-block;
+		border-left: 1px solid $white_10;
+		@include transition;
+	}
+
+	.e-menu-item:last-of-type { border-right: 1px solid $white_10; }
+	.e-menu-item:hover { 
+		background-color: $white_10;
+		color: $white;
+		@include transition;
+	}
+
+	.e-menu-item,
+	.e-language-switcher {
+		border-bottom: 0;
+		box-shadow: none;
+	}
+}
+
+
+} /* min-width 1025px, large screens */

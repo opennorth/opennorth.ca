@@ -1,0 +1,27 @@
+/* Footer */
+
+.b-footer {
+	background-color: $black;
+	color: $white;
+	padding-top: 60px;
+
+	
+	h4 { color: #666; }
+
+	.e-footer-top-section {
+		text-align: center;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+		@include chizel-line;
+
+	  img {
+			width: 130px;
+			opacity: .3;
+			margin: 0 auto 30px;
+			display: block;
+		}
+	}
+
+	.e-phone-number { color: $white; }
+	.e-email-link:hover { color: $white; }
+}
