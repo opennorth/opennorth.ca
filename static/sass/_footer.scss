@@ -4,6 +4,7 @@
 	background-color: $black;
 	color: $white;
 	padding-top: 60px;
+	padding-bottom: 60px;
 
 	
 	h4 { color: #666; }
@@ -22,6 +23,8 @@
 		}
 	}
 
-	.e-phone-number { color: $white; }
-	.e-email-link:hover { color: $white; }
+	.e-phone-number { 
+		color: $white; 
+		text-align: center;
+	}
 }

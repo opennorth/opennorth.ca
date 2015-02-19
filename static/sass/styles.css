@@ -54,6 +54,17 @@ a {
     padding: 10px 20px; }
     .b-card .e-card-content h3 {
       font-weight: 100; }
+    .b-card .e-card-content h4 {
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: rgba(0, 0, 0, 0.6); }
+
+.b-card.m-team .e-card-content {
+  text-align: center; }
+  .b-card.m-team .e-card-content h3 {
+    margin: 0; }
+  .b-card.m-team .e-card-content h4 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .b-social-media {
   border-radius: 50%;
@@ -170,7 +181,8 @@ a {
 .b-footer {
   background-color: #333;
   color: rgba(255, 255, 255, 0.9);
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .b-footer h4 {
     color: #666; }
   .b-footer .e-footer-top-section {
@@ -185,9 +197,8 @@ a {
       margin: 0 auto 30px;
       display: block; }
   .b-footer .e-phone-number {
-    color: rgba(255, 255, 255, 0.9); }
-  .b-footer .e-email-link:hover {
-    color: rgba(255, 255, 255, 0.9); }
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center; }
 
 .b-main-menu {
   background-color: #333;
@@ -211,10 +222,10 @@ a {
     right: 25px;
     top: 25px; }
     .b-main-menu .e-main-menu-trigger i {
-      color: rgba(255, 255, 255, 0.5); }
+      color: rgba(255, 255, 255, 0.8); }
   .b-main-menu .e-menu-item,
   .b-main-menu .e-language-switcher {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     display: block;
@@ -225,7 +236,7 @@ a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset; }
   .b-main-menu .e-language-switcher > a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
     padding: 5px 15px;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 1.1rem; }
@@ -341,7 +352,7 @@ a {
 
 .b-call-to-action .e-call-to-action-title {
   text-align: center;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   margin-bottom: 30px; }
 .b-call-to-action .button {
@@ -393,14 +404,15 @@ a {
     height: 250px; } }
 /* Team */
 .b-card.m-team {
-  height: 500px;
+  height: 390px;
   background-color: rgba(255, 255, 255, 0.9);
   position: relative; }
 
 @media only screen and (min-width: 64.063em) {
   .e-controls {
     position: absolute;
-    bottom: 0; } }
+    bottom: 0;
+    left: calc(50% - 29px); } }
 .b-funders {
   text-align: center; }
   .b-funders img {

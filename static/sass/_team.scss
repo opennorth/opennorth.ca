@@ -3,7 +3,7 @@
 }
 
 .b-card.m-team { 
-	height: 500px;
+	height: 390px;
 	background-color: $white;
 	position: relative;
 }
@@ -13,5 +13,6 @@
 	.e-controls {
 		position: absolute;
 		bottom: 0;
+		left: calc(50% - 29px);
 	}
 }
