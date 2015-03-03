@@ -373,11 +373,26 @@ a {
   border-right: 0;
   background-color: transparent;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: .5px;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
   border-radius: 2px 0 0 2px; }
+  .b-subscribe input[type="email"]::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: rgba(255, 255, 255, 0.9); }
+  .b-subscribe input[type="email"]:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 1; }
+  .b-subscribe input[type="email"]::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 1; }
+  .b-subscribe input[type="email"]:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: rgba(255, 255, 255, 0.9); }
 .b-subscribe input[type="email"]:focus {
   background-color: rgba(255, 255, 255, 0.1); }
 .b-subscribe .button {

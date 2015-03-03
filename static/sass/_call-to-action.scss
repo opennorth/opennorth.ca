@@ -20,7 +20,7 @@
 
 	.button:hover {
 		background-color: $white_30;
-	}	
+	}
 }
 
 /* Subscribe */
@@ -30,13 +30,32 @@
 		border-right: 0;
 		background-color: transparent;
 		font-family: $sans-serif-font;
-		font-size: 1.2rem;
-		letter-spacing: .5px;
+		font-size: 0.875rem;
+		letter-spacing: 2px;
 		font-weight: 400;
 		color: $white;
+		text-transform: uppercase;
 		border-radius: 2px 0 0 2px;
+
+		&::-webkit-input-placeholder { /* WebKit browsers */
+		    color: $white;
+		}
+
+		&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		   color: $white;
+		   opacity:  1;
+		}
+
+		&::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   color: $white;
+		   opacity:  1;
+		}
+
+		&:-ms-input-placeholder { /* Internet Explorer 10+ */
+		   color: $white;
+		}
 	}
-	
+
 	input[type="email"]:focus {
 		background-color: $white_10;
 	}
