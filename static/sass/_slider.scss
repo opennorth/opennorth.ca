@@ -1,14 +1,14 @@
 .b-slider {
-	position: relative; 
+	position: relative;
 	overflow: auto;
 }
 
 .b-slider > ul {
-	width: 4200px;
+	display: inline-block;
+    margin: 0;
 }
 
 .b-slider-item {
-	list-style: none;
-	float: left;
+    list-style: none;
+    float: left;
 }
-
