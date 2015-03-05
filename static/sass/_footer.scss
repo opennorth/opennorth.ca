@@ -11,7 +11,7 @@
 
 	.e-footer-top-section {
 		text-align: center;
-		padding-bottom: 30px;
+		padding-bottom: 10px;
 		margin-bottom: 30px;
 		@include chizel-line;
 
@@ -22,9 +22,9 @@
 			display: block;
 		}
 	}
-
-	.e-phone-number { 
-		color: $white; 
+	
+	.e-footer-bottom-section {
 		text-align: center;
 	}
+
 }

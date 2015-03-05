@@ -12,3 +12,20 @@
     list-style: none;
     float: left;
 }
+
+.b-slider-nav {
+  text-align: center;
+  padding: 20px;
+
+  span {
+    display: inline-block;
+    background-color: $gray_15;
+    padding: 5px;
+    margin: 25px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover { background-color: $gray_45; }
+    &.m-active {background-color: $primary_color;}
+  }
+}

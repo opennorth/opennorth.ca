@@ -126,7 +126,7 @@ a {
   border-top: 1px solid rgba(0, 0, 0, 0.15); }
 
 .m-dark-panel {
-  background-color: #960000;
+  background-color: #c60000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25) inset; }
 
 @media only screen and (min-width: 64.063em) {
@@ -161,6 +161,21 @@ a {
   list-style: none;
   float: left; }
 
+.b-slider-nav {
+  text-align: center;
+  padding: 20px; }
+  .b-slider-nav span {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    margin: 25px 5px;
+    border-radius: 50%;
+    cursor: pointer; }
+    .b-slider-nav span:hover {
+      background-color: rgba(0, 0, 0, 0.45); }
+    .b-slider-nav span.m-active {
+      background-color: #c60000; }
+
 .b-circle {
   background-color: #ddd;
   overflow: hidden;
@@ -188,7 +203,7 @@ a {
     color: #666; }
   .b-footer .e-footer-top-section {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset; }
@@ -197,8 +212,7 @@ a {
       opacity: .3;
       margin: 0 auto 30px;
       display: block; }
-  .b-footer .e-phone-number {
-    color: rgba(255, 255, 255, 0.9);
+  .b-footer .e-footer-bottom-section {
     text-align: center; }
 
 .b-main-menu {
