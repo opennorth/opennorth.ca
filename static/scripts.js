@@ -28,10 +28,11 @@ setInterval(function() {
 
 // Products Slider - http://unslider.com/
 var slider = $('.b-slider').unslider({
+	dots: true,
 	keys: false,
-	dots: false,
 	fluid: true
 });
+
 
 // Smooth Scrolling Function
 $(function() {

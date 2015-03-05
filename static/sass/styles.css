@@ -151,30 +151,36 @@ a {
     padding-bottom: 40px; } }
 .b-slider {
   position: relative;
-  overflow: auto; }
-
-.b-slider > ul {
-  display: inline-block;
-  margin: 0; }
-
-.b-slider-item {
-  list-style: none;
-  float: left; }
-
-.b-slider-nav {
-  text-align: center;
-  padding: 20px; }
-  .b-slider-nav span {
+  overflow: hidden;
+  padding-bottom: 35%; }
+  .b-slider > ul {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.15);
-    padding: 5px;
-    margin: 25px 5px;
-    border-radius: 50%;
-    cursor: pointer; }
-    .b-slider-nav span:hover {
-      background-color: rgba(0, 0, 0, 0.45); }
-    .b-slider-nav span.m-active {
-      background-color: #c60000; }
+    margin: 0;
+    width: 300%; }
+  .b-slider .b-slider-item {
+    list-style: none;
+    float: left;
+    width: 33.33333%; }
+  .b-slider .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    margin-left: 0;
+    text-align: center; }
+    .b-slider .dots li {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 7px;
+      text-indent: -999em;
+      background-color: rgba(0, 0, 0, 0.15);
+      border-radius: 50%;
+      cursor: pointer; }
+      .b-slider .dots li:hover {
+        background-color: rgba(0, 0, 0, 0.45); }
+      .b-slider .dots li.active {
+        background-color: #c60000; }
 
 .b-circle {
   background-color: #ddd;
