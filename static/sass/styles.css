@@ -473,6 +473,13 @@ a {
     position: absolute;
     bottom: 0;
     left: calc(50% - 29px); } }
+.b-clients {
+  text-align: center; }
+  .b-clients img {
+    max-height: 100px;
+    max-width: 200px;
+    margin: 40px; }
+
 .b-funders {
   text-align: center; }
   .b-funders img {
