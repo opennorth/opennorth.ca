@@ -1,14 +1,12 @@
 ---
 ---
-// Basic Blocks
+// Basic blocks
 @import "variables";
 @import "base";
 @import "cards";
 @import "social-media";
 @import "sections";
 @import "slider";
-
-
 
 .b-circle {
   background-color: #ddd;
@@ -29,18 +27,7 @@
   border: 1px solid #999;
 }
 
-
-
-
-
-
-
-
-
-
-
-// Content Blocks
-
+// Content blocks
 @import "footer";
 @import "menu";
 @import "news";
@@ -51,9 +38,3 @@
 @import "team";
 @import "clients";
 @import "funders";
-
-
-
-
-
-

@@ -1,4 +1,3 @@
-
 .b-content-section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -21,40 +20,37 @@
   background-color: $primary-color;
   @include inner-shadow-big;
 }
-  
 
 // Large screens
 @media only screen and (min-width: 64.063em) {
+  .b-content-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 
-.b-content-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+    .e-section-title {
+      font-size: 5rem;
+      padding-top: 0;
+    }
 
-  .e-section-title {
-    font-size: 5rem;
-    padding-top: 0;
+    .e-separator {
+      padding-top: 40px;
+    }
   }
 
-  .e-separator { padding-top: 40px; }
-}
+  .b-text-block {
+    a:hover {
+      background-color: $primary-color;
+      color: $white;
+    }
 
-.b-text-block {
-  a:hover {
-    background-color: $primary-color; 
-    color: $white;
+    a:hover {
+      padding: 0 5px;
+      margin: 0 -5px;
+    }
   }
 
-  a:hover {
-    padding: 0 5px;
-    margin: 0 -5px;
+  .b-content-section.m-dark-panel {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
-}
-
-.b-content-section.m-dark-panel {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-
-
 }

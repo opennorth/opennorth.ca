@@ -6,7 +6,7 @@
   .e-card-header {
     padding: 10px 20px;
     background-color: $primary-color;
-    
+
     h4 {
       color: $white;
       font-weight: 400;
@@ -26,10 +26,12 @@
     background-color: $gray_15;
   }
 
-  .e-card-content { 
+  .e-card-content {
     padding: 10px 20px;
 
-    h3 {font-weight: 100;}
+    h3 {
+      font-weight: 100;
+    }
     h4 {
       font-weight: 400;
       font-size: 1.1rem;
