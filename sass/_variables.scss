@@ -19,24 +19,24 @@ $white_80: rgba(255,255,255,0.8);
 $white: rgba(255,255,255,.9);
 
 @mixin chizel-line {
-	border-bottom: 1px solid rgba(255,255,255,0.05);
-	box-shadow: 0 -1px 0 rgba(0,0,0,.15) inset;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 -1px 0 rgba(0,0,0,.15) inset;
 }
 
 @mixin dropshadow {
-	box-shadow: 0 1px 4px $gray_15;
+  box-shadow: 0 1px 4px $gray_15;
 }
 
 @mixin dropshadow-big {
-	box-shadow: 0 4px 15px $gray_45;
+  box-shadow: 0 4px 15px $gray_45;
 }
 
 @mixin inner-shadow-big {
-	box-shadow: 0 4px 10px $gray_25 inset;
+  box-shadow: 0 4px 10px $gray_25 inset;
 }
 
 @mixin transition {
-	transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 $title-font: 'Fira Sans', sans-serif;

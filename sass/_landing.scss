@@ -1,57 +1,57 @@
 /* Landing */
 .b-landing {
-	position: relative;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	box-shadow: inset 0 0 15px $black;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: inset 0 0 15px $black;
 
-	h1 {
-		color: $white;
-		line-height: 1.65;
+  h1 {
+    color: $white;
+    line-height: 1.65;
 
-		span {
-			background-color: $primary-color-dark-1_80;
-			padding: 0 10px;
-			line-height: .8;
-		}
-	}
+    span {
+      background-color: $primary-color-dark-1_80;
+      padding: 0 10px;
+      line-height: .8;
+    }
+  }
 
-	.b-backgrounds {
+  .b-backgrounds {
         position: absolute;
         height: 100%;
         width: 100%;
         top: 0;
 
-	    .e-bg {
-	    	position: absolute;
-	    	width: 100%;
-	    	height: 100%;
-	        opacity: 0;
-			background-size: cover;
-	        -o-transition: opacity 4s ease;
-	        -ms-transition: opacity 4s ease;
-	        -moz-transition: opacity 4s ease;
-	        transition: opacity 4s ease;
-	    }
+      .e-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+          opacity: 0;
+      background-size: cover;
+          -o-transition: opacity 4s ease;
+          -ms-transition: opacity 4s ease;
+          -moz-transition: opacity 4s ease;
+          transition: opacity 4s ease;
+      }
 
-		.m-img1 {
-			background-image: url(../img/office.jpg);
-		}
+    .m-img1 {
+      background-image: url(../img/office.jpg);
+    }
 
-	    .m-visible {
-	        opacity: 1;
-	    }
-	}
+      .m-visible {
+          opacity: 1;
+      }
+  }
 }
 
 // Large screens
 @media only screen and (min-width: 64.063em) {
 
 .b-landing {
-	padding-top: 80px;
-	padding-bottom: 110px;
+  padding-top: 80px;
+  padding-bottom: 110px;
 
-	h1 { font-size: 4rem; }
+  h1 { font-size: 4rem; }
 }
 
 }

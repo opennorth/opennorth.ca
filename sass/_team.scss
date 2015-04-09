@@ -3,16 +3,16 @@
 }
 
 .b-card.m-team { 
-	height: 390px;
-	background-color: $white;
-	position: relative;
+  height: 390px;
+  background-color: $white;
+  position: relative;
 }
 
 // Large screens
 @media only screen and (min-width: 64.063em) {
-	.e-controls {
-		position: absolute;
-		bottom: 0;
-		left: calc(50% - 29px);
-	}
+  .e-controls {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 29px);
+  }
 }

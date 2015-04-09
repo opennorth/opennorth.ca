@@ -1,53 +1,53 @@
 .b-card {
-	border: 1px solid $gray_15;
-	margin: 15px 0;
-	@include dropshadow;
+  border: 1px solid $gray_15;
+  margin: 15px 0;
+  @include dropshadow;
 
-	.e-card-header {
-		padding: 10px 20px;
-		background-color: $primary-color;
-		
-		h4 {
-			color: $white;
-			font-weight: 400;
-			letter-spacing: 1px;
-			margin: 0;
-			text-align: center;
-			font-size: 2rem;
-		}
-	}
+  .e-card-header {
+    padding: 10px 20px;
+    background-color: $primary-color;
+    
+    h4 {
+      color: $white;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin: 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
 
-	.e-card-picture {
-		width: 100%;
-		height: 200px;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-color: $gray_15;
-	}
+  .e-card-picture {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: $gray_15;
+  }
 
-	.e-card-content { 
-		padding: 10px 20px;
+  .e-card-content { 
+    padding: 10px 20px;
 
-		h3 {font-weight: 100;}
-		h4 {
-			font-weight: 400;
-			font-size: 1.1rem;
-			color: $gray_60;
-		}
-	}
+    h3 {font-weight: 100;}
+    h4 {
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: $gray_60;
+    }
+  }
 } //Closing b-card
 
 .b-card.m-team {
-	.e-card-content {
-		text-align: center;
+  .e-card-content {
+    text-align: center;
 
-		h3 {
-			margin: 0;
-		}
+    h3 {
+      margin: 0;
+    }
 
-		h4 {
-			font-family: $sans-serif-font;
-		}
-	}
+    h4 {
+      font-family: $sans-serif-font;
+    }
+  }
 }

@@ -1,58 +1,58 @@
 
 .b-content-section {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	border-bottom: 1px solid $gray_15;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid $gray_15;
 }
 
 .e-section-title {
-	text-align: center;
-	padding: 60px;
-	color: $black;
+  text-align: center;
+  padding: 60px;
+  color: $black;
 }
 
 .e-separator {
-	margin-top: 40px;
-	padding-top: 40px;
-	border-top: 1px solid $gray_15;
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid $gray_15;
 }
 
 .m-dark-panel {
-	background-color: $primary-color;
-	@include inner-shadow-big;
+  background-color: $primary-color;
+  @include inner-shadow-big;
 }
-	
+  
 
 // Large screens
 @media only screen and (min-width: 64.063em) {
 
 .b-content-section {
-	padding-top: 120px;
-	padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 
-	.e-section-title {
-		font-size: 5rem;
-		padding-top: 0;
-	}
+  .e-section-title {
+    font-size: 5rem;
+    padding-top: 0;
+  }
 
-	.e-separator { padding-top: 40px; }
+  .e-separator { padding-top: 40px; }
 }
 
 .b-text-block {
-	a:hover {
-		background-color: $primary-color; 
-		color: $white;
-	}
+  a:hover {
+    background-color: $primary-color; 
+    color: $white;
+  }
 
-	a:hover {
-		padding: 0 5px;
-		margin: 0 -5px;
-	}
+  a:hover {
+    padding: 0 5px;
+    margin: 0 -5px;
+  }
 }
 
 .b-content-section.m-dark-panel {
-	padding-top: 40px;
-	padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
