@@ -27,11 +27,11 @@ setInterval(function() {
 }, 6500);
 
 // Products Slider - http://unslider.com/
-var slider = $('.b-slider').unslider({
-	dots: true,
-	keys: false,
-	fluid: true
-});
+// var slider = $('.b-slider').unslider({
+// 	dots: true,
+// 	keys: false,
+// 	fluid: true
+// });
 
 
 // Smooth Scrolling Function
