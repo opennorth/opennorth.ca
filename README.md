@@ -25,11 +25,11 @@ To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml`
 
 ## Preview Changes
 
-Before committing your changes, always preview your changes. Start a server with `bundle exec jekyll serve -w` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser. While the server is running, you can make changes to files, then refresh the page in the browser to see your changes immediately! Press `Ctrl+C` to stop the server.
+Before committing your changes, always preview your changes. If not using Prose.io, start a server with `bundle exec jekyll serve -w` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser. While the server is running, you can make changes to files, then refresh the page in the browser to see your changes immediately! Press `Ctrl+C` to stop the server.
 
-*Note:* This command compiles HTML files into the `_site` directory. Do not edit those files. Your changes to those files will not be saved.
+**Note:** This command compiles HTML files into the `_site` directory. Do not edit those files. Your changes to those files will not be saved.
 
-*Note:* If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
+**Note:** If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
 
 ## Theme
 
@@ -42,7 +42,7 @@ These files should be identical in this repository and [nordouvert.ca](https://g
 * `Gemfile`
 * `Gemfile.lock`
 
-In other words, only these files should differ:
+In other words, only these directories and files should differ:
 
 * `_data/`
 * `_posts/`
