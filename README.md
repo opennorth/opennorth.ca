@@ -21,7 +21,7 @@ url: A URL including http://
 ---
 ```
 
-To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files.
+To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files. **Note:** `<div class="large-4 columns">&nbsp;</div>` spacers may need to be added to `index.html`.
 
 ## Preview Changes
 
