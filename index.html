@@ -1,408 +1,270 @@
+---
+redirect_from:
+- /about/
+- /contact/
+- /team/
+- /work/
+---
 <!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open North</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
-    <link rel="stylesheet" href="vendor/foundation/css/foundation.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="sass/styles.css">
-    <script src="vendor/foundation/js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-      <section class="b-main-menu" role="navigation">
-        <div class="e-main-menu-wrapper">
-          <span class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></span>
-          <h1 class="b-main-logo"><a href="#"><img src="img/open-north-logo-header.png" alt=""></a></h1>
-          <div class="b-main-menu-container">
-            <div class="e-language-switcher">
-              <a href="#">FR</a>
-            </div>
-            <nav class="b-main-menu-list">
-              <a class="e-menu-item" href="#products">Products</a><a class="e-menu-item" href="#services">Services</a><a class="e-menu-item" href="#mission">About</a>
-            </nav>
-          </div>
-          </div>
-      </section>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Open North</title>
+<meta name="description" content="Open North creates websites to promote government transparency and public participation.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="theme/img/favicon/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic">
+<link rel="stylesheet" href="theme/css/styles.css">
+<script src="theme/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<section class="b-main-menu" role="navigation">
+  <div class="e-main-menu-wrapper">
+    <span class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></span>
+    <h1 class="b-main-logo"><a href="#"><img src="theme/img/open-north-logo-header.png" alt="Open North"></a></h1>
+    <div class="b-main-menu-container">
+      <div class="e-language-switcher">
+        <a href="http://www.nordouvert.ca/">FR</a>
+      </div>
+      <nav class="b-main-menu-list">
+        <a class="e-menu-item" href="#products">Products</a><a class="e-menu-item" href="#services">Services</a><a class="e-menu-item" href="#about">About</a>
+      </nav>
+    </div>
+    </div>
+</section>
 
-    <section class="b-news">
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="js-news-wrapper">
-          <h5 class="e-news-item js-news"><a href="#">New National Program Funds Open North Project to Enhance Canada's Internet</a></h5>
-          <h5 class="e-news-item js-news"><a href="#">JOB POSTING: Director, Strategic Initiatives and Outreach (Full-Time, Telecommute)</a></h5>
-          <h5 class="e-news-item js-news"><a href="#">Represent: Making it easy to contact your representatives</a></h5>
+{% if site.categories.news %}
+<section class="b-news">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="js-news-wrapper">
+      {% for post in site.categories.news limit: 3 %}
+      <h5 class="e-news-item js-news"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="b-content-section b-landing">
+  <div class="b-backgrounds">
+    <div class="e-bg m-img1 m-visible"></div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>
+        <span>We create websites to promote</span><br>
+        <span>government transparency</span><br>
+        <span>and public participation</span>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="b-content-section">
+  <div class="row">
+    <div class="column large-12">
+      <h2 class="e-section-title">Our Products</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="b-slider column large-12">
+      <ul>
+        <li class="b-slider-item">
+          <div class="large-6 small-12 column">
+            <img src="theme/img/screenshots/citizenbudget.png" alt="">
+          </div>
+          <div class="large-6 column">
+            <h2>Citizen Budget</h2>
+            <h3>Get citizens involved in your budget process.</h3>
+            <p>Citizens submit balanced budgets to their city and define local priorities using this interactive budget simulator.</p>
+            <p><a class="button">Learn More</a></p>
+          </div>
+        </li>
+
+        <li class="b-slider-item">
+          <div class="large-6 small-12 column">
+            <img src="theme/img/screenshots/represent.png" alt="">
+          </div>
+          <div class="large-6 column">
+            <h2>Open 511</h2>
+            <h3>Get citizens involved in your budget process.</h3>
+            <p>Citizens submit balanced budgets to their city and define local priorities using this interactive budget simulator.</p>
+            <p><a class="button">Learn More</a></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="b-content-section b-services">
+  <div class="row">
+    <div class="column large-4 medium-4 b-service-item">
+      <div class="b-service-image b-circle">
+        <img src="theme/img/services-standards.jpg" alt="">
+      </div>
+      <h2>Data Standards Development</h2>
+      <p>We design data models and data formats used by governments, nonprofits and businesses to make civic data useful and interoperable, including <a href="http://www.popoloproject.com/">Popolo</a> for legislative data and <a href="http://open511.org/">Open511</a> for road events. We co-lead the standards stream of the <a href="http://www.opengovpartnership.org/">Open Government Partnership</a>'s <a href="http://www.opengovpartnership.org/groups/opendata/">Open Data Working Group</a>. Our work on other standards includes <a href="http://standard.open-contracting.org/">Open Contracting</a> and <a href="http://www.w3.org/blog/news/archives/3591">W3C linked data vocabularies</a>.</p>
+    </div>
+
+    <div class="column large-4 medium-4 b-service-item">
+      <div class="b-service-image b-circle">
+        <img src="theme/img/services-data.jpg" alt="">
+      </div>
+      <h2>Government<br>Open Data</h2>
+      <p>Open North helps governments develop powerful and accessible open data portals. Open North is an expert in implementing and customizing <a href="http://ckan.org">CKAN</a>, the open source leader for open data portals, to bring high quality solutions that fit the budgets of most municipalities. Open North helps governments design publication processes and best practices and provides training to get the most out of open data initiatives.</p>
+    </div>
+
+    <div class="column large-4 medium-4 b-service-item">
+      <div class="b-service-image b-circle">
+        <img src="theme/img/services-monitoring.jpg" alt="">
+      </div>
+      <h2>Legislative<br>Monitoring</h2>
+      <p>Our online tools make it easier for citizens to exercise their political influence and participate actively in decision-making processes. In Canada, we partnered with the <a href="http://www.springtidecollective.ca/">Springtide Collective</a> to create <a href="http://www.openhousens.ca/">OpenHouseNS</a>, and we support <a href="https://openparliament.ca/">OpenParliament</a>. Internationally, <a href="http://represent.poplus.org/">Represent Boundaries</a>, our <a href="http://poplus.org/">Poplus</a> component, is used by some of the world's most popular democratic websites.</p>
+    </div>
+  </div>
+</section>
+
+<section class="b-content-section m-dark-panel b-subscribe b-call-to-action">
+  <form action="http://opennorth.us2.list-manage.com/subscribe/post?u=a602fac79ef3dc584bf1a2743&amp;id=49afb9ad21" method="post" target="_blank" class="form-inline">
+    <div class="row">
+      <div class="column large-12">
+        <h3 class="e-call-to-action-title">Subscribe to our Newsletter</h3>
+      </div>
+      <div class="large-8 columns large-centered">
+        <div class="row collapse">
+          <div class="small-7 columns large-9">
+            <input type="email" placeholder="Email" name="EMAIL" required>
+          </div>
+          <div class="small-5 columns large-3">
+            <input type="submit" value="Subscribe" name="subscribe" class="button postfix">
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </form>
+</section>
 
-    <section class="b-content-section b-landing">
-      <div class="b-backgrounds">
-        <div class="e-bg m-img1 m-visible"></div>
-      </div>
+<section id="about" class="b-content-section b-mission">
+  <div class="row">
+    <div class="large-12 column">
+      <h2 class="e-section-title">Mission</h2>
+      <p class="b-text-block">Open North is a Canadian <a href="https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=7863063">nonprofit</a> that creates online tools to educate and empower citizens to participate actively in Canadian democracy.</p>
+    </div>
+  </div>
+</section>
+<section class="b-content-section b-team">
+  <div class="row">
+    <div class="large-12 column">
+      <h2 class="e-section-title">About Us</h2>
+    </div>
 
-      <div class="row">
-        <div class="large-12 columns">
-          <h1>
-            <span>We create websites to promote</span><br>
-            <span>government transparency</span><br>
-            <span>and public participation</span>
-          </h1>
-        </div>
-      </div>
-    </section>
-
-    <section id="products" class="b-content-section">
-      <div class="row">
-        <div class="column large-12">
-          <h2 class="e-section-title">Our Products</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="b-slider column large-12">
-          <ul>
-
-            <li class="b-slider-item">
-              <div class="large-6 small-12 column">
-                <img src="img/citizenbudget.png" alt="">
-              </div>
-              <div class="large-6 column">
-                <h2>Citizen Budget</h2>
-                <h3>Get citizens involved in your budget process.</h3>
-                <p>Citizens submit balanced budgets to their city and define local priorities using this interactive budget simulator.</p>
-                <p><a class="button">Learn More</a></p>
-              </div>
-            </li>
-
-            <li class="b-slider-item">
-              <div class="large-6 small-12 column">
-                <img src="img/open511.png" alt="">
-              </div>
-              <div class="large-6 column">
-                <h2>Open 511</h2>
-                <h3>Get citizens involved in your budget process.</h3>
-                <p>Citizens submit balanced budgets to their city and define local priorities using this interactive budget simulator.</p>
-                <p><a class="button">Learn More</a></p>
-              </div>
-            </li>
-          </ul>
+    {% for person in site.data.staff %}
+    <div class="large-4 column medium-4">
+      <div class="b-card m-team">
+        <div class="e-card-picture" style="background-image: url('theme/img/people/{{ person.name | slugify }}.jpg')"></div>
+        <div class="e-card-content">
+          <h3{% if person.h3style %} style="{{ person.h3style }}"{% endif %}>{{ person.name }}</h3>
+          <h4{% if person.h4style %} style="{{ person.h4style }}"{% endif %}>{{ person.role }}</h4>
+          {% if person.linkedin %}<p class="e-controls"><a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a></p>{% endif %}
         </div>
       </div>
-    </section>
+    </div>
+    {% endfor %}
+  </div>
 
-    <section id="services" class="b-content-section b-services">
-      <div class="row">
-        <div class="column large-4 medium-4 b-service-item">
-          <div class="b-service-image b-circle">
-            <img src="img/services-standards.jpg" alt="">
-          </div>
-          <h2>Data Standards Research &amp; Development</h2>
-          <p>We design data models and data interchange formats used by governments, nonprofits and businesses to make civic data useful, including <a href="http://www.popoloproject.com/">Popolo</a> for legislative data and <a href="http://open511.org/">Open511</a> for road events. We co-lead the standards stream of the <a href="http://www.opengovpartnership.org/">Open Government Partnership</a>'s <a href="http://www.opengovpartnership.org/groups/opendata/">Open Data Working Group</a>. Our work on others' standards includes <a href="http://standard.open-contracting.org/">Open Contracting</a> and <a href="http://www.w3.org/blog/news/archives/3591">W3C linked data vocabularies</a>.</p>
-        </div>
-        <div class="column large-4 medium-4 b-service-item">
-          <div class="b-service-image b-circle">
-            <img src="img/services-data.jpg" alt="">
-          </div>
-          <h2>Government <br>Open Data <br>Portal</h2>
-          <p>Open North is committed to help governments in their work to develop powerful and accessible open data portals. On the technological side, Open North has developed an expertise in implementing and customizing <a href="http://ckan.org/" target="_blank">CKAN</a>, the open source leader for open data portal, in order to bring solutions that can fit in the budget of smaller municipalities.</p>
-        </div>
-        <div class="column large-4 medium-4 b-service-item">
-          <div class="b-service-image b-circle">
-            <img src="img/services-monitoring.jpg" alt="">
-          </div>
-          <h2>Legislative <br>Monitoring <br>Tools</h2>
-          <p>Our online tools make it easier for citizens to exercise their political influence and participate actively in decision-making processes. In Canada, we partnered with the <a href="http://www.springtidecollective.ca/">Springtide Collective</a> to create <a href="http://www.openhousens.ca/">OpenHouseNS</a>, and we support <a href="http://openparliament.ca/">OpenParliament</a>. Internationally, <a href="http://represent.poplus.org/">Represent Boundaries</a>, our <a href="http://poplus.org/">Poplus</a> component, is used by some of the world's most popular democratic websites, including <a href="https://www.govtrack.us/">GovTrack.us</a>.</p>
+  <div class="row">
+    <div class="large-12 column">
+      <h2 class="e-section-title e-separator">Board</h2>
+    </div>
+
+    {% for person in site.data.board %}
+    <div class="large-4 column medium-4">
+      <div class="b-card m-team">
+        <div class="e-card-picture" style="background-image: url('theme/img/people/{{ person.name | slugify }}.jpg')"></div>
+        <div class="e-card-content">
+          <h3{% if person.h3style %} style="{{ person.h3style }}"{% endif %}>{{ person.name }}</h3>
+          <h4{% if person.h4style %} style="{{ person.h4style }}"{% endif %}>{{ person.summary }}</h4>
+          {% if person.linkedin %}<p class="e-controls"><a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a></p>{% endif %}
         </div>
       </div>
-    </section>
+    </div>
+    {% endfor %}
 
-    <section class="b-content-section m-dark-panel b-subscribe b-call-to-action">
-      <form>
-        <div class="row">
-          <div class="column large-12">
-            <h3 class="e-call-to-action-title">Subscribe to our Newsletter</h3>
-          </div>
-          <div class="large-8 columns large-centered">
-            <div class="row collapse">
-              <div class="small-7 columns large-9">
-                <input type="email" placeholder="Email">
-              </div>
-              <div class="small-5 columns large-3">
-                <a href="#" class="button postfix">Subscribe</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-    </section>
+    <div class="large-4 columns">&nbsp;</div>
+  </div>
+</section>
 
-    <section id="mission" class="b-content-section b-mission">
-      <div class="row">
-        <div class="large-12 column">
-          <h2 class="e-section-title">Mission and Team</h2>
-          <p class="b-text-block">Open North is a Canadian <a href="https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=7863063">nonprofit</a> that creates online tools to educate and empower citizens to participate actively in Canadian democracy.</p>
-        </div>
-        <div class="large-12 column">
-          <h3>Improve access to government information</h3>
-        </div>
-        <div class="large-4 column">
-          <div class="b-card">
-            <div class="e-card-header">
-              <h4>Availability</h4>
-            </div>
-            <div class="e-card-content">
-              <p>Pulling it out of dark corners of government websites, taking it out of PDFs and making access to information requests</p>
-            </div>
-          </div>
-        </div>
+<section class="b-content-section">
+  <div class="row">
+    <div class="large-12 column">
+      <h3 class="e-section-title">Our Clients</h3>
+    </div>
+  <div class="row b-clients">
+    <div class="large-3 column small-12"><img src="theme/img/clients/edelman.png" alt="Edelman"></div>
+    <div class="large-3 column small-12"><img src="theme/img/clients/web-foundation.png" alt="World Wide Web Foundation"></div>
+    <div class="large-3 column small-12"><img src="theme/img/clients/montreal.png" alt="City of Montreal"></div>
+    <div class="large-3 column small-12"><img src="theme/img/clients/edmonton.png" alt="City of Edmonton"></div>
+  </div>
+  <div class="row b-clients">
+    <div class="large-4 column small-12"><img src="theme/img/clients/markham.png" alt="City of Markham"></div>
+    <div class="large-4 column small-12"><img src="theme/img/clients/gazette.png" alt="Montreal Gazette"></div>
+    <div class="large-4 column small-12"><img src="theme/img/clients/surrey.png" alt="City of Surrey"></div>
+  </div>
+</section>
 
-        <div class="large-4 column">
-          <div class="b-card">
-            <div class="e-card-header">
-              <h4>Accessibility</h4>
-            </div>
-            <div class="e-card-content">
-              <p>Providing context to numbers, explaining legislative jargon and using language everyone understands</p>
-            </div>
-          </div>
-        </div>
+<section class="b-content-section">
+  <div class="row">
+    <div class="large-12 column">
+      <h3 class="e-section-title">Our Funders</h3>
+    </div>
+  <div class="row b-funders">
+    <div class="large-3 column small-12"><img src="theme/img/funders/canada.png" alt="Government of Canada"></div>
+    <div class="large-3 column small-12"><img src="theme/img/funders/quebec.png" alt="Government of Quebec"></div>
+    <div class="large-3 column small-12"><img src="theme/img/funders/cira.png" alt="Canadian Internet Registration Authority"></div>
+    <div class="large-3 column small-12"><img src="theme/img/funders/idrc.png" alt="International Development Research Centre"></div>
+  </div>
+  <div class="row b-funders">
+    <div class="large-4 column small-12"><img src="theme/img/funders/mcconnell.png" alt="The J.W. McConnell Family Foundation"></div>
+    <div class="large-4 column small-12"><img src="theme/img/funders/cdec.png" alt="CDEC Côte-des-Neiges—Notre-Dame-de-Grâce"></div>
+    <div class="large-4 column small-12"><img src="theme/img/funders/sdevm.png" alt="Société de développement économique Ville-Marie"></div>
+  </div>
+</section>
 
-        <div class="large-4 column">
-          <div class="b-card">
-            <div class="e-card-header">
-              <h4>Relevance</h4>
-            </div>
-            <div class="e-card-content">
-              <p>Letting citizens find information specific to their community, interests and situation</p>
-            </div>
-          </div>
-        </div>
+<footer class="b-footer b-content-section">
+  <div class="row">
+    <div class="large-12 column e-footer-top-section">
+      <img src="theme/img/open-north-logo-footer.png" alt="">
+    </div>
+    <div class="large-12 column e-footer-bottom-section">
+      <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-lg fa-envelope"></i></a>
+      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-lg fa-facebook"></i></a>
+      <a class="b-social-media" href="https://twitter.com/opennorth"><i class="fa fa-lg fa-twitter"></i></a>
+      <a class="b-social-media" href="http://www.linkedin.com/groups/Open-Government-Canada-4206358?trk=myg_ugrp_ovr"><i class="fa fa-lg fa-linkedin"></i></a>
+      <a class="b-social-media" href="https://github.com/opennorth/"><i class="fa fa-lg fa-github"></i></a>
+    </div>
+  </div>
+</footer>
 
-        <div class="large-12 column">
-          <h3>Make participation easy, fun, and meaningful</h3>
-        </div>
-        <div class="large-4 column">
-          <div class="b-card">
-            <div class="e-card-header">
-              <h4>Design</h4>
-            </div>
-            <div class="e-card-content">
-              <p>Work with governments to design new participatory processes and to ensure citizen’s voices are heard</p>
-            </div>
-          </div>
-        </div>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="theme/js/vendor/unslider.min.js"></script>
+<script src="theme/js/scripts.js"></script>
 
-        <div class="large-4 column">
-          <div class="b-card">
-            <div class="e-card-header">
-              <h4>Engage</h4>
-            </div>
-            <div class="e-card-content">
-              <p>Increase the number of ways citizens can engage with elected officials and government information</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="large-4 column">
-          <div class="b-card">
-            <div class="e-card-header">
-              <h4>Collaboration</h4>
-            </div>
-            <div class="e-card-content">
-              <p>Help citizens connect with each other and organize around issues they care about</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="b-content-section b-team">
-      <div class="row">
-        <div class="large-12 column">
-          <h2 class="e-section-title">Staff</h2>
-        </div>
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/james-mckinney.jpg')"></div>
-            <div class="e-card-content">
-              <h3>James McKinney</h3>
-              <h4>Executive Director</h4>
-              <p class="e-controls"><a class="b-social-media" href="https://www.linkedin.com/in/mckinneyjames"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/stephanie-guidoin.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Stéphane Guidoin</h3>
-              <h4>Director of Products and Services</h4>
-              <p class="e-controls"><a class="b-social-media" href="https://www.linkedin.com/in/stephaneguidoin"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/jean-noe-landry.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Jean-Noé Landry</h3>
-              <h4>Director of Strategic Initiatives <br>and Outreach</h4>
-              <p class="e-controls"><a class="b-social-media" href="https://www.linkedin.com/in/jeannoelandry"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="large-4 column medium-4 ">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/joel-ornoy.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Joel Ornoy</h3>
-              <h4>Business Development Manager</h4>
-              <p class="e-controls"><a class="b-social-media" href=""><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/marichelle-leclair.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Marichelle Leclair</h3>
-              <h4>Communications Coordinator</h4>
-              <p class="e-controls"><a class="b-social-media" href="https://www.linkedin.com/in/marichelleleclair"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 columns">&nbsp;</div>
-      </div>
-      <div class="row">
-        <div class="large-12 column">
-          <h2 class="e-section-title e-separator">Board</h2>
-        </div>
-
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/jonathan-brun.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Jonathan Brun</h3>
-              <h4>Co-founder of Nimonik and Montréal Ouvert</h4>
-              <p class="e-controls"><a class="b-social-media" href="http://www.linkedin.com/in/jonathanbrun"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/david-eaves.jpg')"></div>
-            <div class="e-card-content">
-              <h3>David Eaves</h3>
-              <h4>Public policy entrepreneur and negotiation expert</h4>
-              <p class="e-controls"><a class="b-social-media" href="http://www.linkedin.com/in/davideaves"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/emily-harris.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Emily Harris</h3>
-              <!-- Inline style to compress letter-spacing and avoid a 3rd line in the organization text -->
-              <h4 style="letter-spacing: -0.1px;">Corporate Management and Policy Consultant for the City of Toronto</h4>
-              <p class="e-controls"><a class="b-social-media" href="http://www.linkedin.com/pub/emily-harris/35/398/636"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/kent-mewhort.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Kent Mewhort</h3>
-              <h4>CTO of Ethelo Decisions</h4>
-              <p class="e-controls"><a class="b-social-media" href=""><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 column medium-4">
-          <div class="b-card m-team">
-            <div class="e-card-picture" style="background-image: url('img/people/bernard-rudny.jpg')"></div>
-            <div class="e-card-content">
-              <h3>Bernard Rudny</h3>
-              <h4>Member of the Pembina Institute's communications team</h4>
-              <p class="e-controls"><a class="b-social-media" href="http://www.linkedin.com/in/bernardrudny"><i class="fa fa-lg fa-linkedin"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 columns">&nbsp;</div>
-      </div>
-    </section>
-
-    <section class="b-content-section">
-      <div class="row">
-        <div class="large-12 column">
-          <h3 class="e-section-title">Our Clients</h3>
-        </div>
-      <div class="row b-clients">
-        <div class="large-3 column small-12"><img src="img/clients/montreal.png" alt="City of Montreal"></div>
-        <div class="large-3 column small-12"><img src="img/clients/surrey.png" alt="City of Surrey"></div>
-        <div class="large-3 column small-12"><img src="img/clients/edmonton.png" alt="City of Edmonton"></div>
-        <div class="large-3 column small-12"><img src="img/clients/web-foundation.png" alt="World Wide Web Foundation"></div>
-      </div>
-      <div class="row b-clients">
-        <div class="large-4 column small-12"><img src="img/clients/edelman.png" alt="Edelman"></div>
-        <div class="large-4 column small-12"><img src="img/clients/gazette.png" alt="Montreal Gazette"></div>
-        <div class="large-4 column small-12"><img src="img/clients/markham.png" alt="City of Markham"></div>
-      </div>
-    </section>
-
-    <section class="b-content-section">
-      <div class="row">
-        <div class="large-12 column">
-          <h3 class="e-section-title">Our Funders</h3>
-        </div>
-      <div class="row b-funders">
-        <div class="large-3 column small-12"><img src="img/funders/canada.png" alt="Government of Canada"></div>
-        <div class="large-3 column small-12"><img src="img/funders/cdec.png" alt="CDEC Côte-des-Neiges/Notre-Dame-de-Grâce"></div>
-        <div class="large-3 column small-12"><img src="img/funders/cira.png" alt="Canadian Internet Registration Authority"></div>
-        <div class="large-3 column small-12"><img src="img/funders/idrc.png" alt="International Development Research Centre"></div>
-      </div>
-      <div class="row b-funders">
-        <div class="large-4 column small-12"><img src="img/funders/mcconnell.png" alt="J.W. McConnell Family Foundation"></div>
-        <div class="large-4 column small-12"><img src="img/funders/quebec.png" alt="Government of Quebec"></div>
-        <div class="large-4 column small-12"><img src="img/funders/sdevm.png" alt="Société de développement économique Ville-Marie"></div>
-      </div>
-    </section>
-
-    <section class="b-content-section m-dark-panel b-call-to-action">
-      <div class="row">
-        <div class="large-12 column">
-          <h3 class="e-call-to-action-title">Help us to keep up with the good work</h3>
-        </div>
-        <div class="large-6 large-centered column">
-          <div class="button large expand">Donate</div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="b-footer b-content-section">
-      <div class="row">
-        <div class="large-12 column e-footer-top-section">
-          <img src="img/open-north-logo-footer.png" alt="">
-        </div>
-        <div class="large-12 column e-footer-bottom-section">
-          <a class="b-social-media" href="#"><i class="fa fa-lg fa-github"></i></a>
-          <a class="b-social-media" href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-          <a class="b-social-media" href="#"><i class="fa fa-lg fa-twitter"></i></a>
-          <a class="b-social-media" href="#"><i class="fa fa-lg fa-facebook"></i></a>
-          <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-lg fa-envelope"></i></a>
-        </div>
-      </div>
-    </footer>
-    <script src="vendor/foundation/js/vendor/jquery.js"></script>
-    <script src="vendor/jquery.event.move.js"></script>
-    <script src="vendor/foundation/js/foundation.min.js"></script>
-    <script src="vendor/unslider.min.js"></script>
-    <script src="scripts.js"></script>
-  </body>
+<script>
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='https://www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-21866813-4','auto');ga('send','pageview');
+</script>
+</body>
 </html>
