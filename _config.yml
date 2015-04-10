@@ -1,4 +1,5 @@
 sass:
   style: :compressed
+  sass_dir: theme/_sass
 gems:
   - jekyll-redirect-from
