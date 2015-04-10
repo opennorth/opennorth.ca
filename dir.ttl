@@ -16,7 +16,7 @@
   ; skos:prefLabel "Open North Inc." 
   ; dir:isOrganizationType directory:non-profit-organization 
   ; vcard:url <http://www.opennorth.ca/> 
-  ; vcard:logo <http://www.opennorth.ca/img/open-north-logo-footer.png> 
+  ; vcard:logo <http://www.opennorth.ca/theme/img/open-north-logo-footer.png> 
   ; rdfs:comment """Open North is a Canadian nonprofit that creates online tools to educate and empower citizens to participate actively in Canadian democracy.""" 
 . 
 
