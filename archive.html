@@ -1,0 +1,20 @@
+---
+layout: default
+title: Open North Blog
+---
+<section class="b-content-section b-blog">
+  <div class="row">
+    <div class="column">
+      <h2 class="e-section-title">Blog</h2>
+
+      <ul>
+      {% for page in site.posts %}
+        <li>
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          <time datetime="{{ page.date }}">{{ page.date | date: "%B %e, %Y" }}</time>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
