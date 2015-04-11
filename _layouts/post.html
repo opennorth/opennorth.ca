@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="b-content-section b-blog">
+  <div class="row">
+    <div class="column">
+      <article>
+        <header>
+          <h2>{{ page.title }}</h2>
+          <p>
+            <time datetime="{{ page.date }}">{{ page.date | date: "%B %e, %Y" }}</time>
+            by <span rel="author">{{ page.author }}</span>
+          </p>
+        </header>
+
+        {{ content }}
+      </article>
+
+      <p><a href="{{ site.base_url }}/archive.html" rel="up">Read the archives</a></p>
+    </div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="{{ site.base_url }}/theme/js/scripts.js"></script>
