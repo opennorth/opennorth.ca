@@ -11,17 +11,17 @@ bundle
 
 ## Making Changes
 
-To **add a news item**, create a file in the `_posts` folder with a name following the pattern `YYYY-MM-DD-descriptive-filename.html` and with contents of:
+To **add a news item**, create a file in the `_posts` folder with a name following the pattern `YYYY-MM-DD-lowercase-hyphenated-title.html` and with contents of:
 
 ```yaml
 ---
-categories: news
-title: A descriptive sentence
-url: A URL including http://
+layout: post
+title: A descriptive title
+author: The author's name
 ---
 ```
 
-To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files. **Note:** `<div class="large-4 columns medium-4">&nbsp;</div>` spacers may need to be added to `index.html`.
+To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files.
 
 ## Preview Changes
 
