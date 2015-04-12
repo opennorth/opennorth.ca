@@ -10,7 +10,7 @@ title: Open North Blog
       <ul>
       {% for page in site.posts %}
         <li>
-          <a href="{{ page.url }}">{{ page.title }}</a>
+          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
           <time datetime="{{ page.date }}">{{ page.date | date: "%B %e, %Y" }}</time>
         </li>
       {% endfor %}
