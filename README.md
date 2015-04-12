@@ -11,7 +11,7 @@ bundle
 
 ## Making Changes
 
-To **add a news item**, create a file in the `_posts` folder with a name following the pattern `YYYY-MM-DD-lowercase-hyphenated-title.html` and with contents of:
+To **add a blog post**, create a file in the `_posts` folder with a name following the pattern `YYYY-MM-DD-lowercase-hyphenated-title.html` and with contents of:
 
 ```yaml
 ---
@@ -45,8 +45,12 @@ These files should be identical in this repository and [nordouvert.ca](https://g
 In other words, only these directories and files should differ:
 
 * `_data/`
+* `_layouts/`
 * `_posts/`
 * `community/`
 * `communaute/`
+* `archive.html`
+* `atom.xml`
 * `CNAME`
 * `index.html`
+* `README.md`
