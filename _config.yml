@@ -3,3 +3,4 @@ sass:
   sass_dir: theme/_sass
 gems:
   - jekyll-redirect-from
+base_url: /opennorth.ca
