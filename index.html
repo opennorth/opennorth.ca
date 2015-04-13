@@ -13,9 +13,12 @@ redirect_from:
   <div class="row">
     <div class="column">
       <div class="js-news-wrapper">
-      {% for post in site.posts limit: 3 %}
-      <h5 class="e-news-item js-news"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-      {% endfor %}
+        <h5 class="e-news-item">
+          Read the latest:
+          {% for post in site.posts limit: 3 %}
+            <a class="js-news" href="{{ post.url }}">{{ post.title }}</a>
+          {% endfor %}
+        </h5>
       </div>
     </div>
   </div>
