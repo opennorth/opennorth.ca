@@ -14,17 +14,13 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
 <script src="{{ site.baseurl }}/theme/js/vendor/modernizr.js"></script>
 </head>
-<body>
+<body id="{{ site.language }}">
 
 <section class="b-main-menu" role="navigation">
   <div class="e-main-menu-wrapper">
     <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
     <h1 class="b-main-logo">
-      {% if page.root %}
-      <span><img src="{{ site.baseurl }}/theme/img/open-north-logo-header.png" alt="Open North" width="150"></span>
-      {% else %}
-      <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/theme/img/open-north-logo-header.png" alt="Open North" width="150"></a>
-      {% endif %}
+      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-{{ site.language }}.png" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
     </h1>
     <div class="b-main-menu-container">
       <div class="e-language-switcher">
