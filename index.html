@@ -16,7 +16,7 @@ redirect_from:
         <h5 class="e-news-item js-news-wrapper">
           Read the latest:
           {% for post in site.posts limit: 3 %}
-            <a class="js-news" href="{{ post.url }}">{{ post.title }}</a>
+            <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           {% endfor %}
         </h5>
       </div>
@@ -93,7 +93,7 @@ redirect_from:
         <img src="theme/img/services-standards.jpg" alt="">
       </div>
       <h2>Data Standards Development</h2>
-      <p>We design data models and data formats used by governments, nonprofits and businesses to make civic data useful and interoperable, including <a href="http://open511.org/">Open511</a> for road events and <a href="http://www.popoloproject.com/">Popolo</a> for legislative data. We co-lead the standards stream of the <a href="http://www.opengovpartnership.org/">Open Government Partnership</a>'s <a href="http://www.opengovpartnership.org/groups/opendata/">Open Data Working Group</a>. Our work on other standards includes <a href="http://standard.open-contracting.org/">Open Contracting</a> and <a href="http://www.w3.org/blog/news/archives/3591">W3C linked data vocabularies</a>.</p>
+      <p>We research and design data models and data formats used by governments, civil society and businesses to make civic data useful and interoperable, including <a href="http://www.popoloproject.com/">Popolo</a> for legislative data and <a href="http://open511.org/">Open511</a> for road events. Our work on other standards includes the <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a>, the <a href="http://influencemapping.org/">Influence Mapping</a> group and <a href="http://www.w3.org/blog/news/archives/3591">W3C linked data vocabularies</a>.</p>
     </div>
 
     <div class="large-4 columns">
@@ -101,7 +101,7 @@ redirect_from:
         <img src="theme/img/services-data.jpg" alt="">
       </div>
       <h2>Government <br>Open Data</h2>
-      <p>We help governments develop powerful and accessible open data portals. We are experts in implementing and customizing <a href="http://ckan.org">CKAN</a>, the open source leader for open data portals, to bring high quality solutions that fit the budgets of most municipalities. We help governments design publication processes and best practices and provide training to get the most out of open data initiatives.</p>
+      <p>We help governments design publication processes and implement best practices. As co-lead of the standards stream of the <a href="http://www.opengovpartnership.org/">Open Government Partnership</a>'s <a href="http://www.opengovpartnership.org/groups/opendata/">Open Data Working Group</a>, we are drafting recommended practices for government open data catalogs, in order to promote the use of standards to ease the effective use of open data.</p>
     </div>
 
     <div class="large-4 columns">
