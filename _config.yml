@@ -4,4 +4,4 @@ sass:
 gems:
   - jekyll-redirect-from
 language: en
-baseurl: /opennorth.ca
+baseurl: 
