@@ -3,7 +3,7 @@ layout: post
 title: "Open Data Roundtable with Minister Clement"
 author: Ellie Marshall
 ---
-<img src="http://blog.opennorth.ca/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="">
+<img src="{{ site.baseurl }}/theme/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="">
 
 *Photo: Pinpoint National*
 

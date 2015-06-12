@@ -3,7 +3,7 @@ layout: post
 title: "This Week: MaMairie fundraiser success"
 author: Ellie Marshall
 ---
-<img src="http://blog.opennorth.ca/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="">
+<img src="{{ site.baseurl }}/theme/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="">
 
 *The Open North team, Louise Harel, Marc-André Gadoury and Alex Norris*
 
