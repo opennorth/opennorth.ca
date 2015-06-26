@@ -13,8 +13,6 @@ In total there were two hours of intense, almost non-stop discussion about open 
 
 We would like to thank the organizing team who was able to bring together a fantastic line up, including a Skype session with British Columbia and Vancouver. We have definitely moved on from the time where we had to work for months in advance to have someone in government hear about the open data movement in Canada.
 
-**
-
 This event also confirmed something I believe about the relationship of government to their data: they see themselves as mere providers. I started 80% of my five-minute discussions with something like "Why are you here? What do you expect from your data?" and the answer was invariably: "We do not expect anything. We are here to help people use our data."
 
 Having open data is already an immense step forward. Some of the curators at the event explained to me how, in their case, extracting the data from internal business software containing sensitive data was difficult and time consuming. I feel, however, that governments are losing out on an opportunity to increase the value of their datasets even for themselves.
