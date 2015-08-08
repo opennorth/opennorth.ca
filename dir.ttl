@@ -17,23 +17,5 @@
   ; dir:isOrganizationType directory:non-profit-organization 
   ; vcard:url <http://www.opennorth.ca/> 
   ; vcard:logo <http://www.opennorth.ca/theme/img/open-north-logo-footer.png> 
-  ; rdfs:comment """Open North is a Canadian nonprofit that creates online tools to educate and empower citizens to participate actively in Canadian democracy.""" 
+  ; rdfs:comment """Open North creates websites to promote government transparency and public participation.""" 
 . 
-
-<#org> org:siteAddress <#address-408-1200+Montreal+Canada> . 
-<#address-408-1200+Montreal+Canada> a vcard:VCard, vcard:Address 
-  ; vcard:street-address "408-1200" 
-  ; vcard:locality "Montreal" 
-  ; vcard:country-name "Canada" 
-  ; vcard:region "QC" 
-  ; vcard:postal-code "H3B 3H5" 
-. 
-
-<#org> org:hasMember <#contacts-JamesMcKinney> . 
-<#contacts-JamesMcKinney> a foaf:Agent, dir:Person 
-  ; foaf:name "James McKinney" 
-  ; vcard:fn "James McKinney" 
-  ; org:memberOf <#org> 
-  ; vcard:workEmail "james@opennorth.ca" 
-. 
-
