@@ -18,7 +18,7 @@ To learn more about their election tool and how it benefits citizens, we intervi
 **PS**: Nothing fancy, just the usual election map features like riding geometries, zooming to various regions, information presented on map hover, and the lookup feature described above.
 
 **How did you discover Represent?**<br>
-**PS**: I try to keep my ear to the ground in general for new Canadian open data initiatives. Also, when I e-mailed the [Vote.ca](http://www.vote.ca) project to ask about their riding lookup service and API limits, I was pointed to [Represent's API](https://represent.opennorth.ca/API). I quickly re-wrote the tool to use Represent's API. 
+**PS**: I try to keep my ear to the ground in general for new Canadian open data initiatives. Also, when I e-mailed the [Vote.ca](http://www.vote.ca) project to ask about their riding lookup service and API limits, I was pointed to [Represent's API](https://represent.opennorth.ca/api/). I quickly re-wrote the tool to use Represent's API. 
 
 **What was the most challenging aspect of building the tool?**<br>
 **PS**: Two things really: first was the unreliability of the connection between the app and the Google Spreadsheet that provided the data for each riding, candidates, and so on. High traffic on the app would almost always inevitably result in errors from the Google Docs API. Initially, some very basic caching was added to reduce the number of requests being made when the app was serving higher volumes of traffic. Eventually, I removed all remote calls from the application entirely and had separate tasks that would write to a cache, while the app would exclusively read from that cache. 
