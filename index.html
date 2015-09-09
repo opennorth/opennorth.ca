@@ -94,7 +94,7 @@ redirect_from:
         <img src="theme/img/services-standards.jpg" alt="">
       </div>
       <h2>Data Standards Development</h2>
-      <p>We research and design data models and data formats used by governments, civil society and businesses to make civic data useful and interoperable, including <a href="http://www.popoloproject.com/">Popolo</a> for legislative data and <a href="http://open511.org/">Open511</a> for road events. Our work on other standards includes the <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a>, the <a href="http://influencemapping.org/">Influence Mapping</a> group and <a href="http://www.w3.org/blog/news/archives/3591">W3C linked data vocabularies</a>.</p>
+      <p>We research and design data models and data formats used by governments, civil society and businesses to make civic data useful and interoperable, including <a href="http://open511.org/">Open511</a> for road events. Our work on other standards includes the <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a>.</p>
     </div>
 
     <div class="large-4 columns">
@@ -110,7 +110,7 @@ redirect_from:
         <img src="theme/img/services-monitoring.jpg" alt="">
       </div>
       <h2>Legislative <br>Monitoring</h2>
-      <p>Our online tools make it easier for citizens to exercise their political influence and participate actively in decision-making processes. In Canada, we partnered with the <a href="http://www.springtidecollective.ca/">Springtide Collective</a> to create <a href="http://www.openhousens.ca/">OpenHouseNS</a>, and we support <a href="https://openparliament.ca/">OpenParliament</a>. Internationally, <a href="http://represent.poplus.org/">Represent Boundaries</a>, our <a href="http://poplus.org/">Poplus</a> component, is used by some of the world's most popular democratic websites.</p>
+      <p>Our online tools make it easier for citizens to exercise their political influence and participate actively in decision-making processes. In Canada, we partnered with the <a href="http://www.springtidecollective.ca/">Springtide Collective</a> to create <a href="http://www.openhousens.ca/">OpenHouseNS</a>. Internationally, <a href="http://represent.poplus.org/">Represent Boundaries</a>, our <a href="http://poplus.org/">Poplus</a> component, is used by some of the world's most popular democratic websites.</p>
     </div>
   </div>
 </section>
@@ -203,7 +203,7 @@ redirect_from:
 <section class="b-content-section b-people">
   <div class="row">
     <div class="column">
-      <h2 class="e-section-title">Board</h2>
+      <h2 class="e-section-title">Board &amp; Founder</h2>
     </div>
 
     {% for person in site.data.board %}
@@ -216,7 +216,10 @@ redirect_from:
         </div>
         <div class="e-card-content">
           <h3>{{ person.name }}</h3>
+          {% if person.summary %}
           <h4>{{ person.summary }}</h4>
+          {% endif %}
+          <h4>{{ person.role }}</h4>
         </div>
       </div>
     </div>

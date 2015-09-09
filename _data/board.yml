@@ -1,15 +1,23 @@
 - name: Jonathan Brun
-  summary: Co-founder of Nimonik and Montréal Ouvert
+  role: Board member
+  summary: Nimonik
   linkedin: https://www.linkedin.com/in/jonathanbrun
 - name: David Eaves
-  summary: Public policy entrepreneur and negotiation expert
+  role: Board member
+  summary: ReCollect
   linkedin: https://www.linkedin.com/in/davideaves
 - name: Emily Harris
-  summary: Corporate Management and Policy Consultant for the City of Toronto
+  role: Board member
+  summary: City of Toronto
   linkedin: https://www.linkedin.com/pub/emily-harris/35/398/636
 - name: Kent Mewhort
-  summary: CTO of Ethelo Decisions
+  role: Board member
+  summary: Ethelo Decisions
   linkedin:
 - name: Bernard Rudny
-  summary: Communications Lead at Pembina Institute
+  role: Board member
+  summary: Pembina Institute
   linkedin: https://www.linkedin.com/in/bernardrudny
+- name: James McKinney
+  role: 'Founder &amp; Senior Technical Adviser'
+  linkedin: https://www.linkedin.com/in/mckinneyjames
