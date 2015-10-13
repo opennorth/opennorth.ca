@@ -1,6 +1,24 @@
 ## Getting Started
 
-You can use [Prose.io](http://prose.io/#opennorth/opennorth.ca/) to edit the website. Otherwise:
+You can use [Prose.io](http://prose.io/#opennorth/opennorth.ca/) to edit the website. To **add a blog post**:
+
+1. Click the "Authorize on GitHub" power icon in the bottom-right corner
+1. Click on the `_posts` folder
+1. Click "New File" and write the blog post
+1. Click the "Meta Data" icon in the right sidebar
+1. Paste and edit the YAML below
+1. Click the "Save" icon in the right sidebar
+1. Re-open the blog post
+1. Click "Unpublished" at the right end of the toolbar
+1. Click the "Save" icon in the right sidebar
+
+```
+layout: post
+title: A descriptive title
+author: The author's name
+```
+
+If not using Prose.io:
 
 ```
 gem install bundler
