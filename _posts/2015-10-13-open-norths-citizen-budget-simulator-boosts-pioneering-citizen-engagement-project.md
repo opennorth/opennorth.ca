@@ -2,7 +2,11 @@
 published: false
 ---
 
-layout: The citizens of Saint-Basile-le-Grand are voting this week - not to elect representatives but to choose which of their 11 projects their council will build - a radical exercise in direct democracy. The town is one of the first in Quebec to allow its citizens to put forward project proposals and vote directly on which one of those will get funded. Last year it launched its Participatory Budgeting initiative by setting aside $200,000 which funded the people’s choices -  a public square and a safer street crossing. This year, for the towns’ repeat experience of the Participatory Budget, the [Citizen Budget](http://www.citizenbudget.com) software provided by Open North was tailored to make it possible for voters to choose the construction projects through an interactive online interface rather than on paper, which will make it easier to vote and to calculate the results.
+layout: post
+title: "Open North's Citizen Budget Simulator Boosts Pioneering Citizen Engagement Project"
+author: David Brake
+
+The citizens of Saint-Basile-le-Grand are voting this week - not to elect representatives but to choose which of their 11 projects their council will build - a radical exercise in direct democracy. The town is one of the first in Quebec to allow its citizens to put forward project proposals and vote directly on which one of those will get funded. Last year it launched its Participatory Budgeting initiative by setting aside $200,000 which funded the people’s choices -  a public square and a safer street crossing. This year, for the towns’ repeat experience of the Participatory Budget, the [Citizen Budget](http://www.citizenbudget.com) software provided by Open North was tailored to make it possible for voters to choose the construction projects through an interactive online interface rather than on paper, which will make it easier to vote and to calculate the results.
 
 Additionally, the municipality expanded the scope of direct citizen involvement using Citizen Budget. Not only has $200,000 been put aside once again to fund citizen-led construction initiatives, the town has also used Citizen Budget to consult residents on 17 key financial decisions the council has been considering. 
 
@@ -21,7 +25,3 @@ The concept of Participatory Budgeting, where part of a public budget is allocat
 For more information or to find out how to implement a Citizen Budget online consultation in your own community, contact citizenbudget@opennorth.ca.
 
 Members of the press can contact: info@opennorth.ca
-
-title: Open North's Citizen Budget Simulator Boosts Pioneering Citizen Engagement Project
-
-author: David Brake
