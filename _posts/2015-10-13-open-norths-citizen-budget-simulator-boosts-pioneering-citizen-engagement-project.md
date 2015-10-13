@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "Open North's Citizen Budget Simulator Boosts Pioneering Citizen Engagement Project"
 author: David Brake
