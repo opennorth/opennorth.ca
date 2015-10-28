@@ -1,5 +1,7 @@
 ## Getting Started
 
+### Using Prose.io
+
 You can use [Prose.io](http://prose.io/#opennorth/opennorth.ca/) to edit the website. To **add a blog post**:
 
 1. Click the "Authorize on GitHub" power icon in the bottom-right corner
@@ -18,7 +20,9 @@ title: A descriptive title
 author: The author's name
 ```
 
-If not using Prose.io:
+### Using GitHub
+
+#### One-Time Setup
 
 ```
 gem install bundler
@@ -38,7 +42,7 @@ to:
 
     url = git@github.com:opennorth/theme.git
 
-## Making Changes
+#### Make Changes
 
 To **add a blog post**, create a file in the `_posts` folder with a name following the pattern `YYYY-MM-DD-lowercase-hyphenated-title.html` and with contents of:
 
@@ -59,7 +63,7 @@ To **change a photo**:
 1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
 
-## Preview Changes
+#### Preview Changes
 
 Before committing your changes, always preview your changes. If not using Prose.io, start a server with `bundle exec jekyll serve -w` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser. While the server is running, you can make changes to files, then refresh the page in the browser to see your changes immediately! Press `Ctrl+C` to stop the server.
 
