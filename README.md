@@ -24,8 +24,19 @@ If not using Prose.io:
 gem install bundler
 git clone git@github.com:opennorth/opennorth.ca.git
 cd opennorth.ca
+git submodule update --init
 bundle
+cd theme
+git checkout master
 ```
+
+Then, edit `.git/modules/theme/config` in the `opennorth.ca` directory, changing this line:
+
+    url = https://github.com/opennorth/theme.git
+
+to:
+
+    url = git@github.com:opennorth/theme.git
 
 ## Making Changes
 
@@ -40,6 +51,13 @@ author: The author's name
 ```
 
 To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files.
+
+To **change a photo**:
+
+1. Replace the appropriate file in the `theme/img/people` directory
+1. Run `git push origin master` from the `theme` directory
+1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
+1. Run `git push origin gh-pages` from the `opennorth.ca` directory
 
 ## Preview Changes
 
