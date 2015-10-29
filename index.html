@@ -189,6 +189,9 @@ redirect_from:
           {% if person.linkedin %}
           <a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a>
           {% endif %}
+          {% if person.url %}
+          <a class="b-social-media" href="{{ person.url }}"><i class="fa fa-lg fa-link"></i></a>
+          {% endif %}
         </div>
         <div class="e-card-content">
           <h3>{{ person.name }}</h3>
@@ -212,6 +215,9 @@ redirect_from:
         <div class="e-card-picture" style="background-image: url('theme/img/people/{{ person.name | slugify }}.jpg')">
           {% if person.linkedin %}
           <a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a>
+          {% endif %}
+          {% if person.url %}
+          <a class="b-social-media" href="{{ person.url }}"><i class="fa fa-lg fa-link"></i></a>
           {% endif %}
         </div>
         <div class="e-card-content">
