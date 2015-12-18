@@ -6,13 +6,14 @@ author: Open North
 ---
 
 
+
 We’ve had a busy Fall! Here’s a quick update about some of the things that we’ve been working on and what’s coming up this winter:  
 
 ##What We've Been Working On
 
 ###Federal Elections
 
-- **Advocacy Campaign.** The [advocacy letter] (https://docs.google.com/document/d/1-VWzsWwt1uTBLkFEeSsogeBEXqeRAN5rjBPArnsKLgE/edit?usp=sharing) addressed to all federal party leaders that Open North helped coordinate with [Open Data BC](https://www.opendatabc.ca/) and the [Open Data Institute (Toronto)](http://oditoronto.org/) was supported by more than 20 organisations and received some _[media coverage](http://www.nationalnewswatch.com/2015/09/08/dismantling-the-pmos-autocracy-a-ten-point-plan/#.VnMtbRrhBfj)_.
+- **Advocacy Campaign.** The advocacy letter addressed to all federal party leaders that Open North helped coordinate with [Open Data BC](https://www.opendatabc.ca/) and the [Open Data Institute (Toronto)](http://oditoronto.org/) was supported by more than 20 organisations and received some _[media coverage](http://www.nationalnewswatch.com/2015/09/08/dismantling-the-pmos-autocracy-a-ten-point-plan/#.VnMtbRrhBfj)_.
 - **Represent API.** For the election, we collected all candidates’ contact information and made them available through our [Represent API](http://represent.opennorth.ca/), with some help from volunteers to fill in the gaps and a much appreciated Google sponsorship. More than a dozen online get-out-the-vote and voter education initiatives, such as [Vote Together](https://www.votetogether.ca/) and [Vote Savvy](http://www.votesavvy.ca/), used it. Read our guest blog post _[How can code keep government accountable?](https://cira.ca/blog/ca-voice/how-can-code-keep-governments-accountable-open-north-has-some-ideas)_
 
 ###Engaging the New Government
