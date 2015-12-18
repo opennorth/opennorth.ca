@@ -1,12 +1,10 @@
 ---
-published: true
+published: false
 layout: post
 title: "Open North's Winter Newsletter 2015"
 author: Open North
 ---
 
-
-# Open North's Winter Newsletter 2015
 
 We’ve had a busy Fall! Here’s a quick update about some of the things that we’ve been working on and what’s coming up this winter:  
 
