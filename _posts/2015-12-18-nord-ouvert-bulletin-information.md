@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+title: "Bulletin d'Information 2015 Nord Ouvert"
+author: Nord Ouvert
 ---
 
 Nous avons eu un automne occupé! Voici une mise à jour rapide des initiatives sur lesquelles nous avons travaillé et des projets qui nous occuperont cet hiver:
