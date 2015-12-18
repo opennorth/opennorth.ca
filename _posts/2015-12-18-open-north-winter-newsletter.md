@@ -7,6 +7,7 @@ author: Open North
 
 
 
+
 We’ve had a busy Fall! Here’s a quick update about some of the things that we’ve been working on and what’s coming up this winter:  
 
 ##What We've Been Working On
@@ -49,6 +50,7 @@ OPORA, our local election monitoring partner, will also be launching (and potent
 ##Open North is Growing
 
 **New Board Members.**
+
 - [Henri-François Gautrin](http://www.assnat.qc.ca/en/deputes/gautrin-henri-francois-1051/biographie.html), a Quebec politician and scientist, was a prominent member of the Quebec political scene throughout his career. M. Gautrin served as Assistant House Leader and Online Government Minister. 
 
 - [Dr. Tracey P. Lauriault](http://carleton.ca/sjc/profile/lauriault-tracey/) is an Assistant Professor of Critical Media and Big Data in the School of Journalism and Communication, Communication Studies, at Carleton University in Ottawa, Canada. Well known to the Canadian open data community, she will be a welcome addition to our team!
