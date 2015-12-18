@@ -1,9 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 title: "Open North's Winter Newsletter 2015"
 author: Open North
 ---
+
 
 # Open North's Winter Newsletter 2015
 
@@ -60,6 +61,4 @@ OPORA, our local election monitoring partner, will also be launching (and potent
 ##Happy Holidays and Stay in Touch!
 
 - Follow us on [Facebook](https://www.facebook.com/OpenNorth.NordOuvert) and [Twitter](https://twitter.com/opennorth)
-- Drop us a line: [info@opennorth.ca](mailto:info@opennorth.ca) 
-
-
+- Drop us a line: [info@opennorth.ca](mailto:info@opennorth.ca)
