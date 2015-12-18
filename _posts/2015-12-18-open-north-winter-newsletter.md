@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "Open North's Winter Newsletter 2015"
 author: Open North
