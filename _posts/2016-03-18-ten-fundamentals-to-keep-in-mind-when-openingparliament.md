@@ -1,9 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 title: 10 fundamentals to keep in mind when opening parliament
 author: "Jean-Noé Landry"
 ---
+
 
 # 10 fundamentals to keep in mind when opening parliament
 
@@ -43,7 +44,4 @@ Open communication is foundational to open data. That’s why its principles sho
 Supporting a responsive culture vis-à-vis the data user community is imperative, and one of the best ways to do so is by openly acknowledging failures and successes. I know, taking a step back and honestly reflecting on a situation is difficult for individuals, let alone institutions. That’s why an incremental approach is essential. This is a long-term project. You shouldn’t bank on instant big successes. Remember, even if data made accessible today doesn’t generate innovation in the near term, it may certainly down the road. Providing good metadata is, therefore, essential. 
 
 ## 10. Call to action
-If your legislature is making this commitment, help CSOs and PMOs engage with it (they can only do so much on their own). They can advocate for citizens, but citizens need to ultimately put themselves forward, explore and ask questions via the new two-way communication tools built through your open parliament initiative in order to discuss the transparency and accountability issues that could potentially be resolved with legislative open data. 
-
-
-
+If your legislature is making this commitment, help CSOs and PMOs engage with it (they can only do so much on their own). They can advocate for citizens, but citizens need to ultimately put themselves forward, explore and ask questions via the new two-way communication tools built through your open parliament initiative in order to discuss the transparency and accountability issues that could potentially be resolved with legislative open data.
