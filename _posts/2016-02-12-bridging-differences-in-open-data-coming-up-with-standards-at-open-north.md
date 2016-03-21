@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 _Open North is a member of GeoThink and this post originally appeared on the [GeoThink](http://geothink.ca/) blog._
 
