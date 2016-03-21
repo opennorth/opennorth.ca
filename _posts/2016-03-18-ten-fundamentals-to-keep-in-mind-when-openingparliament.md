@@ -1,11 +1,9 @@
 ---
 published: true
 layout: post
-title: ""
+title: "10 fundamentals to keep in mind when opening parliament"
 author: "Jean-Noé Landry"
 ---
-
-
 
 # 10 fundamentals to keep in mind when opening parliament
 
