@@ -15,6 +15,10 @@ prose:
       - name: title
         field:
           element: text
+          label: Title
+          help: All posts must have a title.
       - name: author
         field:
           element: text
+          label: Author
+          help: All posts must have an author.
