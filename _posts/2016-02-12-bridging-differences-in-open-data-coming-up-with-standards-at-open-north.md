@@ -1,11 +1,11 @@
 ---
 published: true
+layout: post
+title: "Bridging Differences in Open Data: Coming up with standards at Open North"
+author: "Drew Bush"
 ---
 
-
-
-
-_Open North is a member of GeoThink and this post originally appeared on the [GeoThink](http://geothink.ca/) blog._
+_Open North is a member of GeoThink and this post originally appeared on the [GeoThink](http://geothink.ca/bridging-differences-in-open-data-coming-up-with-standards-at-open-north/) blog._
 
 In case you missed either report, over the last year [Open North](http://www.opennorth.ca/) has quietly put out an inventory of open data globally and, in a separate report, recommended baseline international standards for open data catalogs. The first report is entitled _[Gaps and opportunities for standardization in OGP members’ open data catalogs](http://geothink.ca/wp-content/uploads/2016/02/Gaps-and-Opportunities-Open-Data-Open-North.pdf)_ while the second is entitled _[Identifying recommended standards and best practicesfor open data](http://geothink.ca/wp-content/uploads/2016/02/Identifying-Recommended-Standards-Open-Data-Open-North.pdf)_.
 
