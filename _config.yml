@@ -5,3 +5,26 @@ gems:
   - jekyll-redirect-from
 language: en
 baseurl: 
+prose:
+  metadata:
+    _posts:
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: published
+        field:
+          element: hidden
+          value: true
+      - name: title
+        field:
+          element: text
+          label: Title
+          help: All posts must have a title.
+          value: ""
+      - name: author
+        field:
+          element: text
+          label: Author
+          help: All posts must have an author.
+          value: ""
