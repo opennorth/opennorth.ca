@@ -5,3 +5,16 @@ gems:
   - jekyll-redirect-from
 language: en
 baseurl: 
+prose:
+  metadata:
+    _posts:
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+      - name: author
+        field:
+          element: text
