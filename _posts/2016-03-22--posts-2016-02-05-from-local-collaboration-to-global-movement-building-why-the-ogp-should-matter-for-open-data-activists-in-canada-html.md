@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 author: "Jean-Noé Landry"
 title: "2016-02-05-from-local-collaboration-to-global-movement-building-why-the-ogp-should-matter-for-open-data-activists-in-canada.html"
