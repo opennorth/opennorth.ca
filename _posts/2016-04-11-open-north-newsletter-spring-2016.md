@@ -2,7 +2,7 @@
 published: true
 layout: post
 author: Open North
-title: "open-north-newsletter-spring-2016"
+title: "Open North Spring 2016 Newsletter"
 ---
 
 
