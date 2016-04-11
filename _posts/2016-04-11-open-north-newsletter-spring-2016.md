@@ -6,6 +6,7 @@ title: "open-north-newsletter-spring-2016"
 ---
 
 
+
 #Newsletter: Spring 2016
 
 We’ve had a busy start to 2016! Here’s a quick update about some of the things that we’ve been working on and what’s coming up this spring:  
@@ -77,7 +78,6 @@ To meet the growing demand for our services, Open North is recruiting open gover
 
 
 ##Stay in touch! 
-Our website is getting a new look very soon!
-Follow us on [Facebook](https://www.facebook.com/OpenNorth.NordOuvert) and [Twitter](https://twitter.com/opennorth)
-Drop us a line: info@opennorth.ca
-
+- Our website is getting a new look very soon!
+- Follow us on [Facebook](https://www.facebook.com/OpenNorth.NordOuvert) and [Twitter](https://twitter.com/opennorth)
+- Drop us a line: info@opennorth.ca
