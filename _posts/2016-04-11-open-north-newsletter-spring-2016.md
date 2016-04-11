@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 author: Open North
 title: "open-north-newsletter-spring-2016"
