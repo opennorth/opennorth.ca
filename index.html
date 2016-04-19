@@ -9,42 +9,28 @@ redirect_from:
 - /team/
 - /work/
 ---
-{% if site.posts %}
-<section class="b-news">
-  <div class="row">
-    <div class="column">
-      <div>
-        <h5 class="e-news-item js-news-wrapper">
-          Read the latest:
-          {% for post in site.posts limit: 3 %}
-            <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          {% endfor %}
-        </h5>
-      </div>
-    </div>
-  </div>
-</section>
-{% endif %}
 
 <section class="b-content-section b-landing">
   <div class="b-backgrounds">
-    <div class="e-bg m-img1 m-visible"></div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <h1>
-        <span class="show-for-small-only">
-          <span>We create websites to promote government transparency and public participation</span>
-        </span>
-        <span class="hide-for-small-only">
-          <span>We create websites to promote</span><br>
-          <span>government transparency</span><br>
-          <span>and public participation</span>
-        </span>
-      </h1>
+    <div class="e-bg m-img1 m-visible">
+      <img src="{{ site.baseurl }}/theme/img/map.jpg">
     </div>
   </div>
+
+<div class="row-wrap">
+  <div class="row display-table">
+    <div class="column display-cell small-7 medium-6 large-5 landing-left-column">
+      <h1>
+          For Better,<br>
+          more open<br>
+         democracy.
+      </h1>
+    </div>
+    <div class="column display-cell small-5 medium-6 large-7 landing-right-column">
+
+    </div>
+  </div>
+</div>
 </section>
 
 <section class="b-content-section" id="products">
