@@ -1,7 +1,9 @@
 ---
 published: true
 layout: post
-title: 'Applied research in action: Immigration, Refugee and Citizenship Canada'
+title: >-
+  Applied research in action: understanding the data needs of settlement
+  organizations in Canada
 author: Jean-Noé Landry
 ---
 When Immigration, Refugee and Citizenship Canada (IRCC) approached Open North a few months ago to conduct an assessment of their open data strategy, we were thrilled to say the least. Indeed, the timing could not have been better for such a research project.
@@ -32,6 +34,6 @@ In this sense, Open North’s report is one part of a long journey in introducin
 
 However, implementing open data initiatives is an incremental process that not only requires a major cultural shift internally, but constant meaningful engagement of the community stakeholders, who operate in the social sector, the business world, academia, etc., and who actually deliver services as well. With this comes a growing need to connect data users with data producers.
 
-It’s in this role of intermediary and guide that Open North has developed a wealth of expertise over the years. With our extensive experience researching open data standards and best practices, we have developed standardized methodologies for assessing open data initiatives in various situations. Most recently, in collaboration with the Public Sector Digest, we launched Open Cities Strategies, which offers a vast list of services to help Canadian cities succeed in planning and implementing their open data programs (click [here](https://www.linkedin.com/pulse/open-cities-strategies-new-initiative-north-help-succeed-landry?trk=pulse_spock-articles) for more info). 
+It’s in this role of intermediary and guide that Open North has developed a wealth of expertise over the years. With our extensive experience researching open data standards and best practices, we have developed standardized methodologies for assessing open data initiatives in various situations. Most recently, we launched Open Cities Strategies, which offers a vast list of services to help Canadian cities succeed in planning and implementing their open data programs (click [here](https://www.linkedin.com/pulse/open-cities-strategies-new-initiative-north-help-succeed-landry?trk=pulse_spock-articles) for more info). 
 
-If you wish to learn more about our IRCC report or discuss how Open North can help you get your open data initiative on track, don’t hesitate to send me an email at jeannoe@opennorth.ca or to give me a call at +1 438-398-9338. 
+If you wish to learn more about our IRCC report or discuss how Open North can help you get your open data initiative on track, don’t hesitate to send me an email at jeannoe@opennorth.ca or to give me a call at +1 438-398-9338.
