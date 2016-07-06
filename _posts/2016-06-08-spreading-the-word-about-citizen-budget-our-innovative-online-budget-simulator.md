@@ -6,7 +6,7 @@ title: >-
   simulator
 author: Lisa Cerasuolo
 ---
-As always, the Open North crew has been out and about in the world getting the word out about [Citizen Budget](www.citizenbudget.com), our powerful online budget simulator. For the third time now, we took part in the Federation of Canadian Municipalities (FCM) Conference Trade Show, where Citizen Budget is always highly popular. For its inaugural presentation program, we spoke about the benefits and best practices of online engagement.
+As always, the Open North crew has been out and about in the world getting the word out about [Citizen Budget](www.citizenbudget.com), our powerful online budget simulator. For the fourth time now, we took part in the Federation of Canadian Municipalities (FCM) Conference Trade Show, where Citizen Budget is always highly popular. For its inaugural presentation program, we spoke about the benefits and best practices of online engagement.
 
 We also recently attended the Government Finance Officers (GFOA) conference expo again. This time it was held in Toronto, which meant more Canadian delegates than usual. In all cases, it’s always exhilarating to meet new people, as well as our existing clients at these events. 
 
@@ -18,4 +18,4 @@ For many of the municipalities that have yet to use our highly-customizable Citi
 
 Some of our clients described how our cutting-edge budget simulator allowed them to get some much-needed buy-in on some of these difficult decisions -- and all at an affordable price. For residents, seeing big dollar amounts in newspaper articles can be overwhelming. But seeing how these same numbers impact their actual property tax assessment really puts things into perspective: a project that costs millions can only actually represent a few dollars on a tax bill.
 
-That’s why we were thrilled to see so many people stop by our tradeshow booths with excitement. As the desire to engage citizens grows every day, more and more municipalities are turning to Citizen Budget simulator to build better community relations and better budgets. 
+That’s why we were thrilled to see so many people stop by our tradeshow booths with excitement. As the desire to engage citizens grows every day, more and more municipalities are turning to Citizen Budget simulator to build better community relations and better budgets.
