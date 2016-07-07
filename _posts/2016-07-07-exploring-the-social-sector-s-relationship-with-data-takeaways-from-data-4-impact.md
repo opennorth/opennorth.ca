@@ -4,6 +4,7 @@ layout: post
 title: >-
   Exploring the Social Sector’s Relationship with Data: Takeaways From Data 4
   Impact
+author: Open North
 ---
 Community -- it’s one of the foundational pillars of our vision for better and more open democracy at Open North. As a nonprofit ourselves, it’s important for us to work with a range of stakeholders to build sustainable, inclusive and innovative open communities, including within the social sector.
 
@@ -19,6 +20,4 @@ Here are some of our key takeaways:
 
 -The workshop also validated once again that the binary supply and demand model doesn’t quite fit the mold for open data. **A much more tailored and context-specific approach to understanding and enabling shared data, like mindset shift, organizational culture, social dynamics, infrastructure, capacity, etc. is necessary.** It’s not as simple as pushing data to known data users.
 
-It was a pleasure collaborating with NBSPRN and Data for Good for this workshop. Something tells me that we’ll have the opportunity to repeat this experience. If you’re a community organization looking for tools and resources to enhance your data capacities, I highly encourage you to read the full report [here](http://public.citizenbudget.com.s3.amazonaws.com/uploads/custom/laurence/2016.04.29.Data4ImpactWorkshopReport-Polished%202.pdf). 
-
-
+It was a pleasure collaborating with NBSPRN and Data for Good for this workshop. Something tells me that we’ll have the opportunity to repeat this experience. If you’re a community organization looking for tools and resources to enhance your data capacities, I highly encourage you to read the full report [here](http://public.citizenbudget.com.s3.amazonaws.com/uploads/custom/laurence/2016.04.29.Data4ImpactWorkshopReport-Polished%202.pdf).
