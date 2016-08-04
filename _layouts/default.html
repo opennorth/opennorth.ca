@@ -11,23 +11,38 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic">
+<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500,700' >
 <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
 <script src="{{ site.baseurl }}/theme/js/vendor/modernizr.js"></script>
 </head>
 <body id="{{ site.language }}">
-
+{% if page.root %}
+  {% if site.posts %}
+  <section class="b-news">
+    <div class="row">
+      <div class="column">
+        <div>
+          <h5 class="e-news-item js-news-wrapper">
+            Read the latest:
+            {% for post in site.posts limit: 3 %}
+              <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {% endfor %}
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+{% endif %}
 <section class="b-main-menu" role="navigation">
   <div class="e-main-menu-wrapper">
     <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
     <h1 class="b-main-logo">
-      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-{{ site.language }}.png" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
+      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" width="172" height="58" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
     </h1>
     <div class="b-main-menu-container">
-      <div class="e-language-switcher">
-        <a href="http://www.nordouvert.ca/">Français</a>
-      </div>
       <nav class="b-main-menu-list">
-        <a class="e-menu-item" href="{{ site.baseurl }}/#products"><span>Products</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#services"><span>Services</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#about"><span>About</span></a>
+        <a class="e-menu-item" href="{{ site.baseurl }}/#what-we-do"><span>What We Do</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#products"><span>Products</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#services"><span>Services</span></a><a class="e-menu-item" href="{{ site.baseurl }}/archive.html"><span>Blog</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#about"><span>About</span></a><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a>
       </nav>
     </div>
   </div>
@@ -37,15 +52,20 @@
 
 <footer class="b-footer b-content-section">
   <div class="row">
-    <div class="column e-footer-top-section">
-      <img src="{{ site.baseurl }}/theme/img/open-north-logo-footer.png" alt="">
+    <div class="column medium-5 e-footer-left-section">
+      <img src="{{ site.baseurl }}/theme/img/open-north-logo-footer-{{ site.language }}.png" width="172" height="58" alt="">
+      <span>5445 avenue de Gaspé, Suite 602</span>
+      <span>Montréal, QC, Canada H2T 3B2</span>
+      <span>1-888-750-4980</span>
+      <span><a href="mailto:info@opennorth.ca">info@opennorth.ca</a></span>
     </div>
-    <div class="column e-footer-bottom-section">
-      <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-lg fa-envelope"></i></a>
-      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-lg fa-facebook"></i></a>
-      <a class="b-social-media" href="https://twitter.com/opennorth"><i class="fa fa-lg fa-twitter"></i></a>
-      <a class="b-social-media" href="http://www.linkedin.com/groups/Open-Government-Canada-4206358?trk=myg_ugrp_ovr"><i class="fa fa-lg fa-linkedin"></i></a>
-      <a class="b-social-media" href="https://github.com/opennorth/"><i class="fa fa-lg fa-github"></i></a>
+    <div class="column medium-7 e-footer-right-section">
+      <h4>Follow Us</h4>
+      <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-2x fa-at"></i></a>
+      <a class="b-social-media" href="https://twitter.com/opennorth"><i class="fa fa-2x fa-twitter"></i></a>
+      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-2x fa-facebook"></i></a>
+      <a class="b-social-media" href="http://www.linkedin.com/groups/Open-Government-Canada-4206358?trk=myg_ugrp_ovr"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a class="b-social-media" href="https://github.com/opennorth/"><i class="fa fa-2x fa-github"></i></a>
     </div>
   </div>
 </footer>
