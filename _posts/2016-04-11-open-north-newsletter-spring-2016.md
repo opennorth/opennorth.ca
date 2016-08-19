@@ -2,7 +2,7 @@
 published: true
 layout: post
 author: Open North
-title: "Open North Spring 2016 Newsletter"
+title: Open North Spring 2016 Newsletter
 ---
 
 
@@ -45,7 +45,7 @@ _Feature update: Immigration, Refugees and Citizenship Canada (IRCC) solicited t
 
 In case you missed it, Open North’s founder, James McKinney co-authored a timely article entitled [What’s needed to deliver federal government’s open by default policy?](http://policyoptions.irpp.org/magazines/march-2016/whats-needed-to-deliver-on-the-federal-governments-open-by-default-promise/) in the April online edition of _Policy Options_.
 
-As mentioned in the full update below, **Citizen Budget** has been taken in new directions! Not only is our online budget simulator now **fully compatible with all mobile devices**, but it will also soon be accessible to the vision-impaired. Our newest version — the **Capital Project** module — has also proven very popular in municipalities across Canada. A special shout-out to civic engagement and technology leaders Edmonton, London and Guelph, among others, who have recently held a slew of very creative and groundbreaking online budget consultations. And lastly, congratulations to Newmarket and Langley Township, two engagement pioneers, who completed their **fourth consecutive Citizen Budget consultation** this year!
+As mentioned in the full update below, **Citizen Budget** has been taken in new directions! Our newest version — the **Capital Project** module — has proven very popular in municipalities across Canada. A special shout-out to civic engagement and technology leaders Edmonton, London and Guelph, among others, who have recently held a slew of very creative and groundbreaking online budget consultations. And lastly, congratulations to Newmarket and Langley Township, two engagement pioneers, who completed their **fourth consecutive Citizen Budget consultation** this year!
 
 ### What’s Coming Up: 
 Open North and Public Sector Digest, which published the [Open Cities Index](https://publicsectordigest.com/Articles/view/1547) in February 2016, signed a partnership agreement paving the way for Open North **new product offerings for cities seeking strategic and technical advice on open data plans and initiatives.**
@@ -63,8 +63,6 @@ Promoting your budget consultation effectively is critical to its success. Some 
 Our newest version - the **Capital Project module** - is proving popular with cities and residents alike in Cambridge, Kelowna, Saint-Rémi, Moose Jaw, and Grande Prairie, with the latter seeing the most feedback of any engagement effort to date. 
 
 Congratulations to Newmarket, Ontario and Langley Township, British Columbia who completed their **fourth** consecutive Citizen Budget consultation this year! These two online budget engagement pioneers earned a free customization (value = $1,000) on their 4th consultation and our endless admiration for their dedicated, long-term community engagement. 
-
-**Research and Development.** Citizen Budget is now _fully compatible with all mobile devices_, bringing cutting-edge budget engagement to everyone, regardless of their choice of device. Coming soon, Citizen Budget will be accessible to the vision-impaired through [WCAG/AODA compliance](http://accessontario.com/aoda/), while other new features and design upgrades further improve your ability to engage your stakeholder.
 
 **L’Institut du Nouveau Monde and Open North partner up!** Public participation, when properly planned and implemented, is an asset for policymakers, who can not only count on a population that is more aware and mobilized, but also better understand the community's aspirations. Open North and l’Institut du Nouveau Monde are pooling together their expertise for the development of a fun, educational and in-depth service for municipalities in Quebec. Stay tuned for more details on this exciting pilot project this spring!
 
