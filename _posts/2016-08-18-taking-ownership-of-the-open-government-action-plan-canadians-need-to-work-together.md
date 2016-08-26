@@ -3,7 +3,7 @@ published: true
 layout: post
 title: >-
   Taking ownership of the open government action plan: Canadians need to work
-  together
+  togethera
 author: Jean-Noé Landry
 ---
 As it does every two years, the Government of Canada released its [open government action plan](http://open.canada.ca/en/content/third-biennial-plan-open-government-partnership), the third of its kind so far. And yet, for many of the millions of engaged Canadians across the country, the existence of this plan remains unknown to them.
@@ -22,9 +22,9 @@ As a member of the OGP, Canada must produce biennial action plans to help steer 
 
 As part of the OGP, Canada is required to undertake public consultations when preparing and implementing its plans. As there were issues with the scope and nature of the consultation process over the last two action plans, this time around, Open North and like-minded organizations decided to co-found a network in order to coordinate civil society input and make sure a diversity of voices were heard.
 
-Our joint proposal set out three goals as part of its vision: first, to co-develop commitments for the action plan (mission accomplished!); secondly, to co-implement the commitments laid out by the government (we’ll soon have a first meeting with the government to develop the modalities of the engagement mechanisms); and thirdly, to co-asses their performance. 
+Our joint proposal set out three goals as part of its vision: first, to co-develop commitments for the action plan (mission accomplished!); secondly, to co-implement the commitments laid out by the government (we’ll soon have a first meeting with the government to develop the modalities of the engagement mechanisms); and thirdly, to co-assess their performance. 
 
-But what does it all mean in practical terms? How do we go about about fostering dialogue on open governance issues between government and civil society members in a concrete and efficient way? If we look to other OGP members, it’s unsurprising that a multitude of different collaboration models and approaches have been adopted -- yet they all face similar challenges. 
+But what does it all mean in practical terms? How do we go about fostering dialogue on open governance issues between government and civil society members in a concrete and efficient way? If we look to other OGP members, it’s unsurprising that a multitude of different collaboration models and approaches have been adopted -- yet they all face similar challenges. 
 
 From promoting open governance beyond a core group of activists to balancing the trade-off between public interests and government priorities, these mechanisms have a demanding road ahead. But one thing is clear: such an engagement mechanism is useful for both government and civil society. 
 
