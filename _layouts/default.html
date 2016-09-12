@@ -42,7 +42,20 @@
     </h1>
     <div class="b-main-menu-container">
       <nav class="b-main-menu-list">
-        <a class="e-menu-item" href="{{ site.baseurl }}/#what-we-do"><span>What We Do</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#products"><span>Products</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#services"><span>Services</span></a><a class="e-menu-item" href="{{ site.baseurl }}/archive.html"><span>Blog</span></a><a class="e-menu-item" href="{{ site.baseurl }}/#about"><span>About</span></a><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a>
+        <ul class="menu clearfix">
+          <li><a class="e-menu-item" href="{{ site.baseurl }}/#what-we-do"><span>What We Do</span></a></li>
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/#products"><span>Products</span></a>
+              <ul class="submenu">
+                <li><a href="http://www.citizenbudget.com/" target="_blank">Citizen Budget</a></li>
+                <li><a href="http://represent.opennorth.ca/" target="_blank">Represent API</a></li>
+                <li><a href="{{ site.baseurl }}/open-cities-strategies.html">Open Cities Strategies</a></li>
+              </ul>
+          </li>
+          <li><a class="e-menu-item" href="{{ site.baseurl }}/#services"><span>Services</span></a></li>
+          <li><a class="e-menu-item" href="{{ site.baseurl }}/archive.html"><span>Blog</span></a></li>
+          <li><a class="e-menu-item" href="{{ site.baseurl }}/#about"><span>About</span></a></li>
+          <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
+        </ul>
       </nav>
     </div>
   </div>
