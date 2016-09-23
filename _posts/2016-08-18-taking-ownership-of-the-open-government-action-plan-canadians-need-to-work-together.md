@@ -3,7 +3,7 @@ published: true
 layout: post
 title: >-
   Taking ownership of the open government action plan: Canadians need to work
-  togethera
+  together
 author: Jean-Noé Landry
 ---
 As it does every two years, the Government of Canada released its [open government action plan](http://open.canada.ca/en/content/third-biennial-plan-open-government-partnership), the third of its kind so far. And yet, for many of the millions of engaged Canadians across the country, the existence of this plan remains unknown to them.
