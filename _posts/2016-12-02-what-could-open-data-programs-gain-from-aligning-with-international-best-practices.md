@@ -3,12 +3,10 @@ published: true
 layout: post
 title: >-
   What Could Open Data Programs Gain from Aligning with International Best
-  Practices? 
-author: Erin Bryson
+  Practices? Mapping open data practices in Canadian sub-national governments to
+  the international Open Data Charter  
+author: 'Erin Bryson, Open Data Research Intern'
 ---
-## Mapping open data practices in Canadian sub-national governments to the international Open Data Charter
-
-
 ### Research Goals   
 
 Across Canada, the release of open data by municipal and provincial governments is rapidly growing. Given this momentum, there is a need to assess the policies that guide open data provision and ensure their framework supports open and innovative data initiatives. An emerging set of principles, the [International Open Data Charter](http://opendatacharter.net/) (ODC), have been adopted by forty-one governments around the globe to guide the development and release of government open data.  With the exception of the Province of Ontario, which identified adoption of the ODC as a high priority idea generated through their public consultation as a part of their sub-national Open Government Partnership commitments, there has been very limited conversation on adopting the ODC. 
