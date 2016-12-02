@@ -43,7 +43,7 @@ To answer these questions, we evaluated the current state of open data policy in
 
 **- Provinces:** There are currently eight provinces in Canada that publish open data to their own portal or catalogue, and of these, six have an open data policy tool. Four provinces - Alberta, British Columbia, New Brunswick and Ontario - were included in our study.
 
-**Interviewee Selection: **The target interviewees for this study were open data ‘leads’, or managers. For jurisdictions without a clearly designated open data manager, existing contacts were used to direct us to the appropriate individual.
+**Interviewee Selection:** The target interviewees for this study were open data ‘leads’, or managers. For jurisdictions without a clearly designated open data manager, existing contacts were used to direct us to the appropriate individual.
 
 
 ### Mapping Current Practices to the ODC
@@ -95,5 +95,3 @@ The Open Data Charter continues to gain momentum around the world, and its stewa
 
 
 Open North will be publishing the full report detailing the findings of this study with our Winter Newsletter in early 2017. To continue the discussion around the potential role of the International Open Data Charter in Canada, Open North’s executive director, Jean-Noé Landry, will be bringing key findings of the study at the [Open Government Summit in Paris](https://en.ogpsummit.org/osem/conference/ogp-summit), taking place December 6-9, 2016. Open North will also continue to promote the ODC in Canada as Charter stewards, and through our [Open Cities Strategies](http://www.opennorth.ca/open-cities-strategies.html). For more information on these, or other, Open North initiatives, please visit our website or contact us at [info@opennorth.ca](mailto:info@opennorth.ca).
-
-
