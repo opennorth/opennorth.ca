@@ -28,6 +28,7 @@ To answer these questions, we evaluated the current state of open data policy in
 - Multiple barriers that were identified by interviewees as inhibiting the release, access and innovative use of open data could be addressed through the adoption of the Open Data Charter.
 - Despite awareness of the Open Data Charter and its potential benefits, Canadian provinces and municipalities expressed concerns about their ability to adopt the ODC. 
 
+**[Consult the full report (PDF)](http://public.citizenbudget.com/uploads/custom/on.ca/ODCinCanada.pdf)**
 
 ### Research Process
 
