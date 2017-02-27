@@ -2,30 +2,22 @@
   role: Board member
   summary: Nimonik
   linkedin: https://www.linkedin.com/in/jonathanbrun
-- name: David Eaves
-  role: Board member
-  summary: ReCollect
-  linkedin: https://www.linkedin.com/in/davideaves
-- name: Emily Harris
-  role: Board member
-  summary: City of Toronto
-  linkedin: https://www.linkedin.com/pub/emily-harris/35/398/636
-- name: Henri-François Gautrin
-  role: Board member
-  summary: Former Member of National Assembly of Quebec
-  url: http://www.assnat.qc.ca/en/deputes/gautrin-henri-francois-1051/biographie.html
 - name: Tracey P. Lauriault
   role: Board member
   summary: Carleton University
   url: http://carleton.ca/sjc/people-archives/lauriault-tracey/
-- name: James McKinney
-  role: 'Founder &amp; Senior Technical Adviser'
-  linkedin: https://www.linkedin.com/in/mckinneyjames
-- name: Richard Stirling
+- name: Henri-François Gautrin
   role: Board member
-  summary: Open Data Institute
-  url: https://theodi.org/team/richard-stirling
+  summary: Former Member of National Assembly of Quebec
+  url: http://www.assnat.qc.ca/en/deputes/gautrin-henri-francois-1051/biographie.html
 - name: Gabe Sawhney
   role: Board member
   summary: Urban Digital
   url: https://ca.linkedin.com/in/gabesawhney
+- name: Richard Stirling
+  role: Board member
+  summary: Open Data Institute
+  url: https://theodi.org/team/richard-stirling
+- name: James McKinney
+  role: 'Founder &amp; Senior Technical Adviser'
+  linkedin: https://www.linkedin.com/in/mckinneyjames
