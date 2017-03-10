@@ -38,7 +38,7 @@ The session will be moderated by Noémie Brière-Marquez, the coordinator
 of the Forum jeunesse de l’île de Montréal.
 
 **March 10-12: [HackQC](http://hackqc.ca/horaire/),
-Sherbrooke, QC **
+Sherbrooke, QC**
 
 HackQC will be an exciting sprint of 48 hours of programming where teams
 develop an application from open data that is useful for citizens. This
@@ -68,7 +68,7 @@ Lenihan, Laura Tribe from Open Media and Mélanie Robert, Executive
 Director of Information Management and Open Government at the Treasury
 Board Secretariat.
 
-**March 28-29: Policy Community Conference, Ottawa, ON **
+**March 28-29: Policy Community Conference, Ottawa, ON**
 
 We were pleased to accept Natural Resources Canada’s invitation to
 participate in a workshop on open policy making, as part of the Policy
