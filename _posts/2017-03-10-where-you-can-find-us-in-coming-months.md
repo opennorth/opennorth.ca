@@ -12,7 +12,7 @@ Subscribe to our mailing list to stay in touch, or follow us on Twitter
 or Facebook to get the latest!
 
 **March 2:
-**[***OuiShareQC***](https://www.facebook.com/events/782164488600861/)**,
+[OuiShareQC](https://www.facebook.com/events/782164488600861/),
 Montreal, QC**
 
 As part of a monthly discussion series organized by OuiShare, this
@@ -24,9 +24,9 @@ councillor [Guillaume
 Lavoie](https://www.facebook.com/guillaumelavoie.intl), and Open North’s
 Executive Director Jean-Noé Landry.
 
-**March 9: **[***University of the
-Streets***](https://www.concordia.ca/content/shared/en/events/offices/vpaer/oce/2017/03/09/2017-03-09_representative-democracy.html)**,
-Montreal, QC **
+**March 9: [University of the
+Streets](https://www.concordia.ca/content/shared/en/events/offices/vpaer/oce/2017/03/09/2017-03-09_representative-democracy.html),
+Montreal, QC**
 
 University of the Streets Café hosts public, bilingual conversations
 with community professionals. This session leads with the question: “Do
@@ -37,7 +37,7 @@ alongside Frédéric Lapointe, the president of Ligue d’action civique.
 The session will be moderated by Noémie Brière-Marquez, the coordinator
 of the Forum jeunesse de l’île de Montréal.
 
-**March 10-12: **[***HackQC***](http://hackqc.ca/horaire/)**,
+**March 10-12: [HackQC](http://hackqc.ca/horaire/),
 Sherbrooke, QC **
 
 HackQC will be an exciting sprint of 48 hours of programming where teams
@@ -45,8 +45,8 @@ develop an application from open data that is useful for citizens. This
 year’s theme is “alternative transport.” Open North will be in
 attendance as a member of the jury.
 
-**March 14: **[***Cities in
-Tech***](https://www.meetup.com/fr-FR/Cities-in-Tech/events/237762337/?eventId=237762337)**,
+**March 14: [Cities in
+Tech](https://www.meetup.com/fr-FR/Cities-in-Tech/events/237762337/?eventId=237762337),
 Montreal, QC**
 
 Do you want to harness the power of technology to change the way cities
@@ -55,8 +55,8 @@ people-friendly? That’s the question for the inaugural event of this new
 Cities in Tech meetup series. We’ll be sharing our experience alongside
 Beatrice Couture from InnoCité MTL and Jack Sion, COO at Transit.
 
-**March 21-23: **[***Transparency in the 21st
-Century***](http://www.oic-ci.gc.ca/transparencyconference/index.html)**,
+**March 21-23: [Transparency in the 21st
+Century](http://www.oic-ci.gc.ca/transparencyconference/index.html),
 Ottawa, ON**
 
 This conference on transparency is organized by the Office of the
@@ -78,8 +78,8 @@ identify principles for effective open policy making and ways to
 evaluate the effectiveness, as well as best practices for leveraging
 digital platforms for open policy making.
 
-**March 27-29: **[***What Works Cities Summit
-2017***](https://whatworkscities.bloomberg.org/)** (WCC), New York,
+**March 27-29: [What Works Cities Summit
+2017](https://whatworkscities.bloomberg.org/) (WCC), New York,
 USA**
 
 Rachel Bloom, Open North’s new Open Smart Cities in Canada project lead,
@@ -98,7 +98,7 @@ government across Canada. The Armchair Discussion will be webcast
 nationally in real time to internal Government of Canada participants
 and the public at large. Stay tuned for details!
 
-**May 3: Annual **[***URISA Ontario***](http://www.urisaontario.ca/)**
+**May 3: Annual [URISA Ontario](http://www.urisaontario.ca/)
 Be Spatial Conference, Markham Ontario**
 
 The Be Spatial Conference is is an annual industry training, program and
@@ -108,8 +108,8 @@ professors and students from throughout Ontario. Jury Konga, Open Smart
 Cities Associate will be presenting on Smart Cities and Digital
 Government.
 
-**May 5-6: Annual **[***Go-OpenData
-Conference***](http://go-opendata.ca/)**, London, ON**
+**May 5-6: Annual [Go-OpenData
+Conference](http://go-opendata.ca/), London, ON**
 
 GO Open Data is an annual community-driven conference, which brings
 together civil society, IT professionals, bloggers, community and
@@ -117,10 +117,10 @@ economic developers, city planners, civil servants and more. Jury Konga,
 Open North Associate, is the Senior Advisor to the conference and this
 year’s program coordinator. The 5th annual Go Open Data conference
 welcomes our Executive Director as the keynote speaker for this
-important regional event!\
-\
-**May 30-31: **[***Big Data and Analytics for the Public
-Sector***](http://www.infonex.ca/1250/index.shtml)** Conference,
+important regional event!
+
+**May 30-31: [Big Data and Analytics for the Public
+Sector](http://www.infonex.ca/1250/index.shtml) Conference,
 Toronto, ON**
 
 This conference focuses on unlocking the value in your data and
@@ -128,8 +128,8 @@ enhancing data-driven decision making. Open North Associates, Jury Konga
 and Bianca Wylie will be participating in the Future of Open Data and
 Digital Government panel.
 
-**June 12: **[***Data 4 Impact
-Workshop***](http://opendatasummit.ca/)**, Edmonton, AB **
+**June 12: [Data 4 Impact
+Workshop](http://opendatasummit.ca/), Edmonton, AB**
 
 This pre-event of the Canadian Open Data Summit, marks the second
 edition of this workshop. Co-organized by OpenNorth, Powered by Data,
@@ -138,8 +138,8 @@ Data4Impact will focus on the non-profit’s relationship with data,
 focusing on issues of capacity, mindset, infrastructure, and
 collaboration.
 
-**June 13: **[***Canadian Open Data Summit
-(CODS17)***](http://opendatasummit.ca/)**, Edmonton, AB. **
+**June 13: [Canadian Open Data Summit
+(CODS17)](http://opendatasummit.ca/), Edmonton, AB.**
 
 CODS is an annual event where the most pressing challenges facing the
 open data and open government communities are addressed on a national
@@ -149,8 +149,8 @@ partnerships with government across Canada.* The conference will be two
 days full of workshops and seminars with industry leaders, making it an
 event not to be missed!
 
-**June 14-16: **[***GFOABC Annual
-Conference***](https://www.gfoabc.ca/events/annual-conference/2017-conference/)**,
+**June 14-16: [GFOABC Annual
+Conference](https://www.gfoabc.ca/events/annual-conference/2017-conference/),
 Victoria, BC**
 
 The GFOABC Annual Conference has been the premier training opportunity
