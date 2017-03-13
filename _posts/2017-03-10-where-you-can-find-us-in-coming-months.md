@@ -89,6 +89,11 @@ city practitioners, experts, and thought leaders from cities across the
 USA to share experiences, engage in professional development, and
 celebrate local achievements and the individuals driving change.
 
+**March 30-31: [Schulich Executive Education Centre Executive Education Centre](http://seec.schulich.yorku.ca/), Toronto, ON**
+
+Open North Expert Associates, Bianca Wylie and Jury Konga, will be teaching a two-course "Achieving Open Government Through Accountability, Transparency, and Open Data" at Schulich Executive Education Centre at York University.
+
+
 **April 12: Armchair discussion on open government, Ottawa ON**
 
 Treasury Board of Canada Secretariat (TBS) is organizing and delivering
@@ -159,3 +164,8 @@ great program that will fulfill your professional development needs and
 provide valuable networking opportunities. Open North’s Business
 Development Manager will be presenting our online CitizenBudget
 simulator to this great audience of government finance officers.
+
+**June 17-20: [Building Resilience 2017 Conference](http://www.cip-icu.ca/Resilience2017), Calgary, AB**
+
+The 2017 Canadian Institute of Planners and the Alberta Professional Planners Institute’s Annual Conference aims to support those engaged with building resiliency through an engaging, collaborative, and thought provoking forum to explore this critical aspect of our shared futures. Keira Webster, Open North's City Resilience Research Intern, will be presenting our recently published discussion paper on city resilience and open data.
+
