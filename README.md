@@ -48,7 +48,7 @@ author: The author's name
 ---
 ```
 
-To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files.
+To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files. Escape special characters by using the [ASCI character code](http://htmlarrows.com/) or preceding it with a forward slash.
 
 To **add a photo**:
 
