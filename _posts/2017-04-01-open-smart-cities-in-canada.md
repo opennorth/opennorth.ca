@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-title: Open smart cities in Canada: ideals versus reality
-author: Rachel Bloom Project Lead, Open Smart Cities in Canada, OpenNorth
+title: "Open smart cities in Canada: ideals versus reality"
+author: "Rachel Bloom Project Lead, Open Smart Cities in Canada, OpenNorth"
 ---
 
 A 2014 [*report by Frost & Sullivan*](https://ww2.frost.com/news/press-releases/frost-sullivan-global-smart-cities-market-reach-us156-trillion-2020), an international consulting firm of over 1800 analysts in 45 global offices, predicted that the Smart City global market will be valued at USD 1.565 trillion by 2020. The burgeoning Smart City market employs and reproduces a whirl of media about the technologies and goals that underpin the term Smart City. Multiplicitous and contradicting definitions of a Smart City emerge from within this jumble of speculation and hype.
