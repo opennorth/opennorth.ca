@@ -64,9 +64,7 @@ Nord Ouvert a récemment réalisé deux projets de recherche avec Immigration, R
 
 ---------------------------------------------------------------------------------------------------
 
-##
-
-Student Researcher- Digital Capacity of Social Sector Organizations##
+##Student Researcher- Digital Capacity of Social Sector Organizations##
 
 Salary: $15.00 an hour
 
