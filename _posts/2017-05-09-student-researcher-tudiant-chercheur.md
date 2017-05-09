@@ -27,16 +27,24 @@ Ce poste relève du directeur général de Nord Ouvert
 *Éducation et expérience :*
 
 -Finissant du premier cycle ou étudiant des cycles supérieurs
+
 -Nous favoriserons les candidats qui ont déjà des antécédents professionnels
+
 
 *Autres compétences et capacités :*
 
 -Expérience en organisation, gestion et analyse de données quantitatives ;
+
 -Responsabilités de recherche accrues en fonction du niveau de compétence ;
+
 -Exactitude et minutie ;
+
 -Motivation personnelle et capacité à travailler de manière indépendante ;
+
 -Détermination et capacité à travailler en dehors des heures normales de bureau ;
+
 -Expérience comme rédacteur ou rédactrice ;
+
 -Bilinguisme : anglais et français (couramment).
 
 Nord Ouvert s’engage à favoriser l’équité en matière d’emploi et la diversité. Nous encourageons les demandes d’emploi provenant de membres d’une communauté autochtone, de minorités ethniques, de personnes handicapées, de femmes ou encore de tout candidat, peu importe son orientation sexuelle ou son identité de genre.
@@ -85,17 +93,25 @@ Reporting to: Executive Director, Open North
 *Education/Experience:*
 
 -Senior undergraduate or graduate student
+
 -Previous work experience is strongly preferred
 
 *Other Qualifying Skills and/or Abilities:*
 
 -Experienced with organizing, managing and analyzing quantitative data
+
 -Research responsibilities may increase with higher level of expertise;
+
 -Accuracy and attention to detail;
+
 -Sense of motivation and ability to work independently;
+
 -Willingness and ability to work flexible hours;
+
 -Experienced writer;
+
 -Bilingualism: English and French (fluent).
+
 
 *How to Apply:*
 
