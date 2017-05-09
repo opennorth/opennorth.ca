@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Student researcher/Étudiant-chercheur
+title: We're Hiring! Nous embauchons! Student researcher/Étudiant-chercheur
 author: Open North
 ---
 
