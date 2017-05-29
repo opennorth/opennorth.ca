@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: We're Hiring! Student researcher
 author: Open North
@@ -73,7 +73,3 @@ More about Open North:
 Open North is part of the growing civic technology sector in North America. Open North has established itself as Canada’s leading not-for-profit specialized in open government and open data. Open North works globally and locally, with governments at levels, legislatures, independent media, academia, as well as the social and private sector to unlock the potential of open data and identify opportunities for increased collective impact. 
 
 Open North has recently lead two research projects with Immigration, Refugees and Citizenship Canada (IRCC). We connected with newcomer settlement organizations across Canada to understand their digital capacity and data needs. The initial project surveyed the data needs of the settlement sector, as it relates to research, reporting and data management. This work was supported by researching their digital capacity needs, concerning operational management and program delivery, with the aim of better informing government support. Building on this research, Open North will co-facilitate the second edition of the Data4Impact workshop at the Canadian Open Data Summit bringing together local and regional nonprofit, community and social organizations. The research student will contribute to this reoccurring national event by localizing lessons learned and documenting case studies in one of Montreal’s most diverse boroughs.
-
-
-
-
