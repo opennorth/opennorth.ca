@@ -6,6 +6,7 @@ author: Open North
 ---
 ## News and Project Updates
 
+
 ### Do-It-Yourself Open Data Toolkit Prototype for Municipal Governments. 
 More cities, large and small, are intrigued by open data and want to use it to better serve their residents. To help cities accelerate this process, the Government of Canada (GoC) contracted OpenNorth to develop of a do-it-yourself (DIY) open data toolkit for municipalities. The DIY toolkit, which will be available on the open.canada.ca portal after the Canadian Open Data Summit in Edmonton, provides comprehensive guidelines and a step-by-step process to enable municipalities to initiate an open data program. We are now exploring the expansion of the original advisory group of 15 leading open data cities in Canada which supported the development of the DIY. Read the project announcement in this article. Contact us if you would like to discuss how your city can kick start it’s open data program. 
  
@@ -20,7 +21,7 @@ With the Canadian Government announcing a $300 million Smart Cities Challenge in
 
 Read Rachel Bloom’s breakdown of the study here. Project content updates will be strategically rolled-out over the course of the year to inform Canada’s national conversation on smart cities. 
 
-## In the news:
+### In the news:
  
 -Expectations for the Canadian Open Data Summit (CODS17). This year’s Canadian Open Data Summit marks the 5th edition of Canada’s annual gathering for the open data community. Issues of data ethics, data poverty, and data sovereignty are gaining more attention. So what should we expect at CODS17? What are we looking for at this important event? Read our blog to get our take. 
 
@@ -40,7 +41,7 @@ With the help of our newly hired Represent Coordinator, Iris Rosenbaum, and volu
 ### Indigenous Data Sovereignty.
 Working in collaboration with the British Columbia First Nations’ Data Governance Initiative (BCFNDGI) and regional First Nations leaders, OpenNorth has been researching the relationship between open data and indigenous data sovereignty. The result of these conversations, Decolonizing Data: Indigenous Data Sovereignty Primer, will be released over coming months. We’re also looking forward to participating in the Annual Assembly of the First Nations of Quebec and Labrador Health and Social Services Commission, which will be a great opportunity to learn about local and regional data issues in the context of nation-to-nation relationships. We’re also exploring international indigenous data sovereignty case studies with the help of our full time intern Michelle Nguyen. 
  
-## Citizen Budget. 
+## Citizen Budget 
 Saskatoon, Red Deer, Thousand Oaks and Hinton are some of the most recent cities to use Citizen Budget to broaden their budget engagement beyond town halls, and improve their insight into residents’ spending priorities. For its 3rd Citizen Budget consultation, the City of Yellowknife took its commitment to transparency to new levels by publicizing the live results on its website, thereby allowing their residents to track Citizen Budget results in the same way that city administrators do. 
  
 ### Spotlight on Thousand Oaks, California
