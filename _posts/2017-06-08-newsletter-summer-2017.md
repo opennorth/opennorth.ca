@@ -19,7 +19,10 @@ With the Canadian Government announcing a $300 million Smart Cities Challenge in
 4. What role will open source platforms and open data play in cities’ smart city policies and practices?
 5. How can principles of transparency and equal access translate to municipal smart city policies and practices?
 
-Read Rachel Bloom’s breakdown of the study here. Project content updates will be strategically rolled-out over the course of the year to inform Canada’s national conversation on smart cities. 
+Read Rachel Bloom’s breakdown of the study here. Project content updates will be strategically rolled-out over the course of the year to inform Canada’s national conversation on smart cities.
+
+### Indigenous Data Sovereignty.
+Working in collaboration with the British Columbia First Nations’ Data Governance Initiative (BCFNDGI) and regional First Nations leaders, OpenNorth has been researching the relationship between open data and indigenous data sovereignty. The result of these conversations, Decolonizing Data: Indigenous Data Sovereignty Primer, will be released over coming months. We’re also looking forward to participating in the Annual Assembly of the First Nations of Quebec and Labrador Health and Social Services Commission, which will be a great opportunity to learn about local and regional data issues in the context of nation-to-nation relationships.
 
 ### In the news:
  
@@ -37,9 +40,16 @@ From June to October, OpenNorth will be leading a multi-stakeholder engagement p
  
 ### Represent API: New Coordination Approach. 
 With the help of our newly hired Represent Coordinator, Iris Rosenbaum, and volunteer tech capacity, we are curating the community of dozens of Represent API users and documenting use cases. These use cases will tell the story of how Canadians have been able to better connect with their candidates and elected officials. Look out for these use cases over the summer months!
+ 
 
-### Indigenous Data Sovereignty.
-Working in collaboration with the British Columbia First Nations’ Data Governance Initiative (BCFNDGI) and regional First Nations leaders, OpenNorth has been researching the relationship between open data and indigenous data sovereignty. The result of these conversations, Decolonizing Data: Indigenous Data Sovereignty Primer, will be released over coming months. We’re also looking forward to participating in the Annual Assembly of the First Nations of Quebec and Labrador Health and Social Services Commission, which will be a great opportunity to learn about local and regional data issues in the context of nation-to-nation relationships. We’re also exploring international indigenous data sovereignty case studies with the help of our full time intern Michelle Nguyen. 
+### Staffing up.
+We’re excited to announce the addition of three new staff members to the OpenNorth team: 
+* Michelle Nguyen will be joining our applied research team
+* Jim Morris will be our in-house developer, assisting with Citizen Budget
+* Christian Medina will be our Fulfillment coordinator for Citizen Budget
+
+Go team, go!
+
  
 ## Citizen Budget 
 Saskatoon, Red Deer, Thousand Oaks and Hinton are some of the most recent cities to use Citizen Budget to broaden their budget engagement beyond town halls, and improve their insight into residents’ spending priorities. For its 3rd Citizen Budget consultation, the City of Yellowknife took its commitment to transparency to new levels by publicizing the live results on its website, thereby allowing their residents to track Citizen Budget results in the same way that city administrators do. 
