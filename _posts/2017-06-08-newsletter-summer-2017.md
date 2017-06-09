@@ -4,7 +4,7 @@ layout: post
 title: 'Newsletter: Summer 2017'
 author: Open North
 ---
-##News and Project Updates
+## News and Project Updates
 
 ### Do-It-Yourself Open Data Toolkit Prototype for Municipal Governments. 
 More cities, large and small, are intrigued by open data and want to use it to better serve their residents. To help cities accelerate this process, the Government of Canada (GoC) contracted OpenNorth to develop of a do-it-yourself (DIY) open data toolkit for municipalities. The DIY toolkit, which will be available on the open.canada.ca portal after the Canadian Open Data Summit in Edmonton, provides comprehensive guidelines and a step-by-step process to enable municipalities to initiate an open data program. We are now exploring the expansion of the original advisory group of 15 leading open data cities in Canada which supported the development of the DIY. Read the project announcement in this article. Contact us if you would like to discuss how your city can kick start it’s open data program. 
@@ -26,7 +26,7 @@ Read Rachel Bloom’s breakdown of the study here. Project content updates will 
 
 -OpenCorporates take-down. The Quebec government issued a notice to the largest open database of companies and company data in the world, demanding them to remove content about Quebec companies. OpenCorporates asked the Quebec court to provide clarity on the rules around using Quebec data. The primary goal of the database is to “make information on companies more usable and more widely available for the public benefit, particularly to tackle the use of companies for criminal or anti-social purposes, for example corruption, money laundering and organised crime.” Read more about the issue in LaPresse, or listen to Jean-Noé Landry as the Quebec spokesperson for OpenCorporates, explain why the organization wants the court to clarify its legal grounds for accessing open data from Quebec.
 
-##Upcoming Projects
+## Upcoming Projects
  
 ### International Open Data Charter. 
 Are you familiar with the International Open Data Charter? You probably should be if you’re reading this newsletter. Building on our baseline study of the potential that the Charter has to help 10 Canadian cities and 4 provinces, we will collect more data to gain broader insights into how governments use the Charter principles. We will scope the potential for a longer term, and more international, learning report focused on sub-national governments, including a number of international comparisons. 
