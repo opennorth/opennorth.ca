@@ -4,6 +4,10 @@ layout: default
 permalink: /our-offer
 ---
 
+<style type="text/css">
+
+</style>
+
 <section class="b-content-section gray" id="what-we-do">
   <div class="row">
     <div class="column">
@@ -32,6 +36,9 @@ permalink: /our-offer
           <li>Stakeholder engagement strategies</li>
           <li>Open data standards</li>
         </ul>
+        <p><button data-target="learn-more-1">Learn more</button></p>
+        <!-- "Learn more" text goes here -->
+        <p id="learn-more-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam quam, luctus sit amet mi eget, aliquam scelerisque ligula. Sed turpis nulla, sollicitudin vitae vestibulum sodales, tempus vel velit. Quisque consectetur turpis metus, quis auctor arcu vestibulum nec. Integer ac consequat est. Morbi hendrerit in dui eu sollicitudin. Suspendisse dapibus mi enim, eu fringilla metus viverra fringilla. Nam eget purus vel ipsum vestibulum luctus. Donec ac commodo quam. Morbi lacinia neque arcu, non tempus enim porttitor non. Proin in magna a risus accumsan aliquam id ut elit. Aenean mauris justo, vehicula ut lobortis id, hendrerit quis nisi.</p>
       </div>
     </div>
     <div class="column medium-4" id="products-2">
@@ -78,3 +85,17 @@ permalink: /our-offer
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+$(function() {
+  $('p[id^=learn-more-]').css('display', 'none');
+
+$('.col-content button').each(function() {
+    $(this).click(function() {
+      var section = $(this).attr('data-target');
+      console.log(section);
+      $('#' + section).show();
+    });
+  });
+});
+</script>
