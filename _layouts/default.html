@@ -14,9 +14,10 @@
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500,700' >
 <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
 <script src="{{ site.baseurl }}/theme/js/vendor/modernizr.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body id="{{ site.language }}">
-{% if page.root %}
+{% if page.root %} <!-- Remove if to be displayed on all pages -->
   {% if site.posts %}
   <section class="b-news">
     <div class="row">
@@ -33,7 +34,7 @@
     </div>
   </section>
   {% endif %}
-{% endif %}
+{% endif %} <!-- Remove if to be displayed on all pages -->
 <section class="b-main-menu" role="navigation">
   <div class="e-main-menu-wrapper">
     <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
@@ -43,17 +44,27 @@
     <div class="b-main-menu-container">
       <nav class="b-main-menu-list">
         <ul class="menu clearfix">
-          <li><a class="e-menu-item" href="{{ site.baseurl }}/#what-we-do"><span>What We Do</span></a></li>
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/#products"><span>Products</span></a>
-              <ul class="submenu">
-                <li><a href="http://www.citizenbudget.com/" target="_blank">Citizen Budget</a></li>
-                <li><a href="http://represent.opennorth.ca/" target="_blank">Represent API</a></li>
-                <li><a href="{{ site.baseurl }}/open-cities-strategies.html">Open Cities Strategies</a></li>
-              </ul>
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/mission"><span>About</span></a>
+            <ul class="submenu">
+              <li><a href="{{ site.baseurl }}/mission"><span>Mission</span></a></li>
+              <li><a href="{{ site.baseurl }}/team"><span>Our Team</span></a></li>
+            </ul>
           </li>
-          <li><a class="e-menu-item" href="{{ site.baseurl }}/#services"><span>Services</span></a></li>
-          <!--<li><a class="e-menu-item" href="{{ site.baseurl }}/archive.html"><span>Blog</span></a></li>-->
-          <li><a class="e-menu-item" href="{{ site.baseurl }}/#about"><span>About</span></a></li>
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/our-offer"><span>What We Do</span></a>
+            <ul class="submenu">
+              <li><a href="{{ site.baseurl }}/our-offer"><span>Our Offer</span></a></li>
+              <li><a href="{{ site.baseurl }}/impact"><span>Impact</span></a></li>
+              <li><a href="{{ site.baseurl }}/projects"><span>Projects</span></a></li>
+            </ul>
+          </li>
+          <li><a class="e-menu-item" href="http://www.citizenbudget.com/" target="_blank"><span>Citizen Budget</span></a></li>
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/archive"><span>News &amp; Publications</span></a>
+            <ul class="submenu">
+              <li><a href="{{ site.baseurl }}/archive"><span>Blog</span></a></li>
+              <li><a href="{{ site.baseurl }}/reports"><span>Reports</span></a></li>
+              <li><a href="{{ site.baseurl }}/resources"><span>Resources</span></a></li>
+            </ul>
+          </li>
           <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
         </ul>
       </nav>
