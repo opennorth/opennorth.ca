@@ -5,7 +5,15 @@ permalink: /our-offer
 ---
 
 <style type="text/css">
+p[id^=learn-more-] {
+  display: none;
+}
 
+button {
+  padding: 1em;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* for IE8 and earlier */
+}
 </style>
 
 <section class="b-content-section gray" id="what-we-do">
@@ -37,7 +45,6 @@ permalink: /our-offer
           <li>Open data standards</li>
         </ul>
         <p><button data-target="learn-more-1">Learn more</button></p>
-        <!-- "Learn more" text goes here -->
         <p id="learn-more-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam quam, luctus sit amet mi eget, aliquam scelerisque ligula. Sed turpis nulla, sollicitudin vitae vestibulum sodales, tempus vel velit. Quisque consectetur turpis metus, quis auctor arcu vestibulum nec. Integer ac consequat est. Morbi hendrerit in dui eu sollicitudin. Suspendisse dapibus mi enim, eu fringilla metus viverra fringilla. Nam eget purus vel ipsum vestibulum luctus. Donec ac commodo quam. Morbi lacinia neque arcu, non tempus enim porttitor non. Proin in magna a risus accumsan aliquam id ut elit. Aenean mauris justo, vehicula ut lobortis id, hendrerit quis nisi.</p>
       </div>
     </div>
@@ -60,6 +67,8 @@ permalink: /our-offer
           <li>Evaluation frameworks</li>
           <li>Education and training</li>
         </ul>
+        <p><button data-target="learn-more-2">Learn more</button></p>
+        <p id="learn-more-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam quam, luctus sit amet mi eget, aliquam scelerisque ligula. Sed turpis nulla, sollicitudin vitae vestibulum sodales, tempus vel velit. Quisque consectetur turpis metus, quis auctor arcu vestibulum nec. Integer ac consequat est. Morbi hendrerit in dui eu sollicitudin. Suspendisse dapibus mi enim, eu fringilla metus viverra fringilla. Nam eget purus vel ipsum vestibulum luctus. Donec ac commodo quam. Morbi lacinia neque arcu, non tempus enim porttitor non. Proin in magna a risus accumsan aliquam id ut elit. Aenean mauris justo, vehicula ut lobortis id, hendrerit quis nisi.</p>
       </div>
     </div>
     <div class="column medium-4" id="products-3">
@@ -81,6 +90,8 @@ permalink: /our-offer
           <li>Transparency</li>
           <li>Accountability</li>
         </ul>
+        <p><button data-target="learn-more-3">Learn more</button></p>
+        <p id="learn-more-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam quam, luctus sit amet mi eget, aliquam scelerisque ligula. Sed turpis nulla, sollicitudin vitae vestibulum sodales, tempus vel velit. Quisque consectetur turpis metus, quis auctor arcu vestibulum nec. Integer ac consequat est. Morbi hendrerit in dui eu sollicitudin. Suspendisse dapibus mi enim, eu fringilla metus viverra fringilla. Nam eget purus vel ipsum vestibulum luctus. Donec ac commodo quam. Morbi lacinia neque arcu, non tempus enim porttitor non. Proin in magna a risus accumsan aliquam id ut elit. Aenean mauris justo, vehicula ut lobortis id, hendrerit quis nisi.</p>
       </div>
     </div>
   </div>
@@ -88,14 +99,12 @@ permalink: /our-offer
 
 <script type="text/javascript">
 $(function() {
-  $('p[id^=learn-more-]').css('display', 'none');
-
-$('.col-content button').each(function() {
-    $(this).click(function() {
-      var section = $(this).attr('data-target');
-      console.log(section);
-      $('#' + section).show();
+  $('.col-content button').each(function() {
+      $(this).click(function() {
+        var section = $(this).attr('data-target');
+        console.log(section);
+        $('#' + section).toggle();
+      });
     });
-  });
 });
 </script>
