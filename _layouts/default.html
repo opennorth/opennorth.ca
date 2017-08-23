@@ -1,106 +1,96 @@
-<!doctype html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>{{ page.title }}</title>
-<meta name="description" content="Open North creates websites to promote government transparency and public participation.">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="{{ site.baseurl }}/theme/img/favicon/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic">
-<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500,700' >
-<link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
-<script src="{{ site.baseurl }}/theme/js/vendor/modernizr.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body id="{{ site.language }}">
-{% if page.root %} <!-- Remove if to be displayed on all pages -->
-  {% if site.posts %}
-  <section class="b-news">
-    <div class="row">
-      <div class="column">
-        <div>
-          <h5 class="e-news-item js-news-wrapper">
-            Read the latest:
-            {% for post in site.posts limit: 3 %}
-              <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            {% endfor %}
-          </h5>
-        </div>
-      </div>
-    </div>
-  </section>
-  {% endif %}
-{% endif %} <!-- Remove if to be displayed on all pages -->
-<section class="b-main-menu" role="navigation">
-  <div class="e-main-menu-wrapper">
-    <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
-    <h1 class="b-main-logo">
-      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" width="172" height="58" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
-    </h1>
-    <div class="b-main-menu-container">
-      <nav class="b-main-menu-list">
-        <ul class="menu clearfix">
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/mission"><span>About</span></a>
-            <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/mission"><span>Mission</span></a></li>
-              <li><a href="{{ site.baseurl }}/team"><span>Our Team</span></a></li>
-            </ul>
-          </li>
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/our-offer"><span>What We Do</span></a>
-            <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/our-offer"><span>Our Offer</span></a></li>
-              <li><a href="{{ site.baseurl }}/impact"><span>Impact</span></a></li>
-              <li><a href="{{ site.baseurl }}/projects"><span>Projects</span></a></li>
-            </ul>
-          </li>
-          <li><a class="e-menu-item" href="http://www.citizenbudget.com/" target="_blank"><span>Citizen Budget</span></a></li>
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/archive"><span>News &amp; Publications</span></a>
-            <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/archive"><span>Blog</span></a></li>
-              <li><a href="{{ site.baseurl }}/reports"><span>Reports</span></a></li>
-              <li><a href="{{ site.baseurl }}/resources"><span>Resources</span></a></li>
-            </ul>
-          </li>
-          <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</section>
-
-{{ content }}
-
-<footer class="b-footer b-content-section">
-  <div class="row">
-    <div class="column medium-5 e-footer-left-section">
-      <img src="{{ site.baseurl }}/theme/img/open-north-logo-footer-{{ site.language }}.png" width="172" height="58" alt="">
-      <span>5445 avenue de Gaspé, Suite 602</span>
-      <span>Montréal, QC, Canada H2T 3B2</span>
-      <span>1-888-750-4980</span>
-      <span><a href="mailto:info@opennorth.ca">info@opennorth.ca</a></span>
-    </div>
-    <div class="column medium-7 e-footer-right-section">
-      <h4>Follow Us</h4>
-      <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-2x fa-at"></i></a>
-      <a class="b-social-media" href="https://twitter.com/opennorth"><i class="fa fa-2x fa-twitter"></i></a>
-      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-2x fa-facebook"></i></a>
-      <a class="b-social-media" href="http://www.linkedin.com/groups/Open-Government-Canada-4206358?trk=myg_ugrp_ovr"><i class="fa fa-2x fa-linkedin"></i></a>
-      <a class="b-social-media" href="https://github.com/opennorth/"><i class="fa fa-2x fa-github"></i></a>
-    </div>
-  </div>
-</footer>
-
-<script>
-(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-e.src='https://www.google-analytics.com/analytics.js';
-r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-ga('create','UA-21866813-4','auto');ga('send','pageview');
-</script>
-</body>
-</html>
+ <!doctype html>
+ <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+ <html class="no-js" lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <title>{{ page.title }}</title>
+ <meta name="description" content="Open North creates websites to promote government transparency and public participation.">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="shortcut icon" href="{{ site.baseurl }}/theme/img/favicon/favicon.ico">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic">
+ <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500,700' >
+ <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
+ <script src="{{ site.baseurl }}/theme/js/vendor/modernizr.js"></script>
+ </head>
+ <body id="{{ site.language }}">
+ {% if page.root %}
+   {% if site.posts %}
+   <section class="b-news">
+     <div class="row">
+       <div class="column">
+         <div>
+           <h5 class="e-news-item js-news-wrapper">
+             Read the latest:
+             {% for post in site.posts limit: 3 %}
+               <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+             {% endfor %}
+           </h5>
+         </div>
+       </div>
+     </div>
+   </section>
+   {% endif %}
+ {% endif %}
+ <section class="b-main-menu" role="navigation">
+   <div class="e-main-menu-wrapper">
+     <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
+     <h1 class="b-main-logo">
+       {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" width="172" height="58" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
+     </h1>
+     <div class="b-main-menu-container">
+       <nav class="b-main-menu-list">
+         <ul class="menu clearfix">
+           <li><a class="e-menu-item" href="{{ site.baseurl }}/#what-we-do"><span>What We Do</span></a></li>
+           <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/#products"><span>Products</span></a>
+               <ul class="submenu">
+                 <li><a href="http://www.citizenbudget.com/" target="_blank">Citizen Budget</a></li>
+                 <li><a href="http://represent.opennorth.ca/" target="_blank">Represent API</a></li>
+                 <li><a href="{{ site.baseurl }}/open-cities-strategies.html">Open Cities Strategies</a></li>
+                </ul>
+            </li>
+            <li><a class="e-menu-item" href="{{ site.baseurl }}/#services"><span>Services</span></a></li>
+ -          <li><a class="e-menu-item" href="{{ site.baseurl }}/archive.html"><span>Blog</span></a></li>
+ +          <!--<li><a class="e-menu-item" href="{{ site.baseurl }}/archive.html"><span>Blog</span></a></li>-->
+            <li><a class="e-menu-item" href="{{ site.baseurl }}/#about"><span>About</span></a></li>
+            <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
+          </ul>
+       </nav>
+     </div>
+   </div>
+ </section>
+ 
+ {{ content }}
+ 
+ <footer class="b-footer b-content-section">
+   <div class="row">
+     <div class="column medium-5 e-footer-left-section">
+       <img src="{{ site.baseurl }}/theme/img/open-north-logo-footer-{{ site.language }}.png" width="172" height="58" alt="">
+       <span>5445 avenue de Gaspé, Suite 602</span>
+       <span>Montréal, QC, Canada H2T 3B2</span>
+       <span>1-888-750-4980</span>
+       <span><a href="mailto:info@opennorth.ca">info@opennorth.ca</a></span>
+     </div>
+     <div class="column medium-7 e-footer-right-section">
+       <h4>Follow Us</h4>
+       <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-2x fa-at"></i></a>
+       <a class="b-social-media" href="https://twitter.com/opennorth"><i class="fa fa-2x fa-twitter"></i></a>
+       <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-2x fa-facebook"></i></a>
+       <a class="b-social-media" href="http://www.linkedin.com/groups/Open-Government-Canada-4206358?trk=myg_ugrp_ovr"><i class="fa fa-2x fa-linkedin"></i></a>
+       <a class="b-social-media" href="https://github.com/opennorth/"><i class="fa fa-2x fa-github"></i></a>
+     </div>
+   </div>
+ </footer>
+ 
+ <script>
+ (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+ function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+ e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+ e.src='https://www.google-analytics.com/analytics.js';
+ r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ ga('create','UA-21866813-4','auto');ga('send','pageview');
+ </script>
+ </body>
+ </html>
