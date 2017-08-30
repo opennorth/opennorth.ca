@@ -4,7 +4,7 @@ layout: default
 permalink: /team
 ---
 
-<section class="b-content-section b-people border-bottom" id="about">
+<section class="b-content-section b-people border-bottom gray" id="team">
   <div class="row">
     <div class="column">
       <h2 class="e-section-title">About Us</h2>
@@ -29,4 +29,34 @@ permalink: /team
     </div>
     {% endfor %}
   </div>
+</section>
+
+<section class="b-content-section b-people">
+ <div class="row">
+   <div class="column">
+     <h2 class="e-section-title">Board &amp; Founder</h2>
+   </div>
+
+   {% for person in site.data.board %}
+   <div class="medium-4 small-6 columns{% if forloop.last %} end{% endif %}">
+     <div class="b-card m-team">
+       <div class="e-card-picture" style="background-image: url('theme/img/people/{{ person.name | slugify }}.jpg')">
+         {% if person.linkedin %}
+         <a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a>
+         {% endif %}
+         {% if person.url %}
+         <a class="b-social-media" href="{{ person.url }}"><i class="fa fa-lg fa-link"></i></a>
+         {% endif %}
+       </div>
+       <div class="e-card-content">
+         <h3>{{ person.name }}</h3>
+         {% if person.summary %}
+         <h4>{{ person.summary }}</h4>
+         {% endif %}
+         <h4>{{ person.role }}</h4>
+       </div>
+     </div>
+   </div>
+   {% endfor %}
+ </div>
 </section>
