@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Toronto's Open Data Master Plan"
+title: "Toronto's Open Data Master Plan and Data4Impact Report"
 author: "Alyssa Beaton"
 ---
 
