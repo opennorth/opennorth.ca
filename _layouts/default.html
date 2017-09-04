@@ -59,6 +59,18 @@
       <input type="submit" name="subscribe" class="button postfix" value="Subscribe">
   </form>
 </div>
+<div id="donate">
+  <div class="row">
+    <div class="column medium-6 small-12">
+      <h2>Open North</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lorem turpis, ac vestibulum est interdum et. Ut molestie euismod tellus. Vestibulum semper eget nisl in elementum. Donec ut volutpat dolor. Etiam scelerisque sem lacinia risus molestie imperdiet. Curabitur at orci non enim ullamcorper pretium sit amet eu diam. Fusce vel imperdiet magna.</p>  
+    </div>
+    <div class="column medium-6 small-12">
+      <h2>Represent API</h2>
+      <p>Mauris non varius sem. Ut volutpat pharetra iaculis. Morbi pretium, purus eu blandit ultrices, sapien sem posuere nulla, nec volutpat ante metus ut justo. Nullam lacinia nunc in lorem pretium pulvinar. Nunc fringilla aliquam augue, sit amet pulvinar turpis eleifend id. Sed feugiat, magna ut convallis interdum, lacus velit tincidunt ante, sit amet congue ipsum purus sit amet purus.</p>
+    </div>
+  </div>
+</div>
 
 <section class="b-news">
   <div class="row">
@@ -160,7 +172,7 @@
 
 <script>
   $(function() {
-    $('#subscribe').dialog({
+    $('#subscribe, #donate').dialog({
       autoOpen: false,
       showTitleBar: false,
       showCloseButton: false,
@@ -175,6 +187,11 @@
     $('a[data-target="subscribe"]').on('click', function() {
       console.log($(this).attr('data-target'));
       $('#subscribe').dialog('open');
+    });
+
+    $('a[data-target="donate"]').on('click', function() {
+      console.log($(this).attr('data-target'));
+      $('#donate').dialog('open');
     });
   });
 </script>
