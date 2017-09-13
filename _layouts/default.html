@@ -14,35 +14,39 @@
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500,700' >
 <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="theme/js/vendor/modernizr.js"></script>
+<script src="theme/js/vendor/jquery.scrollTo.min.js"></script>
+<script src="theme/js/vendor/jquery.localScroll.min.js"></script>
+<script src="theme/js/vendor/jquery.event.move.js"></script>
+<script src="theme/js/vendor/jquery.event.swipe.js"></script>
+<script src="theme/js/vendor/unslider.min.js"></script>
+<script src="theme/js/scripts.js"></script>
+<script src="dialogs/jquery.dialogOptions.js"></script>
 <style>
 .b-news a {
   background-color: inherit;
 }
-
 .b-news a i:hover, .engage:hover {
   color: #fff;
 }
-
 .engage {
   font-size: 1rem;
   font-weight: 600;
   padding: 8px;
 }
-
 .b-news .fa, .engage {
   color: rgba(255, 255, 255, 0.7);
 }
-
 .b-news .medium-4 div {
   float: right;
 }
-
 .subscribe-dialog .button {
   text-transform: none;
   color: #c60000;
 }
-
 .subscribe-dialog .button:hover {
   color: #fff;
 }
@@ -59,6 +63,7 @@
       <input type="submit" name="subscribe" class="button postfix" value="Subscribe">
   </form>
 </div>
+<!--
 <div id="donate">
   <div class="row">
     <div class="column medium-6 small-12">
@@ -71,6 +76,7 @@
     </div>
   </div>
 </div>
+-->
 
 <section class="b-news">
   <div class="row">
@@ -88,9 +94,9 @@
     </div>
     <div class="column medium-4">
       <div>
-        <a class="b-social-media" title="Facebook" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-2x fa-facebook"></i></a>
-        <a class="b-social-media" title="Twitter" href="https://twitter.com/opennorth"><i class="fa fa-2x fa-twitter"></i></a>
-        <a class="engage" data-target="donate">Donate</a>
+        <a class="b-social-media" title="Facebook" href="https://www.facebook.com/OpenNorth.NordOuvert" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+        <a class="b-social-media" title="Twitter" href="https://twitter.com/opennorth" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+        <!--<a class="engage" data-target="donate">Donate</a>-->
         <a class="engage" data-target="subscribe">Subscribe</a>
       </div>
     </div>
@@ -114,7 +120,7 @@
           </li>
           <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/our-offer"><span>What We Do</span></a>
             <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/our-offer"><span>Our Offer</span></a></li>
+              <li><a href="{{ site.baseurl }}/offer"><span>Our Offer</span></a></li>
               <li><a href="{{ site.baseurl }}/impact"><span>Impact</span></a></li>
               <li><a href="{{ site.baseurl }}/projects"><span>Projects</span></a></li>
             </ul>
@@ -158,21 +164,10 @@
 
 </body>
 
-<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-<script src="theme/js/vendor/modernizr.js"></script>
-<script src="theme/js/vendor/jquery.scrollTo.min.js"></script>
-<script src="theme/js/vendor/jquery.localScroll.min.js"></script>
-<script src="theme/js/vendor/jquery.event.move.js"></script>
-<script src="theme/js/vendor/jquery.event.swipe.js"></script>
-<script src="theme/js/vendor/unslider.min.js"></script>
-<script src="theme/js/scripts.js"></script>
-<script src="dialogs/jquery.dialogOptions.js"></script>
-
 <script>
   $(function() {
-    $('#subscribe, #donate').dialog({
+    //$('#subscribe, #donate').dialog({
+    $('#subscribe').dialog({
       autoOpen: false,
       showTitleBar: false,
       showCloseButton: false,
@@ -189,10 +184,12 @@
       $('#subscribe').dialog('open');
     });
 
+    /*
     $('a[data-target="donate"]').on('click', function() {
       console.log($(this).attr('data-target'));
       $('#donate').dialog('open');
     });
+    */
   });
 </script>
 
