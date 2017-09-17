@@ -84,10 +84,13 @@
       {% if site.posts %}
       <div>
         <h5 class="e-news-item js-news-wrapper">
+          We are refreshing our website. Some content may change.
+          <!--
           Read the latest:
           {% for post in site.posts limit: 3 %}
             <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           {% endfor %}
+          -->
         </h5>
       </div>
       {% endif %}
@@ -112,17 +115,20 @@
     <div class="b-main-menu-container">
       <nav class="b-main-menu-list">
         <ul class="menu clearfix">
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/mission"><span>About</span></a>
+          <li><a class="e-menu-item" href="{{ site.baseurl }}/about"><span>About</span></a>
+          <!--
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/about"><span>About</span></a>
             <ul class="submenu">
               <li><a href="{{ site.baseurl }}/mission"><span>Mission</span></a></li>
               <li><a href="{{ site.baseurl }}/team"><span>Our Team</span></a></li>
             </ul>
           </li>
+          -->
           <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/offer"><span>What We Do</span></a>
             <ul class="submenu">
               <li><a href="{{ site.baseurl }}/offer"><span>Our Offer</span></a></li>
               <li><a href="{{ site.baseurl }}/impact"><span>Impact</span></a></li>
-              <li><a href="{{ site.baseurl }}/projects"><span>Projects</span></a></li>
+              <li><a href="{{ site.baseurl }}/projects"><span>Current Projects</span></a></li>
             </ul>
           </li>
           <li><a class="e-menu-item" href="http://www.citizenbudget.com/" target="_blank"><span>Citizen Budget</span></a></li>
