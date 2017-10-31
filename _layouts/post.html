@@ -22,5 +22,35 @@ layout: default
 </section>
 
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 <script src="{{ site.baseurl }}/theme/js/scripts.js"></script>
+<script src="/dialogs/jquery.dialogOptions.js"></script>
+<script>
+  $(function() {
+    //$('#subscribe, #donate').dialog({
+    $('#subscribe').dialog({
+      autoOpen: false,
+      showTitleBar: false,
+      showCloseButton: false,
+      responsive: true,
+      height: 'auto',
+      width: 'auto',
+      modal: true,
+      resizable: false,
+      dialogClass: 'subscribe-dialog'
+    });
+ 
+    $('a[data-target="subscribe"]').on('click', function() {
+      console.log($(this).attr('data-target'));
+      $('#subscribe').dialog('open');
+    });
+
+    /*
+    $('a[data-target="donate"]').on('click', function() {
+      console.log($(this).attr('data-target'));
+      $('#donate').dialog('open');
+    });
+    */
+  });
+</script>

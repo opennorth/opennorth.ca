@@ -25,6 +25,34 @@
 <script src="theme/js/vendor/unslider.min.js"></script>
 <script src="theme/js/scripts.js"></script>
 <script src="dialogs/jquery.dialogOptions.js"></script>
+<script>
+  $(function() {
+    //$('#subscribe, #donate').dialog({
+    $('#subscribe').dialog({
+      autoOpen: false,
+      showTitleBar: false,
+      showCloseButton: false,
+      responsive: true,
+      height: 'auto',
+      width: 'auto',
+      modal: true,
+      resizable: false,
+      dialogClass: 'subscribe-dialog'
+    });
+ 
+    $('a[data-target="subscribe"]').on('click', function() {
+      console.log($(this).attr('data-target'));
+      $('#subscribe').dialog('open');
+    });
+
+    /*
+    $('a[data-target="donate"]').on('click', function() {
+      console.log($(this).attr('data-target'));
+      $('#donate').dialog('open');
+    });
+    */
+  });
+</script>
 <style>
 .b-news a {
   background-color: inherit;
@@ -170,34 +198,6 @@
 
 </body>
 
-<script>
-  $(function() {
-    //$('#subscribe, #donate').dialog({
-    $('#subscribe').dialog({
-      autoOpen: false,
-      showTitleBar: false,
-      showCloseButton: false,
-      responsive: true,
-      height: 'auto',
-      width: 'auto',
-      modal: true,
-      resizable: false,
-      dialogClass: 'subscribe-dialog'
-    });
- 
-    $('a[data-target="subscribe"]').on('click', function() {
-      console.log($(this).attr('data-target'));
-      $('#subscribe').dialog('open');
-    });
-
-    /*
-    $('a[data-target="donate"]').on('click', function() {
-      console.log($(this).attr('data-target'));
-      $('#donate').dialog('open');
-    });
-    */
-  });
-</script>
 
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
