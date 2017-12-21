@@ -7,9 +7,9 @@ author: OpenNorth team
 
 ## OpenNorth 2017 Year in Review!
 
-Since 2011, OpenNorth’s mission has been to create open and accountable government. Over the last year, we have shifted our base of impact from the civic tech industry (where we built websites and tools), to operate as an open data social enterprise at different scales, connecting the global open data movement with national and local situations, with a primary focus on cities and applied research. 
+Since 2011, OpenNorth’s mission has been to create open and accountable government. Over the last year, we have shifted our base of impact from the civic tech industry (where we built websites and tools), to operate as an open data social enterprise at different scales, connecting the global open data movement with national and local situations, with a primary focus on **cities** and **applied research**. 
 
-Our core products, CitizenBudget and Represent API, remained important and thriving tools to creating better engaged and educated citizens, influencing policy debates and decisions, and incentivizing cities to standardize and make open fiscal data, but now they fit in as pieces of a much larger puzzle. CitizenBudget has now been deployed by more than 90 cities across North America. Read our CitizenBudget Year End Review. 
+Our core products, [CitizenBudget](http://www.citizenbudget.com/) and [Represent API](https://represent.opennorth.ca/), remained important and thriving tools to creating better engaged and educated citizens, influencing policy debates and decisions, and incentivizing cities to standardize and make open fiscal data, but now they fit in as pieces of a much larger puzzle. CitizenBudget has now been deployed by more than 90 cities across North America. **[Read our CitizenBudget Year End Review](http://www.opennorth.ca/2017/12/19/leading-the-way-budget-engagement-2017.html)**. 
 
 Learn more about our work in France, and our partners CIVITEO and La Fing.
 
