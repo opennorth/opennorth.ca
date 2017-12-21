@@ -11,7 +11,7 @@ Since 2011, OpenNorth’s mission has been to create open and accountable govern
 
 Our core products, [CitizenBudget](http://www.citizenbudget.com/) and [Represent API](https://represent.opennorth.ca/), remained important and thriving tools to creating better engaged and educated citizens, influencing policy debates and decisions, and incentivizing cities to standardize and make open fiscal data, but now they fit in as pieces of a much larger puzzle. CitizenBudget has now been deployed by more than 90 cities across North America. **[Read our CitizenBudget Year End Review](http://www.opennorth.ca/2017/12/19/leading-the-way-budget-engagement-2017.html)**. 
 
-Learn more about our work in France, and our partners CIVITEO and La Fing.
+**[Learn more about our work in France](http://www.nordouvert.ca/2017/12/19/budget-citoyen-en-france.html), and our partners [CIVITEO](http://civiteo.fr/) and [La Fing](http://fing.org/?lang=fr).**
 
 Building strong and fruitful partnerships and collaborating with governments at all levels, research, civic and advocacy networks has always been at the core of our activities and approach. More than ever, we have had the opportunity to work closely with some of Canada’s top innovative cities to engage, connect, and scale the open data community. We’re especially proud of the impact that we’ve had in: 
 
