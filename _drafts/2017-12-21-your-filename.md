@@ -15,19 +15,21 @@ Our core products, [CitizenBudget](http://www.citizenbudget.com/) and [Represent
 
 Building strong and fruitful partnerships and collaborating with governments at all levels, research, civic and advocacy networks has always been at the core of our activities and approach. More than ever, we have had the opportunity to work closely with some of Canada’s top innovative cities to engage, connect, and scale the open data community. We’re especially proud of the impact that we’ve had in: 
 
-Documenting open data standards best practices
-Leading the development of city open data strategic plans and operational roadmaps
-Prototyping civic problem framing engagement approaches
-Establishing consultation mechanisms with government stakeholders
-Coordinating a global review of the state of open data 
-Facilitating multi-stakeholder data governance models 
-Applying our research on open smart cities to shape policy and programing 
+- Documenting open data standards best practices
+- Leading the development of city open data strategic plans and operational roadmaps
+- Prototyping civic problem framing engagement approaches
+- Establishing consultation mechanisms with government stakeholders
+- Coordinating a global review of the state of open data 
+- Facilitating multi-stakeholder data governance models 
+- Applying our research on open smart cities to shape policy and programing
 
-And with that, we’re presenting our 2017 year in review. 
 
-Open Smart Cities is a timely project funded by the Government of Canada, enabling OpenNorth and its team of researchers to document and critically assess how cities in Canada and around the world envision, define and implement a “Smart City” in accordance with openness principles. Want to know more?
-Webinar 1 (video) assesses smart city practices in the Canadian cities of Edmonton, Ottawa, Guelph, and Montreal. Download the slides here 
-Webinar 2 (video) situates the term “Open Smart City” among closely related concepts and digital practices and provides reflections on guiding principles for open smart cities informed by the international case studies of New York, Chicago, Dublin, and Helsinki. Download the slides here
+### And with that, we’re presenting our 2017 year in review.
+
+**Open Smart Cities** is a timely project funded by the Government of Canada, enabling OpenNorth and its team of researchers to document and critically assess how cities in Canada and around the world envision, define and implement a “Smart City” in accordance with openness principles. **Want to know more?**
+- [Webinar 1 (video)](https://gts-ee.webex.com/ec3100/eventcenter/recording/recordAction.do?theAction=poprecord&siteurl=gts-ee&entappname=url3100&internalRecordTicket=4832534b00000004fb51bcdacec732008c933b37c2cad871a02dcae91abb9ea80b957e20aaa23ab6&renewticket=0&isurlact=true&format=short&rnd=8673760422&RCID=72ee3738d6cc4fb1ab87c1f4944be50d&rID=901086&needFilter=false&recordID=901086&apiname=lsr.php&AT=pb&actappname=ec3100&&SP=EC&entactname=%2FnbrRecordingURL.do&actname=%2Feventcenter%2Fframe%2Fg.do) assesses smart city practices in the Canadian cities of Edmonton, Ottawa, Guelph, and Montreal. [Download the slides here](https://drive.google.com/file/d/0B739vUevKlPgX1ZTSjJZMjZabDg/view) 
+- [Webinar 2 (video)](https://vimeo.com/247378746) situates the term “Open Smart City” among closely related concepts and digital practices and provides reflections on guiding principles for open smart cities informed by the international case studies of New York, Chicago, Dublin, and Helsinki. [Download the slides here](https://drive.google.com/file/d/1PI8Vid_V-XeBJWujUaxZxUP6Gf4b2jXj/view)
+
 Read our article The Challenges to Inclusive, Open, and Smart Cities: Speed, Opacity, and Outsourcing written in the context of Canada’s Smart Cities Challenge and engagement and transparency challenges related to public-private city building situations like SideWalkLabs in Toronto. 
 Do-It-Yourself (DIY) Open Data Toolkit. In collaboration with the Treasury Board of Canada Secretariat, and 13 of Canada’s top open data cities (small, mid, and large), we developed a comprehensive DIY open data toolkit for municipalities initiating an open data program and engaging local stakeholders. Explore the Municipal Open Data Toolkit here, hosted by the Government of Canada.
 Canada and the Open Government Partnership. In Policy Options, we posited if Open Government Was Canada’s New Soft Power?. We outlined recommendations in Canada in the World: Towards Canadian Led Open Government, a report based on interviews with Canadian open gov experts working internationally about how Canada could lead by example as co-chairs of the Open Government Partnership 2018-2019. Read the full report. With consultation on Canada’s 4th plan on open government underway we’re excited to have been selected as civil society members of the Canadian Multi-Stakeholder Forum. 
