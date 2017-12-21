@@ -62,6 +62,3 @@ Finally, for those of you wishing for a more soothing standards experience, chec
 </audio>
   
 We would like to thank the Open Data Institute for their support, feedback, and facilitation of the project.
-
-
-
