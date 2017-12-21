@@ -57,7 +57,7 @@ We also attended a gathering of our fellow project members at a workshop in Lond
 Finally, for those of you wishing for a more soothing standards experience, check out our podcast! We recorded a short summary of findings for your listening pleasure.
 
 <audio controls>
-  <source src="https://drive.google.com/file/d/1l0Bw4pJ4TBhJf8TJ2qmJAQpGn8auFFk6" type="audio/mpeg">
+  <source src="https://drive.google.com/file/d/1l0Bw4pJ4TBhJf8TJ2qmJAQpGn8auFFk6/view" type="audio/mpeg">
   TEST
 </audio>
   
