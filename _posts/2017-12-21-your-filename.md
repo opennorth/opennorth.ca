@@ -6,11 +6,11 @@ author: OpenNorth team
 ---
 ## OpenNorth 2017 Year in Review!
 ​
-Since 2011, OpenNorth’s mission has been to create open and accountable government. Over the last year, we have shifted our base of impact from the civic tech industry (where we built websites and tools), to operate as an open data social enterprise at different scales, connecting the global open data movement with national and local situations, with a primary focus on **cities** and **applied research**. 
+Since 2011, OpenNorth’s mission has been to create open and accountable government. Over the last year, we have shifted our base of impact from the civic tech industry (where we built websites and tools), to operate as an open data social enterprise at different scales, connecting the global open data movement with national and local situations, with a primary focus on **cities** and **applied research**.<br>
 ​
-Our core products, [CitizenBudget](http://www.citizenbudget.com/) and [Represent API](https://represent.opennorth.ca/), remained important and thriving tools to creating better engaged and educated citizens, influencing policy debates and decisions, and incentivizing cities to standardize and make open fiscal data, but now they fit in as pieces of a much larger puzzle. CitizenBudget has now been deployed by more than 90 cities across North America. **[Read our CitizenBudget Year End Review](http://www.opennorth.ca/2017/12/19/leading-the-way-budget-engagement-2017.html)**. 
+Our core products, [CitizenBudget](http://www.citizenbudget.com/) and [Represent API](https://represent.opennorth.ca/), remained important and thriving tools to creating better engaged and educated citizens, influencing policy debates and decisions, and incentivizing cities to standardize and make open fiscal data, but now they fit in as pieces of a much larger puzzle. CitizenBudget has now been deployed by more than 90 cities across North America. **[Read our CitizenBudget Year End Review](http://www.opennorth.ca/2017/12/19/leading-the-way-budget-engagement-2017.html)**.<br>
 ​
-**[Learn more about our work in France](http://www.nordouvert.ca/2017/12/19/budget-citoyen-en-france.html), and our partners [CIVITEO](http://civiteo.fr/) and [La Fing](http://fing.org/?lang=fr).**
+**[Learn more about our work in France](http://www.nordouvert.ca/2017/12/19/budget-citoyen-en-france.html), and our partners [CIVITEO](http://civiteo.fr/) and [La Fing](http://fing.org/?lang=fr).**<br>
 ​
 Building strong and fruitful partnerships and collaborating with governments at all levels, research, civic and advocacy networks has always been at the core of our activities and approach. More than ever, we have had the opportunity to work closely with some of Canada’s top innovative cities to engage, connect, and scale the open data community. We’re especially proud of the impact that we’ve had in: 
 ​
@@ -20,10 +20,10 @@ Building strong and fruitful partnerships and collaborating with governments at 
 - Establishing consultation mechanisms with government stakeholders
 - Coordinating a global review of the state of open data 
 - Facilitating multi-stakeholder data governance models 
-- Applying our research on open smart cities to shape policy and programing
+- Applying our research on open smart cities to shape policy and programing<br>
 ​
 ​
-### And with that, we’re presenting our 2017 year in review.
+### And with that, we’re presenting our 2017 year in review.<br>
 ​
 ​
 **Open Smart Cities** is a timely project funded by the Government of Canada, enabling OpenNorth and its team of researchers to document and critically assess how cities in Canada and around the world envision, define and implement a “Smart City” in accordance with openness principles. **Want to know more?**
