@@ -7,11 +7,12 @@ author: OpenNorth
 We are pleased to announce the report for a standards documentation project under the Open Data Institute (UK). The ODI recently launched their new R&D programme to advance data innovation, framed under [six themes](https://theodi.org/news/odi-secures-6m-to-advance-data-innovation). This project fell under the standards theme, with the aim to research the process of developing open standards for data and document best practices. We were selected as one Canadian organization among a group of organizations, including [W3C](https://www.w3.org/), [Porism](https://porism.com/), [Open Data Services Coop](http://opendataservices.coop/), to undertake documentation of our respective experiences in creating or maintaining data standards.
 
 OpenNorth documented three standards for this project: 
-- Open511 www.open511.org
+
+- **Open511 [www.open511.org](www.open511.org)**
 A data standard for real-time road event data such as various types of roadworks, road closures, and cultural events. Implemented via API as JSON or XML. Designed as a lighter format for government-to-government and government-to-citizen communication of road closures. For more information, see the documentation website, and see Province of British Columbia’s DriveBC dataset for a live implementation.
-- Popolo www.popoloproject.com
+- **Popolo [www.popoloproject.com](www.popoloproject.com)**
 A data standard for legislative data such as elected representatives, debates, motions, votes, and speeches. Designed to facilitate interoperability between app developers in civil society and civic tech community. Adopted by civil society around the world, particularly for parliamentary monitoring. For more information, see the documentation website. 
-- Represent [represent.opennorth.ca](represent.opennorth.ca)
+- **Represent [[represent.opennorth.ca](represent.opennorth.ca)]**
 A data standard for basic elected representative information, such as name, political party, address, and other contact details. Implemented as a CSV, and separate from Popolo. It was designed to standardise the data collected through OpenNorth’s Represent API, which collects and makes searchable every elected representative in Canada, at all levels of government. For more information.
 
 
