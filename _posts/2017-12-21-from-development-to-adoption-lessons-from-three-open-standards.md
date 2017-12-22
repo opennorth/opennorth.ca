@@ -57,7 +57,7 @@ We also attended a gathering of our fellow project members at a workshop in Lond
 Finally, for those of you wishing for a more soothing standards experience, check out our podcast! We recorded a short summary of findings for your listening pleasure.
 
 <audio controls>
-  <source src="https://drive.google.com/file/d/1l0Bw4pJ4TBhJf8TJ2qmJAQpGn8auFFk6/view" type="audio/mpeg">
+  <source src="https://s3.amazonaws.com/public.citizenbudget.com/uploads/custom/opennorth/OpenNorth%20podcast.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJABF7KBECQWYTWZA%2F20171222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171222T144330Z&X-Amz-Expires=3600&X-Amz-Security-Token=FQoDYXdzEBgaDIkw3o6V8n%2BDzYn7PyKrAdbBItCa2dTE7%2FPDMiDEb9lfxrgfTPqzsXrMKrtvMrkO1IyA4zKaebZ%2BA6VWMekP8CDvt5Wce1f6IvOQ5rURTyIES36hbLjrchtsAuMSbpd6uOSgkxq1x7SfbiV%2FBnZfEN4RaeYC4vKc8QpHWI%2B932AGqoBmLF7C2ewFLRuNiiSmD81%2Fd8aOs1eLsCwuqzR1xBuLKBcy%2Bik21TshfGSTnIHaoAFXepq8aFdJSiipsfTRBQ%3D%3D&X-Amz-Signature=6d5440df21f7db70bff1f25dc366034b587f492e6d5d1f6278bd0a417fb5f8a4&X-Amz-SignedHeaders=host" type="audio/mpeg">
   TEST
 </audio>
   
