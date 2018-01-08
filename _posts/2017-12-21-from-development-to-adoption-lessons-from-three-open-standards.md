@@ -24,7 +24,7 @@ One idea that arose from the interviews and documentation was a potential positi
 
 One idea that arose from the interviews and documentation was a potential positive feedback loop of standards adoption.
 
-<img src="https://s3.amazonaws.com/public.citizenbudget.com/uploads/custom/opennorth/Standards%20Adoption%20Graph.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJRZXBNWF7ROX7MCA%2F20171222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171222T161029Z&X-Amz-Expires=3600&X-Amz-Security-Token=FQoDYXdzEBkaDB0t9t9TknQqOOSXpSKrASNaF1qZbL6iiHGX%2BxjJpqwkIyJ%2BeVZHn3AfbujRaaGWJvZtTnvVEV6pmRfwHiW5dRtoLzRIusegOUDGM9R5nGPrToBgjKh7f6ILMCsqf%2FhKJj%2FF6XPv%2BcIG5Vr8mKMlfAsRRRXqYbUWisVDUupyyfVzVS4uBxxclnGqaZzwsQAAjLkQSr%2BxO6k3J2KdQog55T8Ulf9A%2B1LsB%2B1FJeTm%2F9vRJlEINmWCmSLssSih3PTRBQ%3D%3D&X-Amz-Signature=aaa3b8347314d9d7a0b834b74b4e46e3482e11b3ac0969de9162e815697fa5fe&X-Amz-SignedHeaders=host">
+<img src="https://s3.amazonaws.com/public.citizenbudget.com/uploads/custom/opennorth/Standards%20Adoption%20Graph.png">
 
 This is best exemplified in Represent. Represent API is OpenNorth’s free, publicly available, open source service that was developed to solve one specific problem: the fragmentation of information on elected representatives across Canada. In Canada, we have multiple levels of political jurisdiction (and therefore political representatives), to contend with. This includes the House of Commons, Provincial level legislative bodies (such as the Quebec National Assembly), and city councils. Since, lists of representatives at each of these levels is neither centralised nor standardised, with each legislative body maintaining a list on its own website, simply finding out who the political representatives are for a given geographic location is difficult. Represent API was created to collect all of this information and enable the public to search for their own elected representatives based on location.
 
@@ -58,7 +58,7 @@ We also attended a gathering of our fellow project members at a workshop in Lond
 Finally, for those of you wishing for a more soothing standards experience, check out our podcast! We recorded a short summary of findings for your listening pleasure.
 
 <audio controls>
-  <source src="https://s3.amazonaws.com/public.citizenbudget.com/uploads/custom/opennorth/OpenNorth%20podcast.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJRZXBNWF7ROX7MCA%2F20171222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171222T160936Z&X-Amz-Expires=3600&X-Amz-Security-Token=FQoDYXdzEBkaDB0t9t9TknQqOOSXpSKrASNaF1qZbL6iiHGX%2BxjJpqwkIyJ%2BeVZHn3AfbujRaaGWJvZtTnvVEV6pmRfwHiW5dRtoLzRIusegOUDGM9R5nGPrToBgjKh7f6ILMCsqf%2FhKJj%2FF6XPv%2BcIG5Vr8mKMlfAsRRRXqYbUWisVDUupyyfVzVS4uBxxclnGqaZzwsQAAjLkQSr%2BxO6k3J2KdQog55T8Ulf9A%2B1LsB%2B1FJeTm%2F9vRJlEINmWCmSLssSih3PTRBQ%3D%3D&X-Amz-Signature=578856fc02e3a20151d89044338f4beb0e586af70ce2ca9f99d116e8fa2d73d9&X-Amz-SignedHeaders=host" type="audio/mpeg">
+  <source src="https://s3.amazonaws.com/public.citizenbudget.com/uploads/custom/opennorth/OpenNorth%20podcast.mp3" type="audio/mpeg">
   TEST
 </audio>
   
