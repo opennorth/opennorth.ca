@@ -78,12 +78,47 @@
 .subscribe-dialog .button:hover {
   color: #fff;
 }
+section {
+  max-width: 1025px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.e-section-title {
+  margin-top: 20px;
+}
+.b-main-menu {
+  border-bottom: solid #e0e0e0 2px;
+  padding-bottom: 5px;
+}
+.col-header {
+  padding: 0;
+}
+.col-header img {
+  max-height: inherit;
+}
+strong {
+  font-weight: 500;
+}
+.email a {
+  padding: 0.5em 1em;
+  background-color: rgba(150, 0, 0, 0.7);
+  color: #ffffff;
+  font-weight: 400;
+}
+.email a:hover {
+  background-color: rgba(150, 0, 0, 0.5);
+  color: #ffffff;
+}
+ul strong {
+  font-weight: bold;
+}
+
 </style>
 
 </head>
 <body id="{{ site.language }}">
 
-<!-- Dialogs -->
+<!-- Dialog Box -->
 <div id="subscribe">
   <form action="http://opennorth.us2.list-manage.com/subscribe/post?u=a602fac79ef3dc584bf1a2743&id=1e0c02fa29" method="post" target="_blank" class="form-inline">
     <h3 class="e-call-to-action-title">Subscribe to our newsletter</h3>
@@ -91,80 +126,31 @@
       <input type="submit" name="subscribe" class="button postfix" value="Subscribe">
   </form>
 </div>
-<!--
-<div id="donate">
-  <div class="row">
-    <div class="column medium-6 small-12">
-      <h2>Open North</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lorem turpis, ac vestibulum est interdum et. Ut molestie euismod tellus. Vestibulum semper eget nisl in elementum. Donec ut volutpat dolor. Etiam scelerisque sem lacinia risus molestie imperdiet. Curabitur at orci non enim ullamcorper pretium sit amet eu diam. Fusce vel imperdiet magna.</p>  
-    </div>
-    <div class="column medium-6 small-12">
-      <h2>Represent API</h2>
-      <p>Mauris non varius sem. Ut volutpat pharetra iaculis. Morbi pretium, purus eu blandit ultrices, sapien sem posuere nulla, nec volutpat ante metus ut justo. Nullam lacinia nunc in lorem pretium pulvinar. Nunc fringilla aliquam augue, sit amet pulvinar turpis eleifend id. Sed feugiat, magna ut convallis interdum, lacus velit tincidunt ante, sit amet congue ipsum purus sit amet purus.</p>
-    </div>
-  </div>
-</div>
--->
-
-<section class="b-news">
-  <div class="row">
-    <div class="column medium-8">
-      {% if site.posts %}
-      <div>
-        <h5 class="e-news-item js-news-wrapper">
-          <a class="js-news" href="/2017/10/31/introducing-the-state-of-open-data.html">Find out about our new Global State of Open Data project</a>
-          <!--
-          Read the latest:
-          {% for post in site.posts limit: 3 %}
-            <a class="js-news" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          {% endfor %}
-          -->
-        </h5>
-      </div>
-      {% endif %}
-    </div>
-    <div class="column medium-4">
-      <div>
-        <a class="b-social-media" title="Facebook" href="https://www.facebook.com/OpenNorth.NordOuvert" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
-        <a class="b-social-media" title="Twitter" href="https://twitter.com/opennorth" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
-        <!--<a class="engage" data-target="donate">Donate</a>-->
-        <a class="engage" data-target="subscribe">Subscribe</a>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="b-main-menu" role="navigation">
   <div class="e-main-menu-wrapper">
     <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
     <h1 class="b-main-logo">
-      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" width="172" height="58" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
+      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
     </h1>
     <div class="b-main-menu-container">
       <nav class="b-main-menu-list">
         <ul class="menu clearfix">
           <li><a class="e-menu-item" href="{{ site.baseurl }}/about"><span>About</span></a>
-          <!--
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/about"><span>About</span></a>
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/what-we-do"><span>What We Do</span></a>
             <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/mission"><span>Mission</span></a></li>
-              <li><a href="{{ site.baseurl }}/team"><span>Our Team</span></a></li>
-            </ul>
-          </li>
-          -->
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/offer"><span>What We Do</span></a>
-            <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/offer"><span>Our Offer</span></a></li>
+              <li><a href="{{ site.baseurl }}/our-offer"><span>Our Offer</span></a></li>
               <li><a href="{{ site.baseurl }}/impact"><span>Impact</span></a></li>
               <li><a href="{{ site.baseurl }}/projects"><span>Current Projects</span></a></li>
             </ul>
           </li>
           <li><a class="e-menu-item" href="http://www.citizenbudget.com/" target="_blank"><span>Citizen Budget</span></a></li>
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/archive"><span>News &amp; Publications</span></a>
+          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/archive"><span>Blog &amp; Publications</span></a>
             <ul class="submenu">
               <li><a href="{{ site.baseurl }}/archive"><span>Blog</span></a></li>
-              <li><a href="{{ site.baseurl }}/reports"><span>Reports</span></a></li>
+              <li><a href="{{ site.baseurl }}/publications"><span>Publications</span></a></li>
               <li><a href="{{ site.baseurl }}/resources"><span>Resources</span></a></li>
+              <li><a data-target="subscribe"><span>Subscribe to our Newsletter</span></a></li>
             </ul>
           </li>
           <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
@@ -188,10 +174,10 @@
     <div class="column medium-7 e-footer-right-section">
       <h4>Follow Us</h4>
       <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-2x fa-at"></i></a>
-      <a class="b-social-media" href="https://twitter.com/opennorth"><i class="fa fa-2x fa-twitter"></i></a>
-      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert"><i class="fa fa-2x fa-facebook"></i></a>
-      <a class="b-social-media" href="http://www.linkedin.com/groups/Open-Government-Canada-4206358?trk=myg_ugrp_ovr"><i class="fa fa-2x fa-linkedin"></i></a>
-      <a class="b-social-media" href="https://github.com/opennorth/"><i class="fa fa-2x fa-github"></i></a>
+      <a class="b-social-media" href="https://twitter.com/opennorth" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+      <a class="b-social-media" href="https://www.linkedin.com/company/open-north/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a class="b-social-media" href="https://github.com/opennorth/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
     </div>
   </div>
 </footer>

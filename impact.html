@@ -23,10 +23,11 @@ permalink: /impact
 }
 </style>
 
-<section class="b-content-section gray" id="impact">
+<section class="b-content-section" id="impact">
 	<div class="row full-width">
-		<div class="column medium-2" id="impact-menu">
+		<div class="column medium-3" id="impact-menu">
 			<ul>
+				<li><a class="impact" href="#" data-target="toronto-master-plan">Toronto Open Data Master Plan</a></li>
 				<li><a class="impact" href="#" data-target="open-data-charter">Open Data Charter</a></li>
 				<li><a class="impact" href="#" data-target="represent-api">Represent API</a></li>
 				<li><a class="impact" href="#" data-target="open-511">Open 511</a></li>
@@ -36,7 +37,11 @@ permalink: /impact
 				<li><a class="impact" href="#" data-target="citizen-budget">Citizen Budget</a></li>
 			</ul>
 		</div>
-		<div class="column medium-10">
+		<div class="column medium-9">
+			<div class="impact" id="toronto-master-plan">
+				<h2>Toronto Open Data Master Plan</h2>
+				<p>OpenNorth worked with the City of Toronto’s open data team to design and coordinate an internal and external multi-stakeholder engagement process culminating in the <a href="https://www.toronto.ca/legdocs/mmis/2018/ex/bgrd/backgroundfile-110740.pdf" target="_blank">City’s Open Data Master Plan</a> and implementation roadmap. OpenNorth developed a <strong>thematic, focused cluster engagement model</strong> on <a href="https://drive.google.com/file/d/0B739vUevKlPgYjJweC1NMElDaVk/view" target="_blank">city resilience</a> and <strong>smart city</strong> issues to identify the value added of open data with targeted stakeholders. The City’s Master Plan and Roadmap are based on best practices from leading international examples and open data maturity models based on the Open Data Charter.</p>	
+			</div>
 			<div class="impact" id="open-data-charter">
 				<h2>Steward of the International Open Data Charter</h2>
 				<p>The Open Data Charter is a collaboration between governments and experts working to open up data. It was founded in 2015 around six principles for how governments should be publishing information. More than 70 governments and organisations have joined the movement. OpenNorth’s study of how government open data policies and programs could align with the open data policies of cities and provinces in Canada helped document the potential for adoption of the Charter in Canada (see <a href="http://public.citizenbudget.com/uploads/custom/on.ca/ODCinCanada.pdf" target="_blank">report</a>). As Steward of the Open Data Charter, OpenNorth then supported the City of Edmonton in becoming the first city in Canada to adopt the Charter. Building on its participation in the international Charter Implementation Working Group, OpenNorth is advising the Province of Ontario in implementing the Charter as part of a multi-stakeholder working group and integrated the 6 Charter principles in the development of the City of Toronto’s open data master plan and roadmap and stakeholder engagement process.</p>
@@ -72,8 +77,9 @@ permalink: /impact
 
 <script type="text/javascript">
 $(function() {
+	// To do: make first link :active on page load
 	$('div.impact').each(function () {
-		if ($(this).attr('id') !== 'open-data-charter') {
+		if ($(this).attr('id') !== 'toronto-master-plan') {
 			$(this).css('display', 'none');
 		}
 	});

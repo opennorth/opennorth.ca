@@ -8,33 +8,82 @@ redirect_from:
 - /work/
 ---
 
+<style>
+.b-slider-item {
+  background-color: transparent;
+  background-image: none;
+}
+.b-slider-item img {
+  width: 100%;
+}
+
+.b-mission {
+  padding: 0;
+}
+#slogan {
+  background-color: rgba(150, 0, 0, 0.7);
+  margin-bottom: 1.5em;
+}
+#slogan h1 {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+#mission p:not(#email) {
+  font-size: 1.4em;
+}
+.b-content-section {
+  padding-bottom: 20px;
+}
+</style>
+
 <section class="b-content-section b-landing">
-  <div class="b-backgrounds">
-    <div class="e-bg m-img1 m-visible">
-      <img src="{{ site.baseurl }}/theme/img/map.jpg">
-    </div>
-  </div>
+  <div class="b-slider">
+    <ul>
+      <li class="b-slider-item" id="diy">
+        <div class="display-table">
+          <div class="medium-12 columns display-cell">
+            <a href="https://open.canada.ca/en/do-it-yourself-open-data-toolkit" target="_blank">
+              <img class="screenshot" src="theme/img/diy.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </li>
 
-  <div class="row-wrap">
-    <div class="row display-table">
-      <div class="column display-cell small-7 medium-6 large-5 landing-left-column">
-        <h1>
-          For better,<br>
-          more open<br>
-          democracy
-        </h1>
-      </div>
-      <div class="column display-cell small-5 medium-6 large-7 landing-right-column">
+      <li class="b-slider-item" id="latest-blog">
+        <div class="display-table">
+          <div class="medium-12 columns display-cell">
+            <a href="http://www.opennorth.ca/2017/11/27/challenges-to-inclusive-open-and-smart-cities.html" target="_blank">
+              <img class="screenshot" src="theme/img/latest-blog.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </li>
 
-      </div>
-    </div>
+      <li class="b-slider-item" id="odi-report">
+        <div class="display-table">
+          <div class="medium-12 columns display-cell">
+            <a href="https://drive.google.com/file/d/1MnuQKJ3N_V7y4ZCJi8uPfNJWY1iGuGYD/view" target="_blank">
+             <img class="screenshot" src="theme/img/odi-report.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>
 
-<section class="b-mission gray" id="mission">
+<section class="b-content-section">
+  <div class="row" id="slogan">
+    <div class="column medium-12">
+      <h1 class="text-center">For Better, More Open Democracy</h1>
+    </div>
+  </div>
   <div class="row">
-    <div class="column">
-      <p class="text-center">As Canada’s leading open data nonprofit and steward of the <a href="http://opendatacharter.net/" title="International Open Data Charter" target="_blank">International Open Data Charter</a>, Open North is an active member of a global community working in favour of systems change, improving government transparency and accountability, and increasing public participation in democracy.</p>
+    <div class="column medium-12" id="mission">
+      <p class="text-center">We are an active member of a global community working in favour of <strong>inclusive and innovative ecosystems</strong>, improving <strong>government transparency and accountability</strong>, and increasing <strong>public participation</strong> in democracy towards enhanced citizen and <strong>community well-being</strong>.</p>
+      <p class="text-center">Guided by our core values and strong track record in applied research, we enhance data standards, by cultivating multi-stakeholder partnerships and improving democracy.</p>
+      <p class="text-center">We use open data to promote government transparency and accountability while boosting the effectiveness of community social movements and initiatives.</p>
+      <p class="text-center email"><a href="mailto:info@opennorth.ca">Work With Us</a></p>
     </div>
   </div>
 </section>
@@ -42,33 +91,36 @@ redirect_from:
 <section class="b-content-section b-logos border-bottom">
   <div class="row">
     <div class="column">
-      <h2 class="e-section-title big">Our Funders</h2>
+      <h2 class="e-section-title big">Who We Work With</h2>
     </div>
   </div>
   <div class="row">
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/canada.png" alt="Government of Canada"></div>
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/quebec.png" alt="Government of Quebec"></div>
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/idrc.png" alt="International Development Research Centre"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/mcconnell.png" alt="J.W. McConnell Foundation"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/idrc.png" alt="IDRC"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/canada.png" alt="Canada"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/odi.png" alt="ODI"></div>
+  </div>
+  <div class="row">
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/quebec.png" alt="Quebec"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/pme-mtl.jpg" alt="PME-MTL"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/google.png" alt="Google"></div>
     <div class="large-3 medium-6 columns"><img src="theme/img/funders/usaid.png" alt="USAID"></div>
   </div>
   <div class="row">
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/mcconnell.png" alt="The J.W. McConnell Family Foundation"></div>
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/cira.png" alt="Canadian Internet Registration Authority"></div>
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/pme-mtl-100px.jpg" alt="PME-MTL"></div>
-    <div class="large-3 medium-6 columns"><img src="theme/img/funders/google.png" alt="Google"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/toronto.png" alt="City of Toronto"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/edmonton.png" alt="City of Edmonton"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/montreal.png" alt="City of Montreal"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/qds-en.png" alt="Quartier des Spectacles"></div>
   </div>
-</section>
-
-{% comment %}
-<section class="b-content-section m-dark-panel b-call-to-action">
   <div class="row">
-    <div class="large-12 column">
-      <h3 class="e-call-to-action-title">Heading</h3>
-    </div>
-    <div class="large-6 large-centered column">
-      <a class="button large expand" href="mailto:info@opennorth.ca">Contact us</a>
-    </div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/ndi.jpg" alt="NDI"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/www-foundation.png" alt="World Wide Web Foundation"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/geothink.png" alt="Geothink"></div>
+    <div class="large-3 medium-6 columns"><img src="theme/img/funders/cippic.png" alt="CIPPIC"></div>
   </div>
+
+<!-- Clean this up -->
+  <p class="text-center email"><a data-target="subscribe">Subscribe to our Newsletter</a></p>
+
 </section>
-{% endcomment %}
 
