@@ -16,7 +16,7 @@ layout: default
         {{ content }}
       </article>
 
-      <p><a href="{{ site.baseurl }}/archive.html" rel="up">Read the archives</a></p>
+      <p><a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a></p>
     </div>
   </div>
 </section>
@@ -28,8 +28,7 @@ layout: default
 <script src="/dialogs/jquery.dialogOptions.js"></script>
 <script>
   $(function() {
-    //$('#subscribe, #donate').dialog({
-    $('#subscribe').dialog({
+    /*$('#subscribe').dialog({
       autoOpen: false,
       showTitleBar: false,
       showCloseButton: false,
@@ -46,11 +45,6 @@ layout: default
       $('#subscribe').dialog('open');
     });
 
-    /*
-    $('a[data-target="donate"]').on('click', function() {
-      console.log($(this).attr('data-target'));
-      $('#donate').dialog('open');
-    });
     */
   });
 </script>
