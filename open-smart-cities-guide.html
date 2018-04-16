@@ -7,23 +7,23 @@ permalink: /open-smart-cities-guide
 	h2 {
 		margin-top: 0.5em;
 	}
-	iframe {
-		border: none;
-		margin-bottom: 2em;
+	#title-page {
+		border: solid #d8d8d8 1px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1.25em;
 	}
 </style>
 <section class="b-content-section" id="open-smart-cities-guide">
 	<div class="row">
 		<div class="column">
-			<h2>Open Smart Cities Guide v1.0</h2>
+			<h2><a href="https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbicoGTM/edit?usp=sharing" target="_blank">Open Smart Cities Guide v1.0</a></h2>
 			<p>The Open Smart Cities Guide is the end result of Open Smart Cities in Canada, a year long collaborative research project led by OpenNorth and funded by Natural Resources Canada's GeoConnections program.</p>
 			<p>This guide provides a first ever definition for an Open Smart City and is intended as a starter kit for city stakeholders and decision makers. We expect that this living document will grow as we receive more input and learn about additional people, projects, practices and  resources that contribute to Open Smart Cities.</p>
 			<p>Please feel free to email <a href="mailto:info@opennorth.ca">info@opennorth.ca</a> for more information or to provide your input.</p>
 
-			<!--<iframe src="https://docs.google.com/document/d/e/2PACX-1vQnfVBh5hG5pl29CqnLfpippylKwLKLcWUpyOetM0TIuw-pel8vB3vXBjrlTpWvXjDyANrxHAfcA-lR/pub?embedded=true"></iframe>
-			</iframe>-->
-
-			<iframe src=""></iframe>
+			<a href="https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbicoGTM/edit?usp=sharing" target="_blank"><img id="title-page" src="/theme/img/OpenSmartCitiesGudetitlepage.png" /></a>
 
 			<p>Check out <a href="https://www.opennorth.ca/projects" target="_blank">OpenNorth's Current Projects Page</a> for more information about Open Smart Cities in Canada and descriptions of its outputs. Direct links to project outputs are provided below:</p>
 			<ul>
@@ -36,18 +36,3 @@ permalink: /open-smart-cities-guide
 		</div>
 	</div>
 </section>
-
-<script>
-    $(function() {
-        $.get("https://docs.google.com/document/d/e/2PACX-1vQnfVBh5hG5pl29CqnLfpippylKwLKLcWUpyOetM0TIuw-pel8vB3vXBjrlTpWvXjDyANrxHAfcA-lR/pub?embedded=true", function(html) {
-            var contents = $("iframe").contents();
-
-            contents.find("html").html(html);
-
-            setTimeout(function() {
-                contents.find('a[href^="http://"]').attr("target", "_blank");
-                contents.find('a[href^="https://"]').attr("target", "_blank");
-            }, 1000); // Actually not sure if timeout is required here...
-        });
-    });
-</script>
