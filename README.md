@@ -53,7 +53,7 @@ To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml`
 To **add a photo**:
 
 1. Add the photo file to the `theme/img/people` directory. The filename must be the "slug" version of a person's name. A slug is the lowercase version of a name, with non-`a-z` characters replaced with hyphens `-`, with consecutive hyphens replaced with a single hyphen, and with leading and trailing hyphens removed. For example, the filename for "John Smith" is `john-smith.jpg`. For "John Q. Public Esq.", it's `john-q-public-esq.jpg`. For "Napoléon Bonaparte", it's `napol-on-bonaparte.jpg`. **Note:** You can simply inspect the HTML when [previewing changes](#preview-changes) to see the expected filename.
-1. Comming the new file from the `theme` directory
+1. Commit the new file from the `theme` directory
 1. Run `git push origin master` from the `theme` directory
 1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
