@@ -61,7 +61,7 @@ To **add a photo**:
 To **change a photo**:
 
 1. Replace the appropriate file in the `theme/img/people` directory
-1. Comming the updated file from the `theme` directory
+1. Commit the updated file from the `theme` directory
 1. Run `git push origin master` from the `theme` directory
 1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
