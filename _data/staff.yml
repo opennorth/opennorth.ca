@@ -8,7 +8,9 @@
   role: Open Data Analyst
   linkedin: https://ca.linkedin.com/in/hannah-ker-991007115
 - name: Christian Medina
-  role: Fulfillment Associate &#124; Citizen Budget
+  role: |
+    <p>Fulfillment Associate</p>
+    <p> &#124; Citizen Budget</p>
   linkedin: https://www.linkedin.com/in/christian-medina-64266519/
 - name: Miranda Sculthorp
   role: Urban Research Analyst
@@ -25,14 +27,6 @@
 - name: Jaime MacLean
   role: Developer
   linkedin: https://www.linkedin.com/in/jaime-m-22a242139
-- name: Jury Konga
-  role: Open Cities Strategies &#124; Expert Associate
-  linkedin: https://www.linkedin.com/in/jurykonga/
-- name: Michael Mulley
-  role: Open511 Lead, Open Parliament Advisor
-  linkedin: https://www.linkedin.com/in/michael-mulley-1116b821/
 - name: Alyssa Beaton
   role: Consultant
   linkedin: https://www.linkedin.com/in/alyssa-beaton-51a057138/
-- name: Rachel Bloom
-  role: Open Smart Cities Research Consultant

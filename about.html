@@ -1,8 +1,31 @@
 ---
-title: About 
+title: About
 layout: default
 permalink: /about
 ---
+<style>
+h4 > p {
+	font-size: 1.125rem;
+  margin-bottom: .3rem;
+  line-height: normal;
+}
+@media screen and (max-width: 25em) {
+  #advisors .b-card.m-team {
+  	min-height: 510px;
+  }
+  #board .b-card.m-team {
+  	min-height: 500px;
+  }
+}
+@media screen and (min-width: 40.063em) and (max-width: 45.1875em) {
+  #advisors .b-card.m-team {
+  	min-height: 510px;
+  }
+  #board .b-card.m-team {
+  	min-height: 500px;
+  }
+}
+</style>
 
 <section class="b-content-section">
   <div class="row">
@@ -52,7 +75,34 @@ permalink: /about
   </div>
 </section>
 
-<section class="b-content-section b-people">
+<section class="b-content-section b-people" id="advisors">
+ <div class="row">
+   <div class="column">
+     <h2 class="e-section-title">Advisors</h2>
+   </div>
+
+    {% for person in site.data.advisors %}
+    <div class="medium-4 small-6 columns{% if forloop.last %} end{% endif %}">
+      <div class="b-card m-team">
+        <div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
+          {% if person.linkedin %}
+          <a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a>
+          {% endif %}
+          {% if person.url %}
+          <a class="b-social-media" href="{{ person.url }}"><i class="fa fa-lg fa-link"></i></a>
+          {% endif %}
+        </div>
+        <div class="e-card-content">
+          <h3>{{ person.name }}</h3>
+          <h4>{{ person.role | markdownify}}</h4>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="b-content-section b-people" id="board">
  <div class="row">
    <div class="column">
      <h2 class="e-section-title">Board &amp; Founder</h2>
@@ -72,9 +122,9 @@ permalink: /about
        <div class="e-card-content">
          <h3>{{ person.name }}</h3>
          {% if person.summary %}
-         <h4>{{ person.summary }}</h4>
+         <h4>{{ person.summary  | markdownify }}</h4>
          {% endif %}
-         <h4>{{ person.role }}</h4>
+         <h4>{{ person.role  | markdownify }}</h4>
        </div>
      </div>
    </div>
