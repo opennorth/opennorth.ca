@@ -1,0 +1,111 @@
+---
+title: Senior Program Manager
+layout: default
+permalink: /senior-program-manager
+---
+
+<style>
+dl dt, dl dd, ul li {
+	font-size: 1.1rem;
+}
+dl dd, ul li {
+	font-weight: 300;
+}
+</style>
+
+<section class="b-content-section" id="work-with-us">
+  <div class="row">
+    <div class="column medium-12">
+      <h2 class="e-section-title">Senior Program Manager</h2>
+	    <p align="center">Location: Ottawa</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column medium-12">
+			<p>OpenNorth is looking for a Senior Program Manager with advanced analysis and policy experience, strong managerial background, and some experience with urban issues and data systems.</p>
+      <p>The Government of Canada announced that Evergreen, working in partnership with OpenNorth, their Future Cities Canada collaborative platform and numerous non-profit institutions, foundations and stakeholders across Canada, will receive funding over two years to deliver activities from the new Smart Cities Community Support Program (SCCSP). The funding supports capacity-building services for communities nationwide, including the establishment of a national one-to-one advisory service for open and smart communities and cities. OpenNorth is the lead technical partner of this consortium responsible for the one-to-one advisory services. The SCCSP runs from October 2018 until March 2020.</p>
+      
+      <h4>Open North</h4>
+      <p>Founded in 2011, OpenNorth is Canada’s leading not-for-profit organization specialized in open data, open government, community engagement, open smart cities and civic technology. We work with Canada’s largest, most innovative, and connected cities. Our network extends across the country and globally through communities of practice and open government partners. Our work promotes the effective use of data as infrastructure facilitating sustained engagement between government, civil society, and the public.</p>
+      
+      <h3>Job Description</h3>
+      <p>As part of the OpenNorth team and working in close coordination with Evergreen and program partners, the successful candidate will be responsible for the successful delivery of OpenNorth’s one-to-one advisory services.</p>
+      <p>Under the supervision of OpenNorth’s Chief Technology Officer, who will be leading the one-to-one advisory team in Montreal and Ottawa, and working in close coordination with the SCCSP’s Executive Director, the successful candidate will lead OpenNorth’s in-take activities, collect and analyse data on Canadian communities, and coordinate with the Evergreen team on select program activities such as communications.</p>
+</p>
+	<p>This position is located in Ottawa</p>
+      
+      <h4>Responsibilities</h4>
+      <ul>
+        <li>Lead in-take for OpenNorth’s one-to-one advisory services, resulting in successful handover and onboarding of clients by OpenNorth’s Montreal team</li>
+        <li>Coordinate activities and communications between OpenNorth’s Montreal team, and the joint office in Ottawa</li>
+        <li>Represent OpenNorth at program team meetings in Ottawa</li>
+      </ul>
+      
+      <h4>Requirements and Background</h4>    
+      <dl>
+        <dt>Mandatory</dt>
+          <dd>
+            <ul>
+        <li>5+ years policy analysis experience</li>
+        <li>Strong understanding of the Canadian IT infrastructure policy environment, from municipal to Federal levels of government</li>
+        <li>5+ years in program management in the non-profit, private, or public sector</li>
+        <li>Graduate degree in a relevant field</li>
+        <li>Speak, write English (native proficiency)</li>
+        <li>Speak, write French (native proficiency)</li>
+            </ul>
+          </dd>
+          
+          <dt>Asset</dt>
+            <dd>
+              <ul>
+                <li>Experience with an object-oriented programming language</li>
+                <li>Experience managing enterprise IT systems architecture</li>
+                <li>Experience conducting (spatial) data analysis, mapping (GIS), and data modelling</li>
+                <li>Experience conducting research in urban issues</li>
+              </ul>
+            </dd>
+          </dl>
+        
+
+      <h4>Profile</h4>
+      <p>The ideal candidate will not only have an impressive technical background, but a positive, proactive attitude and drive in self improvement.</p>
+      <ul>
+        <li>Ability to work in fast paced environments, juggling multiple cases with a range of complex situations and needs</li>
+        <li>Ability to lead knowledge and capacity building processes in organisations</li>
+        <li>Ability to synthesise information from multiple domains of knowledge, outside the candidate’s area of expertise</li>
+        <li>Ability to think critically on issues of technology, civic problems, and data, and apply thinking to program delivery</li>
+        <li>Process-oriented with a mindset for continual improvement (Kaizen) throughout all program activities</li>
+        <li>A background in business and technology, with a strong grounding in the social sciences</li>
+        <li>Excellent interpersonal and communication skills, diplomat</li>
+      </ul>
+      
+      <p>
+      <h4>Terms of the Position</h4>
+      <p>
+      This is a permanent position to be filled by early January 2018.</br>
+      Regular hours, Monday to Friday, with occasional evening and weekend work.</br>
+      This position is located in the joint Evergreen/OpenNorth office in Ottawa for the duration of the program.</br>
+      
+      </p>
+      <p>
+      This position could be extended beyond the duration of the Smart Cities Community Support Program. We are especially interested in candidates with long-term career interest and availability.</br>
+      Competitive salary, to be discussed according to experience.
+      </p>
+      
+      
+      
+			<h4>How to Apply:</h4>
+      <p>Please attach a single PDF file that includes a cover letter, your resume and your salary requirements to: <a href="mailto:jobs@opennorth.ca">jobs at opennorth.ca</a></br>
+      Interviews will be conducted either during the week of December 17-21, or January 7-11</br>
+      NB: Only the selected persons will be contacted for a telephone pre-selection interview.
+      </p></br>
+			<ul>
+				<li>Start date: Early January</li>
+				<li>Send applications to: <a href="mailto:jobs@opennorth.ca">jobs at opennorth.ca</a></li>
+			</ul>
+
+		<hr>
+		<p><a href="{{ site.baseurl }}/work-with-us" rel="up">View all current jobs</a></p>
+  </div>
+</section>
