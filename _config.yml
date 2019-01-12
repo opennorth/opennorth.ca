@@ -1,10 +1,10 @@
 sass:
   style: :compressed
   sass_dir: theme/_sass
-gems:
+plugins:
   - jekyll-redirect-from
 language: en
-baseurl: 
+baseurl:
 prose:
   metadata:
     _posts:
