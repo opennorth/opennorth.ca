@@ -13,7 +13,73 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic">
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500,700' >
 <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/styles.css">
+{% feed_meta %}
+{% seo %}
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style>
+
+.table-of-contents {
+  border-bottom: solid #e0e0e0 2px;
+  margin-bottom: 20px;
+}
+
+.before-3-cols {
+  margin: 0;
+}
+.before-learn-more {
+  margin-bottom: 2.5em;
+}
+</style>
+
+</head>
+<body id="{{ site.language }}">
+
+<header class="b-main-menu" role="navigation">
+  <div class="e-main-menu-wrapper">
+    <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
+    <h1 class="b-main-logo">
+      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
+    </h1>
+    <div class="b-main-menu-container">
+      {% include navigation.html %}
+    </div>
+  </div>
+</header>
+
+{{ content }}
+
+<footer class="b-footer b-content-section">
+  <div class="row">
+    <div class="column medium-5 e-footer-left-section">
+      <img src="{{ site.baseurl }}/theme/img/open-north-logo-footer-{{ site.language }}.png" alt="Open North Logo">
+      <span>5445 avenue de Gaspé, Suite 602</span>
+      <span>Montréal, QC, Canada H2T 3B2</span>
+      <span>1-888-750-4980</span>
+      <span><a href="mailto:info@opennorth.ca">info@opennorth.ca</a></span>
+    </div>
+    <div class="column medium-7 e-footer-right-section">
+      <span class="button"><a data-target="subscribe">Subscribe to our Newsletter</a></span>
+      <h4>Follow Us</h4>
+      <!--a href="mailto:info@opennorth.ca"><i class="fa fa-2x fa-at"></i></a-->
+      <a href="https://twitter.com/opennorth" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+      <a href="https://www.facebook.com/OpenNorth.NordOuvert" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/company/open-north/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a chref="https://github.com/opennorth/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Dialog Box -->
+<div id="subscribe">
+  <form action="http://opennorth.us2.list-manage.com/subscribe/post?u=a602fac79ef3dc584bf1a2743&id=1e0c02fa29" method="post" target="_blank" class="form-inline">
+    <h3 class="e-call-to-action-title">Subscribe to our newsletter</h3>
+      <input type="email" name="EMAIL" required placeholder="Email">
+      <input type="submit" name="subscribe" class="button postfix" value="Subscribe">
+  </form>
+</div>
+
+</body>
+
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
@@ -45,233 +111,6 @@
     });
   });
 </script>
-<style>
-/*.b-news a {
-  background-color: inherit;
-}
-.b-news a i:hover, .engage:hover {
-  color: #fff;
-}
-.engage {
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 8px;
-}
-.b-news .fa, .engage {
-  color: rgba(255, 255, 255, 0.7);
-}
-.b-news .medium-4 div {
-  float: right;
-}*/
-.subscribe-dialog .button {
-  text-transform: none;
-  color: #c60000;
-}
-.subscribe-dialog .button:hover {
-  color: #fff;
-}
-section {
-  max-width: 1025px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.e-section-title {
-  margin-top: 20px;
-}
-.b-main-menu {
-  border-bottom: solid #e0e0e0 2px;
-  padding-bottom: 5px;
-}
-.col-header {
-  padding: 0;
-}
-.col-header img {
-  max-height: inherit;
-}
-.col-content {
-  padding: 0 7% 20px;
-}
-strong {
-  font-weight: 500;
-}
-.email a {
-  padding: 0.5em 1em;
-  background-color: rgba(150, 0, 0, 0.7);
-  color: #ffffff;
-  font-weight: 400;
-}
-.email a:hover {
-  background-color: rgba(150, 0, 0, 0.5);
-  color: #ffffff;
-}
-ul strong {
-  font-weight: bold;
-}
-#learn-more a {
-  padding: 0.5em 1em;
-  background-color: rgba(150, 0, 0, 0.7);
-  color: #ffffff;
-  font-weight: 400;
-}
-#learn-more a:hover {
-  background-color: rgba(150, 0, 0, 0.5);
-  color: #ffffff;
-}
-.b-content-section.b-people {
-  padding-bottom: 20px;
-}
-#banner {
-  font-size: 2rem;
-  line-height: 1.3;
-}
-#impact-menu {
-  padding-left: 0px;
-}
-
-#impact-menu li {
-  list-style-type: none;
-  margin: 10px 0;
-}
-
-#impact .row:first-child {
-  padding-top: 2em;
-}
-.b-slider-item {
-  background-color: transparent;
-  background-image: none;
-}
-.b-slider-item img {
-  width: 100%;
-}
-
-.b-mission {
-  padding: 0;
-}
-#slogan {
-  background-color: rgba(150, 0, 0, 0.7);
-  margin-bottom: 1.5em;
-}
-#slogan h1 {
-  color: #ffffff;
-  text-transform: capitalize;
-}
-#mission p:not(#email) {
-  font-size: 1.4em;
-}
-.b-content-section {
-  padding-bottom: 20px;
-}
-#projects-menu {
-  padding-left: 0px;
-}
-
-#projects-menu li {
-  list-style-type: none;
-  margin: 10px 0;
-}
-#projects .row:first-child {
-  padding-top: 2em;
-}
-#projects-menu h4 {
-  margin-left: 1.1rem;
-}
-#reports .row:first-child {
-  padding-top: 2em;
-}
-.fr {
-  font-weight: 450;
-}
-.table-of-contents {
-  border-bottom: solid #e0e0e0 2px;
-  margin-bottom: 20px;
-}
-#resources .row:first-child {
-  padding-top: 2em;
-}
-
-iframe {
-  width: 100%;
-  height: 700px;
-}
-.before-3-cols {
-  margin: 0;
-}
-.before-learn-more {
-  margin-bottom: 2.5em;
-}
-</style>
-
-</head>
-<body id="{{ site.language }}">
-
-<!-- Dialog Box -->
-<div id="subscribe">
-  <form action="http://opennorth.us2.list-manage.com/subscribe/post?u=a602fac79ef3dc584bf1a2743&id=1e0c02fa29" method="post" target="_blank" class="form-inline">
-    <h3 class="e-call-to-action-title">Subscribe to our newsletter</h3>
-      <input type="email" name="EMAIL" required placeholder="Email">
-      <input type="submit" name="subscribe" class="button postfix" value="Subscribe">
-  </form>
-</div>
-
-<section class="b-main-menu" role="navigation">
-  <div class="e-main-menu-wrapper">
-    <a href="#" class="e-main-menu-trigger js-menu-trigger"><i class="fa fa-2x fa-bars"></i></a>
-    <h1 class="b-main-logo">
-      {% if page.root %}<span>{% else %}<a href="{{ site.baseurl }}/">{% endif %}<img src="{{ site.baseurl }}/theme/img/open-north-logo-header-black-{{ site.language }}.png" alt="Open North">{% if page.root %}</span>{% else %}</a>{% endif %}
-    </h1>
-    <div class="b-main-menu-container">
-      <nav class="b-main-menu-list">
-        <ul class="menu clearfix">
-          <li><a class="e-menu-item" href="{{ site.baseurl }}/about"><span>About</span></a>
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/what-we-do"><span>What We Do</span></a>
-            <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/our-offer"><span>Our Offer</span></a></li>
-              <li><a href="{{ site.baseurl }}/impact"><span>Impact</span></a></li>
-              <li><a href="{{ site.baseurl }}/projects"><span>Current Projects</span></a></li>
-              <li><a href="{{ site.baseurl }}/open-smart-cities-guide"><span>Open Smart Cities Guide</span></a></li>
-              <li><a href="{{ site.baseurl }}/work-with-us"><span>Work With Us</span></a></li>
-            </ul>
-          </li>
-          <li><a class="e-menu-item" href="http://www.citizenbudget.com/" target="_blank"><span>Citizen Budget</span></a></li>
-          <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/blog"><span>Blog &amp; Publications</span></a>
-            <ul class="submenu">
-              <li><a href="{{ site.baseurl }}/blog"><span>Blog</span></a></li>
-              <li><a href="{{ site.baseurl }}/publications"><span>Publications</span></a></li>
-              <li><a href="{{ site.baseurl }}/resources"><span>Resources</span></a></li>
-              <li><a data-target="subscribe"><span>Subscribe to our Newsletter</span></a></li>
-            </ul>
-          </li>
-          <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</section>
-
-{{ content }}
-
-<footer class="b-footer b-content-section">
-  <div class="row">
-    <div class="column medium-5 e-footer-left-section">
-      <img src="{{ site.baseurl }}/theme/img/open-north-logo-footer-{{ site.language }}.png" width="172" height="58" alt="">
-      <span>5445 avenue de Gaspé, Suite 602</span>
-      <span>Montréal, QC, Canada H2T 3B2</span>
-      <span>1-888-750-4980</span>
-      <span><a href="mailto:info@opennorth.ca">info@opennorth.ca</a></span>
-    </div>
-    <div class="column medium-7 e-footer-right-section">
-      <h4>Follow Us</h4>
-      <a class="b-social-media" href="mailto:info@opennorth.ca"><i class="fa fa-2x fa-at"></i></a>
-      <a class="b-social-media" href="https://twitter.com/opennorth" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
-      <a class="b-social-media" href="https://www.facebook.com/OpenNorth.NordOuvert" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
-      <a class="b-social-media" href="https://www.linkedin.com/company/open-north/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
-      <a class="b-social-media" href="https://github.com/opennorth/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
-    </div>
-  </div>
-</footer>
-
-</body>
-
 
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
