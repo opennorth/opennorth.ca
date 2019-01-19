@@ -1,6 +1,7 @@
 title: Open North
 description: Open North implements a collaborative local-to-global approach to improving smart cities through empirical research applied to urban problems.
 logo: /theme/img/open-north-logo-header-black-en.png
+include: ["_pages"]
 permalink: pretty
 social:
   name: Open North
