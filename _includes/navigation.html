@@ -1,4 +1,4 @@
-<nav class="b-main-menu-list">
+<!--nav class="b-main-menu-list">
   <ul class="menu clearfix">
     <li class="has-children"><a class="e-menu-item" href="{{ site.baseurl }}/about"><span>About</span></a>
       <ul class="submenu">
@@ -24,4 +24,35 @@
     </li>
     <li><a class="e-menu-item" href="http://www.nordouvert.ca/"><span>FR</span></a></li>
   </ul>
-</nav>
+</nav-->
+
+<nav class="b-main-menu-list">
+  <ul class="menu clearfix">
+  {% for item in site.data.navigation %}
+    {% assign class = nil %}
+    {% if page.url contains item.link %}
+      {% assign class = 'is--active' %}
+    {% endif %}
+    {% if page.url contains item.childlink %}
+      {% assign class = 'is--trail' %}
+    {% endif %}
+
+      {% if item.children !=null %}
+        <li class="has-children {{ class }}"><a href="{{ item.link }}" class="e-menu-item"><span>{{ item.name }}</span></a>
+          <ul class="submenu">
+
+            {% for child in item.children %}
+              {% assign childclass = nil %}
+              {% if page.url contains child.childlink %}
+                {% assign childclass = 'is--active' %}
+              {% endif %}
+              <li class="child {{ childclass }}"><a href="{{ child.childlink }}"><span>{{ child.childname }}</span></a></li>
+            {% endfor %}
+
+          </ul>
+          {% else %}
+
+        <li class="{{ class }}"><a href="{{ item.link }}" class="e-menu-item"><span>{{ item.name }}</span></a>{% endif %}</li>
+
+    {% endfor %}
+  </ul>

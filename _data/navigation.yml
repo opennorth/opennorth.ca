@@ -1,0 +1,32 @@
+- name: About
+  link: /about
+  children:
+    - childname: Our Team
+      childlink: /about#team
+- name: What We Do
+  link: /what-we-do
+  children:
+    - childname: Our Offer
+      childlink: /our-offer
+    - childname: Impact
+      childlink: /impact
+    - childname: Publications
+      childlink: /publications
+    - childname: Work With Us
+      childlink: /work-with-us
+- name: Citizen Budget
+  link: http://www.citizenbudget.com/
+  target: _blank
+- name: News
+  link: /blog
+  children:
+    - childname: Blog
+      childlink: /blog
+    - childname: Webinars
+      childlink: /webinars
+    - childname: Newsroom
+      childlink: /newsroom
+    - childname: Subscribe to our Newsletter
+      childlink: /newsletter
+- name: FR
+  link: http://www.nordouvert.ca/
