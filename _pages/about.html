@@ -100,7 +100,7 @@ permalink: /about/
    {% for person in site.data.board %}
    <div class="medium-4 small-6 columns{% if forloop.last %} end{% endif %}">
      <div class="b-card m-team">
-       <div class="e-card-picture" style="background-image: url('theme/img/people/{{ person.name | slugify }}.jpg')">
+       <div class="e-card-picture" style="background-image: url('/theme/img/people/{{ person.name | slugify }}.jpg')">
          {% if person.linkedin %}
          <a class="b-social-media" href="{{ person.linkedin }}"><i class="fa fa-lg fa-linkedin"></i></a>
          {% endif %}
