@@ -13,18 +13,20 @@ permalink: /publications/
 	</div>
 </section>
 
-<section class="b-content-section featured-list">
-	<div class="row">
-		{% for item in site.publications %}
-			<div class="small-6 columns{% if forloop.last %} end{% endif %}">
-				<div class="project-image" style="background-image: url(/theme/img/publications/{{ item.cover_image }});"></div>
-				<div>
-					<h3><a href="#{{ item.title | slugify }}">{{ item.title }}</a></h3>
+<div class="impact">
+	<section class="b-content-section publications featured-list">
+		<div class="row">
+			{% for item in site.publications %}
+				<div class="featured-item columns{% if forloop.last %} end{% endif %}">
+					<div class="content-image" style="background-image: url(/theme/img/publications/{{ item.cover_image }});"></div>
+					<div>
+						<h3 class="text-center"><a href="#{{ item.title | slugify }}">{{ item.title }}</a></h3>
+					</div>
 				</div>
-			</div>
-		{% endfor %}
-	</div>
-</section>
+			{% endfor %}
+		</div>
+	</section>
+</div>
 
 <section class="b-content-section content-list">
 	<h2>Full list</h2>
@@ -33,7 +35,9 @@ permalink: /publications/
 			{% for item in site.publications %}
 				<li>
 					<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
+					<img src="/theme/img/publications/{{ item.cover_image }}">
 					<p>{{ item.content | markdownify }}</p>
+					<a href="{{ item.link }}" class="link">Read the report</a>
 				</li>
 			{% endfor %}
 		</ul>

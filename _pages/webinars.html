@@ -17,16 +17,19 @@ permalink: /webinars/
 		<div class="content-item">
 			{% for item in site.webinars %}
 					<h4 id="{{ item.title | slugify }}">{% if item.title_link %}<a href="{{ item.title_link }}">{% endif %}{{ item.title }}{% if item.title_link %}</a>{% endif %}</h4>
+
 					<div class="wrapper">
 						<div class="text">
-							{{ item.content | markdownify }}
+							{{ item.excerpt }}
 						</div>
 						<div class="embedded">{{ item.video_embed }}</div>
 					</div>
 					<button class="accordion">more</button>
-					<div class="panel">
-						{{ item.expanded | markdownify }}
-					</div>
+					{% if item.expanded_content %}
+						<div class="panel">
+							{{ item.expanded_content }}
+						</div>
+					{% endif %}
 			{% endfor %}
 		</div>
 	</div>
