@@ -5,6 +5,7 @@ language: en
 baseurl:
 permalink: /:year/:month/:day/:title
 include: ["_pages"]
+excerpt_separator: <!--more-->
 collections_dir: collections
 collections:
   impacts:
