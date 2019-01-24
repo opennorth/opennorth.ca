@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Newsletter: Winter 2017'
+categories: [newsletter]
 ---
 Check out what we’ve been up to and what’s to come to kick-off this
 year.
