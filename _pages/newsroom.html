@@ -1,0 +1,35 @@
+---
+title: Newsroom
+layout: default
+permalink: /newsroom/
+---
+<section class="b-content-section" id="newsroom">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Newsroom</h2>
+			<h4 class="text-center">For all media inquiries, please email us at <a href="mailto:pressrequests@opennorth.ca">pressrequests@opennorth.ca</a>. For fast facts about the organization and our future work, please also see a PDF with our press kit.</h4>
+		</div>
+	</div>
+</section>
+
+<section class="b-content-section content-list">
+	<div class="row">
+    <h2 class="e-section-title">Press Releases</h2>
+    <ul>
+      <p>need format for these pieces -- suggest a blog category</p>
+    </ul>
+  </div>
+</section>
+
+<section class="b-content-section news content-list">
+  <div class="row">
+    <h2 class="e-section-title">In the News</h2>
+		<ul>
+      {% for item in site.data.news %}
+        <li>
+          <a href="{{ item.link }}">{{ item.title }} </a><span class="source">{{ item.source }}. </span><span>{{ item.pub_date }}.</span>
+        </li>
+      {% endfor %}
+    </ul>
+	</div>
+</section>
