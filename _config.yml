@@ -1,21 +1,27 @@
 title: Open North
 description: Open North implements a collaborative local-to-global approach to improving smart cities through empirical research applied to urban problems.
 logo: /theme/img/open-north-logo-header-black-en.png
+language: en
+baseurl:
+permalink: /:year/:month/:day/:title
 include: ["_pages"]
-permalink: pretty
-social:
-  name: Open North
-  links:
-    - https://twitter.com/opennorth
-    - https://www.facebook.com/OpenNorth.NordOuvert
-    - https://www.linkedin.com/company/open-north/
-    - https://github.com/opennorth/
+collections_dir: collections
+collections:
+  impacts:
+  jobs:
+  publications:
+  webinars:
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "impacts"
+    values:
+      feature: false
   - scope:
       path: ""
     values:
@@ -26,11 +32,13 @@ sass:
   line_comments: true
 plugins:
   - jekyll-redirect-from
-  - jekyll-feed
-language: en
-baseurl:
-feed:
-  path: atom.xml
+social:
+  name: Open North
+  links:
+    - https://twitter.com/opennorth
+    - https://www.facebook.com/OpenNorth.NordOuvert
+    - https://www.linkedin.com/company/open-north/
+    - https://github.com/opennorth/
 prose:
   metadata:
     _posts:
