@@ -24,9 +24,7 @@ permalink: /impact/
 								<a href="#{{ item.title | slugify }}">{{ item.title }}</a></h3>
 							<blockquote>{{ item.testimonial | markdownify }}</blockquote>
 							<cite>
-								<span>{{ item.cite }}</span>
-								{% if item.cite_details %}<span>, {{ item.cite_details }}</span>{% endif %}
-								{% if item.cite_emphasis %}<span class="emphasis"> {{ item.cite_emphasis }}</span>{% endif %}
+								{% if item.cite %}<span>{{ item.cite | markdownify }}</span>{% endif %}
 							</cite>
 							<a href="#{{ item.title | slugify }}" class="anchor-link text-center">Learn more</a>
 						</div>
