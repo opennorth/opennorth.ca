@@ -11,31 +11,39 @@ permalink: /impact/
 		</div>
 	</div>
 </section>
-<section class="b-content-section featured-list">
-	<div class="row">
-			{% assign featured = site.impacts | where:'featured', 'true' %}
-			{% for item in featured %}
-				<div class="small-6 columns{% if forloop.last %} end{% endif %}">
-					<div class="project-image" style="background-image: url(/theme/img/impacts/{{ item.image }});">
+
+<div class="impact">
+	<section class="b-content-section featured-list">
+		<div class="row">
+				{% assign featured = site.impacts | where:'featured', 'true' %}
+				{% for item in featured %}
+					<div class="featured-item columns{% if forloop.last %} end{% endif %}">
+						<div class="content-image" style="background-image: url(/theme/img/impacts/{{ item.image }});"></div>
+						<div class="content-description">
+							<h3 class="text-center">
+								<a href="#{{ item.title | slugify }}">{{ item.title }}</a></h3>
+							<blockquote>{{ item.testimonial | markdownify }}</blockquote>
+							<cite>
+								<span>{{ item.cite }}</span>
+								{% if item.cite_details %}<span>, {{ item.cite_details }}</span>{% endif %}
+								{% if item.cite_emphasis %}<span class="emphasis"> {{ item.cite_emphasis }}</span>{% endif %}
+							</cite>
+							<a href="#{{ item.title | slugify }}" class="anchor-link text-center">Learn more</a>
+						</div>
 					</div>
-					<div class="">
-						<h3><a href="#{{ item.title | slugify }}">{{ item.title }}</a></h3>
-						<blockquote>{{ item.testimonial | markdownify }}</blockquote>
-						<cite><span>{{ item.cite }}</span>, {{ item.cite_details }}<span>{{ item.cite_emphasis }}</span></cite>
-						<a href="#{{ item.title | slugify }}">Learn more</a>
-					</div>
-				</div>
-			{% endfor %}
-	</div>
-</section>
+				{% endfor %}
+		</div>
+	</section>
+</div>
 
 <section class="b-content-section content-list">
-	<h2>Full list</h2>
 	<ul>
 		{% for item in site.impacts %}
 			<li>
 				<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
+				<img src="/theme/img/impacts/{{ item.image }}">
 				<p>{{ item.content | markdownify }}</p>
+				<a href="{{ item.link }}" class="link">Learn more about the {{ item.title }}</a>
 			</li>
 		{% endfor %}
 	</ul>
