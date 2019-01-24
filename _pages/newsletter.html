@@ -1,0 +1,27 @@
+---
+title: Newsletter
+layout: default
+permalink: /newsletter/
+---
+<section class="b-content-section" id="newsletter">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Subscribe to our Newsletter</h2>
+			<h4 class="text-center">Our newsletter reports on all of our latest news and expansion of the organization into its new mission. Sign-up to receive a digital link and PDF of it.</h4>
+		</div>
+	</div>
+</section>
+
+<section class="b-content-section news content-list">
+	<div class="row">
+		<ul>
+			{% for post in site.posts %}
+				{% if post.categories contains 'newsletter' %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a><span> {{ post.date | date_to_long_string }}</span>
+					</li>
+				{% endif %}
+	    {% endfor %}
+		</ul>
+  </div>
+</section>
