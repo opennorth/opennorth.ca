@@ -1,0 +1,50 @@
+---
+title: Webinars
+layout: default
+permalink: /webinars/
+---
+<section class="b-content-section" id="webinars">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Webinars</h2>
+			<h4 class="text-center">Our webinars cover a variety of topics related to smart cities and innovation, data, and networked technology. We have hosted our own series on smart cities and participated in numerous webinars hosted by our partners.</h4>
+		</div>
+	</div>
+</section>
+
+<section class="b-content-section webinars content-list">
+	<div class="row">
+		<div class="content-item">
+			{% for item in site.webinars %}
+					<h4 id="{{ item.title | slugify }}">{% if item.title_link %}<a href="{{ item.title_link }}">{% endif %}{{ item.title }}{% if item.title_link %}</a>{% endif %}</h4>
+					<div class="wrapper">
+						<div class="text">
+							{{ item.content | markdownify }}
+						</div>
+						<div class="embedded">{{ item.video_embed }}</div>
+					</div>
+					<button class="accordion">more</button>
+					<div class="panel">
+						{{ item.expanded | markdownify }}
+					</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
