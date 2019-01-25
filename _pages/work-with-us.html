@@ -3,39 +3,6 @@ title: Work With Us
 layout: default
 permalink: /work-with-us/
 ---
-
-<style>
-.job h4 {
-  border-bottom: 2px solid
-}
-.job {
-  padding: .75em 1em .25em;
-  margin-bottom: 2em;
-  transition: all .35s ease-in-out;
-}
-.job h4 {
-	border-bottom: 2px solid #c60000;
-	color: #c60000;
-  transition: all .35s ease-in-out;
-}
-.job p {
-	color: #222;
-  transition: all .35s ease-in-out;
-}
-.job:hover {
-	background-color: rgba(150, 0, 0, 0.7);
-	color: #f7f7f7;
-	transition: all .35s ease-in-out;
-	border-radius: 2px;
-}
-.job:hover h4, .job:hover p {
-	color: #f7f7f7;
-}
-.job:hover h4 {
-	border-bottom: 2px solid #f7f7f7;
-}
-</style>
-
 <section class="b-content-section" id="work-with-us">
   <div class="row">
     <div class="column medium-12">
@@ -79,33 +46,18 @@ permalink: /work-with-us/
     </div>
   </div>
 
-  <div class="row">
-    <div class="column medium-12" id="smart">
-      <a href="{{ site.baseurl }}/applied-research-lab-research-analyst">
-        <div class="job">
-          <h4>Applied Research Lab: Research Analyst</h4>
-          <p>OpenNorth is seeking to fill two (2) Research Analyst positions for its Applied Research Lab</p>
-          <p>Location: Montréal</p>
-	        <p>Learn More ></p>
-        </div>
-      </a>
-    </div>
-  </div><!--/.row-->
-
-  <div class="row">
-    <div class="column medium-12" id="smart">
-      <a href="{{ site.baseurl }}/project-lead-community-advisory">
-        <div class="job">
-          <h4>Project Lead - Community Advisory</h4>
-          <p>OpenNorth is opening up two positions in the burgeoning field of Open Smart Cities, welcoming skilled communicators with group facilitation and collaborative approaches skills, project leadership background, good knowledge of current technology landscape and of technology impacts on citizens, innovative mindset, cultural sensitivity, and excellence in service delivery.</p>
-        </div>
-      </a>
-    </div>
-  </div><!-- /.row -->
-
-  <div class="row">
-    <div class="column medium-12">
-    </div>
-  </div>
-
+  {% for job in site.jobs %}
+    <div class="row">
+      <div class="column medium-12" id="smart">
+        <a href="{{ job.permalink }}">
+          <div class="job">
+            <h4>{{ job.title }}</h4>
+            <p>{{ job.short_description | markdownify }}</p>
+            <p>{{ job.location | markdownify }}</p>
+            <p>Learn More ></p>
+          </div>
+        </a>
+      </div>
+    </div><!--/.row-->
+  {% endfor %}
 </section>

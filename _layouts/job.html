@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="b-content-section" id="work-with-us">
+  <div class="row">
+    <div class="column medium-12">
+      <h2 class="e-section-title">{{ page.title }}</h2>
+	    {% if page.location %}<p align="center">Location: {{ page.location }}</p>{% endif %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column medium-12">
+
+      {{ content }}
+
+		  <hr>
+
+		  <p><a href="{{ site.baseurl }}/work-with-us" rel="up">View all current jobs</a></p>
+    </div>
+  </div>
+</section>

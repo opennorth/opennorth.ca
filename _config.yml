@@ -10,6 +10,7 @@ collections_dir: collections
 collections:
   impacts:
   jobs:
+    output: true
   publications:
   webinars:
 defaults:
