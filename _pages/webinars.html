@@ -14,8 +14,8 @@ permalink: /webinars/
 
 <section class="b-content-section webinars content-list">
 	<div class="row">
-		<div class="content-item">
-			{% for item in site.webinars %}
+		{% for item in site.webinars %}
+			<div class="content-item">
 					<h4 id="{{ item.title | slugify }}">{% if item.title_link %}<a href="{{ item.title_link }}">{% endif %}{{ item.title }}{% if item.title_link %}</a>{% endif %}</h4>
 
 					<div class="wrapper">
@@ -24,14 +24,14 @@ permalink: /webinars/
 						</div>
 						<div class="embedded">{{ item.video_embed }}</div>
 					</div>
-					<button class="accordion">more</button>
+					<button class="accordion" alt="Show More / Less"></button>
 					{% if item.expanded_content %}
 						<div class="panel">
-							{{ item.expanded_content }}
+							{{ item.expanded_content | markdownify }}
 						</div>
 					{% endif %}
-			{% endfor %}
-		</div>
+			</div>
+		{% endfor %}
 	</div>
 </section>
 
