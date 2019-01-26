@@ -4,7 +4,7 @@
     - childname: Our Team
       childlink: /about#team
 - name: What We Do
-  link: /what-we-do
+  link: /our-offer
   children:
     - childname: Our Offer
       childlink: /our-offer
