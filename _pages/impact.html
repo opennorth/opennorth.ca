@@ -12,22 +12,23 @@ permalink: /impact/
 	</div>
 </section>
 
-<div class="impact">
-	<section class="b-content-section featured-list">
+<div class="impact" id="top">
+	<section class="b-content-section featured-list two-column">
 		<div class="row">
 				{% assign featured = site.impacts | where:'featured', 'true' %}
 				{% for item in featured %}
-					<div class="featured-item columns{% if forloop.last %} end{% endif %}">
-						<div class="content-image" style="background-image: url(/theme/img/impacts/{{ item.image }});"></div>
-						<div class="content-description">
-							<h3 class="text-center">
-								<a href="#{{ item.title | slugify }}">{{ item.title }}</a></h3>
-							<blockquote>{{ item.testimonial | markdownify }}</blockquote>
-							<cite>
-								{% if item.cite %}<span>{{ item.cite | markdownify }}</span>{% endif %}
-							</cite>
-							<a href="#{{ item.title | slugify }}" class="anchor-link text-center">Learn more</a>
-						</div>
+					<div class="featured-item {% if forloop.last %} end{% endif %}">
+						<a href="#{{ item.title | slugify }}">
+							{% if item.image %}<div class="featured-image" style="background-image: url(/theme/img/impacts/{{ item.image }});"></div>{% endif %}
+							<div class="featured-description">
+								<h3 class="text-center">{{ item.title }}</h3>
+								{% if item.testimonial %}<blockquote>{{ item.testimonial | markdownify }}</blockquote>{% endif %}
+								<cite>
+									{% if item.cite %}<span>{{ item.cite | markdownify }}</span>{% endif %}
+								</cite>
+								<p class="anchor-link text-center">Learn more</p>
+							</div>
+						</a>
 					</div>
 				{% endfor %}
 		</div>
@@ -35,14 +36,17 @@ permalink: /impact/
 </div>
 
 <section class="b-content-section content-list">
+	<div class="row">
 	<ul>
 		{% for item in site.impacts %}
 			<li>
 				<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
-				<img src="/theme/img/impacts/{{ item.image }}">
+				{% if item.image %}<img src="/theme/img/impacts/{{ item.image }}">{% endif %}
 				<p>{{ item.content | markdownify }}</p>
-				<a href="{{ item.link }}" class="link">Learn more about the {{ item.title }}</a>
+				{% if item.link %}<a href="{{ item.link }}" class="link">Learn more about the {{ item.title }}</a>{% endif %}
+				<p class="text-right"><a href="#top" class="anchor">Top</a></p>
 			</li>
 		{% endfor %}
 	</ul>
+</div>
 </section>
