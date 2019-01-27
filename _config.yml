@@ -64,3 +64,9 @@ prose:
           label: Author
           help: All posts must have an author.
           value: ""
+      - name: categories
+        field:
+          element: text
+          label: Categories
+          help: Enter relevent categories from OpenNorth's post categories.
+          value: ""
