@@ -1,5 +1,6 @@
 ---
 title: "Open Smart Cities in Canada: Webinar 3"
+order: 9
 date: 2018-04-19
 video_embed: '<iframe src="https://player.vimeo.com/video/265436607" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 title_link: https://www.slideshare.net/0penNorth/open-smart-cities-in-canada-webinar-3-english
