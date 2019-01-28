@@ -3,6 +3,7 @@ published: true
 layout: post
 title: "Open smart cities in Canada: ideals versus reality"
 author: "Rachel Bloom Project Lead, Open Smart Cities in Canada, OpenNorth"
+description: An environmental-scan (e-scan) and gap analysis of Smart City practices and strategies at the Cities of Montreal, Ottawa, Guelph, and Edmonton disentangles the web of digital media to elucidate how these cities imagine and deploy their vision of a Smart City.
 ---
 
 A 2014 [*report by Frost & Sullivan*](https://ww2.frost.com/news/press-releases/frost-sullivan-global-smart-cities-market-reach-us156-trillion-2020), an international consulting firm of over 1800 analysts in 45 global offices, predicted that the Smart City global market will be valued at USD 1.565 trillion by 2020. The burgeoning Smart City market employs and reproduces a whirl of media about the technologies and goals that underpin the term Smart City. Multiplicitous and contradicting definitions of a Smart City emerge from within this jumble of speculation and hype.
@@ -24,5 +25,3 @@ In sum, an array of questions motivate the e-scan and gap analysis for the Open 
 By answering some of these questions, the project’s deliverables elucidates definitions of a Smart City by Cities and the tools they utilize to realize their definition. Information about geospatial tools, standards, intellectual property licenses, open data, and procurement procedures are crucial components for answering these questions. In addition to the e-scan and gap analysis, the Open Smart Cities in Canada project will include directly asking government representatives about their definitions of a Smart City. Our approach is inter-jurisdictional and includes outreach to representatives from the provincial governments as well as civic governments. We at OpenNorth are excited to share more about preliminary findings and expectations for the project at the [*2017 GO Open Data Summit in London, Ontario*](http://go-opendata.ca/) next month.
 
 *For more information about Open North’s Open Smart Cities in Canada project funded by NRCAN’s GeoConnections program, please contact Rachel Bloom at rachel@opennorth.ca*
-
-

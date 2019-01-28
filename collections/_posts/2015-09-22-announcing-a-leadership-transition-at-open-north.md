@@ -2,6 +2,7 @@
 layout: post
 title: "Announcing a leadership transition at Open North"
 author: James McKinney
+description: Former OpenNorth Executive Director James McKinney says goodbye in his farewell post.
 ---
 After transforming Open North from an idea to an organization over the last four years, I stepped down as executive director earlier this month.
 

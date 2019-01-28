@@ -3,6 +3,7 @@ published: true
 layout: post
 title: Where you can find us in coming months
 author: Open North
+description: A roundup of where OpenNorth worked in 2017.
 ---
 Open North is an active leader in helping the advancement of the open
 data community across Canada. Here's where you can find us over the next
@@ -168,4 +169,3 @@ simulator to this great audience of government finance officers.
 **June 17-20: [Building Resilience 2017 Conference](http://www.cip-icu.ca/Resilience2017), Calgary, AB**
 
 The 2017 Canadian Institute of Planners and the Alberta Professional Planners Institute’s Annual Conference aims to support those engaged with building resiliency through an engaging, collaborative, and thought provoking forum to explore this critical aspect of our shared futures. Keira Webster, Open North's City Resilience Research Intern, will be presenting our recently published discussion paper on city resilience and open data.
-
