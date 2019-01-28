@@ -1,22 +1,23 @@
-## Getting Started
+# Getting Started
 
-### Using Prose.io
+## Using Prose.io
 
 You can use [Prose.io](http://prose.io/#opennorth/opennorth.ca/) to edit the website. To **add a blog post**:
 
 1. Click the "Authorize on GitHub" power icon in the bottom-right corner
-1. Click on the `_posts` folder
+1. Click on the `collections` folder then the `_posts` folder
 1. Click "New File" and write the blog post
 1. Click the "Meta Data" icon in the right sidebar
 1. Fill in the "Author" field
+1. Fill in the "Categories" field
 1. Click the "Save" icon in the right sidebar
 1. Re-open the blog post
 1. Click "Unpublished" at the right end of the toolbar
 1. Click the "Save" icon in the right sidebar
 
-### Using GitHub
+## Using GitHub
 
-#### One-Time Setup
+### One-Time Setup
 
 ```
 gem install bundler
@@ -36,7 +37,20 @@ to:
 
     url = git@github.com:opennorth/theme.git
 
-#### Make Changes
+**Note:** If editing files locally, it is necessary to run a jekyll build or serve command to 'build' the site, before pushing changes to Github. Changes to files will not take effect until the site is 'built':
+    `bundle exec jekyll build` or
+    `bundle exec jekyll serve` to view changes locally, or
+    `bundle exec jekyll serve -w` to force the server to 'watch' for changes while serving the site.
+
+### Add Content
+
+Content can be written in [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) or [Markdown](https://daringfireball.net/projects/markdown/).
+
+To add content in HTML, name the new file with the extension `.html`.
+
+To add content in Markdown, name the new file with the extension `.md`. HTML is also interpreted as valid syntax in Markdown.
+
+#### Add a new blog post
 
 To **add a blog post**, create a file in the `_posts` folder with a name following the pattern `YYYY-MM-DD-lowercase-hyphenated-title.html` and with contents of:
 
@@ -48,7 +62,51 @@ author: The author's name
 ---
 ```
 
-To **edit the staff or board**, edit the `_data/staff.yml` and `_data/board.yml` files. Escape special characters by using the [ASCI character code](http://htmlarrows.com/) or preceding it with a forward slash.
+##### Post Categories
+
+Current categories include:
+* newsletter
+* press release
+
+```yaml
+---
+title: A descriptive title
+author: The author's name
+categories: ['press release', newsletter, 'open data']
+---
+```
+
+**Note:** Categories that contain more than one word must be wrapped in single quotes.
+
+##### Add a new press release
+
+Create a post and assign the category 'press release':
+
+```yaml
+---
+title: A descriptive title
+author: The author's name
+categories: ['press release']
+---
+```
+
+**Note:** Since this category contains two words it must be wrapped in single quotes.
+
+##### Add a new newsletter
+
+Create a post and assign the category 'newsletter':
+
+```yaml
+---
+title: A descriptive title
+author: The author's name
+categories: [newsletter]
+---
+```
+
+#### Add a new team member
+
+To **edit the staff, advisors or board**, edit the `_data/staff.yml`, `_data/advisors.yml` or `_data/board.yml` files. Escape special characters by using the [ASCI character code](http://htmlarrows.com/) or preceding it with a forward slash.
 
 To **add a photo**:
 
@@ -66,7 +124,22 @@ To **change a photo**:
 1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
 
-#### Preview Changes
+#### Add a new job posting
+
+
+#### Add a new item to the 'Impacts' page
+
+
+#### Add a new publication to the 'Publications' page
+
+
+#### Add a new webinar to the 'Webinars' page
+
+
+#### Add or remove an item to the main navigation menu
+
+
+### Preview Changes
 
 Before committing your changes, always preview your changes. If not using Prose.io, start a server with:
 
@@ -94,12 +167,22 @@ These files should be identical in this repository and [nordouvert.ca](https://g
 In other words, only these directories and files should differ:
 
 * `_data/`
+* `_includes`
 * `_layouts/`
-* `_posts/`
-* `community/`
-* `communaute/`
+* `_pages/`
+* `collections`
 * `archive.html`
 * `atom.xml`
 * `CNAME`
-* `index.html`
 * `README.md`
+
+# Helpful Links
+
+* [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
+* [Font Awesome - How to use](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use)
+  * [Font Awesome - Available Icons](https://fontawesome.com/icons?d=gallery&m=free)
+* [Jekyll Documentation](https://jekyllrb.com/docs/)
+* [Liquid Documentation](https://shopify.github.io/liquid/)
+* [Bundler Documentation](https://bundler.io/docs.html)
+* [Github Pages Gem](https://github.com/github/pages-gem)
+* [Foundation 5 Documentation](https://foundation.zurb.com/sites/docs/v/5.5.3/) - this site uses the Zurb Foundation front-end framework
