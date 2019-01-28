@@ -8,18 +8,27 @@ permalink: /newsroom/
 		<div class="column">
 			<h2 class="e-section-title">Newsroom</h2>
 			<h4 class="text-center">For all media inquiries, please email us at <a href="mailto:pressrequests@opennorth.ca">pressrequests@opennorth.ca</a>. For fast facts about the organization and our future work, please also see a PDF with our press kit.</h4>
+			<div class="button text-center"><a href="#">Download our Press Kit</a></div>
 		</div>
 	</div>
 </section>
 
-<section class="b-content-section content-list">
+{% if site.categories contains 'press release' %}
+<section class="b-content-section news content-list">
 	<div class="row">
     <h2 class="e-section-title">Press Releases</h2>
-    <ul>
-      <p>need format for these pieces -- suggest a blog category</p>
-    </ul>
+		<ul>
+			{% for post in site.posts %}
+				{% if post.categories contains 'press release' %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a><span> {{ post.date | date_to_long_string }}</span>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
   </div>
 </section>
+{% endif %}
 
 <section class="b-content-section news content-list">
   <div class="row">
@@ -27,7 +36,7 @@ permalink: /newsroom/
 		<ul>
       {% for item in site.data.news %}
         <li>
-          <a href="{{ item.link }}">{{ item.title }} </a><span class="source">{{ item.source }}. </span><span>{{ item.pub_date }}.</span>
+          <a href="{{ item.link }}" target="_blank" rel="nofollow">{{ item.title }} </a><span class="source">{{ item.source }}. </span><span>{{ item.pub_date | date_to_long_string }}.</span>
         </li>
       {% endfor %}
     </ul>
