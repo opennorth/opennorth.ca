@@ -14,24 +14,28 @@ permalink: /webinars/
 
 <section class="b-content-section webinars content-list">
 	<div class="row">
-		{% for item in site.webinars %}
-			<div class="content-item">
-					<h4 id="{{ item.title | slugify }}">{% if item.title_link %}<a href="{{ item.title_link }}">{% endif %}{{ item.title }}{% if item.title_link %}</a>{% endif %}</h4>
+		<ul>
+			{% assign items = site.webinars | sort: 'id' %}
+			{% for item in items reversed %}
+				<li class="content-item">
+					<h3 id="{{ item.title | slugify }}">{% if item.title_link %}<a href="{{ item.title_link }}" target="_blank" rel="nofollow">{% endif %}{{ item.title }}{% if item.title_link %}</a>{% endif %}</h3>
 
 					<div class="wrapper">
 						<div class="text">
 							{{ item.excerpt }}
+							{% if item.expanded_content %}
+								<button class="accordion" alt="Show More / Less"></button>
+								<div class="panel">
+									{{ item.expanded_content | markdownify }}
+								</div>
+							{% endif %}
 						</div>
-						<div class="embedded">{{ item.video_embed }}</div>
+						{% if item.video_embed %}<div class="embedded">{{ item.video_embed }}</div>{% endif %}
 					</div>
-					<button class="accordion" alt="Show More / Less"></button>
-					{% if item.expanded_content %}
-						<div class="panel">
-							{{ item.expanded_content | markdownify }}
-						</div>
-					{% endif %}
-			</div>
-		{% endfor %}
+					<p class="text-right"><a href="#top" class="anchor">Top</a></p>
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>
 

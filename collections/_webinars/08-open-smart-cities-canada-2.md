@@ -1,5 +1,6 @@
 ---
 title: "Open Smart Cities in Canada: Webinar 2"
+order: 8
 date: 2017-12-14
 video_embed: '<iframe src="https://player.vimeo.com/video/247378746" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 title_link: https://drive.google.com/file/d/1ndcubDW5Ii1CTzhbE5o_9RF0Z_ALsawQ

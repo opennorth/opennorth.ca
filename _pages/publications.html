@@ -16,7 +16,7 @@ permalink: /publications/
 <div class="publications">
 	<section class="b-content-section publications featured-list three-column">
 		<div class="row">
-			{% for item in site.publications %}
+			{% for item in site.publications reversed %}
 				<div class="featured-item {% if forloop.last %} end{% endif %}">
 					<a href="#{{ item.title | slugify }}">
 						{% if item.cover_image %}<div class="featured-image" style="background-image: url(/theme/img/publications/{{ item.cover_image }});"></div>{% endif %}
@@ -33,7 +33,7 @@ permalink: /publications/
 <section class="b-content-section content-list">
 	<div class="row">
 		<ul>
-			{% for item in site.publications %}
+			{% for item in site.publications reversed %}
 				<li>
 					<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
 					<div class="clearfix">

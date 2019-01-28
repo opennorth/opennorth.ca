@@ -6,6 +6,9 @@ layout: default
     <div class="column">
       <article>
         <header>
+
+          {{ post.categories | pop }}
+
           <h2>{{ page.title }}</h2>
           <p>
             <time datetime="{{ page.date }}">{{ page.date | date: "%B %e, %Y" }}</time>
@@ -13,8 +16,13 @@ layout: default
           </p>
         </header>
 
+        {% if post.image %}<img src="{{ post.image }}" class="center" />{% endif %}
+
         {{ content }}
       </article>
+      {% if site.categories.press-release %}
+        <p><a href="/newsroom">Visit the newsroom</a></p>
+      {% endif %}
 
       <p><a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a></p>
     </div>

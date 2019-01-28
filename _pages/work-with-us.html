@@ -49,12 +49,12 @@ permalink: /work-with-us/
   {% for job in site.jobs %}
     <div class="row">
       <div class="column medium-12" id="smart">
-        <a href="{{ job.permalink }}">
+        <a href="{{ job.url }}">
           <div class="job">
             <h4>{{ job.title }}</h4>
             <p>{{ job.short_description | markdownify }}</p>
-            <p>{{ job.location | markdownify }}</p>
-            <p>Learn More ></p>
+            {% if job.location %}<p>Location: {{ job.location | strip_html }}</p>{% endif %}
+            <p>Learn More <i class="fas fa-chevron-right"></i></p>
           </div>
         </a>
       </div>

@@ -16,7 +16,7 @@ permalink: /impact/
 	<section class="b-content-section featured-list two-column">
 		<div class="row">
 				{% assign featured = site.impacts | where:'featured', 'true' %}
-				{% for item in featured %}
+				{% for item in featured reversed %}
 					<div class="featured-item {% if forloop.last %} end{% endif %}">
 						<a href="#{{ item.title | slugify }}">
 							{% if item.image %}<div class="featured-image" style="background-image: url(/theme/img/impacts/{{ item.image }});"></div>{% endif %}
@@ -38,7 +38,7 @@ permalink: /impact/
 <section class="b-content-section content-list">
 	<div class="row">
 	<ul>
-		{% for item in site.impacts %}
+		{% for item in site.impacts reversed %}
 			<li>
 				<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
 				{% if item.image %}<img src="/theme/img/impacts/{{ item.image }}">{% endif %}
