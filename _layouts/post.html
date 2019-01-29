@@ -12,7 +12,7 @@ layout: default
           <h2>{{ page.title }}</h2>
           <p>
             <time datetime="{{ page.date }}">{{ page.date | date: "%B %e, %Y" }}</time>
-            by <span rel="author">{{ page.author }}</span>
+            {% if page.author %}by <span rel="author">{{ page.author }}</span>{% endif %}
           </p>
         </header>
 

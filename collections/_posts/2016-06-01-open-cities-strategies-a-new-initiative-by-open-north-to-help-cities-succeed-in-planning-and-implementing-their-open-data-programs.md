@@ -3,6 +3,7 @@ published: true
 layout: post
 title: "Open Cities Strategies: A New Initiative by Open North to Help Cities Succeed in Planning and Implementing Their Open Data Programs"
 author: "Jean-Noé Landry"
+description: Our new service offering is called Open Cities Strategies. Based on international best practices and the newest trends in open data assessment methodologies and maturity modelling, Open North will evaluate your needs and support your open data programs on a range of topics.
 ---
 
 Cities across Canada are committing more than ever to implementing open data infrastructure and policies -- which now means a greater need for strategic planning and tactical support in order to take advantage of the full benefits of open data.

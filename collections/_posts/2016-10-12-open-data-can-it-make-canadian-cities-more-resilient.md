@@ -3,8 +3,9 @@ published: true
 layout: post
 title: 'Open Data: Can it make Canadian cities more resilient?'
 author: Open North
+description: Worldwide, open data is helping to fight corruption, to increase government efficiency, and to grow sectors of the economy, and early research hints that it can also play an important role in making our cities more resilient.
 ---
-This article was co-authored by Jean-Noé Landry and by Professor Pamela Robinson and was originally featured on [Medium](https://medium.com/@lisa_10612/worldwide-open-data-is-helping-to-fight-corruption-to-increase-government-efficiency-and-to-grow-3abc147b647a#.x0w1gx2gi). 
+This article was co-authored by Jean-Noé Landry and by Professor Pamela Robinson and was originally featured on [Medium](https://medium.com/@lisa_10612/worldwide-open-data-is-helping-to-fight-corruption-to-increase-government-efficiency-and-to-grow-3abc147b647a#.x0w1gx2gi).
 
 
 _Worldwide, open data is helping to fight corruption, to increase government efficiency, and to grow sectors of the economy, and early research hints that it can also play an important role in making our cities more resilient._
