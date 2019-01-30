@@ -15,55 +15,57 @@ title: Open North Blog
   <section class="b-content-section b-blog featured-list">
     <div class="row">
         {% for post in paginator.posts %}
-          <div class="featured-item blog-item {% if forloop.last %} end{% endif %}">
-            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-            <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
-            {% if post.image %}<img src="{{ post.image }}" class="post-image">{% endif %}
-            {% if post.description !=null %}
-              <p>{{ post.description | markdownify }}</p>
-            {% else %}
-              <p>{{ post.excerpt | markdownify }}</p>
-            {% endif %}
+          <div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
+            <article>
+              {% if post.image %}<img src="{{ post.image }}" class="post-image">{% endif %}
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+              <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
+              {% if post.description !=null %}
+                {{ post.description | markdownify }}
+              {% else %}
+                <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+              {% endif %}
+            </article>
           </div>
         {% endfor %}
     </div>
   </section>
-</div>
 
-<section class="b-content-section post-navigation">
+  <section class="b-content-section post-navigation">
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">
-        &laquo; Prev
-      </a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <em>{{ page }}</em>
-      {% elsif page == 1 %}
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | relative_url }}">
-          {{ page }}
+          &laquo; Prev
         </a>
       {% else %}
-        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
-          {{ page }}
-        </a>
+        <span>&laquo; Prev</span>
       {% endif %}
-    {% endfor %}
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">
-        Next &raquo;
-      </a>
-    {% else %}
-      <span>Next &raquo;</span>
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | relative_url }}">
+            {{ page }}
+          </a>
+        {% else %}
+          <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+            {{ page }}
+          </a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}">
+          Next &raquo;
+        </a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
     {% endif %}
-  </div>
-  {% endif %}
 
-</section>
+  </section>
+</div>
