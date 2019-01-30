@@ -13,9 +13,9 @@ permalink: /publications/
 	</div>
 </section>
 
-<div class="background-subtle" id="top">
+<div class="background-subtle publications" id="top">
 	<section class="b-content-section publications featured-list three-column">
-		<div class="featured-item {% if forloop.last %} end{% endif %}">
+		<div class="row">
 			{% for item in site.publications reversed %}
 				<div class="featured-item {% if forloop.last %} end{% endif %}">
 					<a href="#{{ item.title | slugify }}">
