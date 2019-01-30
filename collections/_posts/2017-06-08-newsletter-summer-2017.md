@@ -4,6 +4,7 @@ layout: post
 title: 'Newsletter: Summer 2017'
 author: Open North
 categories: [newsletter]
+description: <span></span>
 ---
 ## News and Project Updates
 

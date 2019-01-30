@@ -2,6 +2,7 @@
 layout: post
 title: "Je Veux Savoir, the end of a great journey"
 author: Stéphane Guidoin
+description: <span></span>
 ---
 ## History
 
@@ -9,7 +10,7 @@ In 2013, we had the chance to get financial support from the Minister responsibl
 
 The platform was launched as a pilot for 6 months in the fall of 2013. During this period, the platform allowed to submit access to information requests from 5 departments involved in the process. The aim was twofold: to hone the platform used ([Alaveteli](http://alaveteli.org/)) and work with the concerned departments to integrate this type of tool. The whole approach was [based](http://alaveteli.org/deployments/) on [What Do They Know](https://www.whatdotheyknow.com/), a very successful initiative led by mySociety in the United Kingdom.
 
-Any request made through the Je Veux Savoir web interface resulted in a request made by email to the department. Both the initial request and the subsequent exchanges (including, possibly, the final answer) was publicly displayed on the platform. 
+Any request made through the Je Veux Savoir web interface resulted in a request made by email to the department. Both the initial request and the subsequent exchanges (including, possibly, the final answer) was publicly displayed on the platform.
 
 ![](/theme/img/blog/2015-06-15-jeveuxsavoir.png)
 
