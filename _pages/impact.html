@@ -3,7 +3,7 @@ title: Impact
 layout: default
 permalink: /impact/
 ---
-<section class="b-content-section" id="impact">
+<section class="b-content-section current" id="impact">
 	<div class="row">
 		<div class="column">
 			<h2 class="e-section-title">Impact</h2>
@@ -12,12 +12,12 @@ permalink: /impact/
 	</div>
 </section>
 
-<div class="background-subtle" id="top">
+<div class="background-subtle impact" id="top">
 	<section class="b-content-section featured-list two-column">
 		<div class="row">
 				{% assign featured = site.impacts | where:'featured', 'true' %}
 				{% for item in featured reversed %}
-					<div class="featured-item {% if forloop.last %} end{% endif %}">
+					<div class="featured-item{% if forloop.last %} end{% endif %}">
 						<a href="#{{ item.title | slugify }}">
 							{% if item.image %}<div class="featured-image" style="background-image: url(/theme/img/impacts/{{ item.image }});"></div>{% endif %}
 							<div class="featured-description">
