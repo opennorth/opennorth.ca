@@ -4,7 +4,7 @@ layout: default
 <section class="b-content-section b-blog">
   <div class="row">
     <div class="column">
-      <article>
+      <article class="blog-post">
         <header>
           <h2>{{ page.title }}</h2>
           <p>
@@ -13,54 +13,42 @@ layout: default
           </p>
         </header>
 
-        {% if page.image %}<img src="{{ page.image }}" class="center" />{% endif %}
+        {% if page.image %}
+          <div class="blog-image">
+            <img src="{{ page.image }}" class="center" />
+          </div>
+        {% endif %}
 
         {{ content }}
 
       </article>
-
       <nav class="post-navigation">
         {% if page.categories contains 'press release' %}
-          <p><a href="/newsroom">Visit the newsroom</a></p>
+          <div class="button">
+            <a href="/newsroom">Visit the newsroom</a>
+          </div>
         {% endif %}
+
         {% if page.categories contains 'newsletter' %}
-          <p><a href="/newsletter">Read past newsletters</a></p>
+          <div class="button">
+            <a href="/newsletter">Read past newsletters</a>
+          </div>
         {% endif %}
-        <p><a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a></p>
+
+        <div class="button">
+          <a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a>
+        </div>
+
         <hr>
-        <p class="left next"><a href="/{{ page.next.title | slugify }}">{{ page.next.title }}</a></p>
-        <p class="right previous"><a href="/{{ page.previous.title | slugify }}">{{ page.previous.title }}</a></p>
 
+        {% if page.next %}
+          <p class="left next"><a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+        {% endif %}
+
+        {% if page.previous %}
+          <p class="right previous"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+        {% endif %}
       </nav>
-
     </div>
   </div>
 </section>
-
-<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-<script src="{{ site.baseurl }}/theme/js/scripts.js"></script>
-<script src="/dialogs/jquery.dialogOptions.js"></script>
-<script>
-  $(function() {
-    /*$('#subscribe').dialog({
-      autoOpen: false,
-      showTitleBar: false,
-      showCloseButton: false,
-      responsive: true,
-      height: 'auto',
-      width: 'auto',
-      modal: true,
-      resizable: false,
-      dialogClass: 'subscribe-dialog'
-    });
-
-    $('a[data-target="subscribe"]').on('click', function() {
-      console.log($(this).attr('data-target'));
-      $('#subscribe').dialog('open');
-    });
-
-    */
-  });
-</script>
