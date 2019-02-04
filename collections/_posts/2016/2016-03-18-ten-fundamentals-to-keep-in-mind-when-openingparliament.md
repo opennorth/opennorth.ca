@@ -3,7 +3,7 @@ published: true
 layout: post
 title: "10 fundamentals to keep in mind when opening parliament"
 author: "Jean-Noé Landry"
-description: The Open Government Partnership, which was initially founded to encourage the inclusive development and implementation of open government plans, is becoming an umbrella network for both governments and parliaments, offering up [principles, mechanisms, and guidelines for both institutions](https://drive.google.com/file/d/0ByP1nXAlz_meY1hDTjFCNHJLSmc/view).
+description: "The Open Government Partnership, which was initially founded to encourage the inclusive development and implementation of open government plans, is becoming an umbrella network for both governments and parliaments, offering up principles, mechanisms, and guidelines for both institutions."
 ---
 
 # 10 fundamentals to keep in mind when opening parliament

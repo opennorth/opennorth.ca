@@ -3,7 +3,6 @@ title: Publications
 layout: default
 permalink: /publications/
 ---
-
 <section class="b-content-section" id="reports">
 	<div class="row">
 		<div class="column">
@@ -32,18 +31,16 @@ permalink: /publications/
 
 <section class="b-content-section content-list">
 	<div class="row">
-		<ul>
-			{% for item in site.publications reversed %}
-				<li>
-					<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
-					<div class="clearfix">
-						{% if item.cover_image %}<img src="/theme/img/publications/{{ item.cover_image }}">{% endif %}
-						<p>{{ item.content | markdownify }}</p>
-						{% if item.link %}<a href="{{ item.link }}" class="link">Read the report</a>{% endif %}
-					</div>
-					<p class="text-right"><a href="#top" class="anchor">Top</a></p>
-				</li>
-			{% endfor %}
-		</ul>
+		{% for item in site.publications reversed %}
+			<div>
+				<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
+				<div class="clearfix">
+					{% if item.cover_image %}<img src="/theme/img/publications/{{ item.cover_image }}">{% endif %}
+					<p>{{ item.content | markdownify }}</p>
+					{% if item.link %}<a href="{{ item.link }}" class="link">Read the report</a>{% endif %}
+				</div>
+				<p class="text-right"><a href="#top" class="anchor">Top</a></p>
+			</div>
+		{% endfor %}
 	</div>
 </section>
