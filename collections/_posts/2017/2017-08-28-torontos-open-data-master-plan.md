@@ -3,7 +3,7 @@ published: true
 layout: post
 title: "Toronto's Open Data Master Plan and Data4Impact Report"
 author: "Alyssa Beaton"
-description: Drawing on our strategic planning, maturity modelling, and stakeholder engagement expertise, OpenNorth is supporting the City of Toronto in developing its [Open Data Master Plan](http://opennorth.us2.list-manage.com/track/click?u=a602fac79ef3dc584bf1a2743&id=cc3fd2708b&e=27491208ab), and we’re going about this in a very engaging and collaborative way.
+description: Drawing on our strategic planning, maturity modelling, and stakeholder engagement expertise, OpenNorth is supporting the City of Toronto in developing its Open Data Master Plan, and we’re going about this in a very engaging and collaborative way.
 ---
 Drawing on our strategic planning, maturity modelling, and stakeholder engagement expertise, OpenNorth is supporting the City of Toronto in developing its [Open Data Master Plan](http://opennorth.us2.list-manage.com/track/click?u=a602fac79ef3dc584bf1a2743&id=cc3fd2708b&e=27491208ab), and we're going about this in a very engaging and collaborative way.
 

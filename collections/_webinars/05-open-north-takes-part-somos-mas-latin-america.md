@@ -5,6 +5,7 @@ date: 2018-02-28
 video_embed: '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xNK8Xo-NgvY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 title_link: https://www.youtube.com/watch?time_continue=32&v=xNK8Xo-NgvY
 expanded_content: "The discussion centered on the following five core questions:
+<br />
 
 1. What leads to the adoption of data standards?
 
@@ -15,6 +16,8 @@ expanded_content: "The discussion centered on the following five core questions:
 1. What are the ethical considerations of opening data?
 
 1. How can multiple stakeholders effectively share data?
+
+<br />
 
 Download the slides to our presentation ([English](https://docs.google.com/presentation/d/1-ZUYZ4cymijODsPGkyjgod0z4cmitBn6XGcCWQMDItk/edit#slide=id.g3416126efc_7_2), or [Spanish](https://docs.google.com/presentation/d/13f3qJOQtC8iUHrPRJl--9Q2OL7jG1YtTsdI8RnAkcz0/edit#slide=id.p8)), or watch the video [here](https://www.youtube.com/watch?time_continue=32&v=xNK8Xo-NgvY)."
 ---
