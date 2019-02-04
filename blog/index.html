@@ -16,16 +16,32 @@ title: Open North Blog
     <div class="row">
         {% for post in paginator.posts %}
           <div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-            <article>
-              {% if post.image %}<img src="{{ post.image }}" class="post-image">{% endif %}
-              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-              <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
-              {% if post.description !=null %}
-                {{ post.description | markdownify }}
-              {% else %}
-                <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-              {% endif %}
-            </article>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <article>
+                {% if post.image %}
+                  <div class="post-text">
+                    <h3>{{ post.title }}</h3>
+                    <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
+                    {% if post.description !=null %}
+                      {{ post.description | markdownify }}
+                    {% else %}
+                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                    {% endif %}
+                  </div>
+                  <div class="post-image" style="background-image: url('{{ post.image }}');"></div>
+                {% else %}
+                  <div>
+                    <h3>{{ post.title }}</h3>
+                    <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
+                    {% if post.description !=null %}
+                      {{ post.description | markdownify }}
+                    {% else %}
+                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </article>
+            </a>
           </div>
         {% endfor %}
     </div>
@@ -36,11 +52,11 @@ title: Open North Blog
     {% if paginator.total_pages > 1 %}
     <div class="pagination">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}">
-          &laquo; Prev
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">
+          Prev
         </a>
       {% else %}
-        <span>&laquo; Prev</span>
+        <!--span>&laquo; Prev</span-->
       {% endif %}
 
       {% for page in (1..paginator.total_pages) %}
@@ -58,11 +74,11 @@ title: Open North Blog
       {% endfor %}
 
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}">
-          Next &raquo;
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next">
+          Next
         </a>
       {% else %}
-        <span>Next &raquo;</span>
+        <!--span>Next &raquo;</span-->
       {% endif %}
     </div>
     {% endif %}
