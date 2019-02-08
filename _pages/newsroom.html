@@ -9,7 +9,7 @@ redirect_from:
 	<div class="row">
 		<div class="column">
 			<h2 class="e-page-title">Newsroom</h2>
-			<p class="text-center">For all media inquiries, please email us at <a href="mailto:pressrequests@opennorth.ca">pressrequests@opennorth.ca</a>. For fast facts about the organization and our future work, please also see a PDF with our press kit.</p>
+			<p class="text-center">For all media inquiries, please email us at <a href="mailto:pressrequests@opennorth.ca">pressrequests@opennorth.ca</a>.<br />For fast facts about the organization and our future work, please also see a PDF with our press kit.</p>
 			<div class="button text-center"><a href="#">Download our Press Kit</a></div>
 		</div>
 	</div>
@@ -32,15 +32,37 @@ redirect_from:
 </section>
 {% endif %}
 
-<section class="b-content-section news content-list">
+<!--section class="b-content-section news content-list">
   <div class="row">
     <h2 class="e-section-title">In the News</h2>
-		<ul>
-      {% for item in site.data.news %}
+    {% for item in site.data.news %}
+      {% assign pubdate = item.pub_date | date: "%Y" %}
+      {% if pubdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h5 id="y{{ item.pub_date | date: "%Y"}}">{{ pubdate }}</h5>
+        <ul>
+        {% assign date = pubdate %}
+      {% endif %}
         <li>
           <a href="{{ item.link }}" target="_blank" rel="nofollow">{{ item.title }} </a><span class="source">{{ item.source }}. </span><span>{{ item.pub_date | date_to_long_string }}.</span>
         </li>
-      {% endfor %}
-    </ul>
+      {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
 	</div>
+</section-->
+
+<section class="b-content-section news content-list">
+  <div class="row">
+    <h2 class="e-section-title">In the News</h2>
+    {% assign newsByYear =
+        site.data.news | group_by_exp:"item", "item.pub_date | date: '%Y'" %}
+    {% for year in newsByYear %}
+      <h4>{{ year.name }}</h4>
+        <ul>
+          {% for newsitem in year.items %}
+            <li><a href="{{ newsitem.link }}" target="_blank" rel="nofollow">{{ newsitem.title }} </a><span class="source">{{ newsitem.source }}. </span><span>{{ newsitem.pub_date | date_to_long_string }}.</span></li>
+          {% endfor %}
+        </ul>
+    {% endfor %}
+  </div>
 </section>
