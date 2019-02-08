@@ -2,11 +2,16 @@
   <div class="row action-box">
     <div class="column small-12 medium-6">
       <span class="button important">
-        <a href={% if page.url contains 'work-with-us' %}"mailto:info@opennorth.ca"{% else %}"/work-with-us"{% endif %}>Work With Us</a>
+        <!--a href={% if page.url contains 'work-with-us' %}"mailto:info@opennorth.ca"{% else %}"/work-with-us"{% endif %}>Work With Us</a-->
+        {% if page.url contains 'work-with-us' %}
+          <a href="/current-jobs">Current Jobs</a>
+        {% else %}
+          <a href="/work-with-us">Work With Us</a>
+        {% endif %}
       </span>
     </div>
     <div class="column small-12 medium-6">
-      <span class="button important"><a data-target="subscribe">Subscribe to our Newsletter</a></span>
+      <span class="button important"><a href="/newsletter">Subscribe to our Newsletter</a></span>
     </div>
   </div>
   <div class="row socials text-center">

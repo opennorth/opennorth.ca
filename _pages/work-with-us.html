@@ -3,11 +3,11 @@ title: Work With Us
 layout: default
 permalink: /work-with-us/
 ---
-<section class="b-content-section" id="work-with-us">
+<section class="b-title-section" id="work-with-us">
   <div class="row">
     <div class="column medium-12">
-      <h2 class="e-section-title">Work With Us</h2>
-      <h4 class="text-center">Interested in a career with OpenNorth or just getting involved with our three pillars of future work. Find out how you can get involved.</h4>
+      <h2 class="e-page-title">Work With Us</h2>
+      <p class="text-center">Interested in a career with OpenNorth or just getting involved with our three pillars of future work.</p>
     </div>
   </div>
 </section>
@@ -17,46 +17,15 @@ permalink: /work-with-us/
 <section class="b-content-section products">
   <div class="row">
     <div class="column">
-      <h3>One-to-One (1:1) Advisory Service:</h3>
+      <p class="minor-subheading">Find out how you can get involved.</p>
+      <h3 class="subheading">One-to-One (1:1) Advisory Service:</h3>
       <p>Thanks to funding from Infrastructure Canada’s Community Support Program, OpenNorth will launch a first-of-its-kind targeted consulting service to directly engage any community in Canada. Practical metrics and guidance based upon OpenNorth’s applied research will enable clients to assess the state of their current smart city capabilities and map a road forward. The 1:1 Advisory Service is available to governments of any size, geographic region, or language. You can find out more about 1:1 Advisory Service here. Get involved by 1) contacting the service here; 2) providing feedback on our service; and, 3) telling us how your community has changed since consulting with us.</p>
-      <h3>Represent API:</h3>
+      <h3 class="subheading">Represent API:</h3>
       <p>Through Represent API, we help put citizens in touch with their elected officials. By entering a postal code or geocoded address, citizens can find out who represents their riding and how to reach them. You can find out more about <a href="https://represent.opennorth.ca/" target-"_blank">Represent AI</a> here. Get involved by 1) <a href="mailto:info@opennorth.ca">telling us how</a> you are using Represent AI; 2) adopting our schema in your own work and <a href="mailto:info@opennorth.ca">telling us about it</a>; and, 3) contributing to the maintenance of our API (<a href="mailto:info@opennorth.ca">contact us for details</a>).</p>
-      <h3>Do-It-Yourself Open Data Toolkit:</h3>
+      <h3 class="subheading">Do-It-Yourself Open Data Toolkit:</h3>
       <p>To support the efforts of cities to open up their data, Open North, and the Government of Canada have piloted the development of a do-it-yourself open data toolkit for municipalities. The toolkit is aimed at municipalities that have not yet begun an open data project but need some guidance on how to implement one. Get involved by 1) <a href="mailto:info@opennorth.ca">telling us how</a> you are using the Do-It-Yourself Open Data Toolkit; 2) adopting this tool in your own work and <a href="mailto:info@opennorth.ca">telling us about it</a>; and, 3) <a href="mailto:open-ouvert@tbs-sct.gc.ca">contacting the government of Canada</a> to tell them about OpenNorth’s work on this. Find out <a href="https://open.canada.ca/en/blog/coming-soon-do-it-yourself-open-data-toolkit" target="_blank">more about the do-it-yourself open data toolkit</a>.</p>
-      <h3>Citizen Budget:</h3>
+      <h3 class="subheading">Citizen Budget:</h3>
       <p>Used by over 100 cities and nearly 6 million citizens, <a href="http://www.citizenbudget.com/" target="_blank">Citizen Budget</a> online simulator is a powerful and innovative tool that helps you build better community relations, educate your residents, and solicit their feedback on your budget consultation. Our user-friendly and fun budget exercise creates a two-way dialogue between you and your community, providing both parties with rich and detailed information. Find out more about Citizen Budget here. Get involved by 1) <a href="mailto:info@opennorth.ca">telling us how</a> you are using Citizen Budget; 2) adopting our schema in your own work and <a href="mailto:info@opennorth.ca">telling us about it</a>; and, 3) contributing to the maintenance of this resource (<a href="mailto:info@opennorth.ca">contact us for details</a>).</p>
     </div>
   </div>
-  <hr/>
-</section>
-
-<section class="b-content-section">
-  <div class="row">
-    <div class="column medium-12">
-      <h2 id="jobs" class="e-section-title">Current Jobs</h3>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <p>OpenNorth was founded in 2011 to make democracy better, and has since developed into one of the world's leading not-for-profit organization specialized in open data and civic technology.</p>
-      <p>Want to find out more about working with OpenNorth? Get in touch:</p>
-      <p><a href="mailto:jobs@opennorth.ca" target="_blank">jobs@opennorth.ca</a> / 1-888-750-4980</p>
-    </div>
-  </div>
-
-  {% for job in site.jobs %}
-    <div class="row">
-      <div class="column medium-12" id="smart">
-        <a href="{{ job.url }}">
-          <div class="job">
-            <h4>{{ job.title }}</h4>
-            <p>{{ job.short_description | markdownify }}</p>
-            {% if job.location %}<p>Location: {{ job.location | strip_html }}</p>{% endif %}
-            <p>Learn More <i class="fas fa-chevron-right"></i></p>
-          </div>
-        </a>
-      </div>
-    </div><!--/.row-->
-  {% endfor %}
 </section>
