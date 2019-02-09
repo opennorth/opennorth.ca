@@ -1,4 +1,5 @@
 <!-- TOC -->
+**Contents**
 
 - [Getting Started](#getting-started)
   - [Using Prose.io](#using-proseio)
@@ -64,6 +65,8 @@ For example, to **add a blog post**:
 1. Click "Unpublished" at the right end of the toolbar
 1. Click the "Save" icon in the right sidebar
 
+**Note:** Do not use the "Insert Image" button in the Prose editor. Instead, please upload the image to the appropriate folder in the [theme repository](https://github.com/opennorth/theme/) and reference it a metadata field (where applicable), or add it in the main content area using [html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img) or [markdown](https://daringfireball.net/projects/markdown/syntax#img) syntax.
+
 ## Using GitHub
 
 Use the "Create new files" and "Upload files" buttons, or click on a file name to edit an existing file.
@@ -117,7 +120,8 @@ git pull origin gh-pages  # Sync up your local repository.
 # Edit files / add content / etc.
 bundle exec jekyll serve -w # Run the built in jekyll server to view your changes.
 # Open a web browser and navigate to http://127.0.0.1:4000
-press 'ctrl' and 'c' at once # Stop the server after viewing your changes in a browser.
+# View your changes.
+# Type 'ctrl' and 'c' at once to stop the server.
 git add path/to/modified/file.md
 git add path/to/additional/edit.html # Multiple files may be commited at once
 git commit -m "Write commit message under 52 characters" # Excluding the -m extension will open a text editor where you can type a longer message.
@@ -265,7 +269,7 @@ To **change a photo**:
 1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
 
-**Note:** Please make sure that the image is not too large or too small. No image should be more than 100KB in size. Post images should be approximately 325 px wide by 325 px tall.
+**Note:** Please make sure that the image is not too large or too small. No image should be more than 100KB in size. Post images should be approximately 325 px wide by 325 px tall (edges will be slightly cropped depending on viewport size).
 
 ## Add a new job posting
 
@@ -284,13 +288,15 @@ title: Job Title
 layout: job
 short_description: "Description will appear on Current Jobs page."
 location: Job Location
+---
 ```
 
 ## Add a new item to the 'Impacts' page
 
 Create a new file in collections/impacts/ or copy and rename an existing file in the collection.
 
-If using Prose,
+If using Prose, the following metadata fields will be available:
+* Title
 
 ## Add a new publication to the 'Publications' page
 
@@ -317,7 +323,10 @@ Then, open [localhost:4000](http://localhost:4000) in a browser. While the serve
 
 **Note:** If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
 
+
 ## Theme
+
+**The theme is a separate repository (or, '[submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)') which is shared between both the French and English versions of the site.**
 
 These files should be identical in this repository and [nordouvert.ca](https://github.com/opennorth/nordouvert.ca/):
 
