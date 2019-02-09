@@ -24,9 +24,9 @@
       childlink: /blog
     - childname: Webinars
       childlink: /webinars
-    - childname: Subscribe to our Newsletter
-      childlink: /newsletter
     - childname: Newsroom
       childlink: /newsroom
+    - childname: Subscribe to our Newsletter
+      childlink: /newsletter
 - name: FR
   link: http://www.nordouvert.ca/
