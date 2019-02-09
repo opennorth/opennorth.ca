@@ -10,7 +10,7 @@ redirect_from:
 		<div class="column">
 			<h2 class="e-page-title">Newsroom</h2>
 			<p class="text-center">For all media inquiries, please email us at <a href="mailto:pressrequests@opennorth.ca">pressrequests@opennorth.ca</a>.<br />For fast facts about the organization and our future work, please also see a PDF with our press kit.</p>
-			<div class="button text-center"><a href="#">Download our Press Kit</a></div>
+			<div class="button text-center"><a href="https://docs.google.com/document/d/1nqsr-cifKWaCkU49kKbOLLAmoARupNc7CX3hNf922K4/edit?usp=sharing" target="_blank">Download our Press Kit</a></div>
 		</div>
 	</div>
 </section>
@@ -31,25 +31,6 @@ redirect_from:
   </div>
 </section>
 {% endif %}
-
-<!--section class="b-content-section news content-list">
-  <div class="row">
-    <h2 class="e-section-title">In the News</h2>
-    {% for item in site.data.news %}
-      {% assign pubdate = item.pub_date | date: "%Y" %}
-      {% if pubdate != date %}
-        {% unless forloop.first %}</ul>{% endunless %}
-        <h5 id="y{{ item.pub_date | date: "%Y"}}">{{ pubdate }}</h5>
-        <ul>
-        {% assign date = pubdate %}
-      {% endif %}
-        <li>
-          <a href="{{ item.link }}" target="_blank" rel="nofollow">{{ item.title }} </a><span class="source">{{ item.source }}. </span><span>{{ item.pub_date | date_to_long_string }}.</span>
-        </li>
-      {% if forloop.last %}</ul>{% endif %}
-    {% endfor %}
-	</div>
-</section-->
 
 <section class="b-content-section news content-list">
   <div class="row">

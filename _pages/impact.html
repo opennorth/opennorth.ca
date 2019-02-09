@@ -13,7 +13,7 @@ permalink: /impact/
 </section>
 
 <div class="background-subtle impact" id="top">
-	<section class="b-content-section featured-list two-column">
+	<section class="featured-list two-column">
 		<div class="row">
 				{% assign featured = site.impacts | where:'featured', 'true' %}
 				{% for item in featured reversed %}
@@ -43,7 +43,7 @@ permalink: /impact/
 				<h3 id="{{ item.title | slugify }}">{{ item.title }}</h3>
 				{% if item.image %}<img src="/theme/img/impacts/{{ item.image }}">{% endif %}
 				<p>{{ item.content | markdownify }}</p>
-				{% if item.link %}<a href="{{ item.link }}" class="link">Learn more about the {{ item.title }}</a>{% endif %}
+				{% if item.link %}<a href="{{ item.link }}" class="link" target="_blank">Learn more about the {{ item.title }}</a>{% endif %}
 				<p class="text-right"><a href="#top" class="anchor">Top</a></p>
 			</li>
 		{% endfor %}
