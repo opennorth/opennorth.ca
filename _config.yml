@@ -87,7 +87,7 @@ prose:
           label: Testimonial Source
           help: Enter the source of the testimonial. Accepts markdown syntax.
           value: ""
-    _jobs:
+    collections/_jobs:
       - name: layout
         field:
           element: hidden
@@ -96,13 +96,13 @@ prose:
         field:
           element: text
           label: Title
-          help: All jobs must have a title.
+          help: All jobs must have a title. This should be the job title as well as the page title.
           value: ""
       - name: short_description
         field:
           element: textarea
           label: Short Description
-          help: Description will be displayed on the 'Work with Us' page.
+          help: Description will be displayed on the 'Current Jobs' page.
           value: ""
       - name: location
         field:
@@ -131,12 +131,21 @@ prose:
           label: Author
           help: All posts must have an author.
           value: ""
-      - name: categories
+      - name: image
         field:
           element: text
+          label: Image
+          help: Enter the name of the image that you uploaded to the blog folder of the theme repository. This image will appear with the title and description on the Blog page and at the top of the post. Additional images can be added to the post's body.
+      - name: categories
+        field:
+          element: multiselect
           label: Categories
           help: Enter relevent categories from OpenNorth's post categories.
-          value: ""
+          options:
+            - name: Newsletter
+              value: 'newsletter'
+            - name: Press Release
+              value: 'press release'
     _publications:
       - name: title
         field:
