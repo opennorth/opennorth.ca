@@ -22,24 +22,20 @@ layout: default
         {{ content }}
 
       </article>
+
       <nav class="post-navigation">
+        <hr />
         {% if page.categories contains 'press release' %}
-          <div class="button">
-            <a href="/newsroom">Visit the newsroom</a>
-          </div>
+            <p><a href="/newsroom">Visit the newsroom</a></p>
         {% endif %}
 
         {% if page.categories contains 'newsletter' %}
-          <div class="button">
-            <a href="/newsletter">Read past newsletters</a>
-          </div>
+            <p><a href="/newsletter">Read past newsletters</a></p>
         {% endif %}
 
-        <div class="button">
-          <a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a>
-        </div>
+        <p><a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a></p>
 
-        <hr>
+        <hr />
 
         {% if page.next %}
           <p class="left next"><a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
