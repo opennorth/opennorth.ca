@@ -1,3 +1,30 @@
+<!-- TOC -->
+
+- [Getting Started](#getting-started)
+  - [Using Prose.io](#using-proseio)
+  - [Using GitHub](#using-github)
+  - [Using git](#using-git)
+    - [One-Time Setup](#one-time-setup)
+    - [Git Workflow](#git-workflow)
+      - [Git Workflow - Editing the Theme](#git-workflow---editing-the-theme)
+- [Adding Content](#adding-content)
+  - [Add a new blog post](#add-a-new-blog-post)
+    - [To add an image to a post:](#to-add-an-image-to-a-post)
+    - [To add categories to a post:](#to-add-categories-to-a-post)
+      - [Add a new press release](#add-a-new-press-release)
+      - [Add a new newsletter](#add-a-new-newsletter)
+  - [Add a new team member](#add-a-new-team-member)
+  - [Add a new job posting](#add-a-new-job-posting)
+  - [Add a new item to the 'Impacts' page](#add-a-new-item-to-the-impacts-page)
+  - [Add a new publication to the 'Publications' page](#add-a-new-publication-to-the-publications-page)
+  - [Add a new webinar to the 'Webinars' page](#add-a-new-webinar-to-the-webinars-page)
+  - [Add or remove an item to the main navigation menu](#add-or-remove-an-item-to-the-main-navigation-menu)
+- [Preview Changes](#preview-changes)
+  - [Theme](#theme)
+- [Helpful Links](#helpful-links)
+
+<!-- /TOC -->
+
 # Getting Started
 
 This site is built with [Jekyll](https://jekyllrb.com/) and [Github Pages](https://help.github.com/articles/what-is-github-pages/).
