@@ -451,9 +451,11 @@ Before committing your changes, always preview your changes. If not using Prose.
 bundle exec jekyll serve -w
 ```
 
+If any errors or warnings are encountered in the build process information about them will be output in the terminal.
+
 Then, open [localhost:4000](http://localhost:4000) in a browser. While the server is running, you can make changes to files, then refresh the page in the browser to see your changes immediately! Press `Ctrl+C` to stop the server.
 
-**Note:** This command compiles HTML files into the `_site` directory. Do not edit those files. Your changes to those files will not be saved.
+**Note:** This command compiles files into the `_site` directory. Do not edit those files. Your changes to those files will not be saved.
 
 **Note:** If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
 
