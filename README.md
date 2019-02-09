@@ -74,18 +74,23 @@ to:
     url = git@github.com:opennorth/theme.git
 
 **Note:** If editing files locally, it is necessary to run a jekyll build or serve command to 'build' the site, before pushing changes to Github. Changes to files will not take effect until the site is 'built':
-    `bundle exec jekyll build` or
-    `bundle exec jekyll serve` to view changes locally, or
-    `bundle exec jekyll serve -w` to force the server to 'watch' for changes while serving the site.
+      `bundle exec jekyll build` or
+      `bundle exec jekyll serve` to view changes locally, or
+      `bundle exec jekyll serve -w` to force the server to 'watch' for changes while serving the site.
 
 ### Git Workflow
 
 Once the project is set up you will use the following workflow:
 
+Open a terminal
+
 ```bash
 cd opennorth.ca
 git pull origin gh-pages  # Sync up your local repository.
 # Edit files / add content / etc.
+bundle exec jekyll serve -w # Run the built in jekyll server to view your changes.
+# Open a web browser and navigate to http://127.0.0.1:4000
+press 'ctrl' and 'c' at once # Stop the server after viewing your changes in a browser.
 git add path/to/modified/file.md
 git add path/to/additional/edit.html # Multiple files may be commited at once
 git commit -m "Write commit message under 52 characters" # Excluding the -m extension will open a text editor where you can type a longer message.
@@ -102,6 +107,9 @@ To edit the theme files locally, using git:
 cd opennorth.ca/theme
 git pull origin master # Sync up your local repository.
 # Edit theme files, add images, etc.
+bundle exec jekyll serve -w # Run the built in jekyll server to view your changes.
+# Open a web browser and navigate to http://127.0.0.1:4000
+press 'ctrl' and 'c' at once # Stop the server after viewing your changes in a browser.
 git commit path/to/modified/file
 git push origin master
 cd ../ # Go back to opennorth.ca directory.
@@ -131,12 +139,16 @@ author: The author's name
 ---
 ```
 
-**Note:** In Prose.io, this metadata appears as fields.
+**Note:** In Prose.io, this metadata appears as fields. Testimonia fields are interpreted as [Markdown](https://guides.github.com/features/mastering-markdown/).
 
 You can also add:
 * an image
-* a short description
+* a short description (50 words or less, written in markdown)
 * categories
+
+**Note:** Links are note valid in the description field.
+
+**Note:** If a description is not specified, the first 50 words of the post conent will be used.
 
 ### To add an image to a post:
 
@@ -148,7 +160,7 @@ Example: ```2018-12-24-data-management-workshop.jpg```
 
 Add the image file to the [blog folder](https://github.com/opennorth/theme/tree/master/img/blog) in the [theme repository](https://github.com/opennorth/theme/).
 
-In Prose, enter the full image name (as in the example above) in the "Image" field.
+In Prose, enter the full image name (as in the example above) in the "Image" field. *Do not use the image upload in Prose.*
 
 If editing the file directly, add the image to the front matter at the top of the file.
 
@@ -226,13 +238,32 @@ To **change a photo**:
 1. Run `git commit theme -m "Update theme"` from the `opennorth.ca` directory
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
 
+**Note:** Please make sure that the image is not too large or too small. No image should be more than 100KB in size. Post images should be approximately 325 px wide by 325 px tall.
 
 ## Add a new job posting
 
+Create a new file in collections/jobs/ or copy and rename an existing file in the collection.
 
+If using Prose, add the following metadata:
+* title - this should be the job title as well as the page title
+* Short Description - this will appear on the "Current Jobs" page
+* Location - the location of this position
+
+If editing the file directly, add the metadata to the front matter:
+
+```yaml
+---
+title: Job Title
+layout: job
+short_description: "Description will appear on Current Jobs page."
+location: Job Location
+```
 
 ## Add a new item to the 'Impacts' page
 
+Create a new file in collections/impacts/ or copy and rename an existing file in the collection.
+
+If using Prose,
 
 ## Add a new publication to the 'Publications' page
 
