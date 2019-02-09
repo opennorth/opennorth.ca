@@ -121,7 +121,7 @@ git pull origin gh-pages  # Sync up your local repository.
 bundle exec jekyll serve -w # Run the built in jekyll server to view your changes.
 # Open a web browser and navigate to http://127.0.0.1:4000
 # View your changes.
-# Type 'ctrl' and 'c' at once to stop the server.
+# Type 'ctrl' and 'c' at the same time to stop the server.
 git add path/to/modified/file.md
 git add path/to/additional/edit.html # Multiple files may be commited at once
 git commit -m "Write commit message under 52 characters" # Excluding the -m extension will open a text editor where you can type a longer message.
@@ -140,7 +140,7 @@ git pull origin master # Sync up your local repository.
 # Edit theme files, add images, etc.
 bundle exec jekyll serve -w # Run the built in jekyll server to view your changes.
 # Open a web browser and navigate to http://127.0.0.1:4000
-press 'ctrl' and 'c' at once # Stop the server after viewing your changes in a browser.
+# Type 'ctrl' and 'c' at the same time to stop the server.
 git commit path/to/modified/file
 git push origin master
 cd ../ # Go back to opennorth.ca directory.
@@ -306,7 +306,7 @@ Example: If the last impact added was ```10-diy-open-data-tookit.md``` name the 
   Make featured if there is a quote for the Testimonial *and* you would like it to be displayed in the 'featured' section at the top of the page.
 * Image
 
-  Enter the image file name and upload the image file to the [img/impacts/](https://github.com/opennorth/theme/tree/dev/img/impacts) folder of the theme repository.
+  Enter the image file name and upload the image file to the [img/impacts/](https://github.com/opennorth/theme/tree/master/img/impacts) folder of the theme repository.
   Use the same name for the image file as the impact file.
 * Testimonial
 
@@ -343,7 +343,7 @@ Example: If the last publication added was ```14-open-smart-cities-guide.md``` n
 * Title
 * Cover Image
 
-  Take a screenshot of the cover enter the image file name. Upload the image file to the [img/impacts/](https://github.com/opennorth/theme/tree/dev/img/impacts) folder of the theme repository.
+  Take a screenshot of the cover enter the image file name. Upload the image file to the [img/impacts/](https://github.com/opennorth/theme/tree/master/img/impacts) folder of the theme repository.
   Use the same name for the image file as the impact file.
 
 * Link
@@ -439,6 +439,9 @@ To add a new page to a drop down menu, find the parent ```name``` in the list ad
       childlink: /new-drop-down-link # Use relative path.
 ```
 
+## Edit static pages
+
+Static pages are found in the ```_pages``` folder, with the exception of the Blog page which is located at ```blog/index.html```.
 
 # Preview Changes
 
