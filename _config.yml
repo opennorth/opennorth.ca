@@ -55,7 +55,7 @@ plugins:
   - jekyll-paginate
 
 prose:
-  siteurl: http://www.opennorth.ca/
+  siteurl: https://www.opennorth.ca/
   metadata:
     collections/_impacts:
       - name: title
@@ -73,10 +73,10 @@ prose:
           help: Select to display impact in the 'featured' section at the top of the Impacts page.
           value: true
           options:
-            - name: Make featured.
-              value: true
             - name: Do not feature.
               value: false
+            - name: Make featured.
+              value: true
       - name: link
         field:
           element: text
@@ -231,5 +231,5 @@ prose:
           element: textarea
           label: Expanded content
           placeholder: Optional field.
-          help: Enter accordion text. Accepts markdown syntax; use <br /> tags to create line breaks. Will be displayed when user clicks "show more".
+          help: Enter accordion text. Accepts markdown syntax; use "<br />" tags to create line breaks. Will be displayed when user clicks "show more".
           value: ""
