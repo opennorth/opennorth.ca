@@ -37,7 +37,7 @@ permalink: /publications/
 				<div class="clearfix">
 					{% if item.cover_image %}<img src="/theme/img/publications/{{ item.cover_image }}">{% endif %}
 					<p>{{ item.content | markdownify }}</p>
-					{% if item.link %}<a href="{{ item.link }}" class="link">Read the report</a>{% endif %}
+					{% if item.link %}<a href="{{ item.link }}" class="link" target="_blank">Read the report</a>{% endif %}
 				</div>
 				<p class="text-right"><a href="#top" class="anchor">Top</a></p>
 			</div>
