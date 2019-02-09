@@ -21,11 +21,14 @@
   - [Add a new webinar to the 'Webinars' page](#add-a-new-webinar-to-the-webinars-page)
   - [Add a new 'In the News' item to the Newsroom](#add-a-new-in-the-news-item-to-the-newsroom)
   - [Add or remove an item to the main navigation menu](#add-or-remove-an-item-to-the-main-navigation-menu)
+  - [Edit static pages](#edit-static-pages)
 - [Preview Changes](#preview-changes)
-  - [Theme](#theme)
+- [Theme](#theme)
 - [Helpful Links](#helpful-links)
+- [This Documentation](#this-documentation)
 
 <!-- /TOC -->
+
 
 # Getting Started
 
@@ -33,8 +36,9 @@ This site is built with [Jekyll](https://jekyllrb.com/) and [Github Pages](https
 
 There are three ways that you can edit the site:
 1. Using [Prose.io](http://prose.io/#opennorth/opennorth.ca/)
-1. Directly editing and/or uploading files to GitHub.
+1. Directly editing and/or uploading files to [GitHub](https://help.github.com/articles/editing-files-in-your-repository/).
 1. Using [git](https://en.wikipedia.org/wiki/Git) to edit and build the site locally on your computer.
+
 
 ## Using Prose.io
 
@@ -68,11 +72,13 @@ For example, to **add a blog post**:
 
 **Note:** Do not use the "Insert Image" button in the Prose editor. Instead, please upload the image to the appropriate folder in the [theme repository](https://github.com/opennorth/theme/) and reference it a metadata field (where applicable), or add it in the main content area using [html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img) or [markdown](https://daringfireball.net/projects/markdown/syntax#img) syntax.
 
+
 ## Using GitHub
 
 Use the "Create new files" and "Upload files" buttons, or click on a file name to edit an existing file.
 
 Files ending in .html are html and files ending in .md accept [markdown](https://guides.github.com/features/mastering-markdown/).
+
 
 ## Using git
 
@@ -80,20 +86,23 @@ This is the fastest and most versatile way to add and edit content, and has the 
 
 To learn more about git, try [Git Tower's free video tutorial](https://www.git-tower.com/learn/).
 
+
 ### One-Time Setup
 
 Follow these steps to set up the project locally on your computer:
 
+Check that your computer meets the [Jekyll installation requirements](https://jekyllrb.com/docs/installation/) and, if not, install the requirements. *It is not necessary to continue the other installation steps listed in the Jekyll documenation, the steps below will install bundler and the other packages needed for this project.*
+
 Open a terminal and run the following commands:
 
-```
-gem install bundler
-git clone git@github.com:opennorth/opennorth.ca.git
-cd opennorth.ca
-git submodule update --init
-bundle
-cd theme
-git checkout master
+```bash
+gem install bundler # Bundler is a dependecy manager.
+git clone git@github.com:opennorth/opennorth.ca.git # This copies the files from GitHub to your computer.
+cd opennorth.ca # Navigate into the project files.
+git submodule update --init # Update the theme submodule.
+bundle # Bundler will install everything else.
+cd theme # Navigate to the theme directory.
+git checkout master # Switch to the master branch of the theme repository (submodule).
 ```
 
 Then, edit `.git/modules/theme/config` in the `opennorth.ca` directory, changing this line:
@@ -105,9 +114,13 @@ to:
     url = git@github.com:opennorth/theme.git
 
 **Note:** If editing files locally, it is necessary to run a jekyll build or serve command to 'build' the site, before pushing changes to Github. Changes to files will not take effect until the site is 'built':
-      `bundle exec jekyll build` or
-      `bundle exec jekyll serve` to view changes locally, or
-      `bundle exec jekyll serve -w` to force the server to 'watch' for changes while serving the site.
+
+  ```bash
+  bundle exec jekyll build # or
+  bundle exec jekyll serve # to view changes locally, or
+  bundle exec jekyll serve -w # to force the server to 'watch' for changes while serving the site.
+  ```
+
 
 ### Git Workflow
 
@@ -129,6 +142,7 @@ git commit -m "Write commit message under 52 characters" # Excluding the -m exte
 git push origin gh-pages # Push your changes back to the repository.
 ```
 
+
 #### Git Workflow - Editing the Theme
 
 **The theme is a separate repository (or, '[submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)') which is shared between both the French and English versions of the site.**
@@ -149,6 +163,7 @@ git commit theme -m "Update theme." # Commit theme from opennorth.ca repo.
 git push origin gh-pages # Push to gh-pages for the site to recognize theme changes.
 ```
 
+
 # Adding Content
 
 Content can be written in [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) or [Markdown](https://guides.github.com/features/mastering-markdown/).
@@ -156,6 +171,7 @@ Content can be written in [HTML](https://developer.mozilla.org/en-US/docs/Web/HT
 To add content in HTML, name the new file with the extension `.html`.
 
 To add content in Markdown, name the new file with the extension `.md`. HTML is also interpreted as valid syntax in Markdown.
+
 
 ## Add a new blog post
 
@@ -182,6 +198,7 @@ You can also add:
 
 **Note:** If a description is not specified, the first 50 words of the post conent will be used.
 
+
 ### To add an image to a post:
 
 Name the image file using the following conventions:
@@ -199,6 +216,7 @@ If editing the file directly, add the image to the front matter at the top of th
 **Note:** When adding images to any website, it is usually best to use the .jpg format for photographs and the .png format for illustrations, logos, or icons.
 
 **Note:** Please make sure that the image is not too large or too small. No image should be more than 100KB in size. Post images maybe be up to 800px wide but will never be larger.
+
 
 ### To add categories to a post:
 
@@ -224,6 +242,7 @@ categories: ['press release', newsletter, 'open data']
 
 **Note:** Categories that contain more than one word must be wrapped in single quotes.
 
+
 ##### Add a new press release
 
 Create a post and assign the category 'press release':
@@ -238,6 +257,7 @@ categories: ['press release']
 
 **Note:** Since this category contains two words it must be wrapped in single quotes.
 
+
 ##### Add a new newsletter
 
 Create a post and assign the category 'newsletter':
@@ -246,9 +266,12 @@ Create a post and assign the category 'newsletter':
 ---
 title: A descriptive title
 author: The author's name
+image: YYYY-MM-DD-descriptive-lowercase-image-name.jpg
 categories: [newsletter]
 ---
 ```
+
+The newsletter image should be saved to the [img/blog/](https://github.com/opennorth/theme/tree/master/img/blog) folder of the theme repository.
 
 ## Add a new team member
 
@@ -271,6 +294,7 @@ To **change a photo**:
 1. Run `git push origin gh-pages` from the `opennorth.ca` directory
 
 **Note:** Please make sure that the image is not too large or too small. No image should be more than 100KB in size. Post images should be approximately 325 px wide by 325 px tall (edges will be slightly cropped depending on viewport size).
+
 
 ## Add a new job posting
 
@@ -461,7 +485,7 @@ Then, open [localhost:4000](http://localhost:4000) in a browser. While the serve
 **Note:** If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
 
 
-## Theme
+# Theme
 
 **The theme is a separate repository (or, '[submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)') which is shared between both the French and English versions of the site.**
 
@@ -486,14 +510,22 @@ In other words, only these directories and files should differ:
 * `CNAME`
 * `README.md`
 
+
 # Helpful Links
 
 * [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
  * [Writing on GitHub Guide](https://help.github.com/categories/writing-on-github/)
-* [Font Awesome - How to use](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use)
+* [Font Awesome - How to use](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) - Font Awesome 5 is installed and any free icons can be used on the site
   * [Font Awesome - Available Icons](https://fontawesome.com/icons?d=gallery&m=free)
-* [Jekyll Documentation](https://jekyllrb.com/docs/)
-* [Liquid Documentation](https://shopify.github.io/liquid/)
-* [Bundler Documentation](https://bundler.io/docs.html)
-* [Github Pages Gem](https://github.com/github/pages-gem)
-* [Foundation 5 Documentation](https://foundation.zurb.com/sites/docs/v/5.5.3/) - this site uses the Zurb Foundation front-end framework
+* [Jekyll Documentation](https://jekyllrb.com/docs/) - this site is created using Jekyll
+* [Liquid Documentation](https://shopify.github.io/liquid/) - Jekyll uses the Liquid templating language
+* [Bundler Documentation](https://bundler.io/docs.html) - we use Bundler to manager dependencies
+* [Github Pages Gem](https://github.com/github/pages-gem) - GitHub Pages is used to host the site
+* [Foundation 5 Documentation](https://foundation.zurb.com/sites/docs/v/5.5.3/) - this site uses the Zurb Foundation 5 front-end framework
+
+
+# This Documentation
+
+Please add to this documentation as you see fit!
+
+The Table of Contents was generated using the [markdown-writer](https://atom.io/packages/markdown-writer) package for the Atom text editor.
