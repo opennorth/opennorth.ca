@@ -56,7 +56,7 @@ plugins:
 
 prose:
   metadata:
-    _impacts:
+    collections/_impacts:
       - name: title
         field:
           element: text
@@ -110,7 +110,7 @@ prose:
           label: Location
           help: Enter location of position.
           value: ""
-    _posts:
+    collections/_posts:
       - name: layout
         field:
           element: hidden
@@ -146,7 +146,7 @@ prose:
               value: 'newsletter'
             - name: Press Release
               value: 'press release'
-    _publications:
+    collections/_publications:
       - name: title
         field:
           element: text
@@ -165,7 +165,7 @@ prose:
           label: Link
           help: Enter the link to the publication.
           value: ""
-    _webinars:
+    collections/_webinars:
       - name: title
         field:
           element: text
