@@ -29,17 +29,17 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: ""
+      path: "collections"
       type: "impacts"
     values:
       feature: false
   - scope:
-      path: ""
+      path: "collections/_jobs"
       type: "jobs"
     values:
       layout: "job"
   - scope:
-      path: ""
+      path: "collections/_posts"
       type: "posts"
     values:
       layout: "post"
@@ -55,6 +55,7 @@ plugins:
   - jekyll-paginate
 
 prose:
+  siteurl: http://www.opennorth.ca/
   metadata:
     collections/_impacts:
       - name: title
@@ -67,13 +68,26 @@ prose:
         field:
           element: select
           label: Featured
+          placeholder: Is this a featured impact?
           help: Select to display impact in the 'featured' section at the top of the Impacts page.
           value: true
+          options:
+            - name: Make featured.
+              value: true
+            - name: Do not feature.
+              value: false
+      - name: link
+        field:
+          element: text
+          label: Project Link
+          placeholder: Optional - link to additional project information
+          help: Optional field.
+          value: ""
       - name: image
         field:
           element: text
           label: Image
-          help: Enter the name of the image file, ie. impact-title.jpg. Image must be uploaded to /theme/img/impacts/ folder.
+          help: Enter the name of the image file, ie. impact-title.jpg. Image must be uploaded to /theme/img/impacts/ folder Theme repository.
           value: ""
       - name: testimonial
         field:
@@ -135,12 +149,13 @@ prose:
         field:
           element: text
           label: Image
-          help: Enter the name of the image that you uploaded to the blog folder of the theme repository. This image will appear with the title and description on the Blog page and at the top of the post. Additional images can be added to the post's body.
+          help: Enter the name of the image that you uploaded to the /img/blog folder of the theme repository. This image will appear with the title and description on the Blog page and at the top of the post. Additional images can be added to the post's body.
       - name: categories
         field:
           element: multiselect
           label: Categories
-          help: Enter relevent categories from OpenNorth's post categories.
+          placeholder: "Choose categories"
+          help: Enter relevent categories from OpenNorth's post categories. If a relevant category does not already exist, please suggest it.
           options:
             - name: Newsletter
               value: 'newsletter'
@@ -157,7 +172,7 @@ prose:
         field:
           element: text
           label: Cover image
-          help: Enter the name of the image file, ie. publication-title.png. Image must be uploaded to /theme/img/publications/ folder.
+          help: Enter the name of the image file, ie. publication-title.png. Image must be uploaded to /theme/img/publications/ folder in Theme repository.
           value: ""
       - name: link
         field:
