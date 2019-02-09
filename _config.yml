@@ -132,7 +132,7 @@ prose:
         field:
           element: text
           label: Location
-          placeholder: example: Montreal
+          placeholder: "example: Montreal"
           help: Enter location of position.
           value: ""
     collections/_posts:
