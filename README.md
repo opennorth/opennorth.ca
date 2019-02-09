@@ -32,9 +32,9 @@
 This site is built with [Jekyll](https://jekyllrb.com/) and [Github Pages](https://help.github.com/articles/what-is-github-pages/).
 
 There are three ways that you can edit the site:
-1. Using Prose.io
-1. Using git to edit and build the site locally on your computer.
+1. Using [Prose.io](http://prose.io/#opennorth/opennorth.ca/)
 1. Directly editing and/or uploading files to GitHub.
+1. Using [git](https://en.wikipedia.org/wiki/Git) to edit and build the site locally on your computer.
 
 ## Using Prose.io
 

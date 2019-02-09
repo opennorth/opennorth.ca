@@ -69,7 +69,7 @@ prose:
         field:
           element: select
           label: Featured
-          placeholder: Is this a featured impact?
+          placeholder: "Is this a featured impact?"
           help: Select to display impact in the 'featured' section at the top of the Impacts page.
           value: true
           options:
