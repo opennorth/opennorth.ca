@@ -18,7 +18,7 @@ title: Open North Blog
           <div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
             <a href="{{ site.baseurl }}{{ post.url }}">
               <article>
-                {% if post.image %}
+                {% if post.image contains 'http' %}
                   <div class="post-text">
                     <h3>{{ post.title }}</h3>
                     <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
@@ -29,7 +29,7 @@ title: Open North Blog
                     {% endif %}
                   </div>
                   <div class="post-image" style="background-image: url('{{ post.image }}');"></div>
-                {% else %}
+                {% elsif post.title == null %}
                   <div>
                     <h3>{{ post.title }}</h3>
                     <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
@@ -39,6 +39,17 @@ title: Open North Blog
                       <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
                     {% endif %}
                   </div>
+                {% else %}
+                <div class="post-text">
+                  <h3>{{ post.title }}</h3>
+                  <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
+                  {% if post.description !=null %}
+                    {{ post.description | markdownify }}
+                  {% else %}
+                    <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                  {% endif %}
+                </div>
+                <div class="post-image" style="background-image: url('/theme/img/blog/{{ post.image }}');"></div>
                 {% endif %}
               </article>
             </a>

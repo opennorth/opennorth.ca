@@ -13,10 +13,14 @@ layout: default
           </p>
         </header>
 
-        {% if page.image %}
+        {% if page.image contains "http" %}
           <div class="blog-image">
             <img src="{{ page.image }}" class="center" />
           </div>
+        {% else %}
+        <div class="blog-image">
+          <img src="/theme/img/blog/{{ page.image }}" class="center" />
+        </div>
         {% endif %}
 
         {{ content }}
