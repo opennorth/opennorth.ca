@@ -3,12 +3,11 @@ published: true
 layout: post
 title: 'What We’re Up To: Workshop with the Boroughs of Montréal on a Mapping Tool'
 author: Miranda Sculthorp
-image: theme/img/blog/2019-02-04-application-business-collaboration.jpg
+image: 2019-02-04-application-business-collaboration.jpg
 description: >-
   A workshop for representatives of Montréal’s 19 boroughs to discuss data needs
   for spatial analysis and functionality requirements for a potential online GIS
   platform.
-categories: ''
 ---
 OpenNorth recently planned and facilitated a workshop for representatives of Montréal’s 19 boroughs to discuss data needs for spatial analysis and functionality requirements for a potential online GIS platform. The event, hosted by the _Ville de Montréal Service de la diversité et de l’inclusion sociale_, created an opportunity to discuss and share ideas on using spatial analysis to identify the needs of a given neighbourhood, and tailor the City’s offer of social and sports services according to these needs.
 
