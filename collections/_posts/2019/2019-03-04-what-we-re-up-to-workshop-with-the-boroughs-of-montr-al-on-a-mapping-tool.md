@@ -4,10 +4,6 @@ layout: post
 title: 'What We’re Up To: Workshop with the Boroughs of Montréal on a Mapping Tool'
 author: Miranda Sculthorp
 image: 2019-02-04-application-business-collaboration.jpg
-descrption: >-
-  A workshop for representatives of Montréal’s 19 boroughs to discuss data needs
-  for spatial analysis and functionality requirements for a potential online GIS
-  platform.
 description: >-
   A workshop for representatives of Montréal’s 19 boroughs to discuss data needs
   for spatial analysis and functionality requirements for a potential online GIS
