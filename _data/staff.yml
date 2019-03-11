@@ -32,13 +32,19 @@
 #  role: Program Manager | <p>One-to-One Advisory Service</p>
 #  linkedin: https://www.linkedin.com/in/oscarespinosa25/
 - name: Moana Lebel
-  role: Program Director | <p>One-to-One Advisory Service</p>
+  role: |
+  <p>Project Lead</p>
+  <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/k1mdavis/
 - name: Corey Pembleton
-  role: Analyst | <p>One-to-One Advisory Service</p>
+  role:|
+  <p>Analyst</p>
+  <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/k1mdavis/
 - name: Nabeel Ahmed
-  role: Analyst | <p>One-to-One Advisory Service</p>
+  role: |
+  <p>Analyst</p>
+  <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/k1mdavis/
 - name: Dione Watts
   role: Operations Manager
