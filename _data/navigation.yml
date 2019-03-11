@@ -1,6 +1,8 @@
 - name: About
   link: /about
   children:
+    - childname: One-to-One
+      childlink: /one-to-one
     - childname: Our Team
       childlink: /about#team
 - name: What We Do
