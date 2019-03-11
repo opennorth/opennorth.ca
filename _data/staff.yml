@@ -5,7 +5,9 @@
   role: Applied Research Lead
   linkedin: https://www.linkedin.com/in/suthee/
 - name: Miranda Sculthorp
-  role: Urban Research Analyst (Applied Research Lab)
+  role: |
+    <p>Urban Research Analyst</p>
+    <p>Applied Research Lab)</p>
   linkedin: https://www.linkedin.com/in/miranda-sculthorp-76883040/
 - name: Hannah Ker
   role: |
