@@ -4,16 +4,36 @@
 - name: Suthee Sangiambut
   role: Applied Research Lead
   linkedin: https://www.linkedin.com/in/suthee/
-- name: Hannah Ker
-  role: Open Data Analyst
-  linkedin: https://ca.linkedin.com/in/hannah-ker-991007115
-- name: Christian Medina
-  role: |
-    <p>Program Manager</p>
-  linkedin: https://www.linkedin.com/in/christian-medina-64266519/
 - name: Miranda Sculthorp
-  role: Urban Research Analyst
+  role: Urban Research Analyst | <p>Applied Research Lab</p>
   linkedin: https://www.linkedin.com/in/miranda-sculthorp-76883040/
+- name: Hannah Ker
+  role: Open Data Analyst | <p>Applied Research Lab</p>
+  linkedin: https://ca.linkedin.com/in/hannah-ker-991007115
+- name: Marine Colon de Franciosi
+  role: Research Analyst | <p>Applied Research Lab</p>
+  linkedin: https://www.linkedin.com/in/marine-colon-de-franciosi-393817117
+- name: Christian Medina
+  role: Program Manager
+  linkedin: https://www.linkedin.com/in/christian-medina-64266519/
+- name: Kim Davis
+  role: Program Director | <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/k1mdavis/
+- name: Mélina Planchenault
+  role: Senior Lead | <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/m%C3%A9lina-planchenault-05096313/
+- name: Oscar Espinosa
+  role: Program Manager | <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/oscarespinosa25/
+- name: Moana Lebel
+  role: Program Director | <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/k1mdavis/
+- name: Corey Pembleton
+  role: Analyst | <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/k1mdavis/
+- name: Nabeel Ahmed
+  role: Analyst | <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/k1mdavis/
 - name: Dione Watts
   role: Operations Manager
 - name: Joel Ornoy
@@ -29,6 +49,3 @@
 - name: Jaime MacLean
   role: Developer
   linkedin: https://www.linkedin.com/in/jaime-m-22a242139
-- name: Alyssa Beaton
-  role: Consultant
-  linkedin: https://www.linkedin.com/in/alyssa-beaton-51a057138/
