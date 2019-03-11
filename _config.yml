@@ -44,7 +44,6 @@ defaults:
     values:
       layout: "post"
 
-
 sass:
   style: :compressed
   sass_dir: theme/_sass
@@ -148,7 +147,7 @@ prose:
         field:
           element: text
           label: Title
-          placeholde: The post title
+          placeholder: The post title
           help: All posts must have a title.
           value: ""
       - name: author
