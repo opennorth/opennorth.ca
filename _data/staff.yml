@@ -5,13 +5,19 @@
   role: Applied Research Lead
   linkedin: https://www.linkedin.com/in/suthee/
 - name: Miranda Sculthorp
-  role: Urban Research Analyst | <p>Applied Research Lab</p>
+  role: |
+  <p>Urban Research Analyst</p>
+  <p>Applied Research Lab</p>
   linkedin: https://www.linkedin.com/in/miranda-sculthorp-76883040/
 - name: Hannah Ker
-  role: Open Data Analyst | <p>Applied Research Lab</p>
+  role: | 
+  <p>Open Data Analyst</p>
+  <p>Applied Research Lab</p>
   linkedin: https://ca.linkedin.com/in/hannah-ker-991007115
 - name: Marine Colon de Franciosi
-  role: Research Analyst | <p>Applied Research Lab</p>
+  role: | 
+  <p>Research Analyst</p>
+  <p>Applied Research Lab</p>
   linkedin: https://www.linkedin.com/in/marine-colon-de-franciosi-393817117
 - name: Christian Medina
   role: Program Manager
