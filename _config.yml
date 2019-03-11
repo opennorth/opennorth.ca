@@ -46,7 +46,7 @@ defaults:
 
 
 sass:
-  style: :expanded
+  style: :compressed
   sass_dir: theme/_sass
   line_comments: true
 
