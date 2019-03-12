@@ -1,8 +1,8 @@
 - name: About
   link: /about
   children:
-    - childname: One-to-One
-      childlink: /one-to-one
+    - childname: One-to-One Advisory Service
+      childlink: /one-to-one-advisory-service
     - childname: Our Team
       childlink: /about#team
 - name: What We Do
