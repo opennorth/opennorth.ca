@@ -1,0 +1,71 @@
+---
+title: Applied Research Lab
+layout: default
+permalink: /applied-research-lab/
+---
+<section class="b-title-section current">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-page-title">Applied Research Lab</h2>
+			<p class="text-center">Intro paragraph here</p>
+		</div>
+	</div>
+</section>
+
+<section class="b-content-section">
+	<div class="row">
+		<div class-"column">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis nisi eget dui fringilla, finibus mollis purus varius. Aliquam at massa lacus. Nam in viverra dolor. Phasellus vel rutrum neque. Suspendisse pulvinar augue id orci pulvinar, sed mattis nunc vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris consectetur nec tortor nec placerat. Morbi sed metus tristique tellus fermentum luctus iaculis in dui. Etiam sed urna eu lacus semper efficitur pulvinar quis ligula.</p>
+		</div>
+		<hr>
+	</div>
+</section>
+
+
+<section class="b-content-section publications featured-list three-column">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Related Publications</h2>
+		</div>
+
+		{% for item in site.publications reversed %}
+			{% if item.categories contains 'applied research lab' %}
+
+				<div class="featured-item {% if forloop.last %} end{% endif %}">
+					<a href="/publications#{{ item.title | slugify }}">
+						{% if item.cover_image %}<div class="featured-image" style="background-image: url(/theme/img/publications/{{ item.cover_image }});"></div>{% endif %}
+						<div class="featured-description">
+							<h3 class="text-center">{{ item.title }}</h3>
+						</div>
+					</a>
+				</div>
+
+			{% endif %}
+		{% endfor %}
+
+	</div>
+</section>
+
+<section class="b-content-section publications featured-list three-column">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Related News</h2>
+		</div>
+
+		{% for post in site.posts reversed %}
+			{% if post.categories contains 'applied research lab' %}
+
+				<div class="featured-item {% if forloop.last %} end{% endif %}">
+					<a href="{{ post.url }}">
+						{% if post.image %}<div class="featured-image" style="background-image: url(/theme/img/blog/{{ item.image }});"></div>{% endif %}
+						<div class="featured-description">
+							<h3 class="text-center">{{ post.title }}</h3>
+						</div>
+					</a>
+				</div>
+
+			{% endif %}
+		{% endfor %}
+
+	</div>
+</section>
