@@ -1,10 +1,10 @@
 - name: About
   link: /about
   children:
-    - childname: Applied Research Lab
-      childlink: /applied-research-lab
-    - childname: One-to-One Advisory Service
-      childlink: /one-to-one-advisory-service
+    #- childname: Applied Research Lab
+    #  childlink: /applied-research-lab
+    #- childname: One-to-One Advisory Service
+    #  childlink: /one-to-one-advisory-service
     - childname: Our Team
       childlink: /about#team
 - name: What We Do
