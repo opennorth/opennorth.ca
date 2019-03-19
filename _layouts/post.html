@@ -37,6 +37,14 @@ layout: default
             <p><a href="/newsletter">Read past newsletters</a></p>
         {% endif %}
 
+        {% if page.categories contains 'applied research lab' %}
+            <p><a href="/applied-research-lab">Read more about the Applied Research Lab</a></p>
+        {% endif %}
+
+        {% if page.categories contains 'one-to-one advisory service' %}
+            <p><a href="/one-to-one-advisory-service">Read more about the One-to-One Advisory Service</a></p>
+        {% endif %}
+
         <p><a href="{{ site.baseurl }}/blog" rel="up">Read the archives</a></p>
 
         <hr />
