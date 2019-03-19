@@ -48,7 +48,7 @@ permalink: /applied-research-lab/
 	                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
 	                    <p>{{ item.content | strip_html | truncatewords: 50 }}</p>
 	                  </div>
-	                  <div class="post-image" style="background-image: url('/theme/img/publications/{{ item.cover_image }}');"></div>
+	                  <!--div class="post-image" style="background-image: url('/theme/img/publications/{{ item.cover_image }}');"></div-->
 	              </article>
 
 							</a>
@@ -62,13 +62,14 @@ permalink: /applied-research-lab/
 					{% if post.categories contains 'applied research lab' %}
 						<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
 							<a href="{{ post.url }}">
-								<!--
+								<!-- 
 								{% if post.image %}<div class="featured-image" style="background-image: url(/theme/img/blog/{{ item.image }});"></div>{% endif %}
 								<div class="featured-description">
 									<h3 class="text-center">{{ post.title }}</h3>
 								</div> -->
 
 								<article>
+									{% comment %}
 	                {% if post.image contains 'http' %}
 	                  <div class="post-text">
 	                    <h3>{{ post.title }}</h3>
@@ -102,6 +103,18 @@ permalink: /applied-research-lab/
 	                </div>
 	                <div class="post-image" style="background-image: url('/theme/img/blog/{{ post.image }}');"></div>
 	                {% endif %}
+									{% endcomment %}
+
+									<div class="post-text">
+										<h3>{{ post.title }}</h3>
+										<!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
+										{% if post.description !=null %}
+											{{ post.description | markdownify }}
+										{% else %}
+											<p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+										{% endif %}
+									</div>
+
 	              </article>
 
 							</a>
