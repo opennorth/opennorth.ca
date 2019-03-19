@@ -174,6 +174,10 @@ prose:
               value: 'newsletter'
             - name: Press Release
               value: 'press release'
+            - name: Applied Research Lab
+              value: 'applied research lab'
+            - name: One-to-One Advisory Service
+              value: 'one-to-one advisory service'
     collections/_publications:
       - name: title
         field:
@@ -196,6 +200,17 @@ prose:
           placeholder: http://www.example.com/link-to-full-publication
           help: Enter the link to the publication.
           value: ""
+      - name: categories
+        field:
+          element: multiselect
+          label: Categories
+          placeholder: "Choose categories"
+          help: Enter relevent categories from OpenNorth's publication categories. If a relevant category does not already exist, please suggest it.
+          options:
+            - name: Applied Research Lab
+              value: 'applied research lab'
+            - name: One-to-One Advisory Service
+              value: 'one-to-one advisory service'
     collections/_webinars:
       - name: title
         field:
