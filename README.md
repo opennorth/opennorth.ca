@@ -227,8 +227,10 @@ Add post categories if any existing categories are relevant to the content.
 Current categories include:
 * newsletter
 * press release
+* applied research lab
+* one-to-one advisory service
 
-In Prose, these categories will appear as checkboxes in the meta data.
+In Prose, these categories will appear as a dropdown list in the meta data. You can select more than one category.
 
 If you are editing the file directly, add the categories to the front matter as an array:
 
@@ -236,7 +238,7 @@ If you are editing the file directly, add the categories to the front matter as 
 ---
 title: A descriptive title
 author: The author's name
-categories: ['press release', newsletter, 'open data']
+categories: ['press release', newsletter, 'applied research lab']
 ---
 ```
 
@@ -385,6 +387,31 @@ link: https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbi
 ---
 And add the main content below, just like with a post.
 ```
+
+### To add categories to a publication:
+
+Publications use categories to list some types of content on other pages of the site (like on the Applied Research Lab page).
+
+Add publication categories if the publication should appear in the "Related Publications & News" section of the associated page.
+
+Current categories include:
+* applied research lab
+* one-to-one advisory service
+
+In Prose, these categories will appear as a drop down list in the meta data. You can select more than one category.
+
+If you are editing the file directly, add the categories to the front matter as an array:
+
+```yaml
+---
+title: A descriptive title
+cover_image: publication-title.png
+link: http://www.example.com
+categories: ['applied research lab']
+---
+```
+
+**Note:** Categories that contain more than one word must be wrapped in single quotes.
 
 ## Add a new webinar to the 'Webinars' page
 

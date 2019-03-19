@@ -1,0 +1,139 @@
+---
+title: Applied Research Lab
+layout: default
+permalink: /applied-research-lab/
+---
+<section class="b-title-section current">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-page-title">Applied Research Lab</h2>
+			<p class="text-center">Intro paragraph here</p>
+		</div>
+	</div>
+</section>
+
+<section class="b-content-section">
+	<div class="row">
+		<div class-"column">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis nisi eget dui fringilla, finibus mollis purus varius. Aliquam at massa lacus. Nam in viverra dolor. Phasellus vel rutrum neque. Suspendisse pulvinar augue id orci pulvinar, sed mattis nunc vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris consectetur nec tortor nec placerat. Morbi sed metus tristique tellus fermentum luctus iaculis in dui. Etiam sed urna eu lacus semper efficitur pulvinar quis ligula.</p>
+		</div>
+		<hr>
+	</div>
+</section>
+
+<div class="background-subtle">
+	<section class="b-content-section b-blog featured-list">
+		<div class="row">
+			<div class="column">
+				<h2 class="e-section-title">Related Publications & News</h2>
+			</div>
+		</div>
+
+		<div class="row two-column">
+
+			<div class="">
+				{% for item in site.publications reversed %}
+					{% if item.categories contains 'applied research lab' %}
+						<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
+							<a href="/publications#{{ item.title | slugify }}">
+								<!--
+								{% if item.cover_image %}<div class="featured-image" style="background-image: url(/theme/img/publications/{{ item.cover_image }});"></div>{% endif %}
+								<div class="featured-description">
+									<h3 class="text-center">{{ item.title }}</h3>
+								</div> -->
+
+								<article>
+	                  <div class="post-text">
+	                    <h3>{{ item.title }}</h3>
+	                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
+	                    <p>{{ item.content | strip_html | truncatewords: 50 }}</p>
+	                  </div>
+	                  <div class="post-image" style="background-image: url('/theme/img/publications/{{ item.cover_image }}');"></div>
+	              </article>
+
+							</a>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+
+			<div class="">
+				{% for post in site.posts %}
+					{% if post.categories contains 'applied research lab' %}
+						<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
+							<a href="{{ post.url }}">
+								<!--
+								{% if post.image %}<div class="featured-image" style="background-image: url(/theme/img/blog/{{ item.image }});"></div>{% endif %}
+								<div class="featured-description">
+									<h3 class="text-center">{{ post.title }}</h3>
+								</div> -->
+
+								<article>
+	                {% if post.image contains 'http' %}
+	                  <div class="post-text">
+	                    <h3>{{ post.title }}</h3>
+	                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
+	                    {% if post.description !=null %}
+	                      {{ post.description | markdownify }}
+	                    {% else %}
+	                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+	                    {% endif %}
+	                  </div>
+	                  <div class="post-image" style="background-image: url('{{ post.image }}');"></div>
+	                {% elsif post.title == null %}
+	                  <div>
+	                    <h3>{{ post.title }}</h3>
+	                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
+	                    {% if post.description !=null %}
+	                      {{ post.description | markdownify }}
+	                    {% else %}
+	                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+	                    {% endif %}
+	                  </div>
+	                {% else %}
+	                <div class="post-text">
+	                  <h3>{{ post.title }}</h3>
+	                  <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
+	                  {% if post.description !=null %}
+	                    {{ post.description | markdownify }}
+	                  {% else %}
+	                    <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+	                  {% endif %}
+	                </div>
+	                <div class="post-image" style="background-image: url('/theme/img/blog/{{ post.image }}');"></div>
+	                {% endif %}
+	              </article>
+
+							</a>
+						</div>
+					{% endif %}
+				{% endfor %}
+
+			</div>
+
+		</div>
+
+		<nav>
+			<div class="row two-column">
+				<div class="column">
+					<p class="navigation"><a href="/publications">View all publications</a></p>
+				</div>
+				<div class="column">
+					<p class="navigation"><a href="/blog">View all news</a></p>
+				</div>
+			</div>
+		</nav>
+
+	</section>
+</div>
+
+<!--section class="b-content-section publications featured-list three-column">
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Related News</h2>
+		</div>
+
+		{
+
+	</div>
+</section-->
