@@ -30,30 +30,19 @@ permalink: /applied-research-lab/
 		</div>
 
 		<div class="row two-column">
-
-			<div class="">
-				{% for item in site.publications reversed %}
-					{% if item.categories contains 'applied research lab' %}
-						<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-							<a href="/publications#{{ item.title | slugify }}">
-								<!--
-								{% if item.cover_image %}<div class="featured-image" style="background-image: url(/theme/img/publications/{{ item.cover_image }});"></div>{% endif %}
-								<div class="featured-description">
-									<h3 class="text-center">{{ item.title }}</h3>
-								</div> -->
-
-								<article>
-	                  <div class="post-text">
-	                    <h3>{{ item.title }}</h3>
-	                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
-	                    <p>{{ item.content | strip_html | truncatewords: 50 }}</p>
-	                  </div>
-	                  <!--div class="post-image" style="background-image: url('/theme/img/publications/{{ item.cover_image }}');"></div-->
-	              </article>
-
-							</a>
-						</div>
-					{% endif %}
+			<div>
+				{% assign pubs = site.publications | where: "categories", "applied research lab" | reverse %}
+				{% for pub in pubs limit:5 %}
+					<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
+						<a href="/publications#{{ item.title | slugify }}">
+							<article>
+                  <div class="post-text">
+                    <h3>{{ pub.title }}</h3>
+                    <p>{{ pub.content | strip_html | truncatewords: 50 }}</p>
+                  </div>
+              </article>
+						</a>
+					</div>
 				{% endfor %}
 
 				<nav>
@@ -61,34 +50,23 @@ permalink: /applied-research-lab/
 				</nav>
 			</div>
 
-			<div class="">
-				{% for post in site.posts %}
-					{% if post.categories contains 'applied research lab' %}
-						<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-							<a href="{{ post.url }}">
-								<!--
-								{% if post.image %}<div class="featured-image" style="background-image: url(/theme/img/blog/{{ item.image }});"></div>{% endif %}
-								<div class="featured-description">
-									<h3 class="text-center">{{ post.title }}</h3>
-								</div> -->
-
-								<article>
-
-									<div class="post-text">
-										<h3>{{ post.title }}</h3>
-										<!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
-										{% if post.description !=null %}
-											{{ post.description | markdownify }}
-										{% else %}
-											<p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-										{% endif %}
-									</div>
-
-	              </article>
-
-							</a>
-						</div>
-					{% endif %}
+			<div>
+				{% assign posts = site.posts | where: "categories", "applied research lab" %}
+				{% for post in posts limit:5 %}
+					<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
+						<a href="{{ post.url }}">
+							<article>
+								<div class="post-text">
+									<h3>{{ post.title }}</h3>
+									{% if post.description !=null %}
+										{{ post.description | markdownify }}
+									{% else %}
+										<p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+									{% endif %}
+								</div>
+              </article>
+						</a>
+					</div>
 				{% endfor %}
 
 				<nav>
@@ -96,18 +74,7 @@ permalink: /applied-research-lab/
 				</nav>
 			</div>
 
-		</div>
+		</div><!-- .row.two-column -->
 
 	</section>
 </div>
-
-<!--section class="b-content-section publications featured-list three-column">
-	<div class="row">
-		<div class="column">
-			<h2 class="e-section-title">Related News</h2>
-		</div>
-
-		{
-
-	</div>
-</section-->
