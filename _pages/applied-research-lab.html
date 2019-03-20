@@ -34,7 +34,7 @@ permalink: /applied-research-lab/
 				{% assign pubs = site.publications | where: "categories", "applied research lab" | reverse %}
 				{% for pub in pubs limit:5 %}
 					<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-						<a href="/publications#{{ item.title | slugify }}">
+						<a href="/publications#{{ pub.title | slugify }}">
 							<article>
                   <div class="post-text">
                     <h3>{{ pub.title }}</h3>
