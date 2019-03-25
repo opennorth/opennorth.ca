@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What happened to my feedback?
 author: 'Suthee Sangiambut, Miranda Sculthorp, Marine Colon de Franciosi'
-image: img/blog/2019-03-22-microphone.jpg
+image: 2019-03-22-microphone.jpg
 categories:
   - applied research lab
 ---
@@ -40,7 +40,7 @@ Now, after the data is captured and recorded, analysts need to clean up the “r
 
 _Sometimes public consultation data can be difficult to interpret_
 
-![]({{site.baseurl}}/2019-03-22-consultation-data-screenshot.png)
+![]({{site.baseurl}}/theme/img/blog/2019-03-22-consultation-data-screenshot.png)
 
 Title of dataset: National Security Consultation: Responses Received via Email with links to attachments (05/11/2016 - 15/12/2016)
 Source: [Government of Canada Consultation on National Security Submissions](https://open.canada.ca/data/en/dataset/5e9433bf-2334-463a-bd48-03ba53a7051c)
