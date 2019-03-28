@@ -215,7 +215,7 @@ If editing the file directly, add the image to the front matter at the top of th
 
 **Note:** When adding images to any website, it is usually best to use the .jpg format for photographs and the .png format for illustrations, logos, or icons.
 
-**Note:** Please make sure that the image is not too large or too small. No image should be more than 100KB in size. Post images maybe be up to 800px wide but will never be larger.
+**Note:** Please make sure that the image is not too large or too small. **No image should be more than 100KB in size.** The site's performance will visibly suffer if images larger than this are added to the site. Post images should be up to 800px wide but will never be displayed in a larger format.
 
 
 ### To add categories to a post:
