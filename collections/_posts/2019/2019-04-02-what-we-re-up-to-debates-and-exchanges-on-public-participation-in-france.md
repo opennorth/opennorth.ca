@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: 'What we’re up to: Debates and Exchanges on Public Participation in France'
 author: Miranda Sculthorp
@@ -25,4 +25,4 @@ For instance during field visits to [La Péniche](https://la-coop.net/la-scop-la
  
 In the spirit of these meetings, OpenNorth intends to support continued exchanges with our partners in France and Canada, with the goal of improving the state of citizen participation and local democracy. By sharing our experiences and expertise locally and internationally, we aim to support a knowledge-sharing ecosystem, to advance participatory and open governance practices for citizens in Canada and around the world.
 
-Lastly, we would like to thank the Offices jeunesse internationaux du Québec (LOGIQ) for supporting OpenNorth’s participation in this event, as well as Décider ensemble which organized these inspiring and enriching exchanges. 
+Lastly, we would like to thank the Offices jeunesse internationaux du Québec (LOGIQ) for supporting OpenNorth’s participation in this event, as well as Décider ensemble which organized these inspiring and enriching exchanges.
