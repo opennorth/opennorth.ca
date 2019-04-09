@@ -1,10 +1,11 @@
 ---
-published: false
+published: true
 layout: post
 title: 'What we’re up to: Debates and Exchanges on Public Participation in France'
 author: Miranda Sculthorp
 categories:
   - applied research lab
+image: 2019-04-08-grenoble-france-rencontres nationales-de-la-participation.jpg
 ---
 
 In March 2019, OpenNorth attended the _Rencontres nationales de la participation_ in Grenoble, France. For three days, decision-makers, experts, activists, practitioners and citizens gathered to exchange and debate participatory tools and methods that make for better democracies at many territorial scales : municipal, metropolitan, european and regional.  
@@ -16,7 +17,7 @@ To open the debate, OpenNorth drew upon examples from the City of Montreal’s o
 
 At the end of the talks, the audience enriched the debate by sharing some concerns, including the difficulty of accessing open data for non-experts. In many cases, open data access is restricted to those with advanced technical skills. In this respect, OpenNorth’s approach is centered on data literacy, as we work to equip public authorities to build a culture of data use which makes open data accessible to non-specialists.
  
-The audience also made observations at the intersection of smart cities and sustainable development. One audience member asked: as we observe the increase of sensors and technologies in our urban environments (which implies considerable energy consumption) is the idea of a smart city in contradiction with that of the ecological transition ? These questions invited us to reflect on the ways in which cities and their stakeholders can take into account the costs of the complete life cycle of information technologies in city building projects. It is also important to recognize that data and technology are not always the appropriate solution to multiple, urban, systemic problems -- cities and communities should use data and technologies that are fit for purpose and tailored to their needs (for more details on this topic, see [OpenNorth’s Open Smart Cities Guide v1.0](https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbicoGTM/edit#) starting on p.17) .
+The audience also made observations at the intersection of smart cities and sustainable development. One audience member asked: as we observe the increase of sensors and technologies in our urban environments (which implies considerable energy consumption) is the idea of a smart city in contradiction with that of the ecological transition ? These questions invited us to reflect on the ways in which cities and their stakeholders can take into account the costs of the complete life cycle of information technologies in city building projects. It is also important to recognize that data and technology are not always the appropriate solution to multiple, urban, systemic problems -- cities and communities should use data and technologies that are fit for purpose and tailored to their needs (for more details on this topic, see [OpenNorth’s Open Smart Cities Guide v1.0](https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbicoGTM/edit#) starting on p.17).
 
 ## Learning from French communities: inspiring practices and projects
 On the whole, the conference invited participants to discover initiatives led by French municipalities, which have seen real success in involving their citizens in the development of their territories and environments. Based on a strong tradition of citizen involvement, many communities across the country are experimenting with citizenship, looking to renew the role of citizens as co-producers and co-managers of their communities.
