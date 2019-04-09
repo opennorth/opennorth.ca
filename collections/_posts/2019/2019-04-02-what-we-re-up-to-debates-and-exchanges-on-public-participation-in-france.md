@@ -6,6 +6,9 @@ author: Miranda Sculthorp
 categories:
   - applied research lab
 image: 2019-04-08-grenoble-france-rencontres nationales-de-la-participation.jpg
+description: >-
+  In March 2019, OpenNorth attended the Rencontres nationales de la
+  participation in Grenoble, France.
 ---
 
 In March 2019, OpenNorth attended the _Rencontres nationales de la participation_ in Grenoble, France. For three days, decision-makers, experts, activists, practitioners and citizens gathered to exchange and debate participatory tools and methods that make for better democracies at many territorial scales : municipal, metropolitan, european and regional.  
