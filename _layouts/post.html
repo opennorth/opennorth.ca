@@ -17,6 +17,8 @@ layout: default
           <div class="blog-image">
             <img src="{{ page.image }}" class="center" />
           </div>
+        {% elsif page.image == null %}
+
         {% else %}
         <div class="blog-image">
           <img src="/theme/img/blog/{{ page.image }}" class="center" />
