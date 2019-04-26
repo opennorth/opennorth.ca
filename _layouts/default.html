@@ -18,7 +18,6 @@
   <script src="/theme/js/vendor/unslider.min.js"></script>
   <script src="/theme/js/scripts.js"></script>
   <script src="/theme/js/vendor/jquery.dialogOptions.js"></script>
-  {% seo %}
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <style>
 
@@ -34,7 +33,8 @@
     margin-bottom: 2.5em;
   }
   </style>
-
+  {% seo %}
+  {% if collection == posts and page.image contains "http" %}<!-- -->{% elsif page.image != null %}<meta property="og:image" content="{{ site.url }}/theme/img/blog/{{ page.image | strip }}" />{% endif %}
 </head>
 <body id="{{ site.language }}">
 

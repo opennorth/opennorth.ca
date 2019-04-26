@@ -1,6 +1,7 @@
 title: Open North
 description: Open North implements a collaborative local-to-global approach to improving smart cities through empirical research applied to urban problems.
-logo: /theme/img/open-north-logo-header-black-en.png
+url: https://www.opennorth.ca
+logo: https://www.nordouvert.ca/theme/img/open-north-logo-header-black-en.png
 language: en
 baseurl:
 permalink: /:year/:month/:day/:title
@@ -11,7 +12,10 @@ social:
     - https://www.facebook.com/OpenNorth.NordOuvert
     - https://www.linkedin.com/company/open-north/
     - https://github.com/opennorth/
-
+twitter:
+  username: opennorth
+  card: summary
+lang: en_CA
 paginate: 20
 paginate_path: "/blog/page:num/"
 include: ["_pages"]
@@ -28,6 +32,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: https://www.opennorth.ca/theme/img/favicon/site-icon-152x152.png
   - scope:
       path: "collections"
       type: "impacts"
@@ -52,6 +57,7 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-seo-tag
 
 prose:
   siteurl: https://www.opennorth.ca/
