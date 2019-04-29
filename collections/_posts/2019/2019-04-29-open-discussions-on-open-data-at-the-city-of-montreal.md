@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Open Discussions on Open Data at the City of Montreal
 author: Miranda Sculthorp
