@@ -5,6 +5,8 @@ title: Open Discussions on Open Data at the City of Montreal
 author: Miranda Sculthorp
 categories:
   - applied research lab
+image: 2019-04-29-focus-groups.jpg
+description: Thoughts on focus group research from OpenNorth’s Applied Research Lab.
 ---
 
 This Fall, OpenNorth’s Applied Research Lab worked with the Laboratoire d’innovation urbaine de Montréal (LIUM) to draft the City of Montreal’s first Open Data Action Plan. Foremost, the draft of the Plan addresses the need to make open data more accessible and re-usable for a wide audience. The Plan also aims to reflect the realities and needs of City employees, their teams, and departments, in their roles as data publishers and also as key users of open data. In order to understand the day-to-day experiences that employees face in using open data, as well as the processes relating to publishing data, OpenNorth and the LIUM organized and facilitated focus group discussions with city employees. 
@@ -44,6 +46,18 @@ OpenNorth had the opportunity to lead open discussions and gather thoughts that 
 
 In the foregoing, we emphasized that focus groups need to be planned and designed with care, to generate open discussions, and gather a variety of viewpoints. Considerable attention must be put into segmenting the groups, moderating the conversation, and transcribing the recordings with systematic methodology in order to generate reliable and valid results. 
 
-Lastly, the City is still looking for input on the Open Data Action Plan. The draft of the Open Data Action Plan is available for the public to view and comment, until May 15th 2019. We highly encourage you to provide your contribution!  Provide your comments here: http://bit.ly/MTL_DO_plan   
+Lastly, the City is still looking for input on the Open Data Action Plan. The draft of the Open Data Action Plan is available for the public to view and comment, until May 15th 2019. We highly encourage you to provide your contribution!  Provide your comments here: [http://bit.ly/MTL_DO_plan](http://bit.ly/MTL_DO_plan)   
 
-Note: OpenNorth recently received a grant from the J.W. McConnell Family Foundation Social Innovation Fund to develop its Applied Research Lab. Part of this work includes knowledge mobilization and reflection on methodological issues that may be faced by other organisations in the non-profit sector. This post represent some of our ongoing thoughts towards that objective.
+_Note: OpenNorth recently received a grant from the J.W. McConnell Family Foundation Social Innovation Fund to develop its Applied Research Lab. Part of this work includes knowledge mobilization and reflection on methodological issues that may be faced by other organisations in the non-profit sector. This post represent some of our ongoing thoughts towards that objective._
+
+## Works Cited
+Carey (2015). Focus Groups. International Encyclopedia of the Social & Behavioural Sciences, 2nd edition, 9, 274-279. http://dx.doi.org/10.1016/B978-0-08-097086-8.10543-4
+
+Rabiee, F. (2004). Focus-group interview and data analysis. The Proceedings of the Nutrition Society, 63(4), 655-60.
+
+Hennink, M. (2014). Focus group discussions (Understanding qualitative research). New York, NY: Oxford University Press. (2014). 
+
+Krueger, R., & Casey, M. (2009). Focus groups : A practical guide for applied research (4th ed.). Los Angeles: SAGE.
+
+Morgan, D. (1997). The focus group guidebook (Focus group kit). Thousand Oaks: SAGE Publications. 
+
