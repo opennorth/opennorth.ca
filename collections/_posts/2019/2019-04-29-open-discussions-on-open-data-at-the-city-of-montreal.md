@@ -59,5 +59,4 @@ Hennink, M. (2014). Focus group discussions (Understanding qualitative research)
 
 Krueger, R., & Casey, M. (2009). Focus groups : A practical guide for applied research (4th ed.). Los Angeles: SAGE.
 
-Morgan, D. (1997). The focus group guidebook (Focus group kit). Thousand Oaks: SAGE Publications. 
-
+Morgan, D. (1997). The focus group guidebook (Focus group kit). Thousand Oaks: SAGE Publications.
