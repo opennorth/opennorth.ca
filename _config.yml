@@ -32,7 +32,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: https://www.opennorth.ca/theme/img/favicon/site-icon-152x152.png
   - scope:
       path: "collections"
       type: "impacts"
@@ -43,6 +42,7 @@ defaults:
       type: "jobs"
     values:
       layout: "job"
+      image: https://www.opennorth.ca/theme/img/favicon/site-icon-152x152.png
   - scope:
       path: "collections/_posts"
       type: "posts"

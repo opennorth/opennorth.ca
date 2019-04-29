@@ -35,6 +35,9 @@
   </style>
   {% seo %}
   {% if collection == posts and page.image contains "http" %}<!-- -->{% elsif page.image != null %}<meta property="og:image" content="{{ site.url }}/theme/img/blog/{{ page.image | strip }}" />{% endif %}
+
+  {% if collection == null and page.image == null %}<meta property="og:image" content="{{ site.url }}/theme/img/favicon/site-icon-152x152.png" />{% endif %}
+
 </head>
 <body id="{{ site.language }}">
 
