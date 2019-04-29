@@ -1,11 +1,10 @@
 ---
-published: true
+published: false
 layout: post
 title: Open Discussions on Open Data at the City of Montreal
 author: Miranda Sculthorp
 categories:
   - applied research lab
-image: ''
 ---
 
 This Fall, OpenNorth’s Applied Research Lab worked with the Laboratoire d’innovation urbaine de Montréal (LIUM) to draft the City of Montreal’s first Open Data Action Plan. Foremost, the draft of the Plan addresses the need to make open data more accessible and re-usable for a wide audience. The Plan also aims to reflect the realities and needs of City employees, their teams, and departments, in their roles as data publishers and also as key users of open data. In order to understand the day-to-day experiences that employees face in using open data, as well as the processes relating to publishing data, OpenNorth and the LIUM organized and facilitated focus group discussions with city employees. 
@@ -48,4 +47,3 @@ In the foregoing, we emphasized that focus groups need to be planned and designe
 Lastly, the City is still looking for input on the Open Data Action Plan. The draft of the Open Data Action Plan is available for the public to view and comment, until May 15th 2019. We highly encourage you to provide your contribution!  Provide your comments here: http://bit.ly/MTL_DO_plan   
 
 Note: OpenNorth recently received a grant from the J.W. McConnell Family Foundation Social Innovation Fund to develop its Applied Research Lab. Part of this work includes knowledge mobilization and reflection on methodological issues that may be faced by other organisations in the non-profit sector. This post represent some of our ongoing thoughts towards that objective.
-
