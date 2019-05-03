@@ -3,8 +3,15 @@ published: true
 layout: post
 title: 'From Development to Adoption: Lessons from Three Open Standards'
 author: OpenNorth
-description: The Open Data Institute (UK)  launched their new R&D programme to advance data innovation, framed under six themes. We were selected as one Canadian organization among a group of organizations, including W3C, Porism, Open Data Services Coop, to undertake documentation of our respective experiences in creating or maintaining data standards.
-categories: ['applied research lab']
+description: >-
+  The Open Data Institute (UK)  launched their new R&D programme to advance data
+  innovation, framed under six themes. We were selected as one Canadian
+  organization among a group of organizations, including W3C, Porism, Open Data
+  Services Coop, to undertake documentation of our respective experiences in
+  creating or maintaining data standards.
+categories:
+  - applied research lab
+image: 2019-04-07-three-notes.jpg
 ---
 We are pleased to announce the report for a standards documentation project under the Open Data Institute (UK). The ODI recently launched their new R&D programme to advance data innovation, framed under [six themes](https://theodi.org/news/odi-secures-6m-to-advance-data-innovation). This project fell under the standards theme, with the aim to research the process of developing open standards for data and document best practices. We were selected as one Canadian organization among a group of organizations, including [W3C](https://www.w3.org/), [Porism](https://porism.com/), [Open Data Services Coop](http://opendataservices.coop/), to undertake documentation of our respective experiences in creating or maintaining data standards.
 
