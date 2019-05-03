@@ -4,6 +4,7 @@ layout: post
 title: OpenNorth 2017 Year in Review!
 author: OpenNorth team
 description: Ring in the new year with our annual organizational review!
+image: 2019-04-07-plants-growing.jpg
 ---
 Since 2011, OpenNorth’s mission has been to create open and accountable government. Over the last year, we have shifted our base of impact from the civic tech industry (where we built websites and tools), to operate as an open data social enterprise at different scales, connecting the global open data movement with national and local situations, with a primary focus on **cities** and **applied research**.
 
