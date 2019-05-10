@@ -17,5 +17,5 @@
   ; dir:isOrganizationType directory:non-profit-organization 
   ; vcard:url <http://www.opennorth.ca/> 
   ; vcard:logo <http://www.opennorth.ca/theme/img/open-north-logo-footer.png> 
-  ; rdfs:comment """Open North creates websites to promote government transparency and public participation.""" 
+  ; rdfs:comment """Open North implements a collaborative local-to-global approach to improving smart cities through empirical research applied to urban problems.""" 
 . 
