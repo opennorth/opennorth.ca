@@ -5,7 +5,6 @@ title: Press Release - Citizen Budget
 categories:
   - press release
 author: OpenNorth
-image: ''
 ---
 ## Press Release
 
