@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: ''
+title: Press Release - Citizen Budget
 categories:
   - press release
 author: OpenNorth
