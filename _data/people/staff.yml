@@ -27,26 +27,36 @@
     <p>Program Director</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/m%C3%A9lina-planchenault-05096313/
+  unit: ['one-to-one']
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Oscar Espinosa
   role: |
     <p> Program Manager</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/oscarespinosa25/
+  unit: ['one-to-one']
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Moana Lebel
   role: |
     <p>Project Lead</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/moana-lebel-99381321/
+  unit: ['one-to-one']
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Corey Pembleton
   role: |
     <p>Analyst</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/coreypembleton/
+  unit: ['one-to-one']
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Nabeel Ahmed
   role: |
     <p>Analyst</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/nsahmed/
+  unit: ['one-to-one']
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Dione Watts
   role: Operations Manager
 - name: Joel Ornoy

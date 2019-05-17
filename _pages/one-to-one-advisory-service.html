@@ -7,7 +7,7 @@ permalink: /one-to-one-advisory-service/
 	<div class="row">
 		<div class="column">
 			<h2 class="e-page-title">One-to-One Advisory Service</h2>
-			<!--p class="text-center">Intro paragraph here</p-->
+			<p class="text-center">Intro paragraph here</p>
 		</div>
 	</div>
 </section>
@@ -68,4 +68,53 @@ permalink: /one-to-one-advisory-service/
 			<p>The program runs parallel to the Government of Canada’s Smart Cities Challenge to amplify its impact and objectives to create more liveable, inclusive communities.</p>
 		</div><!-- .column -->
 	</div><!-- .row.box -->
+</section>
+
+<section class="b-content-section b-people team-unit">
+  <div class="row">
+    <div class="column">
+      <h2 class="e-section-title">One-to-One Advisory Team</h2>
+      <p class="text-center">Optional team intro text here.</p>
+    </div><!-- .column -->
+
+		<div class="column team">
+
+
+
+			{% for people_hash in site.data.people %}
+			{% assign people = people_hash[1] %}
+
+				{% for person in people %}
+
+					{% if person.unit contains 'one-to-one' %}
+
+					<div class="medium-3 small-4 columns{% if forloop.last %} end{% endif %}">
+						<div class="b-card m-team has-bio">
+							<div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
+								{% if person.linkedin %}
+								<a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+								{% endif %}
+								{% if person.url %}
+								<a class="b-social-media" href="{{ person.url }}"><i class="fas fa-link"></i></a>
+								{% endif %}
+							</div>
+							<div class="e-card-content">
+								<h3>{{ person.name }}</h3>
+								<h4>{{ person.role | markdownify}}</h4>
+								<p class="bio">{{ person.bio }}</p>
+							</div>
+						</div><!-- .b-card.m-team -->
+					</div><!-- .columns -->
+
+					{% endif %}
+
+				{% endfor %}
+
+			{% endfor %}
+
+		</div>
+
+
+
+  </div><!-- .row -->
 </section>
