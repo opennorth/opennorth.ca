@@ -3,8 +3,10 @@ description: Open North implements a collaborative local-to-global approach to i
 url: https://www.opennorth.ca
 logo: https://www.nordouvert.ca/theme/img/open-north-logo-header-black-en.png
 language: en
+lang: en_CA
 baseurl:
 permalink: /:year/:month/:day/:title
+
 social:
   name: Open North
   links:
@@ -15,7 +17,7 @@ social:
 twitter:
   username: opennorth
   card: summary
-lang: en_CA
+
 paginate: 20
 paginate_path: "/blog/page:num/"
 include: ["_pages"]
@@ -26,6 +28,16 @@ collections:
     output: true
   publications:
   webinars:
+
+sass:
+  style: :compressed
+  sass_dir: theme/_sass
+  line_comments: true
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 defaults:
   - scope:
@@ -48,16 +60,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-sass:
-  style: :compressed
-  sass_dir: theme/_sass
-  line_comments: true
-
-plugins:
-  - jekyll-redirect-from
-  - jekyll-paginate
-  - jekyll-seo-tag
 
 prose:
   siteurl: https://www.opennorth.ca/
@@ -184,6 +186,13 @@ prose:
               value: 'applied research lab'
             - name: One-to-One Advisory Service
               value: 'one-to-one advisory service'
+      - name: description
+        field:
+          element: textarea
+          label: Description
+          placeholder: Brief description of the post
+          help: The description is displayed on in lists of posts, like the Blog page.
+          value: ""
     collections/_publications:
       - name: title
         field:
