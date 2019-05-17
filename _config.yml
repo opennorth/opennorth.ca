@@ -191,7 +191,7 @@ prose:
           element: textarea
           label: Description
           placeholder: Brief description of the post
-          help: The description is displayed on in lists of posts, like the Blog page.
+          help: The description is displayed in lists of posts, like on the Blog page.
           value: ""
     collections/_publications:
       - name: title
