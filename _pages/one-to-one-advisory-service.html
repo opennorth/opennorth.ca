@@ -77,44 +77,8 @@ permalink: /one-to-one-advisory-service/
       <p class="text-center">Optional team intro text here.</p>
     </div><!-- .column -->
 
-		<div class="column team">
 
-
-
-			{% for people_hash in site.data.people %}
-			{% assign people = people_hash[1] %}
-
-				{% for person in people %}
-
-					{% if person.unit contains 'one-to-one' %}
-
-					<div class="medium-3 small-4 columns{% if forloop.last %} end{% endif %}">
-						<div class="b-card m-team has-bio">
-							<div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
-								{% if person.linkedin %}
-								<a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
-								{% endif %}
-								{% if person.url %}
-								<a class="b-social-media" href="{{ person.url }}"><i class="fas fa-link"></i></a>
-								{% endif %}
-							</div>
-							<div class="e-card-content">
-								<h3>{{ person.name }}</h3>
-								<h4>{{ person.role | markdownify}}</h4>
-								<p class="bio">{{ person.bio }}</p>
-							</div>
-						</div><!-- .b-card.m-team -->
-					</div><!-- .columns -->
-
-					{% endif %}
-
-				{% endfor %}
-
-			{% endfor %}
-
-		</div>
-
-
+		{% include team-unit.html unit="one to one" %}
 
   </div><!-- .row -->
 </section>

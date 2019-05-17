@@ -1,0 +1,37 @@
+<div class="column team">
+
+{% for people_hash in site.data.people %}
+{% assign people = people_hash[1] %}
+
+  {% for person in people %}
+
+    {% if person.unit contains include.unit %}
+
+    <div class="medium-3 small-4 columns{% if forloop.last %} end{% endif %}">
+      <div class="b-card m-team has-bio">
+        <div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
+          {% if person.linkedin %}
+          <a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+          {% endif %}
+          {% if person.url %}
+          <a class="b-social-media" href="{{ person.url }}"><i class="fas fa-link"></i></a>
+          {% endif %}
+        </div>
+        <div class="e-card-content">
+          <h3>{{ person.name }}</h3>
+            <h4>{{ person.role | markdownify}}</h4>
+            {% if person.summary %}
+              <h4>{{ person.summary }}</h4>
+            {% endif %}
+          <p class="bio">{{ person.bio }}</p>
+        </div>
+      </div><!-- .b-card.m-team -->
+    </div><!-- .columns -->
+
+    {% endif %}
+
+  {% endfor %}
+
+{% endfor %}
+
+</div>
