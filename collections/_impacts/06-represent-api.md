@@ -1,6 +1,6 @@
 ---
 title: Represent API
-featured: 'true'
+featured: 'false'
 link: 'https://represent.opennorth.ca/'
 testimonial: >-
   “**Represent API** is a service that allows anyone to find their elected
