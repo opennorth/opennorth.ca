@@ -67,16 +67,6 @@
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Dione Watts
   role: Operations Manager
-- name: Joel Ornoy
-  role: |
-    <p>Business Development Manager</p>
-    <p>Citizen Budget</p>
-  linkedin: https://www.linkedin.com/pub/joel-ornoy/24/193/292
-- name: Saad Sabb
-  role: |
-    <p>Fulfillment Specialist</p>
-    <p>Citizen Budget</p>
-  linkedin: https://www.linkedin.com/in/saadsab/
 - name: Jaime MacLean
   role: Developer
   linkedin: https://www.linkedin.com/in/jaime-m-22a242139
