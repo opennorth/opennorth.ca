@@ -12,6 +12,6 @@ cite: >-
   Stéphane Guidoin, Acting Director, Smart and Digital City Office for the City
   of Montreal, on **Vue Sur Les Contrats**
 published: true
-image: 2019-05-03-vue sur les contrats.png
+image: 2019-05-03-vue-sur-les-contrats.png
 ---
 In 2015, we developed an API that enabled the City of Montreal to open up a large portion of its contractual data by launching “Vue sur les contrats,” a visualization tool that allows users to dive deep into this information. Thanks to OpenNorth’s involvement, this visualization tool uses only data structured in open contracting format. With OpenNorth expertise, the initiative led by the City of Montreal’s Smart City Office demonstrated the benefits of standardizing data, but it also highlighted the challenges associated with data quality and design choices that are inherent to such projects. Using a standard format and open source software allowed us to create a model, which other organizations can adopt, to transform data that is publicly available, but difficult to access, into a vehicle for more transparency and better informed citizens. For more information about this project, please consult the Open Contracting Partnership’s [blog post](https://www.open-contracting.org/2016/06/27/montreal-greater-transparency-city-contracts-open-data-visualization/ "Open Contracting Partnership’s blog post").

@@ -12,14 +12,14 @@
     <p>Applied Research Lab</p>
   linkedin: https://www.linkedin.com/in/miranda-sculthorp-76883040/
   unit: ['applied research lab']
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
+  bio: 'As an Urban Research Analyst at the Applied Research Lab, Miranda works closely with municipal government to increase transparency and civic engagement through the creation of open data policy and the planning of geospatial tools. She also works with local community networks to understand urban issues, and support these actors through data literacy and data sharing initiatives. Her research interests include food security, housing access and affordability, and gender-inclusion in city spaces. Miranda received her Master's of Urban Planning Degree from McGill University, and her Bachelor of Social Science degree in Economics and French from the University of Ottawa.'
 - name: Hannah Ker
   role: |
     <p>Open Data Analyst</p>
     <p>Applied Research Lab</p>
   linkedin: https://ca.linkedin.com/in/hannah-ker-991007115
   unit: ['applied research lab']
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
+  bio: 'As an Open Data Analyst for the Applied Research Lab, Hannah works with government in various contexts to improve capacity for data-driven decision making. In this role, she has facilitated workshops, built online learning tools, and developed automated workflows for data analysis. Hannah has a degree on Urban Geography from McGill University, where she conducted her Honours Thesis research on perceptions Montreal's urban landscapes. Hannah is interested in exploring the ways that data can be used responsibly to improve decision-making in cities.'
 - name: Marine Colon de Franciosi
   role: |
     <p>Research Analyst</p>
@@ -67,16 +67,8 @@
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus.'
 - name: Dione Watts
   role: Operations Manager
-- name: Joel Ornoy
-  role: |
-    <p>Business Development Manager</p>
-    <p>Citizen Budget</p>
-  linkedin: https://www.linkedin.com/pub/joel-ornoy/24/193/292
-- name: Saad Sabb
-  role: |
-    <p>Fulfillment Specialist</p>
-    <p>Citizen Budget</p>
-  linkedin: https://www.linkedin.com/in/saadsab/
+- name: Nancy Lazo
+  role: Administrative Assistant
 - name: Jaime MacLean
   role: Developer
   linkedin: https://www.linkedin.com/in/jaime-m-22a242139

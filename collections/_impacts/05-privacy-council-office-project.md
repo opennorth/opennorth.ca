@@ -2,7 +2,7 @@
 title: Privacy Council Office (PCO) Project
 link: 'https://github.com/canada-ca/content-analysis'
 published: true
-featured: 'true'
+featured: 'false'
 image: 2019-05-03-pco-screenshot.png
 ---
 We explored the following question for the PCO: How can we make qualitative consultation data more reusable for the Federal Government? The goal was to examine variations in the structure of qualitative consultation data and its potential to be used in analysis tools. Our examination included four consultation datasets from the Government of Canada’s [open data portal](http://open.canada.ca/ "Open data portal") (and one internal consultation dataset) and prototyped a workflow to process and analysis qualitative consultation data.
