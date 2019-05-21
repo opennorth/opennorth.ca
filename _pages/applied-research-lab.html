@@ -21,6 +21,18 @@ permalink: /applied-research-lab/
 	</div>
 </section><!-- .b-content-section -->
 
+<section class="b-content-section b-people team-unit">
+  <div class="row">
+    <div class="column">
+      <h2 class="e-section-title">Applied Research Lab Team</h2>
+      <p class="text-center">Optional team intro text here.</p>
+    </div><!-- .column -->
+
+		{% include team-unit.html unit="applied research lab" %}
+
+	</div><!-- .row -->
+</section>
+
 {% comment %} RELATED CONTENT SECTION {% endcomment %}
 <div class="background-subtle">
 	<section class="b-content-section b-blog featured-list">
@@ -30,7 +42,7 @@ permalink: /applied-research-lab/
 			</div>
 		</div>
 
-		<!--div class="row two-column">
+		<!-- ***related publications section*** div class="row two-column">
 			<div>
 				{% assign pubs = site.publications | where: "categories", "applied research lab" | reverse %}
 				{% for pub in pubs limit:5 %}
@@ -104,15 +116,3 @@ permalink: /applied-research-lab/
 
 	</section>
 </div>
-
-<section class="b-content-section b-people team-unit">
-  <div class="row">
-    <div class="column">
-      <h2 class="e-section-title">Applied Research Lab Team</h2>
-      <p class="text-center">Optional team intro text here.</p>
-    </div><!-- .column -->
-
-		{% include team-unit.html unit="applied research lab" %}
-
-	</div><!-- .row -->
-</section>
