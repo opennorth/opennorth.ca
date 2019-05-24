@@ -14,47 +14,11 @@ title: Open North Blog
 <div class="background-subtle" id="top">
   <section class="b-content-section b-blog featured-list">
     <div class="row">
-        {% for post in paginator.posts %}
-          <div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              <article>
-                {% if post.image contains 'http' %}
-                  <div class="post-text">
-                    <h3>{{ post.title }}</h3>
-                    <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
-                    {% if post.description !=null %}
-                      {{ post.description | markdownify }}
-                    {% else %}
-                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-                    {% endif %}
-                  </div>
-                  <div class="post-image" style="background-image: url('{{ post.image }}');"></div>
-                {% elsif post.title == null %}
-                  <div>
-                    <h3>{{ post.title }}</h3>
-                    <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
-                    {% if post.description !=null %}
-                      {{ post.description | markdownify }}
-                    {% else %}
-                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-                    {% endif %}
-                  </div>
-                {% else %}
-                <div class="post-text">
-                  <h3>{{ post.title }}</h3>
-                  <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
-                  {% if post.description !=null %}
-                    {{ post.description | markdownify }}
-                  {% else %}
-                    <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-                  {% endif %}
-                </div>
-                <div class="post-image" style="background-image: url('/theme/img/blog/{{ post.image }}');"></div>
-                {% endif %}
-              </article>
-            </a>
-          </div>
-        {% endfor %}
+      {% for post in paginator.posts %}
+
+        {% include blog-list-article.html %}
+
+      {% endfor %}
     </div>
   </section>
 

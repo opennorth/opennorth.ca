@@ -60,77 +60,20 @@ permalink: /applied-research-lab/
 			</div>
 		</div>
 
-		<!-- ***related publications section*** div class="row two-column">
-			<div>
-				{% assign pubs = site.publications | where: "categories", "applied research lab" | reverse %}
-				{% for pub in pubs limit:5 %}
-					<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-						<a href="/publications#{{ pub.title | slugify }}">
-							<article>
-                  <div class="post-text">
-                    <h3>{{ pub.title }}</h3>
-                    <p>{{ pub.content | strip_html | truncatewords: 50 }}</p>
-                  </div>
-              </article>
-						</a>
-					</div>
-				{% endfor %}
-
-				<nav>
-					<p class="navigation"><a href="/publications">View all publications</a></p>
-				</nav>
-			</div-->
-
 		<div class="row">
 			<div>
 				{% assign posts = site.posts | where: "categories", "applied research lab" %}
 				{% for post in posts limit:5 %}
-					<div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
-						<a href="{{ post.url }}">
-							<article>
-                {% if post.image contains 'http' %}
-                  <div class="post-text">
-                    <h3>{{ post.title }}</h3>
-                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
-                    {% if post.description !=null %}
-                      {{ post.description | markdownify }}
-                    {% else %}
-                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-                    {% endif %}
-                  </div>
-                  <div class="post-image" style="background-image: url('{{ post.image }}');"></div>
-                {% elsif post.title == null %}
-                  <div>
-                    <h3>{{ post.title }}</h3>
-                    <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
-                    {% if post.description !=null %}
-                      {{ post.description | markdownify }}
-                    {% else %}
-                      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-                    {% endif %}
-                  </div>
-                {% else %}
-                <div class="post-text">
-                  <h3>{{ post.title }}</h3>
-                  <!--time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time-->
-                  {% if post.description !=null %}
-                    {{ post.description | markdownify }}
-                  {% else %}
-                    <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-                  {% endif %}
-                </div>
-                <div class="post-image" style="background-image: url('/theme/img/blog/{{ post.image }}');"></div>
-                {% endif %}
-              </article>
-					</div><!-- .blog-item -->
+
+					{% include blog-list-article.html %}
+
 				{% endfor %}
 
 				<nav>
 					<p class="navigation"><a href="/blog">View all news</a></p>
 				</nav>
 			</div>
-
-		</div><!--.row.two-column-->
+		</div><!--.row-->
 
 	</section>
 </div>
