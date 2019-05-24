@@ -28,19 +28,30 @@ permalink: /applied-research-lab/
 	</div>
 </section><!-- .b-content-section -->
 
+{% comment %} Team Section {% endcomment %}
 <section class="b-content-section b-people team-unit">
   <div class="row">
     <div class="column">
       <h2 class="e-section-title">Applied Research Lab Team</h2>
-      <p class="text-center">Optional team intro text here.</p>
+      <!--p class="text-center">Optional team intro text here.</p-->
     </div><!-- .column -->
 
-		{% include team-unit.html unit="applied research lab" %}
+		{% include team-unit.html people="staff" unit="applied research lab" %}
 
 	</div><!-- .row -->
+	<!-- remove this comment to show research collaborators section
+	<div class="row">
+		<div class="column">
+			<h2 class="e-section-title">Research Collaborators</h2>
+			<p class="text-center">Optional team intro text here.</p>
+		</div>
+
+		{% include team-unit.html people="research-collaborators" unit="applied research lab" %}
+
+	</div> end of comment -->
 </section>
 
-{% comment %} RELATED CONTENT SECTION {% endcomment %}
+{% comment %} Related Posts Section {% endcomment %}
 <div class="background-subtle">
 	<section class="b-content-section b-blog featured-list">
 		<div class="row">
