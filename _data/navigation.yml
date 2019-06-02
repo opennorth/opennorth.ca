@@ -21,6 +21,9 @@
 - name: Citizen Budget
   link: http://www.citizenbudget.com/
   target: _blank
+- name: Represent
+  link: https://represent.opennorth.ca/
+  target: _blank
 - name: News
   link: /blog
   children:
