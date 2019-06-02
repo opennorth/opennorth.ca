@@ -5,7 +5,7 @@
   role: Applied Research Lead
   linkedin: https://www.linkedin.com/in/suthee/
   unit: ['applied research lab']
-  bio: "Suthee is OpenNorth’s Applied Research Lead. As a geographer, he has researched and published academically on citizen engagement via open data and civic apps and on the civic app ecosystem. At OpenNorth, he has worked on projects that examine data standard compliance in municipal open data, approaches to data standards adoption in government and civil society, and data modelling for public consultation data. He is responsible for OpenNorth's research agenda and leads OpenNorth's Applied Research Lab, which has worked on a range of issues, from open data strategies to data literacy for civil servants and standardisation of public consultation data."
+  bio: "Suthee is OpenNorth’s Applied Research Lead. As a geographer, he has researched and published academically on open data and civic apps. At OpenNorth, he has examined standards compliance in municipal open data, approaches to data standards adoption in government and civil society, and data modelling for public consultation data. He is responsible for OpenNorth's research agenda and leads OpenNorth's Applied Research Lab, which has worked on a range of issues from open data strategies to data literacy for civil servants and standardisation of public consultation data."
 - name: Miranda Sculthorp
   role: |
     <p>Urban Research Analyst</p>
@@ -36,35 +36,42 @@
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/m%C3%A9lina-planchenault-05096313/
   unit: ['one to one']
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus."
+  bio: ""
 - name: Oscar Espinosa
   role: |
-    <p> Program Manager</p>
+    <p>Program Manager</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/oscarespinosa25/
   unit: ['one to one']
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus."
+  bio: ""
+- name: Michaël Houle
+  role: |
+    <p>Senior Programme Officer</p>
+    <p>One-to-One Advisory Service</p>
+  linkedin: https://www.linkedin.com/in/micha%C3%ABl-houle-b3984253/
+  unit: ['one to one']
+  bio: ""
 - name: Moana Lebel
   role: |
-    <p>Project Lead</p>
+    <p>Programme Officer</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/moana-lebel-99381321/
   unit: ['one to one']
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus."
+  bio: ""
 - name: Corey Pembleton
   role: |
-    <p>Analyst</p>
+    <p>Programme Officer</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/coreypembleton/
   unit: ['one to one']
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus."
+  bio: ""
 - name: Nabeel Ahmed
   role: |
-    <p>Analyst</p>
+    <p>Programme Officer</p>
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/nsahmed/
   unit: ['one to one']
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue varius consequat. Nunc egestas vel augue et tempor. Nulla eget venenatis velit. Aenean tincidunt lacus."
+  bio: ""
 - name: Dione Watts
   role: Operations Manager
 - name: Nancy Lazo
