@@ -1,4 +1,5 @@
 **Contents**
+
 <!-- TOC -->
 
 - [Getting Started](#getting-started)
@@ -18,17 +19,21 @@
   - [Add a new job posting](#add-a-new-job-posting)
   - [Add a new item to the 'Impacts' page](#add-a-new-item-to-the-impacts-page)
   - [Add a new publication to the 'Publications' page](#add-a-new-publication-to-the-publications-page)
+    - [To add categories to a publication:](#to-add-categories-to-a-publication)
   - [Add a new webinar to the 'Webinars' page](#add-a-new-webinar-to-the-webinars-page)
   - [Add a new 'In the News' item to the Newsroom](#add-a-new-in-the-news-item-to-the-newsroom)
   - [Add or remove an item to the main navigation menu](#add-or-remove-an-item-to-the-main-navigation-menu)
   - [Edit static pages](#edit-static-pages)
 - [Preview Changes](#preview-changes)
+- [Image sizes](#image-sizes)
+  - [Front Page Slider](#front-page-slider)
+  - [People](#people)
+  - [Posts](#posts)
 - [Theme](#theme)
 - [Helpful Links](#helpful-links)
 - [This Documentation](#this-documentation)
 
 <!-- /TOC -->
-
 
 # Getting Started
 
