@@ -6,7 +6,9 @@ categories:
   - applied research lab
 image: 2019-06-03-data-computer.jpg
 author: Hannah Ker
-description: Reflections on a project with the Privy Council Office
+description: >-
+  Reflections on developing data literacy for civil servants implementing public
+  consultations
 ---
 Data literacy is an increasingly important skill for individuals and organizations across many sectors. Before anyone can make decisions based on data (ie. the “data-driven decision making” paradigm that we hear so much about), they first need to be able to open, read, process, analyze, and summarize that data. 
 
@@ -36,10 +38,4 @@ We also conducted basic user testing to ensure the website could be navigated in
 
 The overarching aim of this project was to highlight how technical competencies are an important part of open, transparent government. Data is increasingly becoming part of policy development and public engagement activities; a shift that demands new skills of today’s public officials. Technical competencies such as restructuring spreadsheets and computationally analyzing large datasets may no longer be just for computer scientists and IT specialists. 
 
-What are other sectors or use cases where data literacy is becoming increasingly important? 
-
-
-
-
-
-
+What are other sectors or use cases where data literacy is becoming increasingly important?
