@@ -5,6 +5,7 @@ title: Press Release - Citizen Budget
 categories:
   - press release
 author: OpenNorth
+image: 2019-05-03-citizen-buget-full-screenshot-en.png
 ---
 ## Press Release
 
