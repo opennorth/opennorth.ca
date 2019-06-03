@@ -524,6 +524,8 @@ Two images for each slider, one will be used on small mobile devices and one on 
 
 *If the image is not this exact size, it must be at least the same aspect ratio (62 : 35).*
 
+Note: the caption can be added as text that will be overlaid on the image. All captions will have a slightly darker background (via a semi-transparent grey overlay) to ensure that the text is readable. Add the class `with-bg` to the <p> element to add a black background.
+
 ## People
 
 Approximately 450 x 450px, at a minimum of 400px in either width and height.
