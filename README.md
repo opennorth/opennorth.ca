@@ -511,6 +511,28 @@ Then, open [localhost:4000](http://localhost:4000) in a browser. While the serve
 
 **Note:** If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
 
+# Image sizes
+
+Images, especially the 'small' size loaded on mobile devices, should be **at least under 100 KB** in size. A resolution of 96 DPI is standard.
+
+## Front Page Slider
+
+Large: 1240 x 700 px
+Small: 700 x 395 px
+
+Two images for each slider, one will be used on small mobile devices and one on larger screens.
+
+*If the image is not this exact size, it must be at least the same aspect ratio (62 : 35).*
+
+## People
+
+Approximately 450 x 450px, at a minimum of 400px in either width and height.
+
+These do not need to be exact, since these images scale depending on the screen size.
+
+## Posts
+
+Images will be displayed at up to 800 px wide on the post content. Images with a centred focal point will look best on the blog page.
 
 # Theme
 
