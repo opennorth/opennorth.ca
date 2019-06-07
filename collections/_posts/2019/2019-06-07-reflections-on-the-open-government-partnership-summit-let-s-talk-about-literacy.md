@@ -28,7 +28,7 @@ As government adopts more technological solutions, efforts to promote media, dig
 
 Before addressing notable findings and outcomes from these conversations, I’d like to first unpack some different types of literacy and what they mean. Traditionally, literacy is about comprehension and critical thinking. Beyond just learning to read, literacy also encompasses the ability to understand, ask questions, and present arguments based on written material (Combes, 2010). Throughout the OGP Summit, we heard about the following types of literacy: 
 
-+ **Media literacy**: Media literacy is more than just the ability to interact with different types of media. According to MediaSmarts, Canada’s Centre for Digital and Media Literacy, media literacy includes skills relating to access, analysis, evaluation, and production of media (MediaSmarts, 2017). Media literacy also includes a fundamental acknowledgement that media convey social and political messages that can be interpreted differently by different audiences (ibid.).
++ **Media literacy**: Media literacy is more than just the ability to interact with different types of media. According to [MediaSmarts](http://mediasmarts.ca/), Canada’s Centre for Digital and Media Literacy, media literacy includes skills relating to access, analysis, evaluation, and production of media (MediaSmarts, 2017). Media literacy also includes a fundamental acknowledgement that media convey social and political messages that can be interpreted differently by different audiences (ibid.).
 
 
 + **Digital literacy**: Digital literacy builds off of media literacy. As defined by MediaSmarts, digital literacy includes competencies across three domains (MediaSmarts, 2019): 
