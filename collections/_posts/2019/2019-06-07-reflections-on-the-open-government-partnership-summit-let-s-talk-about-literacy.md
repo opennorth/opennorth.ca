@@ -20,7 +20,7 @@ In its variety of forms, technology was at the center of many discussions at the
 
 If conversations at the OGP Summit are any indication, digital infrastructures and technology such as those identified above are having an impact on the future priorities and direction of open government.  
 
-Issues of literacy appeared consistently throughout many of these conversations. The focus of the day-long “Making Data Work for Open Government” unconference was on **building data literacy** in various contexts and making data more accessible to those without relevant formal education. We learned about efforts from the Caribbean Open Institute on **digital capacity building** for young women in Haiti trying to enter the job market. During a session on “Fostering a Democratic Digital Space”, the issue of **media literacy** was a center point of discussions around misinformation in online spaces, such as social media.
+Issues of literacy appeared consistently throughout many of these conversations. The focus of the day-long “Making Data Work for Open Government” unconference was on **building data literacy** in various contexts and making data more accessible to those without relevant formal education. We learned about efforts from the [Caribbean Open Institute](http://caribbeanopeninstitute.org/) on **digital capacity building** for young women in Haiti trying to enter the job market. During a session on “Fostering a Democratic Digital Space”, the issue of **media literacy** was a center point of discussions around misinformation in online spaces, such as social media.
 
 As government adopts more technological solutions, efforts to promote media, digital, and data literacy will be an important part of open government. 
 
