@@ -12,7 +12,7 @@ description: >-
   As government adopts more technological solutions, efforts to promote media,
   digital, and data literacy will be an important part of open government.
 ---
-_This is the first in a series of “What We Heard” posts from the Applied Research Lab with reflections from the Open Government Partnership Summit 2019._
+_This is the first in a series of “What We Heard” posts from the [Applied Research Lab](https://www.opennorth.ca/applied-research-lab/) with reflections from the Open Government Partnership Summit 2019._
 
 ## What were people talking about at the OGP Summit?
 
@@ -75,11 +75,3 @@ MediaSmarts. (2019, February 20).Digital Literacy Fundamentals. Retrieved from h
 Prado, J. C., & Marzal, M. Á. (2013). Incorporating data literacy into information literacy programs: Core competencies and contents. Libri, 63(2), 123-134. Retrieved from https://e-archivo.uc3m.es/bitstream/handle/10016/27173/incorporating_calzada_LIBRI_2013.pdf
 
 Ridsdale et al. (2015). Strategies and best practices for data literacy education: Knowledge synthesis report. Retrieved from https://dalspace.library.dal.ca/bitstream/handle/10222/64578/Strategies%20and%20Best%20Practices%20for%20Data%20Literacy%20Education.pdf?sequence=1
-
-
-
-
-
-
-
-
