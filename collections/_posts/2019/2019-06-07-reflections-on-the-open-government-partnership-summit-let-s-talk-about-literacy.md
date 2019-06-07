@@ -62,7 +62,7 @@ We need to build literacy in its many forms in both government and the public. W
 
 At OpenNorth, our work on data literacy (see [here](https://www.opennorth.ca/2019/06/03/what-we-re-up-to-data-literacy-and-public-consultations) for an example) has pointed us towards some great resources for further reading on this subject. The following list includes sources referenced in this article and additional sources that we believe to be valuable: 
 
-Sources: 
+## Sources: 
 
 Bhargava, R., & D’Ignazio, C. (2015). Designing tools and activities for data literacy learners. In Workshop on Data Literacy, Webscience. Retrieved from https://pdfs.semanticscholar.org/1215/7fe54d862929e301f7fdb2c6233c1ae4502a.pdf
 
