@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: >-
   Two stories of open government from São Paulo and Santiago: what we learned
@@ -50,5 +50,4 @@ Open Government Partnership. n.d. Actions for a More Inclusive Open Government P
 
 OECD. February, 2017. Embracing Innovation in Government Global Trends. pp. 51-53. Available at: http://www.oecd.org/gov/innovative-government/embracing-innovation-in-government.pdf 
 
-El Mostrador. March 8, 2019. Renca tendrá el primer plan de acción comunal de Gobierno Abierto realizado en Chile. Available at: https://www.elmostrador.cl/noticias/pais/2019/03/08/renca-tendra-el-primer-plan-de-accion-comunal-de-gobierno-abierto-realizado-en-chile/ 
-
+El Mostrador. March 8, 2019. Renca tendrá el primer plan de acción comunal de Gobierno Abierto realizado en Chile. Available at: https://www.elmostrador.cl/noticias/pais/2019/03/08/renca-tendra-el-primer-plan-de-accion-comunal-de-gobierno-abierto-realizado-en-chile/
