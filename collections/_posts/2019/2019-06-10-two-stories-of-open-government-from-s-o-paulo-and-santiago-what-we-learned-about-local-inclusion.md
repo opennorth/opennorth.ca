@@ -10,7 +10,7 @@ categories:
   - applied research lab
 description: Thoughts from the OGP Summit 2019 Local Side Event.
 ---
-_This is the first in a series of “What We Heard” posts from the Applied Research Lab with reflections from the Open Government Partnership Summit 2019._
+_This is the first in a series of “What We Heard” posts from the [Applied Research Lab](https://www.opennorth.ca/applied-research-lab/) with reflections from the Open Government Partnership Summit 2019._
 
 ## Giving meaning to inclusion
 
