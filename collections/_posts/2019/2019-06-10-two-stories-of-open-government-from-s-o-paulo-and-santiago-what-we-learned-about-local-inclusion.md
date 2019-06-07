@@ -10,6 +10,8 @@ categories:
   - applied research lab
 description: Thoughts from the OGP Summit 2019 Local Side Event.
 ---
+This is the second in a series of posts from the Applied Research Lab with reflections from the Open Government Partnership Summit 2019.
+
 ## Giving meaning to inclusion
 
 The Open Government Partnership (OGP) Summit 2019 provided a platform for participants to share their locally-initiated open government projects. Throughout the week we heard from speakers ranging from city officials to activists, and even a family that carried out a project to visualize their country’s budget spending. Clearly, open government can be the business of everyone. And in fact, this was an recurrent theme (and question) that permeated the conference.  
