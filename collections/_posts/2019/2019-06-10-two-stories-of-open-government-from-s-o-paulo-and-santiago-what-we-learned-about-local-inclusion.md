@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: >-
   Two stories of open government from São Paulo and Santiago: what we learned
