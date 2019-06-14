@@ -13,16 +13,18 @@ layout: default
           </p>
         </header>
 
-        {% if page.image contains "http" %}
-          <div class="blog-image">
-            <img src="{{ page.image }}" class="center" />
-          </div>
-        {% elsif page.image == null %}
+        {% if page.image_display != false %}
+          {% if page.image contains "http" %}
+            <div class="blog-image">
+              <img src="{{ page.image }}" class="center" />
+            </div>
+          {% elsif page.image == null %}
 
-        {% else %}
-        <div class="blog-image">
-          <img src="/theme/img/blog/{{ page.image }}" class="center" />
-        </div>
+          {% else %}
+          <div class="blog-image">
+            <img src="/theme/img/blog/{{ page.image }}" class="center" />
+          </div>
+          {% endif %}
         {% endif %}
 
         {{ content }}
