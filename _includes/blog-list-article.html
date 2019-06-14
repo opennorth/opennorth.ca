@@ -1,6 +1,6 @@
   <div class="featured-item blog-item{% if forloop.last %} end{% endif %}">
 
-      <article>
+      <article class="post{% if post.categories %} {{ post.categories | array_to_sentence_string | slugify | replace: '-and-', ' ' }}{% endif %}">
         <a href="{{ post.url }}">
         {% if post.image contains 'http' %}
           <div class="post-text">
