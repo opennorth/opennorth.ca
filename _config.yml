@@ -60,7 +60,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      image_display: true
+      image_hidden: false
 
 prose:
   siteurl: https://www.opennorth.ca/
@@ -172,7 +172,7 @@ prose:
           label: Image
           placeholder: DDDD-MM-YY-descriptive-lowercase-title.jpg
           help: Enter the name of the image that you uploaded to the /img/blog folder of the theme repository. This image will appear with the title and description on the Blog page and at the top of the post. Additional images can be added to the post's body.
-      - name: image_display
+      - name: image_hidden
         field:
           element: checkbox
           label: Hide image

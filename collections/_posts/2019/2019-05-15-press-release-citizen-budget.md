@@ -6,7 +6,7 @@ categories:
   - press release
 author: OpenNorth
 image: 2019-05-03-citizen-buget-full-screenshot-en.png
-image_display: false
+image_hidden: true
 ---
 ## Press Release
 
