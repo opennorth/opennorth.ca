@@ -199,7 +199,7 @@ You can also add:
 * a short description (50 words or less, written in markdown)
 * categories
 
-**Note:** Links are note valid in the description field.
+**Note:** Links are not valid in the description field.
 
 **Note:** If a description is not specified, the first 50 words of the post conent will be used.
 
@@ -217,6 +217,8 @@ Add the image file to the [blog folder](https://github.com/opennorth/theme/tree/
 In Prose, enter the full image name (as in the example above) in the "Image" field. *Do not use the image upload in Prose.*
 
 If editing the file directly, add the image to the front matter at the top of the file.
+
+You can specify that the image **should not** be displayed in the body of the post by adding `image_display: false` to the front matter or selecting the 'Hide image' checkbox.
 
 **Note:** When adding images to any website, it is usually best to use the .jpg format for photographs and the .png format for illustrations, logos, or icons.
 
@@ -282,7 +284,15 @@ The newsletter image should be saved to the [img/blog/](https://github.com/openn
 
 ## Add a new team member
 
-To **edit the staff, advisors or board**, edit the `_data/staff.yml`, `_data/advisors.yml` or `_data/board.yml` files. Escape special characters by using the [ASCI character code](http://htmlarrows.com/) or preceding it with a forward slash.
+To **edit the staff, research collaborators, or board**, edit the `_data/staff.yml`, `_data/advisors.yml` or `_data/board.yml` files. Escape special characters by using the [ASCI character code](http://htmlarrows.com/) or preceding it with a forward slash.
+
+A `unit` value can also be added for each person **if** that person should appear on the respective project page (like the One-to-One Advisory Service or Applied Research Lab pages). This value is added to the yaml file as an *array*.
+
+Available unit values are:
+* ['one to one']
+* ['applied research lab']
+
+A `bio` value can be added for each person, but this will only be displayed on the project pages (like the One-to-One Advisory Service or Applied Research Lab pages).
 
 To **add a photo**:
 
@@ -523,9 +533,10 @@ Images, especially the 'small' size loaded on mobile devices, should be **at lea
 ## Front Page Slider
 
 Large: 1240 x 700 px
+
 Small: 700 x 395 px
 
-Two images for each slider, one will be used on small mobile devices and one on larger screens.
+Two images for each slider, one will be used on small mobile devices and one on larger screens. In the index.html file, the small image is added as the <img src=""> and the larger is added to the <source srcset=""> element.
 
 *If the image is not this exact size, it must be at least the same aspect ratio (62 : 35).*
 
