@@ -2,7 +2,7 @@
 published: true
 layout: post
 image_hidden: false
-title: 'Reporting on Smart City discourse from RightsCon 2019 '
+title: 'Reporting on Smart City Discourse from RightsCon 2019 '
 image: 2019-07-02-tunis-rightscon.jpg
 author: Miranda Sculthorp
 categories:
