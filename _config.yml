@@ -175,7 +175,7 @@ prose:
       - name: show_image
         field:
           element: checkbox
-          label: Show image
+          label: Show image in post content ?
           help: Deselect this option to hide the image in the main content of the post.
           value: true
       - name: categories
