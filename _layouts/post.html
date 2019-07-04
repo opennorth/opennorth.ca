@@ -13,7 +13,7 @@ layout: default
           </p>
         </header>
 
-        {% if page.image_hidden != false %}
+        {% if page.show_image == true %} 
           {% if page.image contains "http" %}
             <div class="blog-image">
               <img src="{{ page.image }}" class="center" />
