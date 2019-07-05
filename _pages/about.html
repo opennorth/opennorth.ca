@@ -40,83 +40,15 @@ permalink: /about/
       <h2 class="e-section-title">Our Team</h2>
       <p class="text-center">Our dynamic team is comprised of people with experience in all sectors, with specialized expertise in government, strategic and operational planning, access to information, information technology, private sector, data standards creation, applied research international development, policy development, and software development.</p>
     </div>
-
-    {% for person in site.data.people.staff %}
-    <div class="medium-4 small-6 columns{% if forloop.last %} end{% endif %}">
-      <div class="b-card m-team">
-        <div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
-          {% if person.linkedin %}
-          <a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
-          {% endif %}
-          {% if person.url %}
-          <a class="b-social-media" href="{{ person.url }}"><i class="fas fa-link"></i></a>
-          {% endif %}
-        </div>
-        <div class="e-card-content">
-          <h3>{{ person.name }}</h3>
-          <h4>{{ person.role | markdownify}}</h4>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
+    {% include team-list.html people="staff" bio=false %}
   </div>
 </section>
-
-<!--
-<section class="b-content-section b-people" id="advisors">
- <div class="row">
-   <div class="column">
-     <h2 class="e-section-title">Advisors</h2>
-   </div>
-
-    {% for person in site.data.people.advisors %}
-    <div class="medium-4 small-6 columns{% if forloop.last %} end{% endif %}">
-      <div class="b-card m-team">
-        <div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
-          {% if person.linkedin %}
-          <a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
-          {% endif %}
-          {% if person.url %}
-          <a class="b-social-media" href="{{ person.url }}"><i class="fas fa-link"></i></a>
-          {% endif %}
-        </div>
-        <div class="e-card-content">
-          <h3>{{ person.name }}</h3>
-          <h4>{{ person.role | markdownify}}</h4>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
--->
 
 <section class="b-content-section b-people" id="board">
  <div class="row">
    <div class="column">
      <h2 class="e-section-title">Board &amp; Founder</h2>
    </div>
-
-   {% for person in site.data.people.board %}
-   <div class="medium-4 small-6 columns{% if forloop.last %} end{% endif %}">
-     <div class="b-card m-team">
-       <div class="e-card-picture" style="background-image: url('/theme/img/people/{{ person.name | slugify }}.jpg')">
-         {% if person.linkedin %}
-         <a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
-         {% endif %}
-         {% if person.url %}
-         <a class="b-social-media" href="{{ person.url }}"><i class="fas fa-link"></i></a>
-         {% endif %}
-       </div>
-       <div class="e-card-content">
-         <h3>{{ person.name }}</h3>
-         {% if person.summary %}
-         <h4>{{ person.summary  | markdownify }}</h4>
-         {% endif %}
-         <h4>{{ person.role  | markdownify }}</h4>
-       </div>
-     </div>
-   </div>
-   {% endfor %}
+   {% include team-list.html people="board" bio=false %}
  </div>
 </section>
