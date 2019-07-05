@@ -4,10 +4,9 @@
 
     {% if person.unit contains include.unit %}
 
-
     <div class="medium-3 small-4 columns{% if forloop.last %} end{% endif %}">
       <div class="b-card m-team has-bio">
-        <div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ person.name | slugify }}.jpg')">
+        <div class="e-card-picture" style="background-image: url('{{ site.baseurl }}/theme/img/people/{{ include.people }}/{{ person.name | slugify }}.jpg')">
           {% if person.linkedin %}
             <a class="b-social-media" href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
           {% endif %}
@@ -22,7 +21,9 @@
               <h4>{{ person.summary }}</h4>
             {% endif %}
             {% if person.bio %}
-              <p class="bio">{{ person.bio }}</p>
+              {% if include.bio != false %}
+                <p class="bio">{{ person.bio }}</p>
+              {% endif %}
             {% endif %}
         </div>
       </div><!-- .b-card.m-team -->
