@@ -1,0 +1,9 @@
+- name: Example Name
+  role: Role Here
+  linkedin: https://linkedin.com/linked-in-profile
+  unit: ['one to one']
+  bio: 'Example bio.'
+- name: Example Name
+  role: Role Here
+  url: http://example.com/not-linked-in
+  unit: ['one to one']
