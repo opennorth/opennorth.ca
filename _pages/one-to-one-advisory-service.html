@@ -89,13 +89,25 @@ permalink: /one-to-one-advisory-service/
 	</div><!-- .row.box -->
 </section>
 
+{% comment %} Delete {% comments %} to display advisors section
+<section class="b-content-section b-people team-unit">
+  <div class="row">
+    <div class="column">
+      <h2 class="e-section-title">One-to-One Research Collaborators</h2>
+      <!--p class="text-center">Optional team intro text here.</p-->
+    </div><!-- .column -->
+		{% include team-list.html people="advisors" unit="one to one" bio=true %}
+  </div><!-- .row -->
+</section>
+{% endcomment %}
+
 <section class="b-content-section b-people team-unit">
   <div class="row">
     <div class="column">
       <h2 class="e-section-title">One-to-One Advisory Team</h2>
       <!--p class="text-center">Optional team intro text here.</p-->
     </div><!-- .column -->
-		{% include team-list.html people="staff" unit="one to one" %}
+		{% include team-list.html people="staff" unit="one to one" bio=true %}
   </div><!-- .row -->
 </section>
 
