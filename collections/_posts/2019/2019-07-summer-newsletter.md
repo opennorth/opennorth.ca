@@ -2,7 +2,7 @@
 published: true
 layout: post
 show_image: true
-title: May 2019 Spring Newsletter
+title: Summer Newsletter
 image: 2019-07-11-front-obama-foundation-meeting-small.jpg
 categories:
   - newsletter
