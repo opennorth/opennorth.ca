@@ -7,7 +7,7 @@ image: 2019-07-11-front-obama-foundation-meeting-small.jpg
 categories:
   - newsletter
 author: ''
-description: ''
+description: 'See our summer newsletter for a review of our latest updates'
 ---
 _OpenNorth’s Executive Director Jean-Noé Landry met with The Obama Foundation and former United States President Barack Obama at the Open Government Partnership’s Global Summit in Ottawa this past May._
 
