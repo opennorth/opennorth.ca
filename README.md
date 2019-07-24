@@ -552,6 +552,20 @@ These do not need to be exact, since these images scale depending on the screen 
 
 Images will be displayed at up to 800 px wide on the post content. Images with a centred focal point will look best on the blog page.
 
+# Fonts & Colours
+
+## Fonts
+The Yantramanav typeface is used on the Open North site. This family is available for free on [Font Squirrel](https://www.fontsquirrel.com/fonts/yantramanav), as well as Google Fonts.
+
+* Titles are in Yantramanav Bold in grey #333333
+* Paragraphs are in Yantramanav Light in a slightly darker grey #222222
+
+# Colours
+* Grey - #333333 (often used as font colour, especially on bold titles)
+* Darker Grey - #222222 (often used as font colour in paragraphs, where Yantramanav Light is the type face)
+* Red - #960000 (sometimes this colour is semi-transparent, most often at 70% opacity)
+* Teal - #0078a0 (used as an accent, currently only in 'socials' sections)
+
 # Theme
 
 **The theme is a separate repository (or, '[submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)') which is shared between both the French and English versions of the site.**
