@@ -29,6 +29,9 @@
   - [Front Page Slider](#front-page-slider)
   - [People](#people)
   - [Posts](#posts)
+- [Fonts & Colours](#fonts--colours)
+  - [Fonts](#fonts)
+  - [Colours](#colours)
 - [Theme](#theme)
 - [Helpful Links](#helpful-links)
 - [This Documentation](#this-documentation)
@@ -167,7 +170,7 @@ cd ../ # Go back to opennorth.ca directory.
 git commit theme -m "Update theme." # Commit theme from opennorth.ca repo.
 git push origin gh-pages # Push to gh-pages for the site to recognize theme changes.
 ```
-
+*********************************************************
 
 # Adding Content
 
@@ -509,6 +512,7 @@ To add a new page to a drop down menu, find the parent ```name``` in the list ad
 ## Edit static pages
 
 Static pages are found in the ```_pages``` folder, with the exception of the Blog page which is located at ```blog/index.html```.
+*********************************************************
 
 # Preview Changes
 
@@ -525,6 +529,7 @@ Then, open [localhost:4000](http://localhost:4000) in a browser. While the serve
 **Note:** This command compiles files into the `_site` directory. Do not edit those files. Your changes to those files will not be saved.
 
 **Note:** If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
+*********************************************************
 
 # Image sizes
 
@@ -551,6 +556,7 @@ These do not need to be exact, since these images scale depending on the screen 
 ## Posts
 
 Images will be displayed at up to 800 px wide on the post content. Images with a centred focal point will look best on the blog page.
+*********************************************************
 
 # Fonts & Colours
 
@@ -560,11 +566,12 @@ The Yantramanav typeface is used on the Open North site. This family is availabl
 * Titles are in Yantramanav Bold in grey #333333
 * Paragraphs are in Yantramanav Light in a slightly darker grey #222222
 
-# Colours
+## Colours
 * Grey - #333333 (often used as font colour, especially on bold titles)
 * Darker Grey - #222222 (often used as font colour in paragraphs, where Yantramanav Light is the type face)
 * Red - #960000 (sometimes this colour is semi-transparent, most often at 70% opacity)
 * Teal - #0078a0 (used as an accent, currently only in 'socials' sections)
+*********************************************************
 
 # Theme
 
@@ -590,7 +597,7 @@ In other words, only these directories and files should differ:
 * `atom.xml`
 * `CNAME`
 * `README.md`
-
+*********************************************************
 
 # Helpful Links
 
@@ -603,7 +610,7 @@ In other words, only these directories and files should differ:
 * [Bundler Documentation](https://bundler.io/docs.html) - we use Bundler to manager dependencies
 * [Github Pages Gem](https://github.com/github/pages-gem) - GitHub Pages is used to host the site
 * [Foundation 5 Documentation](https://foundation.zurb.com/sites/docs/v/5.5.3/) - this site uses the Zurb Foundation 5 front-end framework
-
+*********************************************************
 
 # This Documentation
 
