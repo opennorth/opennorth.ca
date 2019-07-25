@@ -1,35 +1,49 @@
 - name: Nasma Ahmed
-  role: Open Smart Cities Advisor [Governance]
+  role: |
+    <p>Open Smart Cities Advisor</p>
+    <p>[Governance]</p>
   linkedin: https://www.linkedin.com/in/nasma-ahmed-69698266
   unit: ['one to one']
   bio: "Nasma is the Director of the Digital Justice Lab, whose mission is to build towards a more just and equitable digital future. She has experience working alongside the public service and the non-profit sector, focusing on technology capacity building. In 2017 she was an Open Web Fellow with Mozilla and Ford Foundation."
 - name: Ana Brandusescu
-  role: Open Smart City Advisor [Hardware and Software]
+  role: |
+    <p>Open Smart City Advisor</p>
+    <p>[Hardware and Software]</p>
   linkedin: https://www.linkedin.com/in/anabrandusescu/
   unit: ['one to one']
   bio: "Ana Brandusescu is a researcher, advisor, and facilitator who works on a more inclusive, responsible, and strategic use of data and tech policy. She has authored blogs, reports, and book chapters on open data, data measurement, artificial intelligence, gender equity, crisis mapping and community development."
 - name: Pierre-Antoine Ferron
-  role: Open Smart Cities Advisor [Governance]
+  role: |
+    <p>Open Smart Cities Advisor</p>
+    <p>[Governance]</p>
   linkedin: https://www.linkedin.com/in/pierre-antoine-ferron-0684767/
   unit: ['one to one']
   bio: "Pierre-Antoine Ferron has had a 30-year career as a civil servant at the City of Montréal where, for the past five years, he coordinated the adoption of all major IT policies, public and internal, such as their Smart City strategy, IT Procurement policy, and Open Data and Open Source policy."
 - name: Geoff Zakaib
-  role: Open Smart City Advisor [People & Engagement]
+  role: |
+    <p>Open Smart City Advisor</p>
+    <p>[People & Engagement]</p>
   linkedin: https://www.linkedin.com/in/geoff-zakaib-p-eng-mba-b5447a2/
   unit: ['one to one']
   bio: "Geoff Zakaib is an information management consultant and has been involved in a variety of ‘technology for good’ initiatives that span the public, private and nonprofit/social sectors. He is a Director of Data for Good,the co-founder of CivicTechYYC, and the Executive Director of Open Calgary."
 - name: Johann Kwan
-  role: Open Smart Cities Advisor [Governance]
+  role: |
+    <p>Open Smart Cities Advisor</p>
+    <p>[Governance]</p>
   linkedin: https://www.linkedin.com/in/johann-kwan-4b421648
   unit: ['one to one']
   bio: "Johann Kwan is an articling student at the Canadian Internet Policy and Public Interest Clinic (CIPPIC). He recently graduated with a Juris Doctor from the University of Ottawa with dual concentrations in technology law and international law. Since joining CIPPIC, he has been involved with several key smart cities projects."
 - name: Catherine Roy
-  role: Open Smart City Advisor [People & Engagement]
+  role: |
+    <p>Open Smart City Advisor</p>
+    <p>[People & Engagement]</p>
   linkedin: https://www.linkedin.com/in/catherine-roy514/
   unit: ['one to one']
   bio: "Catherine has worked for 20 years on access and inclusion to the knowledge society, coordinating research projects and initiatives, presenting at conferences, and writing about access to information technologies for people with disabilities. She has also served on many committees and boards of organizations concerned with digital divide issues."
 - name: Bianca Wylie
-  role: Open Smart Cities Advisor [People & Engagement]
+  role: |
+    <p>Open Smart Cities Advisor</p>
+    <p>[People & Engagement]</p>
   linkedin: https://www.linkedin.com/in/biancawylie
   unit: ['one to one']
   bio: "Bianca is an open government advocate with a dual background in technology and public engagement. She worked for several years in the tech sector in operations, infrastructure, corporate training, and product management. As a facilitator she designed, delivered and supported public consultation processes for various governments and government agencies."
