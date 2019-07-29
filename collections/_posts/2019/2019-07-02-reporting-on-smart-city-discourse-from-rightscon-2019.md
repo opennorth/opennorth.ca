@@ -2,7 +2,7 @@
 published: true
 layout: post
 show_image: true
-title: 'Reporting on Smart City Discourse from RightsCon 2019'
+title: Reporting on Smart City Discourse from RightsCon 2019
 image: 2019-07-02-tunis-rightscon.jpg
 author: Miranda Sculthorp
 categories:
@@ -57,4 +57,4 @@ At RightsCon 2019, discussions on ‘smart cities’ showed how this concept can
 
 Luckily, I got to meet an incredible body of researchers and activists at RightsCon who are doing this work, tirelessly questioning and exposing the intentions behind surveillance technology procurement in corrupt and authoritarian governments, raising awareness on issues surrounding consent and data privacy, as sensors and cameras increasingly find their way into the built environment, all while fostering data literacy and grass-roots movements in their respective communities. They continue to prove that while concepts and discourse is important to understand, in the end it’s the action that actually matters.
 
-As a final note, I’d like to extend my gratitude to LOGIQ, for supporting my participation in RightsCon 2019. I’d also like to welcome fellow RightsCon participants and readers to check out the work of [OpenNorth’s Applied Research Lab team](https://www.opennorth.ca/applied-research-lab/), as we look forward to continuing these discussions at the intersection of data, government, cities and society.     
+As a final note, I’d like to extend my gratitude to [LOJIQ](https://www.lojiq.org/), for supporting my participation in RightsCon 2019. I’d also like to welcome fellow RightsCon participants and readers to check out the work of [OpenNorth’s Applied Research Lab team](https://www.opennorth.ca/applied-research-lab/), as we look forward to continuing these discussions at the intersection of data, government, cities and society.
