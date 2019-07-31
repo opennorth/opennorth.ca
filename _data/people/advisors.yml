@@ -19,6 +19,20 @@
   linkedin: https://www.linkedin.com/in/pierre-antoine-ferron-0684767/
   unit: ['one to one']
   bio: "Pierre-Antoine Ferron has had a 30-year career as a civil servant at the City of Montréal where, for the past five years, he coordinated the adoption of all major IT policies, public and internal, such as their Smart City strategy, IT Procurement policy, and Open Data and Open Source policy."
+#- name: Suzanne Labrie
+#  role: |
+#    <p>Senior Program Consultant</p>
+#    <p>[Technical]</p>
+#  linkedin: https://www.linkedin.com/in/suzanne-l-3257513/
+#  unit: ['one to one']
+#  bio: ""
+#- name: Kit Malo
+#  role: |
+#    <p>Program Consultant</p>
+#    <p>[Support & Design, Indigenous]</p>
+#  linkedin: https://www.linkedin.com/in/kitmalo/
+#  unit: ['one to one']
+#  bio: "Kit Malo is an organizational consultant with 20+ years in the non-profit and community sectors, whose focus is on decolonizing workplaces with the aim to bring greater balance and well-being to organizational life."
 - name: Geoff Zakaib
   role: |
     <p>Open Smart City Advisor</p>
