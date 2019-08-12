@@ -13,8 +13,6 @@ description: >-
   With the support of UK Aid’s Good Governance Fund, OpenNorth and NDI are
   working together to improve public consultation in Ukraine.
 ---
-_By Christian Medina_
-
 One of OpenNorth’s organizational pillars is in its [global-to-local](https://www.opennorth.ca/about/) approach - working outside Canada with other organizations and governments, using our experience and expertise to apply elsewhere and bringing knowledge back to our home context. OpenNorth’s work with the National Democratic Institute (NDI) in Ukraine exemplifies this pillar of work. The [National Democratic Institute](https://www.ndi.org/) is a nonprofit, nonpartisan organization that supports and strengthens democratic institutions worldwide through citizen participation, openness and accountability in government. NDI is headquartered in the US, with field offices in over 50 countries worldwide.
 
 With the support of UK Aid’s Good Governance Fund, OpenNorth and NDI are working together to improve public consultation in Ukraine. The goal of the program is to develop and apply a replicable and sustainable model of public consultation; one that improves government decision making by incorporating citizens in the decision-making process. Within the program, OpenNorth works on increasing participation rates in consultation, establishing clear guidelines and consensus on the importance of public consultation for officials, working with civil society and interest groups on public consultation, and increasing accessibility and standardization of public consultation data.
