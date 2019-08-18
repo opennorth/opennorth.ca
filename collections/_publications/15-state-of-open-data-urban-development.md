@@ -1,5 +1,5 @@
 ---
-title: State of Open Data Chapter 16. Urban Development
+title: "State of Open Data Chapter 16. Urban Development"
 cover_image: state-of-open-data-urban-development.png
 link: https://www.stateofopendata.od4d.net/chapters/sectors/urban-development.html
 ---
