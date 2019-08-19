@@ -6,7 +6,7 @@ title: >-
   Global-to-Local: on public consultation, elections, and cross-cultural
   knowledge exchange in Ukraine
 author: Christian Medina
-image: 2019-08-01-ukraine-national-forum.jpeg
+image: 2019-08-12-ukraine-flag.jpg
 categories:
   - applied research lab
 description: >-
