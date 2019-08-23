@@ -11,7 +11,7 @@
       - [Git Workflow - Editing the Theme](#git-workflow---editing-the-theme)
 - [Adding Content](#adding-content)
   - [Add a new blog post](#add-a-new-blog-post)
-    - [To add an image to a post:](#to-add-an-image-to-a-post)
+    - [To add an image and caption to a post:](#to-add-an-image-and-caption-to-a-post)
     - [To add categories to a post:](#to-add-categories-to-a-post)
       - [Add a new press release](#add-a-new-press-release)
       - [Add a new newsletter](#add-a-new-newsletter)
@@ -153,7 +153,7 @@ git push origin gh-pages # Push your changes back to the repository.
 
 #### Git Workflow - Editing the Theme
 
-**The theme is a separate repository (or, '[submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)') which is shared between both the French and English versions of the site.**
+**The theme is a separate repository (a '[git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)') which is shared between both the French and English versions of the site.**
 
 To edit the theme files locally, using git:
 
@@ -167,7 +167,7 @@ bundle exec jekyll serve -w # Run the built in jekyll server to view your change
 git commit path/to/modified/file
 git push origin master
 cd ../ # Go back to opennorth.ca directory.
-git commit theme -m "Update theme." # Commit theme from opennorth.ca repo.
+git commit theme -m "Update theme" theme # Commit theme from opennorth.ca repo.
 git push origin gh-pages # Push to gh-pages for the site to recognize theme changes.
 ```
 *********************************************************
@@ -198,7 +198,7 @@ author: The author's name
 **Note:** In Prose.io, this metadata appears as fields. Testimonia fields are interpreted as [Markdown](https://guides.github.com/features/mastering-markdown/).
 
 You can also add:
-* an image
+* an image and a caption
 * a short description (50 words or less, written in markdown)
 * categories
 
@@ -207,7 +207,7 @@ You can also add:
 **Note:** If a description is not specified, the first 50 words of the post conent will be used.
 
 
-### To add an image to a post:
+### To add an image and caption to a post:
 
 Name the image file using the following conventions:
 * begin the file name with the date of the post formatted at YYYY-MM-DD, then
@@ -220,6 +220,8 @@ Add the image file to the [blog folder](https://github.com/opennorth/theme/tree/
 In Prose, enter the full image name (as in the example above) in the "Image" field. *Do not use the image upload in Prose.*
 
 If editing the file directly, add the image to the front matter at the top of the file.
+
+To **add a caption**, add `caption: Caption text.` in the front matter of the post. This will be displayed below the image in the body of the post.
 
 You can specify that the image **should not** be displayed in the body of the post by adding `image_display: false` to the front matter or selecting the 'Hide image' checkbox.
 
