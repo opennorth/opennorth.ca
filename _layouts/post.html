@@ -13,17 +13,19 @@ layout: default
           </p>
         </header>
 
-        {% if page.show_image == true %} 
+        {% if page.show_image == true %}
           {% if page.image contains "http" %}
-            <div class="blog-image">
+            <figure class="blog-image">
               <img src="{{ page.image }}" class="center" />
-            </div>
+              <figcaption>{{ page.caption }}</figcaption>
+            </figure>
           {% elsif page.image == null %}
 
           {% else %}
-          <div class="blog-image">
+          <figure class="blog-image">
             <img src="/theme/img/blog/{{ page.image }}" class="center" />
-          </div>
+            <figcaption>{{ page.caption }}</figcaption>
+          </figure>
           {% endif %}
         {% endif %}
 
