@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 show_image: true
 title: >-
@@ -23,4 +23,4 @@ Once launched, the self-administered survey will allow arts and culture organiza
 _These tools will improve Synapse C’s ability to understand the needs of organizations operating in the arts and culture sector, and convene and facilitate actors, with the goal of providing relevant insights back to organizations in Quebec, and eventually throughout Canada._ 
 -- Viêt Cao, Manager and senior analyst, Synapse C 
 
-OpenNorth would like to thank Synapse C for its collaboration on this project, which provided us with a unique opportunity to build our knowledge on data in the arts and culture sector. Finally, OpenNorth’s Applied Research Lab will look to build upon this work, as it continues to embark upon new research projects which explore data capacity and data governance across a wide range of public and private organizations.   
+OpenNorth would like to thank Synapse C for its collaboration on this project, which provided us with a unique opportunity to build our knowledge on data in the arts and culture sector. Finally, OpenNorth’s Applied Research Lab will look to build upon this work, as it continues to embark upon new research projects which explore data capacity and data governance across a wide range of public and private organizations.
