@@ -9,6 +9,7 @@ author: Miranda Sculthorp
 categories:
   - applied research lab
 description: An update on our work with Synapse C on data in the arts and culture sector
+image: 2020-01-22-audience.jpg
 ---
 Organizations across different sectors are increasingly looking towards data to gain insight into their clients’ experiences, and adapt their offerings or products to better respond to their interests. In the arts and culture sector, organizations like [Synapse C](https://synapsec.ca/en/) in Montreal, and the [Audience Agency](https://www.audiencedatasharing.org/) in the UK, are exploring opportunities to share data between organizations in order to generate insights into audience preferences for the benefit of creative organizations.  
 
@@ -23,4 +24,4 @@ Once launched, the self-administered survey will allow arts and culture organiza
 _These tools will improve Synapse C’s ability to understand the needs of organizations operating in the arts and culture sector, and convene and facilitate actors, with the goal of providing relevant insights back to organizations in Quebec, and eventually throughout Canada._ 
 -- Viêt Cao, Manager and senior analyst, Synapse C 
 
-OpenNorth would like to thank Synapse C for its collaboration on this project, which provided us with a unique opportunity to build our knowledge on data in the arts and culture sector. Finally, OpenNorth’s Applied Research Lab will look to build upon this work, as it continues to embark upon new research projects which explore data capacity and data governance across a wide range of public and private organizations.
+OpenNorth would like to thank Synapse C for its collaboration on this project, which provided us with a unique opportunity to build our knowledge on data in the arts and culture sector. Finally, OpenNorth’s Applied Research Lab will look to build upon this work, as it continues to embark upon new research projects which explore data governance across a wide range of public and private organizations.
