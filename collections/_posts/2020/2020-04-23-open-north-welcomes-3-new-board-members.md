@@ -7,7 +7,7 @@ author: Open North
 categories:
   - press release
 ---
-Open North is pleased to announce the addition of three new board members: Léa Berlinguet, Vanessa Henri and Chad Lubelsky. Their combined expertise in data privacy, AI, ethics, leadership, and non-profits make them invaluable assets in our work. We look forward to joining forces with them to promote our new vision: for transparent, accountable and inclusive communities empowered through data and technology.
+Open North is pleased to announce the addition of three new board members: Léa Berlinguet, Vanessa Henri, and Chad Lubelsky. Their combined expertise in data privacy, AI, ethics, leadership, and non-profits make them invaluable assets in our work. We look forward to joining forces with them to promote our new vision: for transparent, accountable and inclusive communities empowered through data and technology.
 
 **Léa Berlinguet** has devoted her entire professional life to non-profit organizations. A graduate of HEC Montréal, she joined the Conseil des relations internationales de Montréal for four years. She has now joined the Montréal International team, where she works for the city's economic development. Prior to Open North, she sat on the board of directors of the Fondation Jacques-Bouchard, a charitable organization working to promote access to palliative home care, from its creation 12 years ago to its recent merger with a sister organization. She is also a member of external committees, including the AI committee of our city's life sciences cluster, Montréal Invivo.
 
