@@ -16,18 +16,6 @@ Since the World Health Organization (WHO) declared a COVID-19 pandemic in mid-Ma
 
 Key issues of data collection and sharing are even more visible as the relative data and coordination capacities of different jurisdictions come to the surface during this pandemic. As the COVID-19 outbreak has unfolded, members of the Open Cities Network have engaged in various ways, producing resources and sharing insights with different stakeholders. We have collated some highlights here for you to identify useful tools and lessons that you may consider using in your local response.
 
-## Open North
-
-*Jean-Noe Landry & Nabeel Ahmed, Montreal*
-
-At Open North, we have been exploring multiple avenues to support government and non-government actors in data capacity and collaboration. One of the key areas we’ve focused on is data information and visualization, which have been critical to managing and containing the COVID-19 outbreak.
-
-Appropriate presentation of data and statistics are not merely public relations exercises; they require an appreciation of data collection, processing, and analysis methods. Issues of scale, aggregation, time, and appropriate units of analysis are still an issue when representing infections in maps, while the communication of modelled outputs is an ongoing challenge in science communication (Bucchi & Trench, 2008).
-
-Open North is providing input to the Canadian government as part of the [Multi-Stakeholder Forum on Open Government](https://www.opengovdialogue.ca/), including reinforcing the importance of core privacy principles as the government implements surveillance methods for contact tracing. At the [Community Solutions Network](https://portal.futurecitiescanada.ca/) (for which Open North is the technical lead), local examples of resilience are being documented. Our discussions at the [Canadian Data Governance Standardization Collaborative](https://www.scc.ca/en/flagships/data-governance) (part of the Standards Council of Canada) co-chaired by Statistics Canada and Element AI are now including health data use cases for data governance. We are also looking at approaches to supporting data collection and structuring efforts from key organisations, such as the [Canadian Urban Institute](https://www.canurb.org/)'s monitoring of [Canadian municipal-level crisis responses](https://citywatchcanada.ca/), through collaboration between governments, non-profits, and technology firms.
-
-As this is a global effort, Open North is engaging the global **Open Cities Network** to share crisis responses of different entities and cities around the world (summarised below). We are also contributing to a blog post with the [International Open Data Charter](https://opendatacharter.net/) to help identify key datasets that can be opened to assist national policymakers and inform coordinated responses globally. Data sharing and interoperability are crucial to fighting this pandemic and it is now that the global community of data advocates, researchers, and implementers are ever more important.
-
 ## Open & Agile Smart Cities
 
 *Lea Hemetsberger, Brussels*
@@ -87,6 +75,18 @@ Some resources and reflections:
 * **Tips for Running Virtual Co-Creation Processes:** As we all take our work online, we reflect on the [benefits of taking co-creation out of physical space and into virtual gatherings](https://medium.com/reboot-ideas/3-tips-for-better-co-design-and-how-going-virtual-can-lead-us-there-7ef28f4186f6). As great as the “hallway track” is, you can make [so much more progress without it](https://medium.com/reboot-ideas/co-design-online-how-quarantine-can-lead-us-to-a-better-collaborative-process-920dd840ad64).
 
 We’re also exploring the possibility of creating a new space for incubating the radical cross-sectoral collaborations that this moment demands of us. We’re hungry for input and open to partnership, so please get in touch.
+
+## Open North
+
+*Jean-Noe Landry & Nabeel Ahmed, Montreal*
+
+At Open North, we have been exploring multiple avenues to support government and non-government actors in data capacity and collaboration. One of the key areas we’ve focused on is data information and visualization, which have been critical to managing and containing the COVID-19 outbreak.
+
+Appropriate presentation of data and statistics are not merely public relations exercises; they require an appreciation of data collection, processing, and analysis methods. Issues of scale, aggregation, time, and appropriate units of analysis are still an issue when representing infections in maps, while the communication of modelled outputs is an ongoing challenge in science communication (Bucchi & Trench, 2008).
+
+Open North is providing input to the Canadian government as part of the [Multi-Stakeholder Forum on Open Government](https://www.opengovdialogue.ca/), including reinforcing the importance of core privacy principles as the government implements surveillance methods for contact tracing. At the [Community Solutions Network](https://portal.futurecitiescanada.ca/) (for which Open North is the technical lead), local examples of resilience are being documented. Our discussions at the [Canadian Data Governance Standardization Collaborative](https://www.scc.ca/en/flagships/data-governance) (part of the Standards Council of Canada) co-chaired by Statistics Canada and Element AI are now including health data use cases for data governance. We are also looking at approaches to supporting data collection and structuring efforts from key organisations, such as the [Canadian Urban Institute](https://www.canurb.org/)'s monitoring of [Canadian municipal-level crisis responses](https://citywatchcanada.ca/), through collaboration between governments, non-profits, and technology firms.
+
+As this is a global effort, Open North is engaging the global **Open Cities Network** to share crisis responses of different entities and cities around the world (summarised above). We are also contributing to a blog post with the [International Open Data Charter](https://opendatacharter.net/) to help identify key datasets that can be opened to assist national policymakers and inform coordinated responses globally. Data sharing and interoperability are crucial to fighting this pandemic and it is now that the global community of data advocates, researchers, and implementers are ever more important.
 
 ---
 *If your organization is working on open cities initiatives, please contact us at [info@opennorth.ca](mailto:info@opennorth.ca).*
