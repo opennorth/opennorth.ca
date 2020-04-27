@@ -5,7 +5,8 @@
 - name: Suthee Sangiambut
   role: Applied Research Lead
   linkedin: https://www.linkedin.com/in/suthee/
-- name: Sarah Gagnon-Turcotte
+- name: |
+    Sarah Gagnon-Turcotte
   role: |
     <p>Director</p>
     <p>Applied Research Lab</p>
@@ -57,13 +58,6 @@
     <p>One-to-One Advisory Service</p>
   linkedin: https://www.linkedin.com/in/nsahmed/
   unit: ['one to one']
-- name: Johann Kwan
-  role: |
-    <p>Open Smart Cities Advisor</p>
-    <p>[Governance]</p>
-  linkedin: https://www.linkedin.com/in/johann-kwan-4b421648
-  unit: ['one to one']
-  bio: ""
 - name: Nancy Lazo
   role: Administrative Technician
 - name: Jaime MacLean
