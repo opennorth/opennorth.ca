@@ -56,7 +56,7 @@ Accompanying the development of these new resources, Sunlight will publish a ser
 
 *Natalia Carfi, Buenos Aires*
 
-There is an urgent need for data about COVID-19 – whether it's to track the spread of the disease, identify the availability of supplies, or monitor fast-tracked emergency procurement. Yet governments are struggling to share consistent, up to date information during a time of crisis. What are essential types of data that governments can open up to help inform actions and improve collaboration across the readiness, response, and recovery stages of a pandemic?
+There is an urgent need for data about COVID-19 – whether it's to track the spread of the disease, identify the availability of supplies, or monitor fast-tracked emergency procurement. Yet governments are struggling to share consistent, up-to-date information during a time of crisis. What are essential types of data that governments can open up to help inform actions and improve collaboration across the readiness, response, and recovery stages of a pandemic?
 
 Starting with a draft taxonomy that builds on the data that is currently being shared and used to tackle COVID-19, the Open Data Charter, OECD, Open North, and other partners are exploring what critical data should be made publicly available in reliable and safe ways. For example, Open North's Applied Research Lab investigators Megan Wylie and Steve Coutts have collected information and completed real-life examples (primarily from Canada). A shared draft document is open for contributions [here](https://docs.google.com/document/d/1_6unLHRKaZdQFH_hr98KCXoHCxso0RPw41sEdUT3dPw/edit#). If you want to help shape this collective resource please reach out to us at [info@opendatacharter.org](mailto:info@opendatacharter.org).
 
@@ -91,6 +91,5 @@ As this is a global effort, Open North is engaging the global **Open Cities Netw
 ---
 *If your organization is working on open cities initiatives, please contact us at [info@opennorth.ca](mailto:info@opennorth.ca).*
 
-### Sources:
-
+*Sources:
 Bucchi, M., & Trench, B. (Eds.). (2008). Handbook of public communication of science and technology. Routledge.
