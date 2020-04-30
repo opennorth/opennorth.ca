@@ -1,5 +1,7 @@
 **Contents**
 
+
+
 <!-- TOC -->
 
 - [Getting Started](#getting-started)
@@ -229,6 +231,16 @@ You can specify that the image **should not** be displayed in the body of the po
 
 **Note:** Please make sure that the image is not too large or too small. **No image should be more than 100KB in size.** The site's performance will visibly suffer if images larger than this are added to the site. Post images should be up to 800px wide but will never be displayed in a larger format.
 
+
+### To add an inline image to a post:
+
+Inline images can be added as HTML, using the `<img>` or `<figure>` tags.
+
+When setting the image src attribute:
+* use a web address, or
+* add the image to the theme and use the path to the image within the theme directory
+
+Example: ```<img src="/theme/img/blog/2020-04-24-public-health-cdc.jpg" class="center" />```
 
 ### To add categories to a post:
 
