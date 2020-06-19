@@ -16,7 +16,7 @@ In collaboration with the [Standards Council of Canada](https://www.scc.ca/), we
 * **Dr. Erin Strumpf**, McGill University Professor and Canada Research Chair in health economics, studying healthcare service delivery and inequalities in health outcomes.
 * **Mr. Mark Leggott**, Executive Director, Research Data Canada
 
-### <p align="center">
+<p align="center">
   <b><a href="https://scc-ccn.zoom.us/meeting/register/tJcqcuioqTwjH9cmdcarB3ZZgwoAPHfqZJQQ">Register here</a></b>
 </p>
 
