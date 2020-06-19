@@ -2,11 +2,8 @@
 published: true
 layout: post
 show_image: true
-title: >-
-  CONSULTATION ON OPEN COVID-19 DATA
+title: CONSULTATION ON OPEN COVID-19 DATA
 author: Open North
-categories:
-description: 
 image: 2020-06-17-open-covid-data-event.png
 ---
 **What is the role of data in the response and recovery from the COVID-19 pandemic? What datasets, data use cases, and data sharing practices should be promoted in the areas of disease spread, government actions, and community impact to scale our collective action?**
@@ -19,7 +16,7 @@ In collaboration with the [Standards Council of Canada](https://www.scc.ca/), we
 * **Dr. Erin Strumpf**, McGill University Professor and Canada Research Chair in health economics, studying healthcare service delivery and inequalities in health outcomes.
 * **Mr. Mark Leggott**, Executive Director, Research Data Canada
 
-<p align="center">
+### <p align="center">
   <b><a href="https://scc-ccn.zoom.us/meeting/register/tJcqcuioqTwjH9cmdcarB3ZZgwoAPHfqZJQQ">Register here</a></b>
 </p>
 
