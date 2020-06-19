@@ -2,11 +2,8 @@
 published: true
 layout: post
 show_image: true
-title: >-
-  CONSULTATION ON OPEN COVID-19 DATA
+title: CONSULTATION ON OPEN COVID-19 DATA
 author: Open North
-categories:
-description: 
 image: 2020-06-17-open-covid-data-event.png
 ---
 **What is the role of data in the response and recovery from the COVID-19 pandemic? What datasets, data use cases, and data sharing practices should be promoted in the areas of disease spread, government actions, and community impact to scale our collective action?**
