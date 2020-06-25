@@ -16,8 +16,8 @@ In collaboration with the [Standards Council of Canada](https://www.scc.ca/), we
 * **Dr. Erin Strumpf**, McGill University Professor and Canada Research Chair in health economics, studying healthcare service delivery and inequalities in health outcomes.
 * **Mr. Mark Leggott**, Executive Director, Research Data Canada
 
-<p style="text-align:center; font-size: 4em;">
-  <b><a href="https://scc-ccn.zoom.us/meeting/register/tJcqcuioqTwjH9cmdcarB3ZZgwoAPHfqZJQQ">Register here</a></b>
+<p style="text-align:center; font-size: 2em;">
+  <b>Registration Closed</b>
 </p>
 
 After a discussion by our panel of speakers, participants will be invited into breakout groups to crowdsource their knowledge and experience using a methodology designed by the **International Open Data Charter (ODC)**. We will facilitate discussions around questions such as the following:
