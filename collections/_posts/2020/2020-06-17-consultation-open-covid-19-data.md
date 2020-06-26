@@ -13,7 +13,7 @@ In collaboration with the [Standards Council of Canada](https://www.scc.ca/), we
 * **Mr. Anil Arora**, Chief Statistician of Canada
 * **Ms. Bonnie Healy**, Health Director at Blackfoot Confederacy
 * **Mr. Éric Martel**, Head of the Performance, Analysis, and Evaluation Branch at the Integrated University Center for Health and Social Services (CIUSSS), Montreal
-* **Dr. Erin Strumpf**, McGill University Professor and Canada Research Chair in health economics, studying healthcare service delivery and inequalities in health outcomes.
+* **Dr. Erin Strumpf**, McGill University Associate Professor and William Dawson Scholar in health economics, studying healthcare service delivery and inequalities in health outcomes.
 * **Mr. Mark Leggott**, Executive Director, Research Data Canada
 
 <p style="text-align:center; font-size: 2em;">
