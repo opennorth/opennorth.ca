@@ -22,4 +22,4 @@ Our speakers included:
 
 We would like to thank our speakers, the [International Open Data Charter](https://opendatacharter.net/) and Organization for Economic Cooperation and Development's [Digital Government and Data Unit](https://oe.cd/digitalgov) for inspiring our work and collaborating on this consultation.
 
-Stay tuned for the release of our report on findings from the consultation on opennorth.ca, including an analysis of comments provided by participants in the collaborative breakout session (not included in the recording). Please join our mailing list at opennorth.ca/newsletter if you’d like to be notified of its release.
+Stay tuned for the release of our report on findings from the consultation on [opennorth.ca](https://www.opennorth.ca/), including an analysis of comments provided by participants in the collaborative breakout session (not included in the recording). Please join our mailing list at [opennorth.ca/newsletter](https://www.opennorth.ca/newsletter/) if you’d like to be notified of its release.
