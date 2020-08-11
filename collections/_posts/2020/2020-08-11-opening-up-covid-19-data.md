@@ -14,7 +14,7 @@ On July 2nd, Open North and the [Standards Council of Canada](https://www.scc.ca
 With over 100 participants and five panelists engaging in discussions for an hour and a half, the event provided the platform for a much-needed conversation about how Canada can improve data release and sharing. As the keynote speaker, Mr. Anil Arora, said in his opening remarks, "data is a team sport."
 
 <p style="text-align:center; font-size: 2em; color: rgb(237,34,36)">
-  "Data is a team sport."</br>
+  "Data is a team sport."<br>
   <em>- Mr. Anil Arora, Keynote speakers and Canada’s Chief Statistician</em>
 </p>
 
@@ -54,7 +54,7 @@ In a short 30-minute session, the consultation yielded numerous contributions an
 
 
 <p style="text-align:center; font-size: 2em; color: rgb(237,34,36)">
-  “[We need] more data on the socio-economic status of individuals testing positive … to understand if there is a disparate impact”</br>
+  “[We need] more data on the socio-economic status of individuals testing positive … to understand if there is a disparate impact”<br>
   <em>- Participant during the small group discussions</em>
 </p>
 
