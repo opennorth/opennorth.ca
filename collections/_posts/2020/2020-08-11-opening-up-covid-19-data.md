@@ -20,7 +20,7 @@ With over 100 participants and five panelists engaging in discussions for an hou
 
 The consultation tested an innovative way of quickly engaging people online. Inspired by a [call to action](https://medium.com/opendatacharter/open-covid-19-data-461e1cbefbba) from the [International Open Data Charter](https://opendatacharter.net/) and [Organization for Economic Cooperation Development’s Digital Government and Data Unit](http://www.oecd.org/governance/digital-government/), Open North tried new collaboration and online engagement strategies, including an interactive whiteboard platform to consult the public.
 
-This blog post provides a brief overview of the event, as well as some additional information for those interested in hosting their own online consultation. For key takeaways and more in-depth analysis from the consultation, see our Consultation Brief.
+This blog post provides a brief overview of the event, as well as some additional information for those interested in hosting their own online consultation. For key takeaways and more in-depth analysis from the consultation, see our [Consultation Brief](https://www.opennorth.ca/publications/#covid-19-challenges-facing-open-and-shared-covid-19-data).
 
 ## FIVE PANELISTS, FIVE PERSPECTIVES
 
@@ -33,9 +33,8 @@ Open North invited five panelists to introduce the discussion on data during the
 * **Mark Leggott, Executive Director of Research Data Canada**, had comments that emphasized the value of metadata and appropriate documentation to ensure data quality and support data users.
 
 <p style="text-align:center;">
-    <a href="https://vimeo.com/436477311">Hear our speakers’ full remarks here.</a>
+    <b><a href="https://vimeo.com/436477311">Hear our speakers’ full remarks here.</a></b>
 </p>
-
 
 ## TALKING DATA: INVITING PARTICIPANT COLLABORATION
 
@@ -47,11 +46,9 @@ Participants noted their contributions on [Miro](https://miro.com/), an online, 
     <img src="/theme/img/blog/2020-08-11-open-covid-data-1.jpg" class="center"/>
 </figure>
 
-
 ## COVID-19 DATA IN CANADA: OPPORTUNITIES AND CHALLENGES
 
 In a short 30-minute session, the consultation yielded numerous contributions and kicked off compelling discussions. When identifying data sets, participants spoke about issues with existing data sets as well as why they desired additional data or data released that represent more localized areas.
-
 
 <p style="text-align:center; font-size: 2em; color: rgb(237,34,36)">
   “[We need] more data on the socio-economic status of individuals testing positive … to understand if there is a disparate impact”<br>
@@ -65,9 +62,8 @@ Overall, Open North found that participants were frustrated with traditional bar
 * **It’s confusing to access data.** Participants sometimes learned that the data they sought was actually already available, but that they didn't know where to look!
 
 <p style="text-align:center;">
-    <a href="https://vimeo.com/436477311">To see all of our findings, access the Consultation Brief here.</a>
+    <b><a href="https://www.opennorth.ca/publications/#covid-19-challenges-facing-open-and-shared-covid-19-data">To see all of our findings, access the Consultation Brief here.</a></b>
 </p>
-
 
 ## WHAT WE LEARNED FROM HOSTING AN ONLINE CONSULTATION
 
