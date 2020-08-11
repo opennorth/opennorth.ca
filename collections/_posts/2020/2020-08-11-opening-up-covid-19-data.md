@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-show_image: true
+show_image: false
 title: >-
     Opening up COVID-19 data: our pan-Canadian consultation on open and shared data during a pandemic
 author: Nabeel Ahmed, Megan Wylie
 image: 2020-08-11-open-covid-data-1.jpg
 ---
+<figure>
+    <img src="/theme/img/blog/2020-08-11-open-covid-data-1.jpg" class="center"/>
+</figure>
+
 What is the role of data in the response and recovery from the COVID-19 pandemic? What datasets, data use cases, and data sharing practices should be promoted to scale our collective action?
 
 On July 2nd, Open North and the [Standards Council of Canada](https://www.scc.ca/) hosted a public consultation to discuss the role of data during the pandemic and how we can improve our practices to mitigate disease spread, understand the impact on our communities, and evaluate government actions.
