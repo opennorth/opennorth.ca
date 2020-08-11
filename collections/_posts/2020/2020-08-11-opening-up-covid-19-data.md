@@ -43,7 +43,7 @@ Open North split participants into ten breakout rooms to engage in small group d
 Participants noted their contributions on [Miro](https://miro.com/), an online, collaborative, real-time whiteboard application (see image below). The Open North team created individual boards for each breakout room and a facilitator walked participants through the exercise.
 
 <figure>
-    <img src="/theme/img/blog/2020-08-11-open-covid-data-1.jpg" class="center"/>
+    <img src="/theme/img/blog/2020-08-11-open-covid-data-2.jpg" class="center"/>
 </figure>
 
 ## COVID-19 DATA IN CANADA: OPPORTUNITIES AND CHALLENGES
