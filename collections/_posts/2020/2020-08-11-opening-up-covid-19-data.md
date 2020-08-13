@@ -44,7 +44,7 @@ Open North invited five panelists to introduce the discussion on data during the
 
 Open North split participants into ten breakout rooms to engage in small group discussions. In each breakout room, participants were asked to identify data that were either already available or were needed for decision-making in Canada. The conversation followed the [call to action](https://medium.com/opendatacharter/open-covid-19-data-461e1cbefbba), structuring the conversation around these three themes: (1) disease spread (2) community impact, and (3) government action.
 
-Participants noted their contributions on [Miro](https://miro.com/), an online, collaborative, real-time whiteboard application (see image below). The Open North team created individual boards for each breakout room and a facilitator walked participants through the exercise.
+Participants noted their contributions on an online, collaborative, real-time whiteboard application (see image below). The Open North team created individual boards for each breakout room and a facilitator walked participants through the exercise.
 
 <figure>
     <img src="/theme/img/blog/2020-08-11-open-covid-data-2.jpg" class="center"/>
