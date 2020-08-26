@@ -1,7 +1,7 @@
 ---
 title: Open Smart Cities Guide
 cover_image: open-smart-cities-guide.png
-link: https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbicoGTM/
+link: https://docs.google.com/document/d/13Oz7fdN1fcX29FikKoMn28DUkH738_296bqZmnYKYAs
 ---
 The Open Smart Cities Guide is the end result of Open Smart Cities in Canada, a year long collaborative research project led by our organization. This guide provides a first ever definition for an Open Smart City and is intended as a starter kit for city stakeholders and decision makers. We expect that this living document will grow as we receive more input and learn about additional people, projects, practices, and resources that contribute to Open Smart Cities.
 
