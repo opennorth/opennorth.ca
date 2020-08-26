@@ -7,7 +7,7 @@ The Open Smart Cities Guide is the end result of Open Smart Cities in Canada, a 
 
 Check out OpenNorth's Current Projects Page for more information about Open Smart Cities in Canada and descriptions of its outputs. Direct links to project outputs are provided below:
 
-* [Open Smart Cities Guide v1.0](https://docs.google.com/document/d/1528rqTjzKWwk4s2xKuPf7ZJg-tLlRK8WcMZQbicoGTM/ "Open Smart Cities Guide v1.0")
+* [Open Smart Cities Guide v1.0](https://docs.google.com/document/d/13Oz7fdN1fcX29FikKoMn28DUkH738_296bqZmnYKYAs "Open Smart Cities Guide v1.0")
 * [Open Smart Cities in Canada: Assessment Report](http://osf.io/QBYZJ "Open Smart Cities in Canada: Assessment Report")
 * [Open Smart Cities in Canada: Executive Summary of Environmental Scan and Case Studies](http://osf.io/E4FS8 "Open Smart Cities in Canada: Executive Summary of Environmental Scan and Case Studies")
 * [Open Smart Cities FAQ](https://cippic.ca/en/Open_Smart_Cities)
