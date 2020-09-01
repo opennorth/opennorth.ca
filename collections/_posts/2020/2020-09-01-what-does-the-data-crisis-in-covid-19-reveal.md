@@ -2,7 +2,7 @@
 published: true
 layout: post
 show_image: true
-title: What does the data crisis in COVID-19 reveal
+title: What does the data crisis in COVID-19 reveal?
 author: Suthee Sangiambut & Guan Yue
 image: 2020-09-01-covid-stats.jpg
 ---
