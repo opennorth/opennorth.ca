@@ -17,7 +17,3 @@ Ana Brandusescu will be collaborating with McGill University’s [Centre for Int
 Ana’s expertise lies in participation via civic tech, open government data, and digital rights. As an independent researcher, advisor and facilitator, she has worked on open contracting reform, open access for UN agencies, closing the gender gap, and developing courses on AI for OpenNorth’s [One-to-One Advisory Service](https://www.opennorth.ca/one-to-one-advisory-service/). During her time at the [World Wide Web Foundation](https://webfoundation.org/) she led research on the [Open Data Barometer](https://opendatabarometer.org/?_year=2017&indicator=ODB), co-chaired the Measurement and Accountability Group of the [Open Data Charter](https://opendatacharter.net/), and led gender equality research advocacy with [Women's Rights Online](https://webfoundation.org/wro-network/). She is on the advisory board of [Learning from Small Cities](https://www.smartsmallcity.com/), and is a member of [@OpenHeroines](https://openheroines.org/).
 
 Updates on Ana’s research with OpenNorth are forthcoming. In the meantime, please follow Ana on Twitter [@anabmap](https://twitter.com/anabmap), [LinkedIn](https://www.linkedin.com/in/anabrandusescu/), and her [personal website](https://www.anabrandusescu.com/). Find out more about OpenNorth’s applied research [here](https://www.opennorth.ca/applied-research-lab/).
-
-
-
-

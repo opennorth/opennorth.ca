@@ -54,8 +54,8 @@ This is a joint post between Open North and Esri Canada. See the post on Esri Ca
 
 ## About Esri Canada
 
-Founded in 1984, Esri Canada provides geographic information system (GIS) solutions that empower people in business, government and education to make informed and timely decisions by leveraging the power of mapping and spatial analytics. More information can be found at esri.ca.
+Founded in 1984, Esri Canada provides geographic information system (GIS) solutions that empower people in business, government and education to make informed and timely decisions by leveraging the power of mapping and spatial analytics. More information can be found at [esri.ca](https://www.esri.ca/en-ca/home).
 
 ## About Open North
 
-Open North is a non-profit organization based in Montreal. Operating since 2011, Open North works with governments at multiple levels in Canada and internationally to facilitate the adoption and use of open data and open government practices, and improved cross-sectoral data interoperability. In writing this collaborative post, we intend to reflect on the scale of the challenges Canada and the world are facing during this pandemic– our data issues require large scale collaborative solutions that improve intersectoral collaborations; between geospatial data and open data experts, as well as between governments, non-profits, and the private sector.
+Open North is a non-profit organization based in Montréal. Operating since 2011, we work with public, private and research partners and community stakeholders to foster efficient, responsible, and collaborative use of data and technology to solve complex problems.

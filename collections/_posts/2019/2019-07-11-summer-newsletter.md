@@ -64,9 +64,3 @@ We partner with international organizations to make our local experience and exp
 8. In March 2019, OpenNorth Applied Research Lab Urban Research Analyst, Miranda Sculthorp, attended the [Rencontres nationales de la participation](https://www.rencontres-participation.fr/page/64926-accueil) in Grenoble, France to exchange and debate participatory tools and methods with decision-makers, experts, activists, practitioners and citizens. [Find the full story here](https://www.opennorth.ca/2019/04/02/what-we-re-up-to-debates-and-exchanges-on-public-participation-in-france). Miranda also attended [RightsCon](https://www.rightscon.org/) in Tunis, Tunisia in June 2019, where she observed and discussed smart cities, privacy, and surveillance in the Global North and South. [Read the full story here](https://www.opennorth.ca/2019/07/02/reporting-on-smart-city-discourse-from-rightscon-2019).
 
 9. Funded by the Open Data for Development Network (OD4D), OpenNorth published a report on **Open Data for Smart City and Urban Development in the Global South**. In these contexts, open data is found to enable governments, international non-governmental organizations (NGOs) and local public and private leaders to innovate and create. Derived from case studies informed by interviews, our report explores some of the linkages between open data and urban development across a number of global south cities. [Read the report here](https://drive.google.com/file/d/1O1qjuDAOnW_Hasb6S9ei84Qe1v-zam4i/view).
-
-
-
-
-
-

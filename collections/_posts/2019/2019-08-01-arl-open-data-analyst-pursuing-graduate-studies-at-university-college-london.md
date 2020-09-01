@@ -26,4 +26,4 @@ Additionally, Hannah has contributed to our projects with Employment and Social 
 
 As she moves on to UCL, Hannah is looking forward to learning more about analyzing and visualizing geospatial data in cities (with London as a great case study). She will continue to work to promote the equitable use of data in urban environments.
 
-We greatly appreciate Hannah’s work over the past year and wish her the best in her future studies at UCL! Thank you, and all the best in London. 
+We greatly appreciate Hannah’s work over the past year and wish her the best in her future studies at UCL! Thank you, and all the best in London.
