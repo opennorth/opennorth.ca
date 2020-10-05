@@ -1,0 +1,34 @@
+---
+published: true
+layout: post
+show_image: true
+title: >-
+    Moving from passive participation toward productive resistance: Building community capacity to challenge smart city tech
+author: Miranda Sculthorp, Steve Coutts
+image: 2020-10-05-RightsCon.jpg
+---
+Looking at the world around us, it’s not difficult to find instances of data and technology being used for questionable or harmful ends. Intrusive contact tracing technology, facial recognition, and crime prediction software — to name a few — not only [threaten individual and collective privacy](https://www.eff.org/issues/covid-19) but [embed further bias and discrimination into our cities](https://theconversation.com/police-and-governments-may-increasingly-adopt-surveillance-technologies-in-response-to-coronavirus-fears-133737).
+
+On July 28th, 2020, Open North hosted *From passive participation to productive resistance: Building community capacity to challenge smart city tech*, a community lab session at [RightsCon](https://www.rightscon.org/), a conference on human rights in the digital age. The session, facilitated by Miranda Sculthorp and Steve Coutts of Open North’s Applied Research Lab, invited speakers to provide an overview of issues and threats that they currently see around smart technology in cities. The session aimed to unpack the barriers to meaningful participation, while also identifying strategies to challenge the status quo. A few major themes quickly emerged: the explosive growth of surveillance technology under the guise of pandemic response; inadequate oversight of public tech procurement processes, and; the need for communities to take back control of narratives around smart city tech.
+
+## COVID-19 may accelerate the growth of networked surveillance in our cities.
+
+We kicked off the session by showing a short clip of the film Frames, one of three short films produced under the [Screening Surveillance](https://www.screeningsurveillance.com/) project. The film clip prompted participants to think about how networked surveillance systems are integrated into our everyday lives, in ways that are not always immediately apparent to us. **Dr. sava saheli singh**, a postdoctoral researcher at the Department of Criminology, University of Ottawa and the film’s producer, emphasized how such systems can encode subjective norms around what is a ‘good citizen’ or a ‘good city’. For instance, the film portrays a social scoring system, which allocates points for socially accepted behaviours.
+
+She noted that the choice of smart technology in cities will likely accelerate, under the guise of recovering or adapting to the new status quo brought on by the pandemic. For example, there are several recent cases of governments and researchers [using smart city technology to monitor the effectiveness of social distancing measures](https://www.forbes.com/sites/simonchandler/2020/04/13/how-smart-cities-are-protecting-against-coronavirus-but-threatening-privacy/#6f218aa1cc3c). The increased use of remote education technology such as exam-proctoring software may normalize the idea of in-home surveillance for a new generation of students, from elementary school to post-secondary. While offering assurances that these technologies will only be used in the context of the pandemic response, there are no guarantees that data collection and surveillance activities will cease in the post-pandemic era.
+
+## IoT procurement often lacks public oversight and transparency
+
+Next, the discussion shifted to the need for greater public scrutiny for the purchase, implementation and ongoing use of Internet of Things (IoT) technology. Tech procurement processes are often opaque, and little effort is put into explaining the technology and its opportunities or impacts. There are few engagement opportunities for the public to express their concerns to civic leaders. This was emphasized by **Nabeel Ahmed**, programme officer at Open North, who spoke specifically of the [Sidewalk Labs Toronto/Quayside project](https://www.curbed.com/2020/5/7/21250678/sidewalk-labs-toronto-smart-city-fail), where the public engagement process often took the form of "[technology theatre](https://www.cigionline.org/articles/technology-theatre)". In other words, Sidewalk Labs’ development proposal distracted the public with futuristic images, but with few substantive details on what actual technologies they were planning to install, what data they would collect, and how it would all be governed.
+
+## We need to change the narrative on what is considered ‘smart’ and ‘innovative’.
+
+**Nasma Ahmed**, director of the [Digital Justice Lab](https://digitaljusticelab.ca/), a passionate civic activist and contributor to the [#BlockSidewalk movement](https://www.blocksidewalk.ca/), called for residents to exercise their right to ‘active refusal’ of unwanted tech. For her, this means, in part, redirecting focus (and funding) toward basic resident needs, such as housing and transportation, and away from grandiose smart city projects. She also highlighted the need for education on citizen data and digital literacy, providing the means for communities to understand and challenge smart city projects. Several workshop participants agreed on the need to recenter the narrative – and recognize that, even before the rise of the smart city paradigm, communities have been and continue to be smart and innovative.
+
+## Forging a new way forward: some parting thoughts
+
+Our discussion brought into focus two major narratives. On the one hand, current circumstances make the adoption of smart city technology an appealing solution for policy-makers and city officials. On the other hand, grassroots and civil society mobilizations highlight that public engagement efforts around smart city tech to-date have been inadequate, and a variety of strategies of active resistance are needed. These strategies are rooted in the belief that communities shouldn’t accept data and technological practices that aren’t in the best interest of all their residents. This is especially true in cases where data and technology perpetuate harmful, oppressive systems.
+
+Overall, participants and speakers agreed that forging a new way forward requires a commitment from municipal governments to fund services that residents actually need, stronger transparency and oversight mechanisms, and building capacity for residents to understand, engage with and challenge smart city projects.
+
+We’d like to thank all of our speakers and participants for making this session a success and to Access Now for hosting RightsCon 2020, providing a much-needed platform to share experiences of resistance and collective action, at a time where potentially harmful uses of data and technology are being quickly introduced in our cities. We look forward to continuing to connect with the international community of activists who joined us at RightsCon 2020.
